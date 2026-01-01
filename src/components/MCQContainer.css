@@ -1,0 +1,34 @@
+.mcq-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.mcq-content {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 24px;
+  padding: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.question-section {
+  min-width: 0;
+}
+
+@media (max-width: 1024px) {
+  .mcq-content {
+    grid-template-columns: 1fr;
+    padding: 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  .mcq-content {
+    padding: 12px;
+    gap: 16px;
+  }
+}

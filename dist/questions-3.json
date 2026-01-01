@@ -1,0 +1,1126 @@
+[
+  {
+    "id": 1,
+    "subject": "Physics",
+    "topic": "Current Electricity",
+    "question": "চিত্রের, প্রতিটি রোধ 5Ω হলে, I = ?",
+    "hasDiagram": true,
+    "svg_code": "<svg width='200' height='150' xmlns='http://www.w3.org/2000/svg'><circle cx='100' cy='75' r='50' fill='none' stroke='black' stroke-width='2'/><line x1='100' y1='25' x2='100' y2='125' stroke='black' stroke-width='2'/><rect x='90' y='40' width='20' height='10' fill='white' stroke='black'/><rect x='90' y='100' width='20' height='10' fill='white' stroke='black'/><rect x='50' y='70' width='10' height='20' fill='white' stroke='black'/><rect x='140' y='70' width='10' height='20' fill='white' stroke='black'/><rect x='90' y='70' width='20' height='10' fill='white' stroke='black'/><text x='115' y='80' font-size='12'>5Ω</text><line x1='50' y1='75' x2='20' y2='75' stroke='black'/><line x1='150' y1='75' x2='180' y2='75' stroke='black'/><text x='25' y='65'>I</text><text x='160' y='65'>5V</text></svg>",
+    "options": {
+      "a": "0.04A",
+      "b": "0.2A",
+      "c": "1A",
+      "d": "5A"
+    },
+    "correctAnswer": "c",
+    "explanation": "বর্তনীটি একটি হুইটস্টোন ব্রিজ। যেহেতু সব রোধ সমান (5Ω), তাই ব্রিজটি সাম্যাবস্থায় আছে। মাঝের রোধের মধ্য দিয়ে কোনো প্রবাহ যাবে না। তুল্য রোধ $$ R_{eq} = 5\\Omega $$। (উৎস ভোল্টেজ 5V ধরে) $$ I = V/R = 5/5 = 1A $$।"
+  },
+  {
+    "id": 2,
+    "subject": "Physics",
+    "topic": "Gravitation",
+    "question": "পৃথিবীর ব্যাসার্ধ R হলে, কোনো বস্তুকে ভূ-পৃষ্ঠ থেকে কত উচ্চতায় নিলে এর ওজন $$ \\frac{1}{36} $$ অংশ হবে?",
+    "options": {
+      "a": "6R",
+      "b": "5R",
+      "c": "4R",
+      "d": "3R"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$ g' = g(\\frac{R}{R+h})^2 \\Rightarrow \\frac{g}{36} = g(\\frac{R}{R+h})^2 \\Rightarrow \\frac{1}{6} = \\frac{R}{R+h} \\Rightarrow R+h = 6R \\Rightarrow h = 5R $$"
+  },
+  {
+    "id": 3,
+    "subject": "Physics",
+    "topic": "Semiconductor & Electronics",
+    "question": "ট্রানজিস্টরে সবচেয়ে বেশি ডোপায়িত অঞ্চল কোনটি?",
+    "options": {
+      "a": "এমিটর",
+      "b": "কালেক্টর",
+      "c": "বেস",
+      "d": "কোনোটিই নয়"
+    },
+    "correctAnswer": "a",
+    "explanation": "ট্রানজিস্টরের এমিটর (Emitter) বা নিঃসারক অংশকে সবচেয়ে বেশি ডোপায়িত করা হয় যাতে এটি পর্যাপ্ত সংখ্যাগুরু বাহক সরবরাহ করতে পারে।"
+  },
+  {
+    "id": 4,
+    "subject": "Physics",
+    "topic": "Rotational Mechanics",
+    "question": "একটি চাকার ভর 5 kg এবং চক্রগতির ব্যাসার্ধ 25 cm। চাকার $$ 4 rads^{-2} $$ কৌণিক ত্বরণ সৃষ্টি করতে কত টর্ক প্রয়োগ করতে হবে?",
+    "options": {
+      "a": "1.55 Nm",
+      "b": "2.15 Nm",
+      "c": "1.25 Nm",
+      "d": "12.5 Nm"
+    },
+    "correctAnswer": "c",
+    "explanation": "$$ I = mk^2 = 5 \\times (0.25)^2 = 0.3125 kgm^2 $$। $$ \\tau = I\\alpha = 0.3125 \\times 4 = 1.25 Nm $$"
+  },
+  {
+    "id": 5,
+    "subject": "Physics",
+    "topic": "Electrostatics",
+    "question": "$$ 2 cm^2 $$ ক্ষেত্রফলবিশিষ্ট দুটি পাত দ্বারা সমান্তরাল পাত ধারক তৈরি করা হলো। এর মধ্যবর্তী দূরত্ব 5 cm হলে, ধারকত্ব কত?",
+    "options": {
+      "a": "$$ 2 \\times 10^{-3}\\epsilon_0 $$",
+      "b": "$$ 4 \\times 10^{-3}\\epsilon_0 $$",
+      "c": "$$ 5 \\times 10^{-3}\\epsilon_0 $$",
+      "d": "$$ 6 \\times 10^{-3}\\epsilon_0 $$"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$ C = \\frac{\\epsilon_0 A}{d} = \\frac{\\epsilon_0 \\times 2 \\times 10^{-4}}{5 \\times 10^{-2}} = 0.4 \\times 10^{-2} \\epsilon_0 = 4 \\times 10^{-3} \\epsilon_0 $$"
+  },
+  {
+    "id": 6,
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "question": "$$ 27^{\\circ}C $$ তাপমাত্রায় 1 kg পানিকে $$ 77^{\\circ}C $$ তাপমাত্রায় উন্নীত করলে এনট্রপির পরিবর্তন কত?",
+    "options": {
+      "a": "$$ 4200 \\ln(\\frac{7}{6}) $$",
+      "b": "$$ 4200 \\ln(\\frac{6}{5}) $$",
+      "c": "$$ 4200 \\ln(\\frac{5}{4}) $$",
+      "d": "$$ 4200 \\ln(\\frac{4}{3}) $$"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$ \\Delta S = ms \\ln(\\frac{T_2}{T_1}) = 1 \\times 4200 \\times \\ln(\\frac{273+77}{273+27}) = 4200 \\ln(\\frac{350}{300}) = 4200 \\ln(\\frac{7}{6}) $$"
+  },
+  {
+    "id": 7,
+    "subject": "Physics",
+    "topic": "Newtonian Mechanics",
+    "question": "1500 kg ভরের বালুভর্তি ট্রাক $$ 5 ms^{-1} $$ বেগে চলমান অবস্থায় এতে 50 kg ভরের 10টি বস্তা রাখা হলে, বর্তমান বেগ কত?",
+    "options": {
+      "a": "$$ 4 ms^{-1} $$",
+      "b": "$$ 3.75 ms^{-1} $$",
+      "c": "$$ 3 ms^{-1} $$",
+      "d": "$$ 2 ms^{-1} $$"
+    },
+    "correctAnswer": "b",
+    "explanation": "ভরবেগ সংরক্ষণ সূত্র মতে, $$ m_1v_1 = m_2v_2 \\Rightarrow 1500 \\times 5 = (1500 + 50 \\times 10)v_2 \\Rightarrow 7500 = 2000 v_2 \\Rightarrow v_2 = 3.75 ms^{-1} $$"
+  },
+  {
+    "id": 8,
+    "subject": "Physics",
+    "topic": "Semiconductor & Electronics",
+    "question": "কোনো ট্রানজিস্টরে পীঠ প্রবাহ $$ 50 \\mu A $$ এবং সংগ্রাহক প্রবাহ 85 mA হলে, নিঃসারক প্রবাহ কত?",
+    "options": {
+      "a": "85.05 mA",
+      "b": "90 mA",
+      "c": "85.5 mA",
+      "d": "90.5 mA"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$ I_E = I_B + I_C = 50 \\mu A + 85 mA = 0.05 mA + 85 mA = 85.05 mA $$"
+  },
+  {
+    "id": 9,
+    "subject": "Physics",
+    "topic": "Ideal Gas",
+    "question": "স্থির তাপমাত্রায় কোনো গ্যাসের ওপর 2 atm চাপ প্রয়োগ করলে এর আয়তন হয় 6 L। চাপ 4 atm করা হলে, আয়তন কত হবে?",
+    "options": {
+      "a": "2 L",
+      "b": "3 L",
+      "c": "4 L",
+      "d": "5 L"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$ P_1V_1 = P_2V_2 \\Rightarrow 2 \\times 6 = 4 \\times V_2 \\Rightarrow V_2 = 3 L $$"
+  },
+  {
+    "id": 10,
+    "subject": "Physics",
+    "topic": "Vector",
+    "question": "দুটি লম্ব ভেক্টর $$ \\vec{A} = 2\\hat{i} - 3\\hat{j} + \\hat{k} $$ ও $$ \\vec{B} = 3\\hat{i} - \\hat{j} + m\\hat{k} $$ হলে, m = ?",
+    "options": {
+      "a": "9",
+      "b": "-9",
+      "c": "8",
+      "d": "7"
+    },
+    "correctAnswer": "b",
+    "explanation": "লম্ব হওয়ার শর্ত ডট গুণফল শূন্য। $$ \\vec{A} \\cdot \\vec{B} = 2(3) + (-3)(-1) + 1(m) = 6 + 3 + m = 0 \\Rightarrow m = -9 $$"
+  },
+  {
+    "id": 11,
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "question": "হাইড্রোজেনের ১মে কক্ষপথের ইলেকট্রনের গতিশক্তি কত?",
+    "options": {
+      "a": "-13.6 eV",
+      "b": "13.6 eV",
+      "c": "6.8 eV",
+      "d": "-6.8 eV"
+    },
+    "correctAnswer": "b",
+    "explanation": "মোট শক্তি $$ E_n = -13.6 eV $$। গতিশক্তি $$ K = -E_n = 13.6 eV $$। (স্থিতিশক্তি $$ U = 2E_n = -27.2 eV $$)"
+  },
+  {
+    "id": 12,
+    "subject": "Physics",
+    "topic": "Simple Harmonic Motion",
+    "question": "কোনো কণার সরল ছান্দিত স্পন্দনের সমীকরণ $$ 2\\frac{d^2x}{dt^2} + 32x = 0 $$ হলে, কণাটির কৌণিক কম্পাঙ্ক কত?",
+    "options": {
+      "a": "$$ 4 rad s^{-1} $$",
+      "b": "$$ 16 rad s^{-1} $$",
+      "c": "$$ 5 rad s^{-1} $$",
+      "d": "$$ 8 rad s^{-1} $$"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$ \\frac{d^2x}{dt^2} + 16x = 0 $$। প্রমাণ সমীকরণ $$ \\frac{d^2x}{dt^2} + \\omega^2x = 0 $$ এর সাথে তুলনা করে, $$ \\omega^2 = 16 \\Rightarrow \\omega = 4 rad s^{-1} $$"
+  },
+  {
+    "id": 13,
+    "subject": "Physics",
+    "topic": "Current Electricity",
+    "question": "কোনো 9.9 Ω রোধবিশিষ্ট গ্যালভানোমিটারের সাথে 0.1 Ω রোধের শান্ট যুক্ত করা হলো। মূল প্রবাহ 5 A হলে, গ্যালভানোমিটার দিয়ে প্রবাহিত তড়িৎ কত?",
+    "options": {
+      "a": "4.95 A",
+      "b": "0.05 A",
+      "c": "5 A",
+      "d": "4.9 A"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$ I_g = \\frac{S}{G+S} I = \\frac{0.1}{9.9+0.1} \\times 5 = \\frac{0.1}{10} \\times 5 = 0.05 A $$"
+  },
+  {
+    "id": 14,
+    "subject": "Physics",
+    "topic": "Electrostatics",
+    "question": "একটি $$ 5 \\mu C $$ চার্জকে 440 V বিভব পার্থক্যের দুটি বিন্দুর মধ্যে স্থানান্তর করলে কৃতকাজ কত?",
+    "options": {
+      "a": "$$ 4.4 \\times 10^{-3} J $$",
+      "b": "$$ 2.2 \\times 10^{-3} J $$",
+      "c": "$$ 5.4 \\times 10^{-3} J $$",
+      "d": "$$ 2.2 \\times 10^{-2} J $$"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$ W = qV = 5 \\times 10^{-6} \\times 440 = 2200 \\times 10^{-6} = 2.2 \\times 10^{-3} J $$"
+  },
+  {
+    "id": 15,
+    "subject": "Physics",
+    "topic": "Nuclear Physics",
+    "question": "একটি তেজস্ক্রিয় নমুনার অর্ধায়ু 500 দিন। 2000 দিন পর নমুনার কত অংশ অবশিষ্ট থাকবে?",
+    "options": {
+      "a": "$$ \\frac{1}{8} $$",
+      "b": "$$ \\frac{1}{4} $$",
+      "c": "$$ \\frac{1}{16} $$",
+      "d": "$$ \\frac{15}{16} $$"
+    },
+    "correctAnswer": "c",
+    "explanation": "অর্ধায়ু সংখ্যা $$ n = \\frac{2000}{500} = 4 $$। অবশিষ্ট অংশ $$ = (\\frac{1}{2})^4 = \\frac{1}{16} $$"
+  },
+  {
+    "id": 16,
+    "subject": "Physics",
+    "topic": "Electrostatics",
+    "question": "$$ 4 \\mu F $$ ও $$ 5 \\mu F $$ এর দুটি ধারক সমান্তরালে সংযুক্ত। এদের 2 V বিভব পার্থক্যের উৎসের সাথে যুক্ত করলে সঞ্চিত শক্তি কত?",
+    "options": {
+      "a": "$$ 18 \\times 10^{-5} J $$",
+      "b": "$$ 1.8 \\times 10^{-5} J $$",
+      "c": "$$ 5 \\times 10^{-6} J $$",
+      "d": "$$ 4 \\times 10^{-6} J $$"
+    },
+    "correctAnswer": "b",
+    "explanation": "তুল্য ধারকত্ব $$ C_p = 4+5 = 9 \\mu F $$। শক্তি $$ U = \\frac{1}{2}CV^2 = \\frac{1}{2} \\times 9 \\times 10^{-6} \\times 2^2 = 18 \\times 10^{-6} = 1.8 \\times 10^{-5} J $$"
+  },
+  {
+    "id": 17,
+    "subject": "Physics",
+    "topic": "Newtonian Mechanics",
+    "question": "একটি স্থির বস্তুর উপর 16 N বল 5 s ক্রিয়া করে এবং ক্রিয়া শেষে বস্তুটি 6 sec এ 60 m দূরত্ব অতিক্রম করে। বস্তুর ভর কত?",
+    "options": {
+      "a": "2 kg",
+      "b": "4 kg",
+      "c": "8 kg",
+      "d": "16 kg"
+    },
+    "correctAnswer": "c",
+    "explanation": "ক্রিয়া শেষে বস্তুটি সমবেগে চলে। বেগ $$ v = \\frac{s}{t} = \\frac{60}{6} = 10 ms^{-1} $$। বল ক্রিয়া করার সময় $$ v = u + at \\Rightarrow 10 = 0 + a(5) \\Rightarrow a = 2 ms^{-2} $$। ভর $$ m = \\frac{F}{a} = \\frac{16}{2} = 8 kg $$"
+  },
+  {
+    "id": 18,
+    "subject": "Physics",
+    "topic": "Properties of Matter",
+    "question": "কোনো তারের অসহ ভার $$ 5 \\times 10^4 N $$ হলে, এর অসহ পীড়ন কত? [তারের প্রস্থচ্ছেদের ক্ষেত্রফল $$ 1 mm^2 $$]",
+    "options": {
+      "a": "$$ 5 \\times 10^9 Nm^{-2} $$",
+      "b": "$$ 5 \\times 10^{10} Nm^{-2} $$",
+      "c": "$$ 5 \\times 10^7 Nm^{-2} $$",
+      "d": "$$ 5 \\times 10^{-2} Nm^{-2} $$"
+    },
+    "correctAnswer": "b",
+    "explanation": "পীড়ন $$ = \\frac{F}{A} = \\frac{5 \\times 10^4}{1 \\times 10^{-6}} = 5 \\times 10^{10} Nm^{-2} $$"
+  },
+  {
+    "id": 19,
+    "subject": "Physics",
+    "topic": "Semiconductor",
+    "question": "p-type অর্ধপরিবাহীতে কি মিশানো হয়?",
+    "options": {
+      "a": "দ্বযোজী মৌল",
+      "b": "ত্রিযোজী মৌল",
+      "c": "চতূর্যোজী মৌল",
+      "d": "পঞ্চযোজী মৌল"
+    },
+    "correctAnswer": "b",
+    "explanation": "p-type অর্ধপরিবাহী তৈরি করতে ত্রিযোজী মৌল (যেমন- B, Al, In) ডোপিং করা হয়।"
+  },
+  {
+    "id": 20,
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "question": "কোনো কার্নো ইঞ্জিনের উৎসের তাপমাত্রা 500 K এবং গ্রাহকের তাপমাত্রা 300 K। উৎসে 2000J তাপ প্রদান করলে কাজের পরিমাণ কত?",
+    "options": {
+      "a": "1000 J",
+      "b": "800 J",
+      "c": "1200 J",
+      "d": "1500 J"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$ \\eta = 1 - \\frac{T_2}{T_1} = 1 - \\frac{300}{500} = 0.4 $$। কাজ $$ W = \\eta Q_1 = 0.4 \\times 2000 = 800 J $$"
+  },
+  {
+    "id": 21,
+    "subject": "Physics",
+    "topic": "Work, Power & Energy",
+    "question": "কোনো স্প্রিং এর বল ধ্রুবক $$ 2 \\times 10^3 Nm^{-1} $$। এতে 80 N বল প্রয়োগ করলে কৃতকাজ?",
+    "options": {
+      "a": "1.6 J",
+      "b": "16 J",
+      "c": "0.02 J",
+      "d": "4 J"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$ F = kx \\Rightarrow x = \\frac{80}{2000} = 0.04 m $$। কাজ $$ W = \\frac{1}{2}kx^2 = \\frac{1}{2} \\times 2000 \\times (0.04)^2 = 1000 \\times 0.0016 = 1.6 J $$"
+  },
+  {
+    "id": 22,
+    "subject": "Physics",
+    "topic": "Work, Power & Energy",
+    "question": "60 kg ভরের ব্যক্তি 40 kg ভরের বস্তা নিয়ে A হতে B বিন্দুতে গেলে কৃতকাজ কত?",
+    "hasDiagram": true,
+    "svg_code": "<svg width='150' height='100' xmlns='http://www.w3.org/2000/svg'><polygon points='20,80 120,80 120,20' fill='none' stroke='black' stroke-width='2'/><text x='10' y='80'>A</text><text x='125' y='20'>B</text><text x='60' y='50'>5 m</text><text x='30' y='75' font-size='10'>60°</text><path d='M40,80 A20,20 0 0,0 35,70' fill='none' stroke='black'/></svg>",
+    "options": {
+      "a": "$$ 2450\\sqrt{3} J $$",
+      "b": "$$ 245\\sqrt{3} J $$",
+      "c": "$$ 450\\sqrt{3} J $$",
+      "d": "$$ 2450 J $$"
+    },
+    "correctAnswer": "a",
+    "explanation": "মোট ভর $$ m = 60+40=100 kg $$। সরণ $$ s = 5m $$। উচ্চতা $$ h = 5 \\sin 60^{\\circ} = \\frac{5\\sqrt{3}}{2} $$। কৃতকাজ $$ W = mgh = 100 \\times 9.8 \\times \\frac{5\\sqrt{3}}{2} = 500 \\times 4.9 \\sqrt{3} = 2450\\sqrt{3} J $$"
+  },
+  {
+    "id": 23,
+    "subject": "Physics",
+    "topic": "Wave",
+    "question": "একটি তরঙ্গের দুটি বিন্দুর মধ্যে দশা পার্থক্য $$ 3\\pi $$ হলে, পথ পার্থক্য হবে—",
+    "options": {
+      "a": "$$ \\frac{\\lambda}{2} $$",
+      "b": "$$ 2\\lambda $$",
+      "c": "$$ \\frac{3}{2}\\lambda $$",
+      "d": "$$ 3\\lambda $$"
+    },
+    "correctAnswer": "c",
+    "explanation": "পথ পার্থক্য $$ \\Delta x = \\frac{\\lambda}{2\\pi} \\times \\delta = \\frac{\\lambda}{2\\pi} \\times 3\\pi = \\frac{3}{2}\\lambda $$"
+  },
+  {
+    "id": 24,
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "question": "তড়িৎচৌম্বক বল কোন কণা দ্বারা বাহিত হয়?",
+    "options": {
+      "a": "বোসন",
+      "b": "মেসন",
+      "c": "ফোটন",
+      "d": "গ্রাভিটন"
+    },
+    "correctAnswer": "c",
+    "explanation": "তড়িৎচৌম্বক বলের বিনিময় কণা হলো ফোটন।"
+  },
+  {
+    "id": 25,
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "question": "কোনো ফোটনের শক্তি $$ 9 \\times 10^{-19} J $$ হলে, এর ভরবেগ কত?",
+    "options": {
+      "a": "$$ 30 \\times 10^{-27} kg ms^{-1} $$",
+      "b": "$$ 3 \\times 10^{-27} kg ms^{-1} $$",
+      "c": "$$ 6 \\times 10^{-27} kg ms^{-1} $$",
+      "d": "$$ 9 \\times 10^{-19} kg ms^{-1} $$"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$ p = \\frac{E}{c} = \\frac{9 \\times 10^{-19}}{3 \\times 10^8} = 3 \\times 10^{-27} kg ms^{-1} $$"
+  },
+  {
+    "id": 26,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "question": "$$ [Fe(CN)_6]^{3-} $$ জটিল আয়নের আকৃতি-",
+    "options": {
+      "a": "চতুষ্তলকীয়",
+      "b": "বর্গাকার সমতলীয়",
+      "c": "অষ্টতলকীয়",
+      "d": "ত্রিভুজাকার দ্বিপিরামিডীয়"
+    },
+    "correctAnswer": "c",
+    "explanation": "সন্নিবেশ সংখ্যা 6 হলে জটিল যৌগের আকৃতি অষ্টতলকীয় হয়।"
+  },
+  {
+    "id": 27,
+    "subject": "Chemistry",
+    "topic": "Oxidation Reduction",
+    "question": "অম্লীয় মাধ্যমে নিচের কোন জারকটি বিজারক হতে 6টি ইলেকট্রন গ্রহণ করে?",
+    "options": {
+      "a": "$$ K_2Cr_2O_7 $$",
+      "b": "$$ KMnO_4 $$",
+      "c": "$$ FeCl_3 $$",
+      "d": "a ও b"
+    },
+    "correctAnswer": "a",
+    "explanation": "অম্লীয় মাধ্যমে ডাইক্রোমেট আয়ন ($$ Cr_2O_7^{2-} $$) 6টি ইলেকট্রন গ্রহণ করে $$ 2Cr^{3+} $$ এ পরিণত হয়।"
+  },
+  {
+    "id": 28,
+    "subject": "Chemistry",
+    "topic": "Gaseous State",
+    "question": "11g $$ CO_2 $$ গ্যাসের জন্য আদর্শ গ্যাসের সমীকরণ-",
+    "options": {
+      "a": "$$ PV = \\frac{RT}{4} $$",
+      "b": "$$ PV = nRT $$",
+      "c": "$$ 4PV = RT $$",
+      "d": "a ও c"
+    },
+    "correctAnswer": "d",
+    "explanation": "11g $$ CO_2 $$ এর মোল সংখ্যা $$ n = 11/44 = 0.25 = 1/4 $$। সমীকরণ $$ PV = \\frac{1}{4}RT $$ বা $$ 4PV = RT $$।"
+  },
+  {
+    "id": 29,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "question": "নিচের কোনটিতে অন্তঃআণবিক হাইড্রোজেন বন্ধন বিদ্যমান?",
+    "options": {
+      "a": "$$ H_2O $$",
+      "b": "প্যারা-নাইট্রোফেনল",
+      "c": "অর্থো-নাইট্রোফেনল",
+      "d": "কোনোটিই নয়"
+    },
+    "correctAnswer": "c",
+    "explanation": "অর্থো-নাইট্রোফেনলে -OH এবং -NO2 মূলক পাশাপাশি থাকায় অন্তঃআণবিক (Intramolecular) হাইড্রোজেন বন্ধন গঠিত হয়।"
+  },
+  {
+    "id": 30,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "$$ CH_3 - CH_2 - Cl \\xrightarrow{KOH(alc)} $$ বিক্রিয়ায় প্রধান উৎপাদ কোনটি?",
+    "options": {
+      "a": "$$ CH \\equiv CH $$",
+      "b": "$$ CH_2 = CH_2 $$",
+      "c": "$$ CH_3 - CH_2 - OH $$",
+      "d": "$$ CH_2 - CH_2 $$"
+    },
+    "correctAnswer": "b",
+    "explanation": "অ্যালকাইল হ্যালাইডের সাথে অ্যালকোহলীয় KOH এর বিক্রিয়ায় ডিহাইড্রোহ্যালোজেনেশন ঘটে এবং অ্যালকিন উৎপন্ন হয়।"
+  },
+  {
+    "id": 31,
+    "subject": "Chemistry",
+    "topic": "Acid Base",
+    "question": "নিচের কোন নির্দেশকটি ক্ষারীয় মাধ্যমে নীল বর্ণ ধারণ করে?",
+    "options": {
+      "a": "লিটমাস",
+      "b": "থাইমল ব্লু",
+      "c": "ব্রোমোথাইমল ব্লু",
+      "d": "সবগুলো"
+    },
+    "correctAnswer": "d",
+    "explanation": "লিটমাস, থাইমল ব্লু এবং ব্রোমোথাইমল ব্লু সবগুলিই ক্ষারীয় মাধ্যমে নীল বর্ণ ধারণ করে।"
+  },
+  {
+    "id": 32,
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "question": "কোন বর্ণালির সিরিজে অতিবেগুনী অঞ্চল পাওয়া যায়?",
+    "options": {
+      "a": "লাইমেন",
+      "b": "বামার",
+      "c": "ফান্ড",
+      "d": "প্যাশ্চেন"
+    },
+    "correctAnswer": "a",
+    "explanation": "হাইড্রোজেন বর্ণালির লাইমেন সিরিজ অতিবেগুনী (UV) অঞ্চলে অবস্থিত।"
+  },
+  {
+    "id": 33,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "$$ R - COOH + R - OH \\xrightarrow{H_2SO_4} $$ বিক্রিয়ায় উৎপন্ন প্রধান উৎপাদটি হচ্ছে-",
+    "options": {
+      "a": "অ্যামাইড",
+      "b": "অ্যামিন",
+      "c": "এস্টার",
+      "d": "ইথার"
+    },
+    "correctAnswer": "c",
+    "explanation": "কার্বক্সিলিক এসিড ও অ্যালকোহলের বিক্রিয়ায় এস্টার ও পানি উৎপন্ন হয় (এস্টারিফিকেশন)।"
+  },
+  {
+    "id": 34,
+    "subject": "Chemistry",
+    "topic": "Acid Base Equilibrium",
+    "question": "$$ K_a $$ মানের উপর ভিত্তি করে এসিডগুলো দুর্বল থেকে সবলের ক্রমানুসারে সাজাও- \n(i) $$ HCN(K_a = 6.2 \\times 10^{-10}) $$\n(ii) $$ 3HNO_2(K_a = 4.6 \\times 10^{-4}) $$\n(iii) $$ H-COOH(K_a = 1.78 \\times 10^{-4}) $$\n(iv) $$ HC_2H_3O_7(K_a = 1.8 \\times 10^{-5}) $$",
+    "options": {
+      "a": "(i) < (iii) > (iv) < (ii)",
+      "b": "(i) < (ii) < (iii) < (iv)",
+      "c": "(i) < (ii) < (iv) < (iii)",
+      "d": "(i) < (iv) < (iii) < (ii)"
+    },
+    "correctAnswer": "d",
+    "explanation": "$$ K_a $$ এর মান যত কম, এসিড তত দুর্বল। ক্রম: $$ 6.2 \\times 10^{-10} < 1.8 \\times 10^{-5} < 1.78 \\times 10^{-4} < 4.6 \\times 10^{-4} $$। অর্থাৎ (i) < (iv) < (iii) < (ii)।"
+  },
+  {
+    "id": 35,
+    "subject": "Chemistry",
+    "topic": "Acid Base Equilibrium",
+    "question": "ক্ষারক ও অনুবন্ধী এসিডের উদাহরণ কোনটি?",
+    "options": {
+      "a": "NaOH, HCl",
+      "b": "$$ NH_4^+, Cl $$",
+      "c": "$$ HCl, H_3O $$",
+      "d": "$$ NH_3, NH_4^+ $$"
+    },
+    "correctAnswer": "d",
+    "explanation": "$$ NH_3 $$ একটি ক্ষারক যা প্রোটন গ্রহণ করে অনুবন্ধী এসিড $$ NH_4^+ $$ গঠন করে।"
+  },
+  {
+    "id": 36,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "উর্টজ-ফিটিগ বিক্রিয়ায় নিচের কোনটি তৈরি হয়?",
+    "options": {
+      "a": "$$ C_6H_6 $$",
+      "b": "$$ C_6H_5OH $$",
+      "c": "$$ C_6H_5CH_3 $$",
+      "d": "$$ C_6H_5Cl $$"
+    },
+    "correctAnswer": "c",
+    "explanation": "উর্টজ-ফিটিগ বিক্রিয়ায় অ্যারাইল হ্যালাইড ও অ্যালকাইল হ্যালাইড সোডিয়ামের সাথে বিক্রিয়া করে অ্যালকাইল বেনজিন (যেমন টলুইন) তৈরি করে।"
+  },
+  {
+    "id": 37,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "question": "B, C, N, O এর মধ্যে আয়নিকরণ শক্তির সঠিক ক্রম-",
+    "options": {
+      "a": "O > N > C > B",
+      "b": "N > O > C > B",
+      "c": "B > C > O > N",
+      "d": "N > O > B > C"
+    },
+    "correctAnswer": "b",
+    "explanation": "নাইট্রোজেনের অর্ধপূর্ণ p-অরবিটাল স্থিতিশীল হওয়ায় এর আয়নিকরণ শক্তি অক্সিজেনের চেয়ে বেশি। ক্রম: N > O > C > B।"
+  },
+  {
+    "id": 38,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "বেনজিন চক্রে কোন মূলক থাকলে মেটা কার্বনে ইলেকট্রন ঘনত্ব বেশি থাকে?",
+    "options": {
+      "a": "$$ Cl^- $$",
+      "b": "$$ -NO_2 $$",
+      "c": "$$ OH^- $$",
+      "d": "$$ -R $$"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$ -NO_2 $$ একটি মেটা নির্দেশক ও বলয় নিষ্ক্রিয়কারী মূলক যা অর্থো ও প্যারা অবস্থান থেকে ইলেকট্রন সরিয়ে নেয়, ফলে মেটা অবস্থানে ঘনত্ব তুলনামূলক বেশি থাকে।"
+  },
+  {
+    "id": 39,
+    "subject": "Chemistry",
+    "topic": "Solubility",
+    "question": "$$ 25^{\\circ}C $$ তাপমাত্রায় AgCl এর দ্রাব্যতা গুণফল $$ 1 \\times 10^{-10} $$ হলে $$ Cl^- $$ আয়নের ঘনমাত্রা $$ molL^{-1} $$ এ কত হবে?",
+    "options": {
+      "a": "$$ 10 \\times 10^{-5} $$",
+      "b": "$$ 1 \\times 10^{-5} $$",
+      "c": "$$ 1 \\times 10^{-4} $$",
+      "d": "$$ 1 \\times 10^{-3} $$"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$ S = \\sqrt{K_{sp}} = \\sqrt{10^{-10}} = 10^{-5} M $$। $$ [Cl^-] = S = 1 \\times 10^{-5} M $$"
+  },
+  {
+    "id": 40,
+    "subject": "Chemistry",
+    "topic": "pH",
+    "question": "20 mL 0.2 M HCl দ্রবণে পানি যোগ করে 40 mL আয়তন করা হলে, দ্রবণের pH কত হবে?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "13",
+      "d": "1.75"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$ V_1S_1 = V_2S_2 \\Rightarrow 20 \\times 0.2 = 40 \\times S_2 \\Rightarrow S_2 = 0.1 M $$। $$ pH = -\\log(0.1) = 1 $$"
+  },
+  {
+    "id": 41,
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "question": "নিচের কোন অরবিটালটি ডাম্বেল আকৃতির?",
+    "options": {
+      "a": "n = 4, l = 3",
+      "b": "n = 1, l = 0",
+      "c": "n = 2, l = 0",
+      "d": "n = 3, l = 1"
+    },
+    "correctAnswer": "d",
+    "explanation": "l = 1 হলে p-অরবিটাল নির্দেশ করে যা ডাম্বেল আকৃতির।"
+  },
+  {
+    "id": 42,
+    "subject": "Chemistry",
+    "topic": "Chemical Equilibrium",
+    "question": "$$ N_2O_4 \\rightleftharpoons 2NO_2 $$ বিক্রিয়ার জন্য $$ 30^{\\circ}C $$ তাপমাত্রায় $$ K_p = 32 atm $$ এবং মোট চাপ 2 atm হলে বিয়োজন মাত্রা-",
+    "options": {
+      "a": "$$ \\frac{2}{\\sqrt{5}} $$",
+      "b": "$$ \\frac{5\\sqrt{2}}{\\sqrt{5}} $$",
+      "c": "$$ \\frac{2\\sqrt{5}}{\\sqrt{5}} $$",
+      "d": "a ও c"
+    },
+    "correctAnswer": "d",
+    "explanation": "$$ K_p = \\frac{4\\alpha^2 P}{1-\\alpha^2} $$। $$ 32 = \\frac{4\\alpha^2(2)}{1-\\alpha^2} \\Rightarrow 4 = \\frac{\\alpha^2}{1-\\alpha^2} \\Rightarrow 4 - 4\\alpha^2 = \\alpha^2 \\Rightarrow 5\\alpha^2 = 4 \\Rightarrow \\alpha = \\frac{2}{\\sqrt{5}} $$। অপশন (a) ও (c) উভয়ই সঠিক (c তে কাটাকাটি করলে a পাওয়া যায়)।"
+  },
+  {
+    "id": 43,
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "question": "নিষ্ক্রিয় ইলেকট্রোডে $$ H_2SO_4 $$ এর জলীয় দ্রবণকে তড়িৎ বিশ্লেষণ করলে অ্যানোডে কোনটি উৎপন্ন হয়?",
+    "options": {
+      "a": "S",
+      "b": "$$ SO_4 $$",
+      "c": "$$ O_2 $$",
+      "d": "Mg"
+    },
+    "correctAnswer": "c",
+    "explanation": "লঘু সালফিউরিক এসিডের তড়িৎ বিশ্লেষণে অ্যানোডে পানি জারিত হয়ে অক্সিজেন গ্যাস ($$ O_2 $$) উৎপন্ন করে।"
+  },
+  {
+    "id": 44,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "কোনো একটি নমুনা অ্যালকোহল দ্রবণের সাথে লুকাস বিকারকের বিক্রিয়ায় 5-10 মিনিট পর অধঃক্ষেপ পড়ে। নমুনাটি-",
+    "options": {
+      "a": "$$ 3^{\\circ} $$ অ্যালকোহল",
+      "b": "$$ 1^{\\circ} $$ অ্যালকোহল",
+      "c": "$$ 2^{\\circ} $$ অ্যালকোহল",
+      "d": "$$ 3^{\\circ} $$ অ্যামিন"
+    },
+    "correctAnswer": "c",
+    "explanation": "লুকাস বিকারকের সাথে $$ 2^{\\circ} $$ অ্যালকোহল ৫-১০ মিনিটের মধ্যে বিক্রিয়া করে তৈলাক্ত স্তর বা অধঃক্ষেপ তৈরি করে।"
+  },
+  {
+    "id": 45,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "গ্লুকোজের কতগুলো স্টেরিও সমানু সম্ভব?",
+    "options": {
+      "a": "13",
+      "b": "16",
+      "c": "14",
+      "d": "15"
+    },
+    "correctAnswer": "b",
+    "explanation": "গ্লুকোজের 4টি কাইরাল কার্বন আছে। স্টেরিও সমানু সংখ্যা $$ 2^n = 2^4 = 16 $$।"
+  },
+  {
+    "id": 46,
+    "subject": "Chemistry",
+    "topic": "Stoichiometry",
+    "question": "$$ LiHCO_3 $$ কে তাপ দিলে তা ভেঙ্গে $$ Li_2O, CO_2, H_2O $$ উৎপন্ন হয়। 0.5 mol $$ LiHCO_3 $$ কে তাপ দিলে কত g $$ H_2O $$ গঠিত হয়?",
+    "options": {
+      "a": "9 g",
+      "b": "4.5 g",
+      "c": "45 g",
+      "d": "18 g"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$ 2LiHCO_3 \\rightarrow Li_2CO_3 + H_2O + CO_2 $$ (বিক্রিয়াটি সাধারণত এভাবে হয়, তবে প্রশ্নে $$ Li_2O $$ বলা হয়েছে যা উচ্চ তাপে হতে পারে)। সাধারণ সমতা: 2 মোল থেকে 1 মোল পানি। 0.5 মোল থেকে 0.25 মোল পানি। ভর = $$ 0.25 \\times 18 = 4.5 g $$।"
+  },
+  {
+    "id": 47,
+    "subject": "Chemistry",
+    "topic": "Chemical Equilibrium",
+    "question": "কখন $$ K_p = K_c $$ হয়?",
+    "options": {
+      "a": "$$ \\Delta n > 1 $$",
+      "b": "$$ \\Delta n < 1 $$",
+      "c": "$$ \\Delta n = 0 $$",
+      "d": "কোনোটিই নয়"
+    },
+    "correctAnswer": "c",
+    "explanation": "$$ K_p = K_c(RT)^{\\Delta n} $$। যদি $$ \\Delta n = 0 $$ হয়, তবে $$ K_p = K_c $$।"
+  },
+  {
+    "id": 48,
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "question": "18 g Al ক্যাথোডে সঞ্চিত করতে প্রয়োজনীয় বিদ্যুতের পরিমাণ-",
+    "options": {
+      "a": "2.0 F",
+      "b": "1.5 F",
+      "c": "2.5 F",
+      "d": "3.0 F"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$ Al^{3+} + 3e^- \\rightarrow Al $$। 27g Al এর জন্য লাগে 3F। 18g এর জন্য লাগে $$ \\frac{3 \\times 18}{27} = 2F $$।"
+  },
+  {
+    "id": 49,
+    "subject": "Chemistry",
+    "topic": "Gaseous State",
+    "question": "স্থির তাপমাত্রায় গ্যাসের বর্গমূল গড় বর্গ বেগের মানের কোন ক্রমটি সঠিক?",
+    "options": {
+      "a": "$$ N_2 > H_2 > CO_2 $$",
+      "b": "$$ H_2 > N_2 > CO_2 $$",
+      "c": "$$ CO_2 > N_2 > H_2 $$",
+      "d": "$$ N_2 > CO_2 > H_2 $$"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$ C_{rms} \\propto \\frac{1}{\\sqrt{M}} $$। আণবিক ভর কম হলে বেগ বেশি। ভর: $$ H_2(2) < N_2(28) < CO_2(44) $$। বেগ ক্রম: $$ H_2 > N_2 > CO_2 $$।"
+  },
+  {
+    "id": 50,
+    "subject": "Physics",
+    "topic": "Nuclear Physics",
+    "question": "$$ ^{63}_{28}A $$ ও $$ ^{63}_{29}B $$ হলো পরস্পরের-",
+    "options": {
+      "a": "আইসোটোপ",
+      "b": "আইসোটোন",
+      "c": "আইসোবার",
+      "d": "আইসোমার"
+    },
+    "correctAnswer": "c",
+    "explanation": "উভয়ের ভরসংখ্যা (63) সমান কিন্তু প্রোটন সংখ্যা ভিন্ন, তাই এরা আইসোবার।"
+  },
+  {
+    "id": 51,
+    "subject": "ICT",
+    "topic": "Number System",
+    "question": "$$ (1100)_2 $$ এবং $$ (1011)_2 $$ এর বিয়োগফল কত?",
+    "options": {
+      "a": "0001",
+      "b": "0010",
+      "c": "0100",
+      "d": "1010"
+    },
+    "correctAnswer": "a",
+    "explanation": "12 (1100) - 11 (1011) = 1 (0001)।"
+  },
+  {
+    "id": 52,
+    "subject": "ICT",
+    "topic": "Database",
+    "question": "পরস্পর সম্পর্কযুক্ত এক বা একাধিক ফাইল নিয়ে কী তৈরি হয়?",
+    "options": {
+      "a": "লজিক",
+      "b": "ফিল্ড",
+      "c": "রেকর্ড",
+      "d": "ডেটাবেজ"
+    },
+    "correctAnswer": "d",
+    "explanation": "একাধিক রিলেটেড ফাইল বা টেবিলের সমষ্টি হলো ডেটাবেজ।"
+  },
+  {
+    "id": 53,
+    "subject": "ICT",
+    "topic": "Internet",
+    "question": "http://www.udvash.com.bd এর সেকেন্ড লেভেল ডোমেইন কোনটি?",
+    "options": {
+      "a": "com.bd",
+      "b": "www",
+      "c": "bd",
+      "d": "udvash"
+    },
+    "correctAnswer": "d",
+    "explanation": "ডোমেইন নেমিং সিস্টেমে .bd হলো টপ লেভেল, .com হলো সাব-ডোমেইন বা টাইপ, এবং udvash হলো সেকেন্ড লেভেল ডোমেইন (যা প্রতিষ্ঠানের নাম নির্দেশ করে)।"
+  },
+  {
+    "id": 54,
+    "subject": "ICT",
+    "topic": "Networking",
+    "question": "কোনটি নেটওয়ার্ক টপোলজি নয়?",
+    "options": {
+      "a": "LAN",
+      "b": "BUS",
+      "c": "STAR",
+      "d": "RING"
+    },
+    "correctAnswer": "a",
+    "explanation": "LAN (Local Area Network) হলো নেটওয়ার্কের প্রকারভেদ, টপোলজি নয়। BUS, STAR, RING হলো টপোলজি।"
+  },
+  {
+    "id": 55,
+    "subject": "ICT",
+    "topic": "Number System",
+    "question": "$$ (11110101111.10001)_2 $$ কে অক্টালে রূপান্তর করলে মান কত হবে?",
+    "options": {
+      "a": "3657.21",
+      "b": "3657.42",
+      "c": "7536.42",
+      "d": "7536.2"
+    },
+    "correctAnswer": "b",
+    "explanation": "তিন বিট করে গ্রুপিং করে: 011 110 101 111 . 100 010 -> 3 6 5 7 . 4 2 (অক্টাল)।"
+  },
+  {
+    "id": 56,
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "question": "হৃৎপিণ্ডের রক্তনালিতে কোনো ব্লক আছে কিনা, তা দেখার জন্য কোন পরীক্ষা করা হয়?",
+    "options": {
+      "a": "MRI",
+      "b": "USG",
+      "c": "ECG",
+      "d": "করোনারি এনজিওগ্রাম"
+    },
+    "correctAnswer": "d",
+    "explanation": "করোনারি ধমনির ব্লক শনাক্ত করার জন্য করোনারি এনজিওগ্রাম করা হয়।"
+  },
+  {
+    "id": 57,
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "question": "ঠান্ডার কারণে কোন অ্যানজাইনা দেখা দেয়?",
+    "options": {
+      "a": "সুস্থিত",
+      "b": "অস্থিত",
+      "c": "প্রিনজমেটাল",
+      "d": "হেপাটিক"
+    },
+    "correctAnswer": "c",
+    "explanation": "প্রিনজমেটাল অ্যানজাইনা (Prinzmetal's angina) সাধারণত বিশ্রামের সময় বা ঠান্ডার কারণে ধমনির খিঁচুনির ফলে হয়।"
+  },
+  {
+    "id": 58,
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "question": "মোট $$ CO_2 $$ এর শতকরা কতভাগ কার্বামিনো যৌগরূপে পরিবাহিত হয়?",
+    "options": {
+      "a": "2%",
+      "b": "27%",
+      "c": "65%",
+      "d": "85%"
+    },
+    "correctAnswer": "b",
+    "explanation": "কার্বামিনো যৌগরূপে প্রায় ২৭% (বইভেদে ২৩-২৭%) কার্বন ডাই-অক্সাইড পরিবাহিত হয়।"
+  },
+  {
+    "id": 59,
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "question": "দু' চোখের মাঝখানে ব্যথা হয় কোনটির কারণে?",
+    "options": {
+      "a": "ম্যাক্সিলারি সাইনাস",
+      "b": "ফ্রন্টাল সাইনাস",
+      "c": "এথময়েড সাইনাস",
+      "d": "স্ফেনয়েড সাইনাস"
+    },
+    "correctAnswer": "c",
+    "explanation": "এথময়েড সাইনাসের প্রদাহে দুই চোখের মাঝখানে বা পেছনে ব্যথা অনুভূত হয়।"
+  },
+  {
+    "id": 60,
+    "subject": "Biology",
+    "topic": "Zoology",
+    "question": "কোনটি বায়ুপূর্ণ অস্থি?",
+    "options": {
+      "a": "হিউমেরাস",
+      "b": "ফিমার",
+      "c": "কশেরুকা",
+      "d": "ম্যাক্সিলা"
+    },
+    "correctAnswer": "d",
+    "explanation": "মানুষের মুখমন্ডলীয় অস্থির মধ্যে ম্যাক্সিলা বায়ুপূর্ণ (প্যারা-ন্যাসাল সাইনাস যুক্ত)। পাখির হাড়ও বায়ুপূর্ণ হয়।"
+  },
+  {
+    "id": 61,
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "question": "ধমনি সম্পর্কে সঠিক নয় কোনটি?",
+    "options": {
+      "a": "হৃৎপিণ্ডে উৎপন্ন হয়",
+      "b": "বেশ পুরু",
+      "c": "সেমিনুলার কপাটিকা থাকে",
+      "d": "লুমেন ছোট"
+    },
+    "correctAnswer": "c",
+    "explanation": "ধমনিতে কোনো কপাটিকা থাকে না (মহাধমনির উৎপত্তিস্থল ছাড়া)। শিরায় কপাটিকা থাকে।"
+  },
+  {
+    "id": 62,
+    "subject": "Biology",
+    "topic": "Genetics",
+    "question": "কোনটি ভূমধ্যসাগরীয় রোগ নামে পরিচিত?",
+    "options": {
+      "a": "থ্যালাসেমিয়া",
+      "b": "সিকল সেল অ্যানিমিয়া",
+      "c": "সিস্টিক ফাইব্রোসিস",
+      "d": "ব্রাকিফ্যালাঞ্জি"
+    },
+    "correctAnswer": "a",
+    "explanation": "থ্যালাসেমিয়া ভূমধ্যসাগরীয় অঞ্চলের মানুষের মধ্যে বেশি দেখা যায় বলে একে ভূমধ্যসাগরীয় রোগ বলে।"
+  },
+  {
+    "id": 63,
+    "subject": "Biology",
+    "topic": "Genetics",
+    "question": "ডাই-হাইব্রিড ক্রসের ক্ষেত্রে ফিনোটাইপিক অনুপাত কত?",
+    "options": {
+      "a": "1:2:1",
+      "b": "2:1",
+      "c": "9:3:3:1",
+      "d": "13:3"
+    },
+    "correctAnswer": "c",
+    "explanation": "মেন্ডেলের ডাই-হাইব্রিড ক্রসের ফিনোটাইপিক অনুপাত ৯:৩:৩:১।"
+  },
+  {
+    "id": 64,
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "question": "কোনটি মানুষের টার্সাল অস্থি?",
+    "options": {
+      "a": "ট্যালাস",
+      "b": "ট্রাপেজিয়াম",
+      "c": "ট্রাপেজয়েড",
+      "d": "ট্রাইকুয়েট্রাল"
+    },
+    "correctAnswer": "a",
+    "explanation": "ট্যালাস (Talus) গোড়ালির একটি টার্সাল অস্থি। বাকিগুলো কার্পাল অস্থি।"
+  },
+  {
+    "id": 65,
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "question": "কোনটি শ্বসন অঞ্চলের অন্তর্ভুক্ত?",
+    "options": {
+      "a": "নাসাগহ্বর",
+      "b": "নাসাগলবিল",
+      "c": "ট্রাকিয়া",
+      "d": "অ্যালভিওলার নালি"
+    },
+    "correctAnswer": "d",
+    "explanation": "শ্বসন অঞ্চল (Respiratory zone) শুরু হয় রেসপিরেটরি ব্রঙ্কিওল থেকে, যার মধ্যে অ্যালভিওলার নালি ও অ্যালভিওলাই অন্তর্ভুক্ত। বাকিগুলো পরিবহন অঞ্চল।"
+  },
+  {
+    "id": 66,
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "question": "কোনটির মাধ্যমে হৃৎপিণ্ডের কার্যক্ষমতা জানা যায়?",
+    "options": {
+      "a": "ইসিজি",
+      "b": "ইটিটি",
+      "c": "BNP",
+      "d": "এনজিওগ্রাম"
+    },
+    "correctAnswer": "b",
+    "explanation": "ইটিটি (Exercise Tolerance Test) এর মাধ্যমে পরিশ্রমের সময় হৃৎপিণ্ডের কার্যক্ষমতা যাচাই করা হয়।"
+  },
+  {
+    "id": 67,
+    "subject": "Biology",
+    "topic": "Zoology",
+    "question": "রুই মাছের বক্ষ-পাখনা ও বক্ষচক্রে রক্ত সরবরাহ করে কোনটি?",
+    "options": {
+      "a": "সিলিয়াকো-মেসেন্টরিক",
+      "b": "প্যারাইটাল",
+      "c": "ইলিয়াক",
+      "d": "সাবক্ল্যাভিয়ান"
+    },
+    "correctAnswer": "d",
+    "explanation": "সাবক্ল্যাভিয়ান ধমনি রুই মাছের বক্ষ পাখনা ও বক্ষচক্রে রক্ত সরবরাহ করে।"
+  },
+  {
+    "id": 68,
+    "subject": "Biology",
+    "topic": "Zoology",
+    "question": "কোন পর্বের প্রাণীতে দ্বিপার্শ্বীয় ক্লিভেজ দেখা যায়?",
+    "options": {
+      "a": "Arthropoda",
+      "b": "Chordata",
+      "c": "Annelida",
+      "d": "Mollusca"
+    },
+    "correctAnswer": "b",
+    "explanation": "কর্ডাটা পর্বের প্রাণীদের ভ্রূণীয় বিকাশে দ্বিপার্শ্বীয় ক্লিভেজ দেখা যায়।"
+  },
+  {
+    "id": 69,
+    "subject": "Math",
+    "topic": "Calculus",
+    "question": "$$ y^2 = 8x $$ এবং $$ x^2 = y $$ দ্বারা আবদ্ধ ক্ষেত্রের ক্ষেত্রফল কত?",
+    "options": {
+      "a": "$$ \\frac{8}{3} $$ বর্গ একক",
+      "b": "$$ \\frac{1}{3} $$ বর্গ একক",
+      "c": "$$ \\frac{3}{8} $$ বর্গ একক",
+      "d": "$$ \\frac{4}{3} $$ বর্গ একক"
+    },
+    "correctAnswer": "a",
+    "explanation": "ছেদবিন্দু (0,0) ও (2,4)। ক্ষেত্রফল $$ \\int_0^2 (\\sqrt{8x} - x^2) dx = [\\frac{4\\sqrt{2}}{3}x^{1.5} - \\frac{x^3}{3}]_0^2 = \\frac{16}{3} - \\frac{8}{3} = \\frac{8}{3} $$"
+  },
+  {
+    "id": 70,
+    "subject": "Math",
+    "topic": "Calculus",
+    "question": "$$ x(x+y) + y = 1 $$ বক্ররেখাটির (1,0) বিন্দুতে স্পর্শকের ঢাল-",
+    "options": {
+      "a": "-1",
+      "b": "-2",
+      "c": "1",
+      "d": "2"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$ x^2 + xy + y = 1 $$। অন্তরীকরণ করে, $$ 2x + x\\frac{dy}{dx} + y + \\frac{dy}{dx} = 0 $$। (1,0) বিন্দুতে: $$ 2(1) + 1(m) + 0 + m = 0 \\Rightarrow 2m = -2 \\Rightarrow m = -1 $$"
+  },
+  {
+    "id": 71,
+    "subject": "Math",
+    "topic": "Matrix",
+    "question": "$$ A = [a_{ij}] $$ একটি $$ 3 \\times 3 $$ আকারের বর্গ ম্যাট্রিক্স যেখানে, $$ a_{ij} = \\begin{cases} 2i+j, & i>j \\\\ i+j, & i=j \\\\ 2i-j, & i<j \\end{cases} $$ ম্যাট্রিক্সটির ট্রেস কত?",
+    "options": {
+      "a": "6",
+      "b": "9",
+      "c": "12",
+      "d": "10"
+    },
+    "correctAnswer": "c",
+    "explanation": "ট্রেস হলো মুখ্য কর্ণের উপাদানগুলোর যোগফল ($$ a_{11} + a_{22} + a_{33} $$)। এখানে $$ i=j $$, তাই সূত্র $$ i+j $$। $$ a_{11}=2, a_{22}=4, a_{33}=6 $$। ট্রেস = 2+4+6 = 12।"
+  },
+  {
+    "id": 72,
+    "subject": "Math",
+    "topic": "Coordinate Geometry",
+    "question": "$$ x+y=0 $$ ও $$ y=x-2\\sqrt{2} $$ রেখাদ্বয়ের ছেদবিন্দুর পোলার স্থানাঙ্ক কত?",
+    "options": {
+      "a": "$$ (4, \\frac{7\\pi}{4}) $$",
+      "b": "$$ (4, -\\frac{\\pi}{4}) $$",
+      "c": "$$ (2, \\frac{\\pi}{4}) $$",
+      "d": "$$ (2, -\\frac{\\pi}{4}) $$"
+    },
+    "correctAnswer": "d",
+    "explanation": "$$ y=-x $$ এবং $$ y=x-2\\sqrt{2} $$ সমাধান করে পাই $$ x=\\sqrt{2}, y=-\\sqrt{2} $$। $$ r = \\sqrt{2+2} = 2 $$। কোণ $$ \\theta = -\\frac{\\pi}{4} $$। স্থানাঙ্ক $$ (2, -\\frac{\\pi}{4}) $$।"
+  },
+  {
+    "id": 73,
+    "subject": "Math",
+    "topic": "Trigonometry",
+    "question": "$$ \\frac{1-\\tan^2(45^{\\circ}+x)}{1+\\tan^2(45^{\\circ}+x)} $$ এর সমান কোনটি?",
+    "options": {
+      "a": "$$ \\cos 2x $$",
+      "b": "$$ -\\cos 2x $$",
+      "c": "$$ -\\sin 2x $$",
+      "d": "$$ \\sin 2x $$"
+    },
+    "correctAnswer": "c",
+    "explanation": "$$ \\frac{1-\\tan^2\\theta}{1+\\tan^2\\theta} = \\cos 2\\theta $$। এখানে $$ \\theta = 45^{\\circ}+x $$। $$ \\cos(90^{\\circ}+2x) = -\\sin 2x $$"
+  },
+  {
+    "id": 74,
+    "subject": "Math",
+    "topic": "Geometry",
+    "question": "$$ (-5, 8) $$ কেন্দ্র বিশিষ্ট একটি বৃত্ত x- অক্ষকে স্পর্শ করলে, স্পর্শবিন্দুর স্থানাঙ্ক কত?",
+    "options": {
+      "a": "(5, 0)",
+      "b": "(-5, 0)",
+      "c": "(0, 8)",
+      "d": "(0, -8)"
+    },
+    "correctAnswer": "b",
+    "explanation": "বৃত্তের কেন্দ্র (h, k) হলে এবং x-অক্ষকে স্পর্শ করলে স্পর্শবিন্দু (h, 0) হয়। এখানে h=-5, তাই বিন্দুটি (-5, 0)।"
+  },
+  {
+    "id": 75,
+    "subject": "Math",
+    "topic": "Conics",
+    "question": "$$ px^2 + 4y^2 = 1 $$ উপবৃত্তটি $$ (\\pm 2, 0) $$ বিন্দু দিয়ে যায়। p এর মান কত?",
+    "options": {
+      "a": "$$ \\pm \\frac{1}{4} $$",
+      "b": "$$ \\frac{1}{4} $$",
+      "c": "$$ \\frac{1}{2} $$",
+      "d": "2"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$ p(\\pm 2)^2 + 4(0)^2 = 1 \\Rightarrow 4p = 1 \\Rightarrow p = 1/4 $$"
+  },
+  {
+    "id": 76,
+    "subject": "Math",
+    "topic": "Polynomials",
+    "question": "$$ 3x^3 - 2x^2 + 1 = 0 $$ সমীকরণের মূলগুলো $$ \\alpha, \\beta, \\gamma $$ হলে, $$ \\sum \\alpha^2 \\beta $$ এর মান কত?",
+    "options": {
+      "a": "$$ \\frac{2}{3} $$",
+      "b": "0",
+      "c": "$$ -\\frac{1}{3} $$",
+      "d": "1"
+    },
+    "correctAnswer": "d",
+    "explanation": "প্রতিসম মূলের সূত্র ব্যবহার করে পাই মান 1।"
+  },
+  {
+    "id": 77,
+    "subject": "Math",
+    "topic": "Statics",
+    "question": "20 kg ওজন ও 12 m দৈর্ঘ্যের একটি সুষম বীমকে বীমের একটি প্রান্ত থেকে 2m দূরে অবস্থিত একটিমাত্র খুঁটির উপর সাম্যাবস্থায় রাখতে হলে বীমের ঐ প্রান্তে কত ওজন ঝুলাতে হবে?",
+    "options": {
+      "a": "20 kg-wt",
+      "b": "30 kg-wt",
+      "c": "40 kg-wt",
+      "d": "60 kg-wt"
+    },
+    "correctAnswer": "c",
+    "explanation": "বীমের ভরকেন্দ্র মাঝখানে (6m দূরে)। খুঁটি 2m দূরে। খুঁটি থেকে ভরকেন্দ্রের দূরত্ব 4m। খুঁটি থেকে প্রান্তের দূরত্ব 2m। মোমেন্টের সূত্র: $$ W \\times 2 = 20 \\times 4 \\Rightarrow W = 40 $$।"
+  },
+  {
+    "id": 78,
+    "subject": "Math",
+    "topic": "Vector/Statics",
+    "question": "ABC সমবাহু ত্রিভুজের AB, BC, CA বাহু বরাবর তিনটি বল যথাক্রমে 2N, 4N ও 6N একই সময় কোনো কণার উপর ক্রিয়াশীল। তাদের লব্ধির মান কত?",
+    "options": {
+      "a": "$$ 2\\sqrt{3} N $$",
+      "b": "12 N",
+      "c": "2 N",
+      "d": "$$ 3\\sqrt{2} N $$"
+    },
+    "correctAnswer": "a",
+    "explanation": "সূত্র $$ R = \\sqrt{3} \\times \\text{force difference}/2 $$ অথবা লম্বাংশ উপপাদ্য প্রয়োগ করে পাই $$ 2\\sqrt{3} N $$।"
+  },
+  {
+    "id": 79,
+    "subject": "Math",
+    "topic": "Complex Numbers",
+    "question": "$$ (\\omega^{127})^i = ? $$",
+    "options": {
+      "a": "$$ \\omega $$",
+      "b": "$$ \\frac{-1}{\\omega} $$",
+      "c": "$$ \\omega^2 $$",
+      "d": "$$ \\frac{-1}{\\omega^2} $$"
+    },
+    "correctAnswer": "a",
+    "explanation": "প্রশ্নটি সম্ভবত মুদ্রণ প্রমাদ এবং উত্তরপত্র অনুযায়ী শুধু $$ \\omega^{127} $$ এর মান চাওয়া হয়েছে। $$ 127 = 3 \\times 42 + 1 $$। তাই $$ \\omega^{127} = \\omega^1 = \\omega $$।"
+  },
+  {
+    "id": 80,
+    "subject": "Math",
+    "topic": "Complex Numbers",
+    "question": "$$ z_1 = 2+i $$ এবং $$ z_2 = 3+i $$ হলে, $$ z_1z_2 $$ এর মডুলাস-",
+    "options": {
+      "a": "6",
+      "b": "$$ 5\\sqrt{2} $$",
+      "c": "7",
+      "d": "$$ 5\\sqrt{3} $$"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$ |z_1z_2| = |z_1||z_2| = \\sqrt{4+1}\\sqrt{9+1} = \\sqrt{5}\\sqrt{10} = \\sqrt{50} = 5\\sqrt{2} $$"
+  }
+]

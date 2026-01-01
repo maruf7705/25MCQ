@@ -1,0 +1,1122 @@
+[
+  {
+    "id": 1,
+    "subject": "Physics",
+    "topic": "Vector",
+    "question": "দুটি ভেক্টর $$ \\vec{A} = 2\\hat{i} + 3\\hat{j} $$ এবং $$ \\vec{B} = 4\\hat{i} - 2\\hat{j} $$ হলে, এদের মধ্যবর্তী কোণ কত?",
+    "options": {
+      "a": "30°",
+      "b": "60°",
+      "c": "90°",
+      "d": "$$ \\cos^{-1}(\\frac{2}{\\sqrt{260}}) $$"
+    },
+    "correctAnswer": "d",
+    "explanation": "ডট গুণন $$ \\vec{A} \\cdot \\vec{B} = (2)(4) + (3)(-2) = 8 - 6 = 2 $$। ভেক্টরদ্বয়ের মান $$ |A| = \\sqrt{4+9} = \\sqrt{13} $$ এবং $$ |B| = \\sqrt{16+4} = \\sqrt{20} $$। সূত্রমতে, $$ \\cos\\theta = \\frac{\\vec{A} \\cdot \\vec{B}}{|A||B|} = \\frac{2}{\\sqrt{13}\\sqrt{20}} = \\frac{2}{\\sqrt{260}} $$।"
+  },
+  {
+    "id": 2,
+    "subject": "Physics",
+    "topic": "Kinematics",
+    "question": "একটি কণার অবস্থান ভেক্টর $$ \\vec{r} = (3t^2)\\hat{i} + (4t)\\hat{j} $$। $$ t=1 $$ সেকেন্ডে কণাটির বেগ কত?",
+    "options": {
+      "a": "$$ 5 ms^{-1} $$",
+      "b": "$$ 7.2 ms^{-1} $$",
+      "c": "$$ 10 ms^{-1} $$",
+      "d": "$$ 6.4 ms^{-1} $$"
+    },
+    "correctAnswer": "b",
+    "explanation": "বেগ $$ \\vec{v} = \\frac{d\\vec{r}}{dt} = (6t)\\hat{i} + 4\\hat{j} $$। $$ t=1 $$ এ, $$ \\vec{v} = 6\\hat{i} + 4\\hat{j} $$। মান $$ v = \\sqrt{6^2 + 4^2} = \\sqrt{36 + 16} = \\sqrt{52} \\approx 7.2 ms^{-1} $$।"
+  },
+  {
+    "id": 3,
+    "subject": "Physics",
+    "topic": "Newtonian Mechanics",
+    "question": "50 kg ভরের একটি বস্তুর ওপর 10 N বল ৫ সেকেন্ড ধরে ক্রিয়া করলে বেগের পরিবর্তন কত হবে?",
+    "options": {
+      "a": "$$ 0.5 ms^{-1} $$",
+      "b": "$$ 1 ms^{-1} $$",
+      "c": "$$ 2 ms^{-1} $$",
+      "d": "$$ 5 ms^{-1} $$"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$ F = ma \\Rightarrow a = F/m = 10/50 = 0.2 ms^{-2} $$। বেগের পরিবর্তন $$ \\Delta v = at = 0.2 \\times 5 = 1 ms^{-1} $$।"
+  },
+  {
+    "id": 4,
+    "subject": "Physics",
+    "topic": "Gravitation",
+    "question": "মুক্তিবেগের মান নিচের কোনটির ওপর নির্ভর করে না?",
+    "options": {
+      "a": "গ্রহের ভর",
+      "b": "গ্রহের ব্যাসার্ধ",
+      "c": "নিক্ষিপ্ত বস্তুর ভর",
+      "d": "অভিকর্ষজ ত্বরণ"
+    },
+    "correctAnswer": "c",
+    "explanation": "মুক্তিবেগ $$ v_e = \\sqrt{2gR} = \\sqrt{\\frac{2GM}{R}} $$। এখানে নিক্ষিপ্ত বস্তুর ভর ($$ m $$) অনুপস্থিত, তাই এটি বস্তুর ভরের ওপর নির্ভর করে না।"
+  },
+  {
+    "id": 5,
+    "subject": "Physics",
+    "topic": "Work, Power & Energy",
+    "question": "একটি স্প্রিং-এর স্প্রিং ধ্রুবক $$ 100 Nm^{-1} $$। এটিকে 2 cm প্রসারিত করতে কত কাজ করতে হবে?",
+    "options": {
+      "a": "0.02 J",
+      "b": "0.04 J",
+      "c": "2 J",
+      "d": "200 J"
+    },
+    "correctAnswer": "a",
+    "explanation": "কাজ $$ W = \\frac{1}{2}kx^2 = 0.5 \\times 100 \\times (0.02)^2 = 50 \\times 0.0004 = 0.02 J $$।"
+  },
+  {
+    "id": 6,
+    "subject": "Physics",
+    "topic": "Structural Properties of Matter",
+    "question": "ইয়ং-এর গুণাঙ্কের মাত্রা সমীকরণ কোনটি?",
+    "options": {
+      "a": "$$ ML^{-1}T^{-2} $$",
+      "b": "$$ MLT^{-2} $$",
+      "c": "$$ ML^{-2}T^{-1} $$",
+      "d": "$$ ML^2T^{-2} $$"
+    },
+    "correctAnswer": "a",
+    "explanation": "ইয়ং গুণাঙ্ক = পীড়ন/বিকৃতি। বিকৃতি মাত্রাহীন। পীড়ন = বল/ক্ষেত্রফল, যার মাত্রা চাপের সমান অর্থাৎ $$ ML^{-1}T^{-2} $$।"
+  },
+  {
+    "id": 7,
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "question": "27°C তাপমাত্রায় একটি কার্নো ইঞ্জিনের কর্মদক্ষতা 50%। উৎসের তাপমাত্রা কত?",
+    "options": {
+      "a": "600 K",
+      "b": "300 K",
+      "c": "327°C",
+      "d": "600°C"
+    },
+    "correctAnswer": "c",
+    "explanation": "$$ \\eta = 1 - \\frac{T_2}{T_1} $$। এখানে $$ T_2 = 27 + 273 = 300K $$ এবং $$ \\eta = 0.5 $$। সুতরাং, $$ 0.5 = 1 - \\frac{300}{T_1} \\Rightarrow T_1 = 600K = 327^{\\circ}C $$।"
+  },
+  {
+    "id": 8,
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "question": "কোন প্রক্রিয়ায় সিস্টেমের এন্ট্রপি স্থির থাকে?",
+    "options": {
+      "a": "সমষ্ণ",
+      "b": "রুদ্ধতাপীয়",
+      "c": "সমচাপ",
+      "d": "সমআয়তন"
+    },
+    "correctAnswer": "b",
+    "explanation": "রুদ্ধতাপীয় প্রক্রিয়ায় তাপের আদান-প্রদান হয় না ($$ dQ = 0 $$), তাই এন্ট্রপির পরিবর্তন $$ dS = dQ/T = 0 $$ বা এন্ট্রপি স্থির থাকে।"
+  },
+  {
+    "id": 9,
+    "subject": "Physics",
+    "topic": "Periodic Motion",
+    "question": "সরল ছন্দিত স্পন্দনে স্পন্দিত কণার সর্বোচ্চ বেগ কোথায় হয়?",
+    "options": {
+      "a": "বিস্তারের প্রান্তে",
+      "b": "সাম্যাবস্থানে",
+      "c": "মধ্যবিন্দুতে",
+      "d": "অসীমে"
+    },
+    "correctAnswer": "b",
+    "explanation": "সাম্যাবস্থানে কণার বেগ সর্বোচ্চ ($$ v_{max} = \\omega A $$) এবং ত্বরণ শূন্য হয়।"
+  },
+  {
+    "id": 10,
+    "subject": "Physics",
+    "topic": "Waves",
+    "question": "একটি টানা তারের দৈর্ঘ্য দ্বিগুণ করলে কম্পাঙ্ক কত গুণ হবে (টান ও ভর স্থির)?",
+    "options": {
+      "a": "দ্বিগুণ",
+      "b": "অর্ধেক",
+      "c": "চারগুণ",
+      "d": "অপরিবর্তিত"
+    },
+    "correctAnswer": "b",
+    "explanation": "টানা তারের কম্পাঙ্ক $$ n \\propto \\frac{1}{L} $$। দৈর্ঘ্য দ্বিগুণ করা হলে কম্পাঙ্ক অর্ধেক হবে।"
+  },
+  {
+    "id": 11,
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "question": "১০টি ফোটনের শক্তি E হলে, আলোর কম্পাঙ্ক f এর সাথে সম্পর্ক কী?",
+    "options": {
+      "a": "$$ E = 10hf $$",
+      "b": "$$ E = hf $$",
+      "c": "$$ E = 10h/f $$",
+      "d": "$$ E = h/f $$"
+    },
+    "correctAnswer": "a",
+    "explanation": "একটি ফোটনের শক্তি $$ E_1 = hf $$। সুতরাং ১০টি ফোটনের মোট শক্তি $$ E = 10hf $$।"
+  },
+  {
+    "id": 12,
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "question": "হাইজেনবার্গের অনিশ্চয়তা নীতি অনুসারে অবস্থান ও ভরবেগের অনিশ্চয়তার গুণফল কত?",
+    "options": {
+      "a": "$$ \\ge \\frac{h}{4\\pi} $$",
+      "b": "$$ \\le \\frac{h}{4\\pi} $$",
+      "c": "$$ = h $$",
+      "d": "$$ \\ge \\frac{h}{2\\pi} $$"
+    },
+    "correctAnswer": "a",
+    "explanation": "অনিশ্চয়তা নীতি অনুযায়ী, $$ \\Delta x \\cdot \\Delta p \\ge \\frac{h}{4\\pi} $$।"
+  },
+  {
+    "id": 13,
+    "subject": "Physics",
+    "topic": "Semiconductor",
+    "question": "একটি ট্রানজিস্টরের $$ \\alpha = 0.95 $$ হলে $$ \\beta $$ এর মান কত?",
+    "options": {
+      "a": "19",
+      "b": "20",
+      "c": "49",
+      "d": "0.9"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$ \\beta = \\frac{\\alpha}{1-\\alpha} = \\frac{0.95}{1 - 0.95} = \\frac{0.95}{0.05} = 19 $$।"
+  },
+  {
+    "id": 14,
+    "subject": "Physics",
+    "topic": "ICT/Electronics",
+    "question": "লজিক গেট 'OR' এর কাজ কী?",
+    "options": {
+      "a": "গুণ করা",
+      "b": "যোগ করা",
+      "c": "উল্টে দেওয়া",
+      "d": "ভাগ করা"
+    },
+    "correctAnswer": "b",
+    "explanation": "OR গেট বুলিয়ান যোগের (addition) কাজ সম্পন্ন করে।"
+  },
+  {
+    "id": 15,
+    "subject": "Physics",
+    "topic": "Physical Optics",
+    "question": "ইয়ং-এর দ্বি-চিড় পরীক্ষায় চিরদ্বয়ের মধ্যবর্তী দূরত্ব অর্ধেক করলে ডোরার প্রস্থ কী হবে?",
+    "options": {
+      "a": "অর্ধেক",
+      "b": "দ্বিগুণ",
+      "c": "চারগুণ",
+      "d": "অপরিবর্তিত"
+    },
+    "correctAnswer": "b",
+    "explanation": "ডোরার প্রস্থ $$ \\beta = \\frac{\\lambda D}{d} $$। দূরত্ব $$ d $$ অর্ধেক হলে ডোরার প্রস্থ $$ \\beta $$ দ্বিগুণ হবে।"
+  },
+  {
+    "id": 16,
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "question": "নিচের কোনটি তড়িৎচুম্বকীয় তরঙ্গ নয়?",
+    "options": {
+      "a": "এক্স-রে",
+      "b": "গামা রশ্মি",
+      "c": "বিটা রশ্মি",
+      "d": "বেতার তরঙ্গ"
+    },
+    "correctAnswer": "c",
+    "explanation": "বিটা রশ্মি হলো উচ্চ গতির ইলেকট্রন কণার স্রোত, এটি তড়িৎচুম্বকীয় তরঙ্গ নয়।"
+  },
+  {
+    "id": 17,
+    "subject": "Physics",
+    "topic": "Static Electricity",
+    "question": "সমান্তরাল পাত ধারকের ধারকত্ব কোনটির ওপর নির্ভর করে না?",
+    "options": {
+      "a": "পাতের ক্ষেত্রফল",
+      "b": "মধ্যবর্তী মাধ্যম",
+      "c": "পাতের উপাদান",
+      "d": "পাতের দূরত্ব"
+    },
+    "correctAnswer": "c",
+    "explanation": "ধারকত্ব $$ C = \\frac{\\epsilon A}{d} $$। এটি জ্যামিতিক গঠন এবং মাধ্যমের ওপর নির্ভর করে, পাতের উপাদানের ওপর নয়।"
+  },
+  {
+    "id": 18,
+    "subject": "Physics",
+    "topic": "Current Electricity",
+    "question": "10 Ω রোধের একটি তারকে টেনে দৈর্ঘ্য দ্বিগুণ করা হলো। বর্তমান রোধ কত?",
+    "options": {
+      "a": "20 Ω",
+      "b": "40 Ω",
+      "c": "10 Ω",
+      "d": "5 Ω"
+    },
+    "correctAnswer": "b",
+    "explanation": "তারকে টেনে লম্বা করলে আয়তন স্থির থাকে, সেক্ষেত্রে $$ R \\propto L^2 $$। দৈর্ঘ্য ২ গুণ হলে রোধ ৪ গুণ হবে, অর্থাৎ $$ 10 \\times 4 = 40 \\Omega $$।"
+  },
+  {
+    "id": 19,
+    "subject": "Physics",
+    "topic": "Current Electricity",
+    "question": "হল প্রভাব (Hall Effect) দ্বারা কী নির্ণয় করা যায়?",
+    "options": {
+      "a": "চার্জের প্রকৃতি",
+      "b": "রোধ",
+      "c": "তাপমাত্রা",
+      "d": "ভর"
+    },
+    "correctAnswer": "a",
+    "explanation": "হল প্রভাবের মাধ্যমে কোনো অর্ধপরিবাহীর চার্জ বাহকের প্রকৃতি (পজিটিভ নাকি নেগেটিভ) জানা যায়।"
+  },
+  {
+    "id": 20,
+    "subject": "Physics",
+    "topic": "Current Electricity",
+    "question": "দিক পরিবর্তী প্রবাহের (AC) গড় মান পূর্ণ চক্রে কত?",
+    "options": {
+      "a": "0.637 $$ I_0 $$",
+      "b": "0.707 $$ I_0 $$",
+      "c": "শূন্য",
+      "d": "$$ I_0 $$"
+    },
+    "correctAnswer": "c",
+    "explanation": "পূর্ণ চক্রে ধনাত্মক ও ঋণাত্মক অর্ধাংশের মান সমান ও বিপরীত হওয়ায় গড় মান শূন্য হয়।"
+  },
+  {
+    "id": 21,
+    "subject": "Physics",
+    "topic": "Magnetism",
+    "question": "বায়োস-সাভার্ট সূত্র কোনটির জন্য প্রযোজ্য?",
+    "options": {
+      "a": "স্থির চার্জ",
+      "b": "গতিশীল চার্জ",
+      "c": "চৌম্বক মেরু",
+      "d": "ধারক"
+    },
+    "correctAnswer": "b",
+    "explanation": "তড়িৎবাহী পরিবাহী বা গতিশীল চার্জের কারণে সৃষ্ট চৌম্বক ক্ষেত্র নির্ণয়ে এই সূত্র ব্যবহৃত হয়।"
+  },
+  {
+    "id": 22,
+    "subject": "Physics",
+    "topic": "Vector",
+    "question": "নিচের কোনটি ভেক্টর রাশি?",
+    "options": {
+      "a": "বিভব",
+      "b": "কাজ",
+      "c": "প্রাবল্য",
+      "d": "রোধ"
+    },
+    "correctAnswer": "c",
+    "explanation": "তড়িৎ প্রাবল্য একটি ভেক্টর রাশি কারণ এর নির্দিষ্ট মান ও দিক উভয়ই আছে।"
+  },
+  {
+    "id": 23,
+    "subject": "Physics",
+    "topic": "Optics",
+    "question": "একটি অবতল লেন্সের ফোকাস দূরত্ব 20 cm। এর ক্ষমতা কত?",
+    "options": {
+      "a": "+5 D",
+      "b": "-5 D",
+      "c": "+0.2 D",
+      "d": "-0.2 D"
+    },
+    "correctAnswer": "b",
+    "explanation": "ক্ষমতা $$ P = \\frac{100}{f(cm)} $$। অবতল লেন্সের ফোকাস দূরত্ব ঋণাত্মক, তাই $$ P = -\\frac{100}{20} = -5 D $$।"
+  },
+  {
+    "id": 24,
+    "subject": "Physics",
+    "topic": "Semiconductor",
+    "question": "পরমশূন্য তাপমাত্রায় অর্ধপরিবাহীর আচরণ কেমন?",
+    "options": {
+      "a": "পরিবাহী",
+      "b": "অন্তরক",
+      "c": "অতিপরিবাহী",
+      "d": "সেমিকন্ডাক্টর"
+    },
+    "correctAnswer": "b",
+    "explanation": "পরমশূন্য তাপমাত্রায় যোজন ব্যান্ড থেকে কন্ডাকশন ব্যান্ডে কোনো ইলেকট্রন যেতে পারে না, তাই এটি অন্তরক (Insulator) হিসেবে কাজ করে।"
+  },
+  {
+    "id": 25,
+    "subject": "Physics",
+    "topic": "Nuclear Physics",
+    "question": "তেজস্ক্রীয় মৌলের অর্ধায়ু $$ T_{1/2} $$ এবং ক্ষয় ধ্রুবক $$ \\lambda $$ এর সম্পর্ক কী?",
+    "options": {
+      "a": "$$ T_{1/2} = 0.693 \\lambda $$",
+      "b": "$$ T_{1/2} = \\frac{0.693}{\\lambda} $$",
+      "c": "$$ T_{1/2} = \\lambda $$",
+      "d": "$$ T_{1/2} = \\frac{1}{\\lambda} $$"
+    },
+    "correctAnswer": "b",
+    "explanation": "সূত্রমতে, অর্ধায়ু $$ T_{1/2} = \\frac{\\ln 2}{\\lambda} \\approx \\frac{0.693}{\\lambda} $$।"
+  },
+  {
+    "id": 26,
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "question": "নিচের কোন অরবিটালটি সম্ভব নয়?",
+    "options": {
+      "a": "2d",
+      "b": "3f",
+      "c": "1p",
+      "d": "সবকটি"
+    },
+    "correctAnswer": "d",
+    "explanation": "কোয়ান্টাম সংখ্যা অনুযায়ী ২য় শক্তিস্তরে d, ৩য় শক্তিস্তরে f এবং ১ম শক্তিস্তরে p অরবিটাল থাকা অসম্ভব।"
+  },
+  {
+    "id": 27,
+    "subject": "Chemistry",
+    "topic": "Qualitative Chemistry",
+    "question": "শিখা পরীক্ষায় সোনালি হলুদ বর্ণ দেয় কোন মৌল?",
+    "options": {
+      "a": "K",
+      "b": "Na",
+      "c": "Ca",
+      "d": "Cu"
+    },
+    "correctAnswer": "b",
+    "explanation": "সোডিয়াম (Na) পরমাণু শিখা পরীক্ষায় সোনালি হলুদ বর্ণ প্রদর্শন করে।"
+  },
+  {
+    "id": 28,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "question": "$$ CH_4 $$ অণুতে H-C-H বন্ধন কোণ কত?",
+    "options": {
+      "a": "120°",
+      "b": "109.5°",
+      "c": "107°",
+      "d": "180°"
+    },
+    "correctAnswer": "b",
+    "explanation": "মিথেন অণুতে কার্বন $$ sp^3 $$ সংকরায়িত এবং কোনো মুক্তজোড় ইলেকট্রন না থাকায় এর গঠন সুষম চতুষ্তলকীয় ও কোণ 109.5°।"
+  },
+  {
+    "id": 29,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "question": "নিচের কোনটি লুইস এসিড?",
+    "options": {
+      "a": "$$ NH_3 $$",
+      "b": "$$ BF_3 $$",
+      "c": "$$ H_2O $$",
+      "d": "$$ Cl^- $$"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$ BF_3 $$ অণুতে বোরনের অষ্টক অপূর্ণ থাকায় এটি ইলেকট্রন জোড় গ্রহণ করতে পারে, তাই এটি লুইস এসিড।"
+  },
+  {
+    "id": 30,
+    "subject": "Chemistry",
+    "topic": "Environmental Chemistry",
+    "question": "মানবদেহে রক্তের pH কত?",
+    "options": {
+      "a": "6.5",
+      "b": "7.0",
+      "c": "7.4",
+      "d": "8.2"
+    },
+    "correctAnswer": "c",
+    "explanation": "মানুষের রক্তের স্বাভাবিক pH মান সামান্য ক্ষারীয়, যা প্রায় 7.4।"
+  },
+  {
+    "id": 31,
+    "subject": "Chemistry",
+    "topic": "Quantitative Chemistry",
+    "question": "0.1 M HCl দ্রবণের pH কত?",
+    "options": {
+      "a": "0.1",
+      "b": "1",
+      "c": "10",
+      "d": "13"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$ pH = -\\log[H^+] = -\\log(0.1) = 1 $$।"
+  },
+  {
+    "id": 32,
+    "subject": "Chemistry",
+    "topic": "Quantitative Chemistry",
+    "question": "নিচের কোনটি প্রাইমারি স্ট্যান্ডার্ড পদার্থ?",
+    "options": {
+      "a": "HCl",
+      "b": "$$ H_2SO_4 $$",
+      "c": "$$ KMnO_4 $$",
+      "d": "$$ Na_2CO_3 $$"
+    },
+    "correctAnswer": "d",
+    "explanation": "সোডিয়াম কার্বনেট একটি প্রাইমারি স্ট্যান্ডার্ড পদার্থ কারণ এটি বিশুদ্ধ অবস্থায় পাওয়া যায় এবং বায়ুর উপাদান দ্বারা আক্রান্ত হয় না।"
+  },
+  {
+    "id": 33,
+    "subject": "Chemistry",
+    "topic": "Environmental Chemistry",
+    "question": "'গ্রিন হাউস' প্রভাবের জন্য প্রধানত দায়ী গ্যাস কোনটি?",
+    "options": {
+      "a": "$$ N_2 $$",
+      "b": "$$ O_2 $$",
+      "c": "$$ CO_2 $$",
+      "d": "$$ He $$"
+    },
+    "correctAnswer": "c",
+    "explanation": "কার্বন ডাই-অক্সাইড ($$ CO_2 $$) বায়ুমন্ডলের প্রধান গ্রিনহাউস গ্যাস যা ভূ-পৃষ্ঠের তাপমাত্রা বৃদ্ধিতে মূখ্য ভূমিকা রাখে।"
+  },
+  {
+    "id": 34,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "প্রোপানোন ও আয়োডিনের বিক্রিয়ায় হলুদ অধঃক্ষেপ পড়ে। এটি কিসের পরীক্ষা?",
+    "options": {
+      "a": "লুকাস পরীক্ষা",
+      "b": "আয়োডোফর্ম পরীক্ষা",
+      "c": "টলেন বিকারক",
+      "d": "ফেহলিং দ্রবণ"
+    },
+    "correctAnswer": "b",
+    "explanation": "প্রোপানোনে কিটো-মিথাইল মূলক ($$ CH_3CO- $$) থাকায় এটি হ্যালোফর্ম বা আয়োডোফর্ম বিক্রিয়ায় হলুদ বর্ণের আয়োডোফর্ম উৎপন্ন করে।"
+  },
+  {
+    "id": 35,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "ফরমালিন হলো ফরমালডিহাইডের কত শতাংশ জলীয় দ্রবণ?",
+    "options": {
+      "a": "১০%",
+      "b": "২০%",
+      "c": "৪০%",
+      "d": "১০০%"
+    },
+    "correctAnswer": "c",
+    "explanation": "ফরমালডিহাইডের ৪০% জলীয় দ্রবণকে ফরমালিন বলা হয়।"
+  },
+  {
+    "id": 36,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "question": "ইথাইন ($$ HC \\equiv CH $$) অণুতে কয়টি সিগমা ও পাই বন্ধন আছে?",
+    "options": {
+      "a": "২ সিগমা, ২ পাই",
+      "b": "৩ সিগমা, ১ পাই",
+      "c": "৩ সিগমা, ২ পাই",
+      "d": "৫ সিগমা"
+    },
+    "correctAnswer": "c",
+    "explanation": "ইথাইনে দুটি C-H একক বন্ধন (২ সিগমা) এবং একটি C-C ত্রিবন্ধন (১ সিগমা, ২ পাই) আছে। মোট ৩টি সিগমা ও ২টি পাই বন্ধন।"
+  },
+  {
+    "id": 37,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "নিচের কোনটি ইলেকট্রোফাইল?",
+    "options": {
+      "a": "$$ NH_3 $$",
+      "b": "$$ H_2O $$",
+      "c": "$$ AlCl_3 $$",
+      "d": "$$ CN^- $$"
+    },
+    "correctAnswer": "c",
+    "explanation": "$$ AlCl_3 $$ এর কেন্দ্রীয় পরমাণুর অষ্টক অপূর্ণ থাকায় এটি ইলেকট্রন আকর্ষী বিকারক বা ইলেকট্রোফাইল হিসেবে কাজ করে।"
+  },
+  {
+    "id": 38,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "$$ S_N2 $$ বিক্রিয়া কয় ধাপে সম্পন্ন হয়?",
+    "options": {
+      "a": "১ ধাপ",
+      "b": "২ ধাপ",
+      "c": "৩ ধাপ",
+      "d": "বহু ধাপ"
+    },
+    "correctAnswer": "a",
+    "explanation": "S_N2 বিক্রিয়া একটি মাত্র ধাপে অন্তর্বর্তী জটিল অবস্থা তৈরির মাধ্যমে সম্পন্ন হয়।"
+  },
+  {
+    "id": 39,
+    "subject": "Chemistry",
+    "topic": "Biochemistry",
+    "question": "দুধে কোন প্রোটিন থাকে?",
+    "options": {
+      "a": "গ্লুটেন",
+      "b": "কেসিন",
+      "c": "অ্যালবুমিন",
+      "d": "কেরাটিন"
+    },
+    "correctAnswer": "b",
+    "explanation": "কেসিন (Casein) হলো দুধের প্রধান প্রোটিন।"
+  },
+  {
+    "id": 40,
+    "subject": "Chemistry",
+    "topic": "Redox Reaction",
+    "question": "নিচের কোনটি জারক ও বিজারক উভয় হিসেবে কাজ করে?",
+    "options": {
+      "a": "$$ KMnO_4 $$",
+      "b": "$$ H_2S $$",
+      "c": "$$ H_2O_2 $$",
+      "d": "$$ K_2Cr_2O_7 $$"
+    },
+    "correctAnswer": "c",
+    "explanation": "হাইড্রোজেন পার-অক্সাইড ($$ H_2O_2 $$) বিক্রিয়া ভেদে ইলেকট্রন গ্রহণ বা বর্জন করতে পারে, তাই এটি জারক ও বিজারক উভয়ই।"
+  },
+  {
+    "id": 41,
+    "subject": "Chemistry",
+    "topic": "Gaseous State",
+    "question": "STP তে ১ মোল গ্যাসের আয়তন কত?",
+    "options": {
+      "a": "২২.৪ লিটার",
+      "b": "২৪.৪ লিটার",
+      "c": "২২.৮ লিটার",
+      "d": "২০ লিটার"
+    },
+    "correctAnswer": "a",
+    "explanation": "প্রমাণ তাপমাত্রা ও চাপে (STP) যেকোনো আদর্শ গ্যাসের মোলার আয়তন ২২.৪ লিটার।"
+  },
+  {
+    "id": 42,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "question": "কোনটি অবস্থান্তর মৌল নয়?",
+    "options": {
+      "a": "Fe",
+      "b": "Co",
+      "c": "Zn",
+      "d": "Ni"
+    },
+    "correctAnswer": "c",
+    "explanation": "জিংক (Zn) এর সুস্থিত আয়ন $$ Zn^{2+} $$ এ d-অরবিটাল পূর্ণ ($$ d^{10} $$) থাকে, তাই এটি অবস্থান্তর মৌল নয়।"
+  },
+  {
+    "id": 43,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "ভিনেগারের রাসায়নিক নাম কী?",
+    "options": {
+      "a": "ইথানল",
+      "b": "ইথানয়িক এসিড",
+      "c": "মিথানয়িক এসিড",
+      "d": "সাইট্রিক এসিড"
+    },
+    "correctAnswer": "b",
+    "explanation": "ইথানয়িক এসিডের (অ্যাসিটিক এসিড) ৬-১০% জলীয় দ্রবণকে ভিনেগার বলে।"
+  },
+  {
+    "id": 44,
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "question": "লাফিং গ্যাস কোনটি?",
+    "options": {
+      "a": "NO",
+      "b": "$$ NO_2 $$",
+      "c": "$$ N_2O $$",
+      "d": "$$ N_2O_5 $$"
+    },
+    "correctAnswer": "c",
+    "explanation": "নাইট্রাস অক্সাইড ($$ N_2O $$) কে লাফিং গ্যাস বলা হয়।"
+  },
+  {
+    "id": 45,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "question": "নিচের কোনটির ইলেকট্রন আসক্তি সবচেয়ে বেশি?",
+    "options": {
+      "a": "F",
+      "b": "Cl",
+      "c": "Br",
+      "d": "I"
+    },
+    "correctAnswer": "b",
+    "explanation": "ফ্লোরিনের ইলেকট্রন ঘনত্ব বেশি হওয়ায় আগত ইলেকট্রনের প্রতি বিকর্ষণ কাজ করে, তাই ক্লোরিনের (Cl) ইলেকট্রন আসক্তি হ্যালোজেনগুলোর মধ্যে সর্বাধিক।"
+  },
+  {
+    "id": 46,
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "question": "কোনটি মৃদু তড়িৎ বিশ্লেষ্য?",
+    "options": {
+      "a": "NaCl",
+      "b": "HCl",
+      "c": "$$ CH_3COOH $$",
+      "d": "NaOH"
+    },
+    "correctAnswer": "c",
+    "explanation": "অ্যাসিটিক এসিড একটি দুর্বল জৈব এসিড যা জলীয় দ্রবণে আংশিক বিয়োজিত হয়, তাই এটি মৃদু তড়িৎ বিশ্লেষ্য।"
+  },
+  {
+    "id": 47,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "বেনজিনে কয়টি π ইলেকট্রন থাকে?",
+    "options": {
+      "a": "৩",
+      "b": "৪",
+      "c": "৬",
+      "d": "১২"
+    },
+    "correctAnswer": "c",
+    "explanation": "বেনজিনে ৩টি পাই বন্ধন থাকে, ফলে পাই ইলেকট্রন সংখ্যা ৬টি।"
+  },
+  {
+    "id": 48,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "গ্লুকোজে কয়টি কাইরাল কার্বন আছে?",
+    "options": {
+      "a": "৩",
+      "b": "৪",
+      "c": "৫",
+      "d": "৬"
+    },
+    "correctAnswer": "b",
+    "explanation": "অ্যালডোহেক্সোজ হিসেবে গ্লুকোজের মুক্ত শিকল কাঠামোতে ৪টি অপ্রতিসম বা কাইরাল কার্বন থাকে।"
+  },
+  {
+    "id": 49,
+    "subject": "Chemistry",
+    "topic": "Polymer",
+    "question": "নিচের কোনটি প্রাকৃতিক পলিমার?",
+    "options": {
+      "a": "নাইলন",
+      "b": "পিভিসি",
+      "c": "সেলুলোজ",
+      "d": "পলিথিন"
+    },
+    "correctAnswer": "c",
+    "explanation": "সেলুলোজ একটি প্রাকৃতিক পলিস্যাকারাইড যা উদ্ভিদদেহে পাওয়া যায়। বাকিগুলো কৃত্রিম পলিমার।"
+  },
+  {
+    "id": 50,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "সাবানায়ন বিক্রিয়ায় উপজাত হিসেবে কী পাওয়া যায়?",
+    "options": {
+      "a": "ফ্যাটি এসিড",
+      "b": "গ্লিসারিন",
+      "c": "ইথানল",
+      "d": "এস্টার"
+    },
+    "correctAnswer": "b",
+    "explanation": "তেল বা চর্বির ক্ষারীয় আর্দ্র বিশ্লেষণে (সাবানায়ন) সাবানের সাথে উপজাত হিসেবে গ্লিসারিন উৎপন্ন হয়।"
+  },
+  {
+    "id": 51,
+    "subject": "ICT",
+    "topic": "Number System",
+    "question": "(101101)_2 এর সমকক্ষ দশমিক মান কত?",
+    "options": {
+      "a": "45",
+      "b": "44",
+      "c": "46",
+      "d": "43"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$ (1 \\times 32) + (0 \\times 16) + (1 \\times 8) + (1 \\times 4) + (0 \\times 2) + (1 \\times 1) = 32 + 8 + 4 + 1 = 45 $$।"
+  },
+  {
+    "id": 52,
+    "subject": "ICT",
+    "topic": "Logic Gates",
+    "question": "কোন গেইটকে 'সর্বজনীন গেইট' বলা হয়?",
+    "options": {
+      "a": "AND",
+      "b": "OR",
+      "c": "NAND",
+      "d": "XOR"
+    },
+    "correctAnswer": "c",
+    "explanation": "NAND এবং NOR গেইট দিয়ে অন্য সকল মৌলিক গেইট তৈরি করা যায় বলে এদের সর্বজনীন গেইট বলে।"
+  },
+  {
+    "id": 53,
+    "subject": "ICT",
+    "topic": "Programming",
+    "question": "সি ভাষায় ডেটা টাইপ float এর জন্য মেমোরিতে কত বাইট জায়গা লাগে?",
+    "options": {
+      "a": "২",
+      "b": "৪",
+      "c": "৮",
+      "d": "১"
+    },
+    "correctAnswer": "b",
+    "explanation": "সি প্রোগ্রামিং ল্যাঙ্গুয়েজে float ডেটা টাইপের জন্য সাধারণত ৪ বাইট (৩২ বিট) জায়গা বরাদ্দ থাকে।"
+  },
+  {
+    "id": 54,
+    "subject": "ICT",
+    "topic": "Web Design",
+    "question": "ওয়েবসাইটের একক ঠিকানাকে কী বলা হয়?",
+    "options": {
+      "a": "HTTP",
+      "b": "HTML",
+      "c": "URL",
+      "d": "Server"
+    },
+    "correctAnswer": "c",
+    "explanation": "URL (Uniform Resource Locator) হলো একটি ওয়েব রিসোর্সের ইউনিক অ্যাড্রেস।"
+  },
+  {
+    "id": 55,
+    "subject": "ICT",
+    "topic": "Logic Gates",
+    "question": "A=1, B=1 হলে XOR গেইটের আউটপুট কত?",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "10",
+      "d": "সংজ্ঞায়িত নয়"
+    },
+    "correctAnswer": "a",
+    "explanation": "XOR গেটে ইনপুট বিজোড় সংখ্যক ১ হলে আউটপুট ১ হয়, জোড় সংখ্যক ১ থাকলে ০। এখানে দুটি ১ থাকায় আউটপুট ০।"
+  },
+  {
+    "id": 56,
+    "subject": "Mathematics",
+    "topic": "Calculus",
+    "question": "limit x → 0 (sin 3x / x) এর মান কত?",
+    "options": {
+      "a": "1",
+      "b": "3",
+      "c": "1/3",
+      "d": "0"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$ \\lim_{x \\to 0} 3 \\cdot \\frac{\\sin 3x}{3x} = 3 \\times 1 = 3 $$।"
+  },
+  {
+    "id": 57,
+    "subject": "Mathematics",
+    "topic": "Integration",
+    "question": "∫_0^(π/2) cos² x dx এর মান কত?",
+    "options": {
+      "a": "π/2",
+      "b": "π/4",
+      "c": "1",
+      "d": "0"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$ \\frac{1}{2} \\int_0^{\\pi/2} (1 + \\cos 2x) dx = \\frac{1}{2} [x + \\frac{\\sin 2x}{2}]_0^{\\pi/2} = \\frac{1}{2} \\times \\frac{\\pi}{2} = \\frac{\\pi}{4} $$।"
+  },
+  {
+    "id": 58,
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "question": "x² + y² - 4x + 6y - 12 = 0 বৃত্তের ব্যাসার্ধ কত?",
+    "options": {
+      "a": "4",
+      "b": "5",
+      "c": "6",
+      "d": "7"
+    },
+    "correctAnswer": "b",
+    "explanation": "কেন্দ্র (2, -3) এবং ব্যাসার্ধ $$ r = \\sqrt{2^2 + (-3)^2 - (-12)} = \\sqrt{4 + 9 + 12} = \\sqrt{25} = 5 $$।"
+  },
+  {
+    "id": 59,
+    "subject": "Mathematics",
+    "topic": "Matrix",
+    "question": "ম্যাট্রিক্স A = [[2, k], [3, 6]] ব্যতিক্রর্মী হলে k এর মান কত?",
+    "options": {
+      "a": "2",
+      "b": "3",
+      "c": "4",
+      "d": "6"
+    },
+    "correctAnswer": "c",
+    "explanation": "ব্যতিক্রর্মী ম্যাট্রিক্সের নির্ণায়ক শূন্য হয়। সুতরাং, $$ (2 \\times 6) - (3 \\times k) = 0 \\Rightarrow 12 = 3k \\Rightarrow k = 4 $$।"
+  },
+  {
+    "id": 60,
+    "subject": "Mathematics",
+    "topic": "Complex Number",
+    "question": "(1+i) এর আর্গুমেন্ট কত?",
+    "options": {
+      "a": "30°",
+      "b": "45°",
+      "c": "60°",
+      "d": "90°"
+    },
+    "correctAnswer": "b",
+    "explanation": "আর্গুমেন্ট $$ \\theta = \\tan^{-1}(y/x) = \\tan^{-1}(1/1) = 45^{\\circ} $$।"
+  },
+  {
+    "id": 61,
+    "subject": "Mathematics",
+    "topic": "Probability",
+    "question": "একটি ছক্কা নিক্ষেপে জোড় সংখ্যা পড়ার সম্ভাবনা কত?",
+    "options": {
+      "a": "1/2",
+      "b": "1/3",
+      "c": "1/6",
+      "d": "2/3"
+    },
+    "correctAnswer": "a",
+    "explanation": "অনুকূল ফলাফল {2, 4, 6} (৩টি), মোট ফলাফল {1-6} (৬টি)। সম্ভাবনা = 3/6 = 1/2।"
+  },
+  {
+    "id": 62,
+    "subject": "Mathematics",
+    "topic": "Integration",
+    "question": "y = x² এবং y = 4 দ্বারা আবদ্ধ ক্ষেত্রের ক্ষেত্রফল কত?",
+    "options": {
+      "a": "16/3",
+      "b": "32/3",
+      "c": "8",
+      "d": "64/3"
+    },
+    "correctAnswer": "b",
+    "explanation": "ক্ষেত্রফল $$ 2 \\int_0^4 \\sqrt{y} dy = 2 [\\frac{2}{3}y^{3/2}]_0^4 = \\frac{4}{3} \\times 8 = 32/3 $$।"
+  },
+  {
+    "id": 63,
+    "subject": "Mathematics",
+    "topic": "Differentiation",
+    "question": "d/dx(tan⁻¹ x + cot⁻¹ x) =?",
+    "options": {
+      "a": "π/2",
+      "b": "1",
+      "c": "0",
+      "d": "2/(1+x²)"
+    },
+    "correctAnswer": "c",
+    "explanation": "যেহেতু $$ \\tan^{-1}x + \\cot^{-1}x = \\pi/2 $$ (ধ্রুবক), এর অন্তরজ শূন্য হয়।"
+  },
+  {
+    "id": 64,
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "question": "3x - 4y + 10 = 0 এবং 3x - 4y - 10 = 0 রেখাদ্বয়ের মধ্যবর্তী দূরত্ব কত?",
+    "options": {
+      "a": "2",
+      "b": "4",
+      "c": "5",
+      "d": "20/5"
+    },
+    "correctAnswer": "b",
+    "explanation": "দূরত্ব $$ d = \\frac{|10 - (-10)|}{\\sqrt{3^2 + 4^2}} = \\frac{20}{5} = 4 $$।"
+  },
+  {
+    "id": 65,
+    "subject": "Mathematics",
+    "topic": "Differentiation",
+    "question": "y = ln(sin x) হলে dy/dx কত?",
+    "options": {
+      "a": "sin x",
+      "b": "cos x",
+      "c": "cot x",
+      "d": "tan x"
+    },
+    "correctAnswer": "c",
+    "explanation": "$$ \\frac{dy}{dx} = \\frac{1}{\\sin x} \\cdot \\cos x = \\cot x $$।"
+  },
+  {
+    "id": 66,
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "question": "মূলবিন্দুগামী এবং x-অক্ষের ধনাত্মক দিকের সাথে 45° কোণ উৎপন্নকারী সরলরেখার সমীকরণ কোনটি?",
+    "options": {
+      "a": "y = x",
+      "b": "y = -x",
+      "c": "x + y = 0",
+      "d": "y = √3x"
+    },
+    "correctAnswer": "a",
+    "explanation": "ঢাল $$ m = \\tan 45^{\\circ} = 1 $$। সমীকরণ $$ y = mx \\Rightarrow y = 1x \\Rightarrow y = x $$।"
+  },
+  {
+    "id": 67,
+    "subject": "Mathematics",
+    "topic": "Vector",
+    "question": "ভেক্টর A = 2i - j + 2k বরাবর একক ভেক্টর কোনটি?",
+    "options": {
+      "a": "(2i - j + 2k)/3",
+      "b": "(2i - j + 2k)/9",
+      "c": "2i - j + 2k",
+      "d": "i - j + k"
+    },
+    "correctAnswer": "a",
+    "explanation": "মান $$ |A| = \\sqrt{2^2 + (-1)^2 + 2^2} = \\sqrt{9} = 3 $$। একক ভেক্টর $$ \\hat{a} = \\frac{\\vec{A}}{|A|} = \\frac{2\\hat{i} - \\hat{j} + 2\\hat{k}}{3} $$।"
+  },
+  {
+    "id": 68,
+    "subject": "Mathematics",
+    "topic": "Calculus",
+    "question": "f(x) = x³ - 3x² + 2x ফাংশনটির x এর কোন মানের জন্য সর্বোচ্চ মান পাওয়া যাবে?",
+    "options": {
+      "a": "1 ± 1/√3",
+      "b": "1",
+      "c": "2",
+      "d": "0"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$ f'(x) = 3x^2 - 6x + 2 $$। চরম মানের জন্য $$ f'(x) = 0 \\Rightarrow 3x^2 - 6x + 2 = 0 \\Rightarrow x = \\frac{6 \\pm \\sqrt{36 - 24}}{6} = 1 \\pm \\frac{1}{\\sqrt{3}} $$।"
+  },
+  {
+    "id": 69,
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "question": "কোষের 'পাওয়ার হাউস' কোনটি?",
+    "options": {
+      "a": "নিউক্লিয়াস",
+      "b": "মাইটোকন্ড্রিয়া",
+      "c": "গলগি বডি",
+      "d": "রাইবোজোম"
+    },
+    "correctAnswer": "b",
+    "explanation": "মাইটোকন্ড্রিয়াতে শ্বসন প্রক্রিয়ায় শক্তি উৎপন্ন হয় বলে একে কোষের পাওয়ার হাউস বলে।"
+  },
+  {
+    "id": 70,
+    "subject": "Biology",
+    "topic": "Molecular Biology",
+    "question": "ডিএনএ (DNA) তে নিচের কোন ক্ষারকটি থাকে না?",
+    "options": {
+      "a": "অ্যাডেনিন",
+      "b": "গুয়ানিন",
+      "c": "ইউরাসিল",
+      "d": "সাইটোসিন"
+    },
+    "correctAnswer": "c",
+    "explanation": "DNA-তে থায়ামিন থাকে, কিন্তু আরএনএ (RNA)-তে থায়ামিনের পরিবর্তে ইউরাসিল থাকে।"
+  },
+  {
+    "id": 71,
+    "subject": "Biology",
+    "topic": "Human Body",
+    "question": "মানবদেহে মোট হাড়ের সংখ্যা কত?",
+    "options": {
+      "a": "২০৬",
+      "b": "২০৮",
+      "c": "৩০০",
+      "d": "২০২"
+    },
+    "correctAnswer": "a",
+    "explanation": "প্রাপ্তবয়স্ক একজন মানুষের কঙ্কালতন্ত্র ২০৬টি হাড় দিয়ে গঠিত।"
+  },
+  {
+    "id": 72,
+    "subject": "Biology",
+    "topic": "Physiology",
+    "question": "রক্ত জমাট বাঁধতে সাহায্য করে কোন কণিকা?",
+    "options": {
+      "a": "লোহিত রক্তকণিকা",
+      "b": "শ্বেত রক্তকণিকা",
+      "c": "অণুচক্রিকা",
+      "d": "প্লাজমা"
+    },
+    "correctAnswer": "c",
+    "explanation": "অণুচক্রিকা বা প্লাটিলেট রক্ত তঞ্চনে মূখ্য ভূমিকা পালন করে।"
+  },
+  {
+    "id": 73,
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "question": "উদ্ভিদ কোষ প্রাচীরের প্রধান উপাদান কী?",
+    "options": {
+      "a": "কাইটিন",
+      "b": "সেলুলোজ",
+      "c": "প্রোটিন",
+      "d": "লিপিড"
+    },
+    "correctAnswer": "b",
+    "explanation": "সেলুলোজ হলো উদ্ভিদ কোষ প্রাচীরের গাঠনিক প্রধান পলিস্যাকারাইড।"
+  },
+  {
+    "id": 74,
+    "subject": "Biology",
+    "topic": "Endocrine System",
+    "question": "কোনটিকে 'মাস্টার গ্ল্যান্ড' বলা হয়?",
+    "options": {
+      "a": "থাইরয়েড",
+      "b": "পিটুইটারি",
+      "c": "অ্যাড্রেনাল",
+      "d": "অগ্ন্যাশয়"
+    },
+    "correctAnswer": "b",
+    "explanation": "পিটুইটারি গ্রন্থি শরীরের অন্যান্য অনেক গ্রন্থির ক্ষরণ নিয়ন্ত্রণ করে বলে একে 'মাস্টার গ্ল্যান্ড' বা প্রভু গ্রন্থি বলে।"
+  },
+  {
+    "id": 75,
+    "subject": "Biology",
+    "topic": "Metabolism",
+    "question": "গ্লাইকোলাইসিস প্রক্রিয়ায় কত অণু ATP তৈরি হয় (নিট)?",
+    "options": {
+      "a": "২",
+      "b": "৪",
+      "c": "৩৬",
+      "d": "৩৮"
+    },
+    "correctAnswer": "a",
+    "explanation": "গ্লাইকোলাইসিসে ৪টি ATP উৎপন্ন হলেও ২টিকে খরচ করতে হয়, তাই নিট উৎপাদন ২ অণু ATP।"
+  },
+  {
+    "id": 76,
+    "subject": "Biology",
+    "topic": "Botany",
+    "question": "ম্যালভিসি গোত্রের শনাক্তকারী বৈশিষ্ট্য কোনটি?",
+    "options": {
+      "a": "পরাগধানী বৃক্কাকার",
+      "b": "পরাগধানী সর্বমুখ",
+      "c": "পুষ্পপুট উপস্থিত",
+      "d": "ফুল ট্রাইমেরাস"
+    },
+    "correctAnswer": "a",
+    "explanation": "ম্যালভিসি (যেমন জবা) গোত্রের একটি প্রধান বৈশিষ্ট্য হলো একপ্রকোষ্ঠী ও বৃক্কাকার পরাগধানী।"
+  },
+  {
+    "id": 77,
+    "subject": "Biology",
+    "topic": "Zoology",
+    "question": "রুই মাছের হৃৎপিণ্ড কয় প্রকোষ্ঠ বিশিষ্ট?",
+    "options": {
+      "a": "২",
+      "b": "৩",
+      "c": "৪",
+      "d": "অসম্পূর্ণ ৪"
+    },
+    "correctAnswer": "a",
+    "explanation": "মাছের হৃৎপিণ্ড সাধারণত একটি অলিন্দ ও একটি নিলয় নিয়ে গঠিত (২ প্রকোষ্ঠ)।"
+  },
+  {
+    "id": 78,
+    "subject": "Biology",
+    "topic": "Botany",
+    "question": "নিচের কোনটি ফার্ন জাতীয় উদ্ভিদ?",
+    "options": {
+      "a": "Riccia",
+      "b": "Agaricus",
+      "c": "Pteris",
+      "d": "Moss"
+    },
+    "correctAnswer": "c",
+    "explanation": "Pteris (ঢেঁকিশাক) একটি সুপরিচিত টেরিডোফাইট বা ফার্ন জাতীয় উদ্ভিদ।"
+  },
+  {
+    "id": 79,
+    "subject": "Biology",
+    "topic": "Physiology",
+    "question": "সর্বজনীন রক্ত দাতা কোন গ্রুপ?",
+    "options": {
+      "a": "A",
+      "b": "B",
+      "c": "AB",
+      "d": "O"
+    },
+    "correctAnswer": "d",
+    "explanation": "O রক্ত গ্রুপে কোনো অ্যান্টিজেন না থাকায় এটি অন্য সকল গ্রুপকে রক্ত দিতে পারে।"
+  },
+  {
+    "id": 80,
+    "subject": "Biology",
+    "topic": "Genetics",
+    "question": "জীনতত্ত্বের জনক কে?",
+    "options": {
+      "a": "ডারউইন",
+      "b": "মেন্ডেল",
+      "c": "ল্যামার্ক",
+      "d": "ওয়াটসন"
+    },
+    "correctAnswer": "b",
+    "explanation": "গ্রেগর জোহান মেন্ডেলকে তার মটরশুঁটি নিয়ে গবেষণার জন্য জীনতত্ত্বের জনক বলা হয়।"
+  }
+]
