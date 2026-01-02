@@ -100,16 +100,22 @@ function SubmissionsTable({
 
   function formatDate(timestamp) {
     const date = new Date(timestamp)
-    const timeStr = date.toLocaleString('bn-BD', {
-      hour: '2-digit',
+    return date.toLocaleDateString('en-GB', {
+      day: 'numeric',
+      month: 'short'
+    })
+  }
+
+  function formatFullDate(timestamp) {
+    const date = new Date(timestamp)
+    return date.toLocaleString('en-GB', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric',
+      hour: 'numeric',
       minute: '2-digit',
       hour12: true
     })
-    const dateStr = date.toLocaleString('bn-BD', {
-      day: 'numeric',
-      month: 'long'
-    })
-    return `${timeStr}; ${dateStr}`
   }
 
   function getElapsedTime(timestamp) {
@@ -202,7 +208,7 @@ function SubmissionsTable({
         subjectName: selectedSubmission.studentName || 'Unknown',
         studentId: selectedSubmission.studentId || 'N/A',
         examInfo: {
-          timestamp: formatDate(selectedSubmission.timestamp),
+          timestamp: formatFullDate(selectedSubmission.timestamp),
           timestampRaw: selectedSubmission.timestamp,
           questionFile: selectedSubmission.questionFile || 'questions.json'
         },
@@ -249,15 +255,14 @@ function SubmissionsTable({
       const blob = new Blob([jsonString], { type: 'application/json' })
       const url = URL.createObjectURL(blob)
       const link = document.createElement('a')
-      const timestamp = new Date().toLocaleString('en-US', {
+      const timestamp = new Date().toLocaleString('en-GB', {
+        day: 'numeric',
+        month: 'long',
         year: 'numeric',
-        month: '2-digit',
-        day: '2-digit',
-        hour: '2-digit',
+        hour: 'numeric',
         minute: '2-digit',
-        second: '2-digit',
-        hour12: false
-      }).replace(/[/:,\s]/g, '-')
+        hour12: true
+      })
 
       link.href = url
       link.download = `${selectedSubmission?.studentName || 'student'}.json`
