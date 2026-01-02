@@ -6,10 +6,13 @@ export default async function handler(req, res) {
     try {
         const isDev = !process.env.VERCEL
 
+        // Add timestamp to bypass GitHub's aggressive caching (5-minute cache)
+        const cacheBuster = `?t=${Date.now()}`
+
         // Get the config URL - from GitHub on Vercel, local in dev
         const configUrl = isDev
-            ? '/exam-config.json'
-            : 'https://raw.githubusercontent.com/maruf7705/25MCQ/main/exam-config.json'
+            ? `/exam-config.json${cacheBuster}`
+            : `https://raw.githubusercontent.com/maruf7705/25MCQ/main/exam-config.json${cacheBuster}`
 
         let config;
 
@@ -35,6 +38,7 @@ export default async function handler(req, res) {
             config = await response.json()
         } catch (fetchError) {
             // Config doesn't exist or network error, return default
+            console.warn('Config fetch error:', fetchError)
             return res.status(200).json({
                 activeFile: 'questions.json',
                 setAt: null,
