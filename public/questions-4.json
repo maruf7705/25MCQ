@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "১. এসএন ২ ($$S_N2$$) বিক্রিয়ার সক্রিয়তার ক্রম কোনটি (অ্যালকাইল হ্যালাইড)?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$1^\\circ > 2^\\circ > 3^\\circ$$",
+      "b": "$$3^\\circ > 2^\\circ > 1^\\circ$$",
+      "c": "$$2^\\circ > 1^\\circ > 3^\\circ$$",
+      "d": "সব সমান"
+    },
+    "correctAnswer": "a",
+    "explanation": " \n $$S_N2$$ বিক্রিয়া এক ধাপে ঘটে। অ্যালকাইল গ্রুপ যত ছোট হয় (যেমন $$1^\\circ$$), স্টেরিক বাধা কম থাকায় নিউক্লিওফাইল সহজে আক্রমণ করতে পারে। তাই সক্রিয়তার ক্রম: মিথাইল > প্রাইমারি > সেকেন্ডারি > টারশিয়ারি।"
+  },
+  {
+    "id": 2,
+    "subject": "Chemistry",
+    "topic": "Applied Chemistry",
+    "question": "২. গ্লাস ক্লিনারের প্রধান উপাদান কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$NaOH$$",
+      "b": "$$NH_3$$ দ্রবণ",
+      "c": "$$HCl$$",
+      "d": "$$NaCl$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "গ্লাস ক্লিনারে অ্যামোনিয়া লিকার বা অ্যামোনিয়াম হাইড্রক্সাইড ($$NH_4OH$$) ব্যবহৃত হয়, যা কাঁচের গায়ের গ্রিজ ও ময়লা পরিষ্কার করতে অত্যন্ত কার্যকর।"
+  },
+  {
+    "id": 3,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "৩. বেনজিন বলয়ে $$-OH$$ মূলক থাকলে সেটি কোন নির্দেশক?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "মেটা নির্দেশক",
+      "b": "অর্থো-প্যারা নির্দেশক",
+      "c": "নিষ্ক্রিয়কারী",
+      "d": "কোনটিই নয়"
+    },
+    "correctAnswer": "b",
+    "explanation": " \n হাইড্রোক্সিল মূলক ($$-OH$$) বেনজিন বলয়ে ইলেকট্রন ঘনত্ব বৃদ্ধি করে (পজিটিভ মেসোমারিক প্রভাব)। ফলে ইলেকট্রন-আকর্ষী প্রতিস্থাপন বিক্রিয়া অর্থো এবং প্যারা অবস্থানে ঘটে।"
+  },
+  {
+    "id": 4,
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "question": "৪. সিলভার দর্পণ পরীক্ষা দেয় কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "গ্লুকোজ",
+      "b": "সুক্রোজ",
+      "c": "স্টার্চ",
+      "d": "সেলুলোজ"
+    },
+    "correctAnswer": "a",
+    "explanation": " \n গ্লুকোজ একটি বিজারক চিনি এবং এতে অ্যালডিহাইড মূলক বিদ্যমান। এটি টলেন বিকারককে বিজারিত করে সিলভার দর্পণ তৈরি করে।"
+  },
+  {
+    "id": 5,
+    "subject": "Chemistry",
+    "topic": "Transition Elements",
+    "question": "৫. কোনটি প্যারাচৌম্বকীয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$Cu^+$$",
+      "b": "$$Zn^{2+}$$",
+      "c": "$$Fe^{3+}$$",
+      "d": "$$Sc^{3+}$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "$$Fe^{3+}$$ আয়নের ইলেকট্রন বিন্যাসে $$3d^5$$ অরবিটালে ৫টি বিজোড় ইলেকট্রন থাকে। বিজোড় ইলেকট্রন থাকায় এটি প্যারাচৌম্বকীয় ধর্ম প্রদর্শন করে।"
+  },
+  {
+    "id": 6,
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "question": "৬. ভারী পানির সংকেত কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$H_2O$$",
+      "b": "$$D_2O$$",
+      "c": "$$T_2O$$",
+      "d": "$$H_2O_2$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "হাইড্রোজেনের আইসোটোপ ডিউটেরিয়াম ($$D$$) দ্বারা গঠিত পানিকে ($$D_2O$$) ভারী পানি বলা হয়। এটি পারমাণবিক চুল্লিতে মডারেটর হিসেবে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 7,
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "question": "৭. হিলিয়াম পরমাণুর ভর কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "২",
+      "b": "৪",
+      "c": "১",
+      "d": "৮"
+    },
+    "correctAnswer": "b",
+    "explanation": "হিলিয়াম পরমাণুর নিউক্লিয়াসে ২টি প্রোটন এবং ২টি নিউট্রন থাকে, তাই এর ভর সংখ্যা ৪।"
+  },
+  {
+    "id": 8,
+    "subject": "Chemistry",
+    "topic": "Polymers",
+    "question": "৮. কোনটি প্রাকৃতিক পলিমার?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "নাইলন",
+      "b": "পলিথিন",
+      "c": "সেলুলোজ",
+      "d": "পিভিসি"
+    },
+    "correctAnswer": "c",
+    "explanation": "সেলুলোজ হলো উদ্ভিদের কোষপ্রাচীরের প্রধান উপাদান যা গ্লুকোজের একটি প্রাকৃতিক পলিমার। বাকিগুলো কৃত্রিমভাবে তৈরি পলিমার।"
+  },
+  {
+    "id": 9,
+    "subject": "Chemistry",
+    "topic": "Redox Reaction",
+    "question": "৯. লিথিয়াম অ্যালুমিনিয়াম হাইড্রাইড ($$LiAlH_4$$) কী ধরনের পদার্থ?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "জারক",
+      "b": "বিজারক",
+      "c": "নিরুদক",
+      "d": "প্রভাবক"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$LiAlH_4$$ একটি অত্যন্ত শক্তিশালী বিজারক পদার্থ যা জৈব রসায়নে কার্বনিল যৌগ, কার্বক্সিলিক এসিড ইত্যাদি বিজারিত করতে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 10,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "question": "১০. মিথেন অণুর বন্ধন কোণ কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$90^\\circ$$",
+      "b": "$$180^\\circ$$",
+      "c": "$$109.5^\\circ$$",
+      "d": "$$120^\\circ$$"
+    },
+    "correctAnswer": "c",
+    "explanation": " \n মিথেন ($$CH_4$$) অণুতে $$sp^3$$ সংকরণ ঘটে এবং এর আকৃতি সুষম চতুস্তলকীয় হওয়ায় বন্ধন কোণ ১০৯.৫° (বা ১০৯°২৮') হয়।"
+  },
+  {
+    "id": 11,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "১১. নিচের কোনটি সাবানায়নের উপজাত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "মিথানল",
+      "b": "গ্লিসারিন",
+      "c": "ইথানল",
+      "d": "চর্বি"
+    },
+    "correctAnswer": "b",
+    "explanation": "তেল বা চর্বির সাথে ক্ষারের (যেমন $$NaOH$$) বিক্রিয়ায় সাবান তৈরির সময় উপজাত হিসেবে গ্লিসারিন উৎপন্ন হয়।"
+  },
+  {
+    "id": 12,
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "question": "১২. গ্যালভানাইজিং এ কোন ধাতু ব্যবহৃত হয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$Sn$$",
+      "b": "$$Zn$$",
+      "c": "$$Cr$$",
+      "d": "$$Ni$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "লোহা বা ইস্পাতকে মরিচার হাত থেকে রক্ষা করতে জিংক ($$Zn$$) এর প্রলেপ দেওয়াকে গ্যালভানাইজিং বলা হয়।"
+  },
+  {
+    "id": 13,
+    "subject": "Chemistry",
+    "topic": "Environmental Chemistry",
+    "question": "১৩. কোনটি গ্রিন কেমিস্ট্রির মূলনীতি নয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "বর্জ্য প্রতিরোধ",
+      "b": "নিরাপদ দ্রাবক ব্যবহার",
+      "c": "বিষাক্ততা বাড়ানো",
+      "d": "শক্তি দক্ষতা"
+    },
+    "correctAnswer": "c",
+    "explanation": "গ্রিন কেমিস্ট্রির ১২টি মূলনীতির অন্যতম লক্ষ্য হলো পরিবেশ ও স্বাস্থ্যের ক্ষতি কমানো বা বিষাক্ততা কমানো; বিষাক্ততা বাড়ানো এর কোনো নীতি নয়।"
+  },
+  {
+    "id": 14,
+    "subject": "Chemistry",
+    "topic": "Biochemistry",
+    "question": "১৪. এনজাইম কত তাপমাত্রায় সবচেয়ে ভালো কাজ করে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$10^\\circ C$$",
+      "b": "$$37^\\circ C$$",
+      "c": "$$100^\\circ C$$",
+      "d": "$$0^\\circ C$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "মানুষের শরীরের স্বাভাবিক তাপমাত্রা ৩৭° সেলসিয়াস এনজাইমগুলোর কাজের জন্য সবচেয়ে অনুকূল বা অপটিমাম তাপমাত্রা।"
+  },
+  {
+    "id": 15,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "১৫. কার্বনিল মূলক শনাক্তকরণে কোনটি ব্যবহৃত হয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "2,4-DNP",
+      "b": "লুকাস বিকারক",
+      "c": "ফেলিং দ্রবণ",
+      "d": "টলেন বিকারক"
+    },
+    "correctAnswer": "a",
+    "explanation": "২,৪-ডাইনাইট্রো ফিনাইল হাইড্রাজিন (2,4-DNP) অ্যালডিহাইড ও কিটোন (কার্বনিল যৌগ) উভয়ের সাথেই হলুদ বা কমলা অধঃক্ষেপ দেয়।"
+  },
+  {
+    "id": 16,
+    "subject": "Chemistry",
+    "topic": "Coordination Chemistry",
+    "question": "১৬. কোনটি শক্তিশালী লিগ্যান্ড?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$Cl^-$$",
+      "b": "$$CN^-$$",
+      "c": "$$H_2O$$",
+      "d": "$$F^-$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "স্পেক্ট্রোকেমিক্যাল সিরিজ অনুযায়ী সায়ানাইড ($$CN^-$$) এবং কার্বন মনোক্সাইড ($$CO$$) অত্যন্ত শক্তিশালী লিগ্যান্ড যা ইলেকট্রন যুগল দান করতে পারদর্শী।"
+  },
+  {
+    "id": 17,
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "question": "১৭. প্লাস্টার অফ প্যারিসের সংকেত কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$CaSO_4 \\cdot 2H_2O$$",
+      "b": "$$(CaSO_4)_2 \\cdot H_2O$$",
+      "c": "$$MgSO_4 \\cdot 7H_2O$$",
+      "d": "$$Na_2CO_3$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "ক্যালসিয়াম সালফেট হেমিহাইড্রেট $$(CaSO_4)_2 \\cdot H_2O$$ বা $$CaSO_4 \\cdot \\frac{1}{2}H_2O$$ কে প্লাস্টার অফ প্যারিস বলা হয়।"
+  },
+  {
+    "id": 18,
+    "subject": "Chemistry",
+    "topic": "Stereochemistry",
+    "question": "১৮. কোনটি আলোক সক্রিয় যৌগ হওয়ার শর্ত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "অপ্রতিসম কার্বন",
+      "b": "দ্বিবন্ধন",
+      "c": "প্রতিসাম্য কেন্দ্র",
+      "d": "উচ্চ গলনাঙ্ক"
+    },
+    "correctAnswer": "a",
+    "explanation": "একটি অণুতে যদি অন্তত একটি কাইরাল সেন্টার বা অপ্রতিসম কার্বন থাকে এবং অণুটি তার দর্পণ প্রতিবিম্বের ওপর উপরিপাতিত না হয়, তবে সেটি আলোক সক্রিয় হয়।"
+  },
+  {
+    "id": 19,
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "question": "১৯. ড্রাই আইস (Dry Ice) কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "কঠিন বরফ",
+      "b": "কঠিন $$CO_2$$",
+      "c": "তরল $$N_2$$",
+      "d": "কঠিন $$CH_4$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "কঠিন কার্বন ডাই অক্সাইডকে ড্রাই আইস বলা হয়। এটি উত্তপ্ত হলে তরল না হয়ে সরাসরি গ্যাসে রূপান্তরিত হয় (ঊর্ধ্বপাতন)।"
+  },
+  {
+    "id": 20,
+    "subject": "Chemistry",
+    "topic": "Transition Elements",
+    "question": "২০. কোনটি ল্যান্থানাইড সিরিজের মৌল?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$Ce$$",
+      "b": "$$U$$",
+      "c": "$$Th$$",
+      "d": "$$Pu$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "পর্যায় সারণির ষষ্ঠ পর্যায়ের সিরিয়াম ($$Ce$$, পারমাণবিক সংখ্যা ৫৮) ল্যান্থানাইড সিরিজের অন্তর্ভুক্ত। বাকিগুলো অ্যাক্টিনাইড সিরিজের।"
+  },
+  {
+    "id": 21,
+    "subject": "Chemistry",
+    "topic": "Quantitative Chemistry",
+    "question": "২১. মোলারিটি তাপমাত্রার উপর—",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "নির্ভর করে",
+      "b": "নির্ভর করে না",
+      "c": "মাঝে মাঝে করে",
+      "d": "স্থির থাকে"
+    },
+    "correctAnswer": "a",
+    "explanation": "মোলারিটি আয়তনের ওপর ভিত্তি করে নির্ণয় করা হয়। তাপমাত্রা পরিবর্তনে দ্রবণের আয়তন পরিবর্তিত হয় বলে মোলারিটিও পরিবর্তিত হয়।"
+  },
+  {
+    "id": 22,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "২২. কোনটি মেটা নির্দেশক মূলক?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$-OH$$",
+      "b": "$$-NH_2$$",
+      "c": "$$-NO_2$$",
+      "d": "$$-CH_3$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "নাইট্রো মূলক ($$-NO_2$$) বেনজিন বলয় থেকে ইলেকট্রন টেনে নেয়, ফলে অর্থো ও প্যারা অবস্থানে ইলেকট্রন ঘনত্ব কমে যায় এবং আগত ইলেকট্রোফাইল মেটা অবস্থানে যুক্ত হয়।"
+  },
+  {
+    "id": 23,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "২৩. ফরমালিন হলো ফর্মালডিহাইডের কত শতাংশ জলীয় দ্রবণ?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "১০%",
+      "b": "৪০%",
+      "c": "৯৫%",
+      "d": "৬০%"
+    },
+    "correctAnswer": "b",
+    "explanation": "মিথান্যাল বা ফর্মালডিহাইডের ৩৭-৪০% জলীয় দ্রবণকে ফরমালিন বলা হয়, যা পচনশীল বস্তু সংরক্ষণে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 24,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "২৪. কক্ষ তাপমাত্রায় কোনটি গ্যাসীয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$CH_4$$",
+      "b": "$$C_6H_{14}$$",
+      "c": "$$C_{20}H_{42}$$",
+      "d": "$$CH_3OH$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "মিথেন ($$CH_4$$) একটি সরলতম অ্যালকেন যা কক্ষ তাপমাত্রায় গ্যাস হিসেবে থাকে। কার্বন সংখ্যা বৃদ্ধির সাথে সাথে অ্যালকেন তরল ও কঠিনে পরিণত হয়।"
+  },
+  {
+    "id": 25,
+    "subject": "Chemistry",
+    "topic": "Acid-Base",
+    "question": "২৫. ব্রনস্টেড-লাউরি মতবাদ অনুসারে ক্ষারক কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "প্রোটন দাতা",
+      "b": "প্রোটন গ্রহীতা",
+      "c": "ইলেকট্রন দাতা",
+      "d": "$$OH^-$$ দাতা"
+    },
+    "correctAnswer": "b",
+    "explanation": "ব্রনস্টেড-লাউরি মতবাদ অনুসারে যারা প্রোটন ($$H^+$$) গ্রহণ করতে পারে তারা ক্ষারক এবং যারা প্রোটন দান করতে পারে তারা এসিড।"
+  }
+]
