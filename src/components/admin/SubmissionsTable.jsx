@@ -100,13 +100,16 @@ function SubmissionsTable({
 
   function formatDate(timestamp) {
     const date = new Date(timestamp)
-    return date.toLocaleString('bn-BD', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric',
+    const timeStr = date.toLocaleString('bn-BD', {
       hour: '2-digit',
-      minute: '2-digit'
+      minute: '2-digit',
+      hour12: true
     })
+    const dateStr = date.toLocaleString('bn-BD', {
+      day: 'numeric',
+      month: 'long'
+    })
+    return `${timeStr}; ${dateStr}`
   }
 
   function getElapsedTime(timestamp) {
@@ -257,7 +260,7 @@ function SubmissionsTable({
       }).replace(/[/:,\s]/g, '-')
 
       link.href = url
-      link.download = `student-result-${selectedSubmission?.studentName || 'student'}-${timestamp}.json`
+      link.download = `${selectedSubmission?.studentName || 'student'}.json`
       document.body.appendChild(link)
       link.click()
       document.body.removeChild(link)
@@ -458,22 +461,27 @@ function SubmissionsTable({
                   <span className="info-value score-large">{Number(selectedSubmission.score || 0).toFixed(2)}</span>
                   <span className="info-suffix">/ {selectedSubmission.totalMarks || 100}</span>
                 </div>
-                <div className="info-item">
-                  <span className="info-label bengali">সঠিক:</span>
-                  <span className="info-value correct">{selectedSubmission.correct || 0}</span>
+
+                {/* Statistics Box - Green Border */}
+                <div className={`stats-summary-box ${selectedSubmission.pass ? 'pass' : 'fail'}`}>
+                  <div className="info-item">
+                    <span className="info-label bengali">সঠিক:</span>
+                    <span className="info-value correct">{selectedSubmission.correct || 0}</span>
+                  </div>
+                  <div className="info-item">
+                    <span className="info-label bengali">ভুল:</span>
+                    <span className="info-value wrong">{selectedSubmission.wrong || 0}</span>
+                  </div>
+                  <div className="info-item">
+                    <span className="info-label bengali">চেষ্টা:</span>
+                    <span className="info-value">{selectedSubmission.attempted || 0}</span>
+                  </div>
+                  <div className="info-item">
+                    <span className="info-label bengali">সময়:</span>
+                    <span className="info-value">{formatDate(selectedSubmission.timestamp)}</span>
+                  </div>
                 </div>
-                <div className="info-item">
-                  <span className="info-label bengali">ভুল:</span>
-                  <span className="info-value wrong">{selectedSubmission.wrong || 0}</span>
-                </div>
-                <div className="info-item">
-                  <span className="info-label bengali">চেষ্টা:</span>
-                  <span className="info-value">{selectedSubmission.attempted || 0}</span>
-                </div>
-                <div className="info-item">
-                  <span className="info-label bengali">সময়:</span>
-                  <span className="info-value">{formatDate(selectedSubmission.timestamp)}</span>
-                </div>
+
                 <div className="info-item">
                   <span className="info-label bengali">স্ট্যাটাস:</span>
                   <span className={`info-value ${selectedSubmission.pass ? 'pass-status' : 'fail-status'}`}>
