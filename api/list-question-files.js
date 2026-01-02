@@ -4,65 +4,61 @@ export default async function handler(req, res) {
     }
 
     try {
-        const fs = require('fs')
-        const path = require('path')
+        // On Vercel, we can't scan the filesystem, so we read from a manifest file
+        const isDev = !process.env.VERCEL
 
-        // Get the public directory path
-        const publicDir = path.join(process.cwd(), 'public')
+        // Get the manifest URL
+        const manifestUrl = isDev
+            ? '/question-files.json'
+            : `https://${req.headers.host}/question-files.json`
 
-        // Read all files in public directory
-        const files = fs.readdirSync(publicDir)
+        // Fetch the manifest
+        const manifestResponse = await fetch(manifestUrl, { cache: 'no-store' })
 
-        // Find all question files matching pattern: questions.json, questions-*.json
-        const questionFiles = files.filter(file =>
-            file === 'questions.json' || /^questions-.+\.json$/.test(file)
-        )
+        if (!manifestResponse.ok) {
+            return res.status(404).json({ error: 'Question files manifest not found' })
+        }
 
-        if (questionFiles.length === 0) {
+        const manifest = await manifestResponse.json()
+
+        if (!manifest || !manifest.questionFiles || manifest.questionFiles.length === 0) {
             return res.status(404).json({ error: 'No question files found' })
         }
 
-        // Get file stats and format response
-        const fileList = questionFiles.map(fileName => {
-            const filePath = path.join(publicDir, fileName)
-            const stats = fs.statSync(filePath)
+        // For each file, try to get metadata
+        const fileList = await Promise.all(
+            manifest.questionFiles.map(async (file) => {
+                const fileUrl = isDev
+                    ? `/${file.name}`
+                    : `https://${req.headers.host}/${file.name}`
 
-            // Generate display name
-            let displayName = fileName
-            if (fileName === 'questions.json') {
-                displayName = 'Default Question Set'
-            } else {
-                // Extract version/name from filename
-                const match = fileName.match(/^questions-(.+)\.json$/)
-                if (match) {
-                    const version = match[1]
-                    // Check if it's a number
-                    if (/^\d+$/.test(version)) {
-                        displayName = `Question Set ${version}`
-                    } else {
-                        // Capitalize first letter of each word
-                        displayName = version
-                            .split('-')
-                            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-                            .join(' ') + ' Question Set'
+                try {
+                    const fileResponse = await fetch(fileUrl, { method: 'HEAD', cache: 'no-store' })
+
+                    if (fileResponse.ok) {
+                        const size = parseInt(fileResponse.headers.get('content-length') || '0')
+                        const lastModified = fileResponse.headers.get('last-modified') || new Date().toISOString()
+
+                        return {
+                            name: file.name,
+                            displayName: file.displayName,
+                            size: size,
+                            lastModified: lastModified
+                        }
                     }
+                } catch (error) {
+                    console.error(`Error fetching metadata for ${file.name}:`, error)
                 }
-            }
 
-            return {
-                name: fileName,
-                displayName: displayName,
-                size: stats.size,
-                lastModified: stats.mtime.toISOString()
-            }
-        })
-
-        // Sort by name (default first, then numbered sets, then others)
-        fileList.sort((a, b) => {
-            if (a.name === 'questions.json') return -1
-            if (b.name === 'questions.json') return 1
-            return a.name.localeCompare(b.name)
-        })
+                // Fallback if metadata fetch fails
+                return {
+                    name: file.name,
+                    displayName: file.displayName,
+                    size: 0,
+                    lastModified: new Date().toISOString()
+                }
+            })
+        )
 
         return res.status(200).json({
             files: fileList
@@ -70,6 +66,9 @@ export default async function handler(req, res) {
 
     } catch (error) {
         console.error('Error listing question files:', error)
-        return res.status(500).json({ error: 'Failed to list question files' })
+        return res.status(500).json({
+            error: 'Failed to list question files',
+            details: error.message
+        })
     }
 }

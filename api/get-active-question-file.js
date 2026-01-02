@@ -4,15 +4,30 @@ export default async function handler(req, res) {
     }
 
     try {
-        const fs = require('fs')
-        const path = require('path')
+        const isDev = !process.env.VERCEL
 
-        // Path to exam config file
-        const configPath = path.join(process.cwd(), 'exam-config.json')
+        // Get the config URL - from GitHub on Vercel, local in dev
+        const configUrl = isDev
+            ? '/exam-config.json'
+            : 'https://raw.githubusercontent.com/maruf7705/25MCQ/main/exam-config.json'
 
-        // Check if config file exists
-        if (!fs.existsSync(configPath)) {
-            // Return default if config doesn't exist
+        let config;
+
+        try {
+            const response = await fetch(configUrl, { cache: 'no-store' })
+
+            if (!response.ok) {
+                // Config doesn't exist, return default
+                return res.status(200).json({
+                    activeFile: 'questions.json',
+                    setAt: null,
+                    isDefault: true
+                })
+            }
+
+            config = await response.json()
+        } catch (fetchError) {
+            // Config doesn't exist or network error, return default
             return res.status(200).json({
                 activeFile: 'questions.json',
                 setAt: null,
@@ -20,22 +35,26 @@ export default async function handler(req, res) {
             })
         }
 
-        // Read config file
-        const configData = fs.readFileSync(configPath, 'utf-8')
-        const config = JSON.parse(configData)
-
         // Verify the file still exists
-        const publicDir = path.join(process.cwd(), 'public')
-        const activeFilePath = path.join(publicDir, config.activeQuestionFile)
+        const activeFileUrl = isDev
+            ? `/${config.activeQuestionFile}`
+            : `https://${req.headers.host}/${config.activeQuestionFile}`
 
-        if (!fs.existsSync(activeFilePath)) {
-            // File was deleted, return default
-            return res.status(200).json({
-                activeFile: 'questions.json',
-                setAt: null,
-                isDefault: true,
-                warning: 'Previously selected file not found, using default'
-            })
+        try {
+            const fileResponse = await fetch(activeFileUrl, { method: 'HEAD', cache: 'no-store' })
+
+            if (!fileResponse.ok) {
+                // File was deleted, return default
+                return res.status(200).json({
+                    activeFile: 'questions.json',
+                    setAt: null,
+                    isDefault: true,
+                    warning: 'Previously selected file not found, using default'
+                })
+            }
+        } catch (error) {
+            // Can't verify file, but return config anyway
+            console.warn('Could not verify active file:', error)
         }
 
         return res.status(200).json({
