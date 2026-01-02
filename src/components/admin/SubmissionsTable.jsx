@@ -188,6 +188,86 @@ function SubmissionsTable({
     }
   }
 
+  function handleExportJSON() {
+    try {
+      // Calculate unanswered questions
+      const answeredCount = Object.keys(selectedSubmission.answers || {}).length
+      const unansweredCount = questions.length - answeredCount
+
+      // Build comprehensive JSON structure
+      const exportData = {
+        subjectName: selectedSubmission.studentName || 'Unknown',
+        studentId: selectedSubmission.studentId || 'N/A',
+        examInfo: {
+          timestamp: formatDate(selectedSubmission.timestamp),
+          timestampRaw: selectedSubmission.timestamp,
+          questionFile: selectedSubmission.questionFile || 'questions.json'
+        },
+        statistics: {
+          totalQuestions: questions.length,
+          attempted: selectedSubmission.attempted || answeredCount,
+          correct: selectedSubmission.correct || 0,
+          wrong: selectedSubmission.wrong || 0,
+          unanswered: unansweredCount,
+          score: Number(selectedSubmission.score || 0).toFixed(2),
+          totalMarks: selectedSubmission.totalMarks || 100,
+          passStatus: selectedSubmission.pass || false,
+          passLabel: selectedSubmission.pass ? 'পাস' : 'ফেল'
+        },
+        answers: questions.map((question) => {
+          const qid = question.id.toString()
+          const studentAnswer = (selectedSubmission.answers || {})[qid]
+          const isAnswered = studentAnswer !== undefined && studentAnswer !== null
+          const isCorrect = isAnswered ? isAnswerCorrect(qid, studentAnswer) : null
+          const solution = solutions.find(s => s.id === question.id || s.id.toString() === qid.toString())
+
+          return {
+            questionId: question.id,
+            question: question.question,
+            options: {
+              a: question.options.a,
+              b: question.options.b,
+              c: question.options.c,
+              d: question.options.d
+            },
+            studentAnswer: isAnswered ? studentAnswer : null,
+            correctAnswer: question.correctAnswer,
+            isCorrect: isCorrect,
+            isAnswered: isAnswered,
+            solution: solution?.solution || null
+          }
+        })
+      }
+
+      // Convert to JSON string with formatting
+      const jsonString = JSON.stringify(exportData, null, 2)
+
+      // Create blob and download
+      const blob = new Blob([jsonString], { type: 'application/json' })
+      const url = URL.createObjectURL(blob)
+      const link = document.createElement('a')
+      const timestamp = new Date().toLocaleString('en-US', {
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        hour12: false
+      }).replace(/[/:,\s]/g, '-')
+
+      link.href = url
+      link.download = `student-result-${selectedSubmission?.studentName || 'student'}-${timestamp}.json`
+      document.body.appendChild(link)
+      link.click()
+      document.body.removeChild(link)
+      URL.revokeObjectURL(url)
+    } catch (error) {
+      console.error('JSON export failed:', error)
+      alert('JSON এক্সপোর্ট করতে সমস্যা হয়েছে। আবার চেষ্টা করুন।')
+    }
+  }
+
   if (loading) {
     return (
       <div className="data-table-container">
@@ -348,6 +428,14 @@ function SubmissionsTable({
                 {selectedSubmission.studentName} - উত্তর বিস্তারিত
               </h2>
               <div className="modal-header-actions">
+                <button
+                  className="export-json-btn"
+                  onClick={handleExportJSON}
+                  title="AI-Future Research Export"
+                >
+                  <img src="/ai-icon.png" alt="AI" className="export-icon" />
+                  <span>AI-Future</span>
+                </button>
                 <button
                   className="screenshot-btn bengali"
                   onClick={handleScreenshot}
