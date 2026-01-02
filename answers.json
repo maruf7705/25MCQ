@@ -14,28 +14,6 @@
     "questionFile": "questions.json"
   },
   {
-    "studentName": "Maruf",
-    "answers": {
-      "1": "b",
-      "2": "c",
-      "3": "c",
-      "4": "b",
-      "5": "c",
-      "11": "c",
-      "13": "c",
-      "14": "c",
-      "25": "c"
-    },
-    "score": 2.25,
-    "totalMarks": 31.25,
-    "timestamp": "2026-01-02T04:24:05.726Z",
-    "attempted": 9,
-    "correct": 3,
-    "wrong": 6,
-    "pass": false,
-    "questionFile": "questions.json"
-  },
-  {
     "studentName": "Maruf_1",
     "answers": {
       "20": "b",
