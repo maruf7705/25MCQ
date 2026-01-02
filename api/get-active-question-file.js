@@ -14,7 +14,14 @@ export default async function handler(req, res) {
         let config;
 
         try {
-            const response = await fetch(configUrl, { cache: 'no-store' })
+            const response = await fetch(configUrl, {
+                cache: 'no-store',
+                headers: {
+                    'Cache-Control': 'no-cache, no-store, must-revalidate',
+                    'Pragma': 'no-cache',
+                    'Expires': '0'
+                }
+            })
 
             if (!response.ok) {
                 // Config doesn't exist, return default
@@ -37,11 +44,17 @@ export default async function handler(req, res) {
 
         // Verify the file still exists
         const activeFileUrl = isDev
-            ? `/${config.activeQuestionFile}`
-            : `https://${req.headers.host}/${config.activeQuestionFile}`
+            ? `/${config.activeQuestionFile}${cacheBuster}`
+            : `https://${req.headers.host}/${config.activeQuestionFile}${cacheBuster}`
 
         try {
-            const fileResponse = await fetch(activeFileUrl, { method: 'HEAD', cache: 'no-store' })
+            const fileResponse = await fetch(activeFileUrl, {
+                method: 'HEAD',
+                cache: 'no-store',
+                headers: {
+                    'Cache-Control': 'no-cache, no-store, must-revalidate'
+                }
+            })
 
             if (!fileResponse.ok) {
                 // File was deleted, return default
