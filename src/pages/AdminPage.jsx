@@ -2,6 +2,7 @@ import { useState, useEffect, useMemo } from 'react'
 import { loadSubmissions, deleteSubmission, deleteStudent, loadPendingStudents } from '../utils/api'
 import SubmissionsTable from '../components/admin/SubmissionsTable'
 import NotificationToast from '../components/admin/NotificationToast'
+import QuestionSetModal from '../components/admin/QuestionSetModal'
 import './AdminPage.css'
 
 function AdminPage() {
@@ -15,6 +16,7 @@ function AdminPage() {
   const [autoRefresh, setAutoRefresh] = useState(false)
   const [notification, setNotification] = useState(null)
   const [currentPage, setCurrentPage] = useState(1)
+  const [showSettingsModal, setShowSettingsModal] = useState(false)
   const itemsPerPage = 20
 
   useEffect(() => {
@@ -218,6 +220,13 @@ function AdminPage() {
           >
             ↻
           </button>
+          <button
+            className="icon-button"
+            onClick={() => setShowSettingsModal(true)}
+            title="প্রশ্ন সেট সেটিংস"
+          >
+            ⚙️
+          </button>
         </div>
       </div>
 
@@ -273,6 +282,18 @@ function AdminPage() {
           onClose={() => setNotification(null)}
         />
       )}
+
+      {/* Question Set Settings Modal */}
+      <QuestionSetModal
+        isOpen={showSettingsModal}
+        onClose={() => setShowSettingsModal(false)}
+        onSave={(fileName) => {
+          setNotification({
+            message: `প্রশ্ন সেট সফলভাবে সংরক্ষিত হয়েছে: ${fileName}`,
+            type: 'success'
+          })
+        }}
+      />
     </div>
   )
 }

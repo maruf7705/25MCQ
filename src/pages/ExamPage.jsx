@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import MCQContainer from '../components/MCQContainer'
 import StartScreen from '../components/StartScreen'
 import ErrorBoundary from '../components/ErrorBoundary'
-import { loadLatestQuestions } from '../utils/api'
+import { getActiveQuestionFile } from '../utils/api'
 
 function ExamPage() {
   const [studentName, setStudentName] = useState('')
@@ -17,8 +17,10 @@ function ExamPage() {
 
   async function loadQuestions() {
     try {
-      // Get the latest question file
-      const { file } = await loadLatestQuestions()
+      // Get the active question file from config
+      const activeConfig = await getActiveQuestionFile()
+      const file = activeConfig.activeFile || 'questions.json'
+
       setQuestionFile(file)
 
       console.log(`Loading questions from /${file}`)

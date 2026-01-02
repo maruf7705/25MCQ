@@ -180,4 +180,63 @@ export async function loadPendingStudents() {
   return data
 }
 
+// Question File Management APIs
+export async function loadQuestionFiles() {
+  let res;
+  try {
+    res = await fetch('/api/list-question-files', {
+      cache: 'no-store'
+    })
+  } catch (fetchErr) {
+    throw fetchErr;
+  }
+
+  if (!res.ok) {
+    const text = await res.text().catch(() => 'Could not read error')
+    throw new Error(`Failed to load question files: ${res.status} ${res.statusText}`)
+  }
+
+  const data = await res.json()
+  return data.files
+}
+
+export async function getActiveQuestionFile() {
+  let res;
+  try {
+    res = await fetch('/api/get-active-question-file', {
+      cache: 'no-store'
+    })
+  } catch (fetchErr) {
+    throw fetchErr;
+  }
+
+  if (!res.ok) {
+    const text = await res.text().catch(() => 'Could not read error')
+    throw new Error(`Failed to get active question file: ${res.status} ${res.statusText}`)
+  }
+
+  const data = await res.json()
+  return data
+}
+
+export async function setActiveQuestionFile(fileName) {
+  let res;
+  try {
+    res = await fetch('/api/set-active-question-file', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ fileName })
+    })
+  } catch (fetchErr) {
+    throw fetchErr;
+  }
+
+  if (!res.ok) {
+    const text = await res.text()
+    throw new Error(text || 'Failed to set active question file')
+  }
+
+  return res.json()
+}
+
 
