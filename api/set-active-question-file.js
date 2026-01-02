@@ -11,9 +11,9 @@ export default async function handler(req, res) {
             return res.status(400).json({ error: 'Invalid file name' })
         }
 
-        // Validate file name format
-        if (fileName !== 'questions.json' && !/^questions-.+\.json$/.test(fileName)) {
-            return res.status(400).json({ error: 'Invalid question file format' })
+        // Validate file name is a JSON file
+        if (!fileName.endsWith('.json')) {
+            return res.status(400).json({ error: 'File must be a JSON file' })
         }
 
         const isDev = !process.env.VERCEL

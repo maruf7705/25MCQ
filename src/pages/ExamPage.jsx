@@ -23,12 +23,27 @@ function ExamPage() {
 
       setQuestionFile(file)
 
-      console.log(`Loading questions from /${file}`)
-      const res = await fetch(`/${file}`, { cache: 'no-store' })
-      console.log('Fetch response:', { status: res.status, ok: res.ok })
+      // Add cache buster to ensure fresh data
+      const cacheBuster = `?t=${Date.now()}`
+      const fileUrl = `/${file}${cacheBuster}`
+
+      console.log(`Loading questions from ${fileUrl}`)
+      const res = await fetch(fileUrl, {
+        cache: 'no-store',
+        headers: {
+          'Cache-Control': 'no-cache, no-store, must-revalidate'
+        }
+      })
+      console.log('Fetch response:', { status: res.status, ok: res.ok, contentType: res.headers.get('content-type') })
 
       if (!res.ok) {
         throw new Error(`Failed to load questions: ${res.status} ${res.statusText}`)
+      }
+
+      // Check if response is actually JSON
+      const contentType = res.headers.get('content-type')
+      if (!contentType || !contentType.includes('application/json')) {
+        throw new Error(`File ${file} is not a JSON file. Got content-type: ${contentType}`)
       }
 
       const data = await res.json()
