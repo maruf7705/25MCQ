@@ -1,23 +1,5 @@
 [
   {
-    "studentName": "TEST 5",
-    "answers": {
-      "1": "b",
-      "2": "b",
-      "18": "b",
-      "20": "c",
-      "25": "c"
-    },
-    "score": 0.25,
-    "totalMarks": 31.25,
-    "timestamp": "2026-01-02T06:35:34.017Z",
-    "attempted": 5,
-    "correct": 1,
-    "wrong": 4,
-    "pass": false,
-    "questionFile": "questions-4.json"
-  },
-  {
     "studentName": "TEST 5_1",
     "answers": {
       "1": "b",
