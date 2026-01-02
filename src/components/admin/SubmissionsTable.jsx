@@ -433,7 +433,7 @@ function SubmissionsTable({
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <div className="modal-header">
               <h2 className="bengali">
-                {selectedSubmission.studentName} - উত্তর বিস্তারিত
+                {selectedSubmission.studentName}
               </h2>
               <div className="modal-header-actions">
                 <button
