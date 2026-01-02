@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "question": "১. আলফা কণা বিচ্ছুরণ পরীক্ষায় কোন ধাতুর পাত ব্যবহার করা হয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$Ag$$",
+      "b": "$$Au$$",
+      "c": "$$Cu$$",
+      "d": "$$Al$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "রাদারফোর্ড তার আলফা কণা বিচ্ছুরণ পরীক্ষায় অতি পাতলা সোনার ($$Au$$) পাত ব্যবহার করেছিলেন।"
+  },
+  {
+    "id": 2,
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "question": "২. $$d$$ অরবিটালে সর্বোচ্চ কয়টি ইলেকট্রন থাকতে পারে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "২",
+      "b": "৬",
+      "c": "১০",
+      "d": "১৪"
+    },
+    "correctAnswer": "c",
+    "explanation": "$$d$$ উপশক্তিস্তরে ৫টি অরবিটাল থাকে এবং প্রতিটি অরবিটালে ২টি করে মোট ১০টি ইলেকট্রন থাকতে পারে।"
+  },
+  {
+    "id": 3,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "question": "৩. কক্ষ তাপমাত্রায় কোনটি তরল?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$F_2$$",
+      "b": "$$Cl_2$$",
+      "c": "$$Br_2$$",
+      "d": "$$I_2$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "হ্যালোজেন সমূহের মধ্যে ফ্লোরিন ও ক্লোরিন গ্যাসীয়, আয়োডিন কঠিন হলেও ব্রোমিন ($$Br_2$$) কক্ষ তাপমাত্রায় তরল থাকে।"
+  },
+  {
+    "id": 4,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "question": "৪. সমযোজী যৌগের বৈশিষ্ট্য নয় কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "নিম্ন গলনাঙ্ক",
+      "b": "বিদ্যুৎ পরিবাহিতা",
+      "c": "জৈব দ্রাবকে দ্রবণীয়তা",
+      "d": "মন্থর গতি"
+    },
+    "correctAnswer": "b",
+    "explanation": "সমযোজী যৌগসমূহ সাধারণত বিদ্যুৎ অপরিবাহী হয়, কারণ এদের মধ্যে মুক্ত ইলেকট্রন বা আয়ন থাকে না।"
+  },
+  {
+    "id": 5,
+    "subject": "Chemistry",
+    "topic": "Industrial Chemistry",
+    "question": "৫. হেবার পদ্ধতিতে অ্যামোনিয়া উৎপাদনে প্রভাবক কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$Ni$$",
+      "b": "$$Pt$$",
+      "c": "$$Fe$$ চূর্ণ",
+      "d": "$$V_2O_5$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "হেবার-বশ পদ্ধতিতে নাইট্রোজেন ও হাইড্রোজেন থেকে অ্যামোনিয়া তৈরিতে প্রভাবক হিসেবে লৌহ ($$Fe$$) চূর্ণ ব্যবহৃত হয়।"
+  },
+  {
+    "id": 6,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "৬. গ্রিগনার্ড বিকারক কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$R-Mg-X$$",
+      "b": "$$R-X$$",
+      "c": "$$R-OH$$",
+      "d": "$$R-CHO$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "অ্যালকাইল ম্যাগনেসিয়াম হ্যালাইডকে ($$R-Mg-X$$) গ্রিগনার্ড বিকারক বলা হয়।"
+  },
+  {
+    "id": 7,
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "question": "৭. কোন নীতি অনুসারে পরমাণুর দুটি ইলেকট্রনের চারটি কোয়ান্টাম সংখ্যার মান এক হতে পারে না?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "হুন্ডের নীতি",
+      "b": "পাউলির বর্জন নীতি",
+      "c": "হাইজেনবার্গের অনিশ্চয়তা নীতি",
+      "d": "অউফবাউ নীতি"
+    },
+    "correctAnswer": "b",
+    "explanation": "পাউলির বর্জন নীতি অনুযায়ী, একই পরমাণুর দুটি ইলেকট্রনের চারটি কোয়ান্টাম সংখ্যার মান কখনোই এক হবে না।"
+  },
+  {
+    "id": 8,
+    "subject": "Chemistry",
+    "topic": "Environmental Chemistry",
+    "question": "৮. ওজোন স্তরের ক্ষয়কারী প্রধান গ্যাস কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$CO_2$$",
+      "b": "$$CH_4$$",
+      "c": "$$CFC$$",
+      "d": "$$O_2$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "ক্লোরোফ্লুরোকার্বন বা $$CFC$$ গ্যাস বায়ুমণ্ডলের ওজোন স্তরের ওজোন অণু ভেঙে ব্যাপক ক্ষতি করে।"
+  },
+  {
+    "id": 9,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "question": "৯. কোনটি ক্ষারীয় মৃত্তিকা ধাতু?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$Na$$",
+      "b": "$$Mg$$",
+      "c": "$$K$$",
+      "d": "$$Li$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "পর্যায় সারণির ২য় গ্রুপের মৌলসমূহকে (যেমন: ম্যাগনেসিয়াম, ক্যালসিয়াম) ক্ষারীয় মৃত্তিকা ধাতু বলা হয়।"
+  },
+  {
+    "id": 10,
+    "subject": "Chemistry",
+    "topic": "Quantitative Chemistry",
+    "question": "১০. পানির মোলার ভর কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "১৬ গ্রাম",
+      "b": "১৮ গ্রাম",
+      "c": "২০ গ্রাম",
+      "d": "১০ গ্রাম"
+    },
+    "correctAnswer": "b",
+    "explanation": "পানির ($$H_2O$$) মোলার ভর = $$(2 \\times 1) + 16 = 18$$ গ্রাম।"
+  },
+  {
+    "id": 11,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "১১. কোনটি ইলেকট্রোফাইল?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$NH_3$$",
+      "b": "$$H_2O$$",
+      "c": "$$BF_3$$",
+      "d": "$$OH^-$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "বোরন ট্রাইফ্লোরাইড ($$BF_3$$) এর কেন্দ্রীয় পরমাণুর অষ্টক অপূর্ণ থাকায় এটি ইলেকট্রন গ্রহীতা বা ইলেকট্রোফাইল হিসেবে কাজ করে।"
+  },
+  {
+    "id": 12,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "১২. এলকাইনের সাধারণ সংকেত কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$C_nH_{2n+2}$$",
+      "b": "$$C_nH_{2n}$$",
+      "c": "$$C_nH_{2n-2}$$",
+      "d": "$$C_nH_{2n+1}$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "অ্যালকাইন হলো অসম্পৃক্ত হাইড্রোকার্বন যার সাধারণ সংকেত $$C_nH_{2n-2}$$।"
+  },
+  {
+    "id": 13,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "question": "১৩. কোন হ্যালোজেনের তড়িৎ ঋণাত্মকতা সবচেয়ে বেশি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$Cl$$",
+      "b": "$$F$$",
+      "c": "$$Br$$",
+      "d": "$$I$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "পুরো পর্যায় সারণির মধ্যে ফ্লোরিন ($$F$$) মৌলের তড়িৎ ঋণাত্মকতা সবচেয়ে বেশি।"
+  },
+  {
+    "id": 14,
+    "subject": "Chemistry",
+    "topic": "Quantitative Chemistry",
+    "question": "১৪. $$CO_2$$ এর আণবিক ভর কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "৩২",
+      "b": "৪৪",
+      "c": "২৮",
+      "d": "৫৬"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$CO_2$$ এর আণবিক ভর = $$12 + (2 \\times 16) = 12 + 32 = 44$$।"
+  },
+  {
+    "id": 15,
+    "subject": "Chemistry",
+    "topic": "Qualitative Chemistry",
+    "question": "১৫. জাল টাকা শনাক্তকরণে কোন রশ্মি ব্যবহৃত হয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "IR",
+      "b": "UV",
+      "c": "X-ray",
+      "d": "Gamma ray"
+    },
+    "correctAnswer": "b",
+    "explanation": "আল্ট্রা-ভায়োলেট ($$UV$$) বা অতিবেগুনী রশ্মি ব্যবহার করে জাল টাকা ও পাসপোর্ট শনাক্ত করা হয়।"
+  },
+  {
+    "id": 16,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "question": "১৬. নিচের কোনটি ক্ষারকীয় অক্সাইড?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$SO_2$$",
+      "b": "$$P_2O_5$$",
+      "c": "$$MgO$$",
+      "d": "$$Cl_2O_7$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "ধাতুর অক্সাইডসমূহ সাধারণত ক্ষারকীয় হয়। এখানে ম্যাগনেসিয়াম অক্সাইড ($$MgO$$) একটি ক্ষারকীয় অক্সাইড।"
+  },
+  {
+    "id": 17,
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "question": "১৭. ১ ফ্যারাডে সমান কত কুলম্ব?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "৯৬০০০",
+      "b": "৯৬৫০০",
+      "c": "১০০০০",
+      "d": "৩০০০"
+    },
+    "correctAnswer": "b",
+    "explanation": "এক মোল ইলেকট্রনের মোট আধানকে ১ ফ্যারাডে বলা হয়, যার মান প্রায় ৯৬৫০০ কুলম্ব।"
+  },
+  {
+    "id": 18,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "১৮. ল্যাসেিন পরীক্ষায় কোনটি শনাক্ত করা হয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "কার্বন",
+      "b": "হাইড্রোজেন",
+      "c": "নাইট্রোজেন",
+      "d": "অক্সিজেন"
+    },
+    "correctAnswer": "c",
+    "explanation": "ল্যাসেিন পরীক্ষার মাধ্যমে জৈব যৌগে নাইট্রোজেন, সালফার এবং হ্যালোজেন শনাক্ত করা হয়।"
+  },
+  {
+    "id": 19,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "question": "১৯. কোনটি আন্তঃআণবিক বল নয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ভ্যান ডার ওয়ালস বল",
+      "b": "হাইড্রোজেন বন্ধন",
+      "c": "সমযোজী বন্ধন",
+      "d": "ডাইপোল-ডাইপোল আকর্ষণ"
+    },
+    "correctAnswer": "c",
+    "explanation": "সমযোজী বন্ধন হলো একটি আন্তঃপারমাণবিক বল (রাসায়নিক বন্ধন), এটি অণুগুলোর মধ্যে কাজ করে এমন আন্তঃআণবিক বল নয়।"
+  },
+  {
+    "id": 20,
+    "subject": "Chemistry",
+    "topic": "Gaseous State",
+    "question": "২০. আদর্শ গ্যাস সমীকরণ $$PV = nRT$$ তে $$R$$ এর মান ($$L \\cdot atm$$ এককে) কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "8.314",
+      "b": "0.0821",
+      "c": "1.987",
+      "d": "6.023"
+    },
+    "correctAnswer": "b",
+    "explanation": "লিটার-বায়ুমণ্ডল এককে মোলার গ্যাস ধ্রুবক $$R$$ এর মান হলো ০.০৮২১ $$L \\cdot atm \\cdot K^{-1} \\cdot mol^{-1}$$।"
+  },
+  {
+    "id": 21,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "২১. লুকাশ বিকারক দিয়ে কী শনাক্ত করা হয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "অ্যালকোহল",
+      "b": "অ্যালডিহাইড",
+      "c": "এসিড",
+      "d": "ইথার"
+    },
+    "correctAnswer": "a",
+    "explanation": "লুকাশ বিকারক ($$ZnCl_2 + HCl$$) ব্যবহার করে ১°, ২° ও ৩° অ্যালকোহলের মধ্যে পার্থক্য করা হয়।"
+  },
+  {
+    "id": 22,
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "question": "২২. কোনটি তীব্র বিজারক?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$Li$$",
+      "b": "$$F_2$$",
+      "c": "$$O_2$$",
+      "d": "$$Cl_2$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "তড়িৎ রাসায়নিক সারিতে লিথিয়ামের ($$Li$$) অবস্থান সবার উপরে থাকায় এটি সবচেয়ে শক্তিশালী বিজারক।"
+  },
+  {
+    "id": 23,
+    "subject": "Chemistry",
+    "topic": "Modern Chemistry",
+    "question": "২৩. নিচের কোনটি সেমিকন্ডাক্টর?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$Fe$$",
+      "b": "$$Si$$",
+      "c": "$$Al$$",
+      "d": "$$Cu$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "সিলিকন ($$Si$$) ও জার্মেনিয়াম হলো বহুল ব্যবহৃত অর্ধপরিবাহী বা সেমিকন্ডাক্টর।"
+  },
+  {
+    "id": 24,
+    "subject": "Chemistry",
+    "topic": "Qualitative Chemistry",
+    "question": "২৪. শিখা পরীক্ষায় ইটের মতো লাল বর্ণ দেখায় কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$Ba$$",
+      "b": "$$Ca$$",
+      "c": "$$Sr$$",
+      "d": "$$Cu$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "শিখা পরীক্ষায় ক্যালসিয়াম ($$Ca$$) ইটের মতো লাল বর্ণ প্রদান করে।"
+  },
+  {
+    "id": 25,
+    "subject": "Chemistry",
+    "topic": "Gaseous State",
+    "question": "২৫. এসটিপি (STP) তে ১ মোল গ্যাসের আয়তন কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "২২.৪ লিটার",
+      "b": "২৪.৮ লিটার",
+      "c": "১০ লিটার",
+      "d": "১ লিটার"
+    },
+    "correctAnswer": "a",
+    "explanation": "আদর্শ তাপমাত্রা ও চাপে ($$STP$$) যেকোনো গ্যাসের এক মোলের আয়তন ২২.৪ লিটার হয়।"
+  }
+]

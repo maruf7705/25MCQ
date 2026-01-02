@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "১. জৈব যৌগের নামকরণ কোন সংস্থা করে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "UNESCO",
+      "b": "IUPAC",
+      "c": "WHO",
+      "d": "NASA"
+    },
+    "correctAnswer": "b",
+    "explanation": "IUPAC (International Union of Pure and Applied Chemistry) বিশ্বজুড়ে জৈব ও অজৈব যৌগের নামকরণের আদর্শ নিয়মাবলী নির্ধারণ করে।"
+  },
+  {
+    "id": 2,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "২. বেঞ্জিন অণুতে সিগমা ($$\\sigma$$) বন্ধন কয়টি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "৬",
+      "b": "৯",
+      "c": "১২",
+      "d": "১৫"
+    },
+    "correctAnswer": "c",
+    "explanation": ""
+  },
+  {
+    "id": 3,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "৩. কোনটি হফম্যান ক্ষুদ্রাংশকরণ বিক্রিয়া দেয়?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "অ্যামাইড",
+      "b": "অ্যামিন",
+      "c": "অ্যালকোহল",
+      "d": "ইথার"
+    },
+    "correctAnswer": "a",
+    "explanation": " \n অ্যামাইডকে ($$RCONH_2$$) ব্রমিন ও ক্ষারের সাথে বিক্রিয়া করালে এক কার্বন কম বিশিষ্ট প্রাইমারি অ্যামিন তৈরি হয়। একে হফম্যান ক্ষুদ্রাংশকরণ বলা হয়।"
+  },
+  {
+    "id": 4,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "৪. ফেনলকে শনাক্ত করতে কোনটি ব্যবহৃত হয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "Zn গুঁড়া",
+      "b": "FeCl3",
+      "c": "লুকাস বিকারক",
+      "d": "টোলেন বিকারক"
+    },
+    "correctAnswer": "b",
+    "explanation": "নিরপেক্ষ ফেরিক ক্লোরাইড ($$FeCl_3$$) ফেনলের সাথে বিক্রিয়া করে জটিল আয়রন-ফেনোক্সাইড তৈরির মাধ্যমে বেগুনি বর্ণ সৃষ্টি করে।"
+  },
+  {
+    "id": 5,
+    "subject": "Chemistry",
+    "topic": "Biochemistry",
+    "question": "৫. প্রোটিনের মনোমার কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "গ্লুকোজ",
+      "b": "অ্যামিনো এসিড",
+      "c": "ফ্যাটি এসিড",
+      "d": "নিউক্লিওটাইড"
+    },
+    "correctAnswer": "b",
+    "explanation": "প্রোটিন হলো অ্যামিনো এসিডের পলিমার। অনেকগুলো অ্যামিনো এসিড পেপটাইড বন্ধনের মাধ্যমে যুক্ত হয়ে প্রোটিন গঠন করে।"
+  },
+  {
+    "id": 6,
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "question": "৬. কপার সালফেটের ($$CuSO_4 \\cdot 5H_2O$$) বর্ণ কীরূপ?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সবুজ",
+      "b": "নীল",
+      "c": "সাদা",
+      "d": "হলুদ"
+    },
+    "correctAnswer": "b",
+    "explanation": "৫ অণু পানি যুক্ত কপার সালফেটকে নীল তুঁতে বা ব্লু ভিট্রল বলা হয়, যা উজ্জ্বল নীল বর্ণের হয়।"
+  },
+  {
+    "id": 7,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "question": "৭. আয়নীকরণ শক্তির মান কোনটির সবচেয়ে বেশি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "Na",
+      "b": "Mg",
+      "c": "Al",
+      "d": "P"
+    },
+    "correctAnswer": "d",
+    "explanation": "পর্যায় সারণির একই পর্যায়ে বাম থেকে ডানে গেলে নিউক্লিয়ার আকর্ষণ বাড়ার ফলে আয়নীকরণ শক্তি বৃদ্ধি পায়। এখানে ফসফরাস ($$P$$) সবচেয়ে ডানে অবস্থিত।"
+  },
+  {
+    "id": 8,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "question": "৮. হাইড্রোজেন বন্ধন কোনটিতে সবচেয়ে শক্তিশালী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "HF",
+      "b": "H2O",
+      "c": "NH3",
+      "d": "HCl"
+    },
+    "correctAnswer": "a",
+    "explanation": "তড়িৎ ঋণাত্মকতা যত বেশি হয় হাইড্রোজেন বন্ধন তত শক্তিশালী হয়। ফ্লোরিন ($$F$$) এর তড়িৎ ঋণাত্মকতা সর্বোচ্চ হওয়ায় $$HF$$ এ বন্ধন সবচেয়ে শক্তিশালী।"
+  },
+  {
+    "id": 9,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "৯. অ্যালকেনের সাধারণ সংকেত কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "CnH2n",
+      "b": "CnH2n+2",
+      "c": "CnH2n-2",
+      "d": "CnH2n+1"
+    },
+    "correctAnswer": "b",
+    "explanation": "অ্যালকেন হলো সম্পৃক্ত অ্যালিফ্যাটিক হাইড্রোকার্বন যার সাধারণ সংকেত হলো $$C_nH_{2n+2}$$।"
+  },
+  {
+    "id": 10,
+    "subject": "Chemistry",
+    "topic": "Thermochemistry",
+    "question": "১০. হেসের তাপ সমষ্টিকরণ সূত্র কোনটির সংরক্ষণশীলতা মেনে চলে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ভর",
+      "b": "আধান",
+      "c": "শক্তি",
+      "d": "আয়তন"
+    },
+    "correctAnswer": "c",
+    "explanation": "হেসের সূত্র মূলত শক্তির নিত্যতা সূত্রের একটি রূপ। এটি নির্দেশ করে যে একটি রাসায়নিক পরিবর্তনের এনথালপি পরিবর্তন পথের ওপর নির্ভর করে না।"
+  },
+  {
+    "id": 11,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "১১. কোনটি হ্যালোফর্ম বিক্রিয়া দেয় না?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "CH3CHO",
+      "b": "CH3COCH3",
+      "c": "C2H5OH",
+      "d": "CH3OH"
+    },
+    "correctAnswer": "d",
+    "explanation": "হ্যালোফর্ম বিক্রিয়ার জন্য মিথাইল কিটো মূলক থাকা প্রয়োজন। মিথানল ($$CH_3OH$$) এ এই মূলক না থাকায় এটি বিক্রিয়া দেয় না।"
+  },
+  {
+    "id": 12,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "question": "১২. ল্যান্থানাইড সংকোচন ঘটে কোন ব্লকের মৌলে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "s",
+      "b": "p",
+      "c": "d",
+      "d": "f"
+    },
+    "correctAnswer": "d",
+    "explanation": "$$f$$-ব্লক মৌলগুলোর ক্ষেত্রে দুর্বল শিল্ডিং ইফেক্টের কারণে পারমাণবিক ব্যাসার্ধ অস্বাভাবিকভাবে কমে যায়, একেই ল্যান্থানাইড সংকোচন বলে।"
+  },
+  {
+    "id": 13,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "question": "১৩. নিচের কোনটির তড়িৎ ঋণাত্মকতা সবচেয়ে বেশি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "O",
+      "b": "N",
+      "c": "F",
+      "d": "Cl"
+    },
+    "correctAnswer": "c",
+    "explanation": "পর্যায় সারণির সকল মৌলের মধ্যে ফ্লোরিনের ($$F$$) তড়িৎ ঋণাত্মকতা সর্বোচ্চ (৪.০)।"
+  },
+  {
+    "id": 14,
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "question": "১৪. বোর পরমাণু মডেলে ইলেকট্রনের কৌণিক ভরবেগ $$L = ?$$",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "nh/2π",
+      "b": "nh/4π",
+      "c": "mv2/r",
+      "d": "h/λ"
+    },
+    "correctAnswer": "a",
+    "explanation": " \n বোর মডেলে বলা হয়েছে, ইলেকট্রন শুধু সেই সব কক্ষপথে ঘোরে যেখানে কৌণিক ভরবেগ $$h/2\\pi$$ এর পূর্ণ সংখ্যার গুণিতক।"
+  },
+  {
+    "id": 15,
+    "subject": "Chemistry",
+    "topic": "Quantitative Chemistry",
+    "question": "১৫. সিলভার ক্লোরাইডের ($$AgCl$$) দ্রাব্যতা গুণফল $$K_{sp}$$ হলে দ্রাব্যতা কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "Ksp",
+      "b": "√Ksp",
+      "c": "4s3",
+      "d": "Ksp/2"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$AgCl$$ এর বিয়োজন: $$AgCl \\rightleftharpoons Ag^+ + Cl^-$$। যদি দ্রাব্যতা $$s$$ হয়, তবে $$K_{sp} = s^2$$, সুতরাং $$s = \\sqrt{K_{sp}}$$।"
+  },
+  {
+    "id": 16,
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "question": "১৬. সোডা অ্যাশের সংকেত কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "NaHCO3",
+      "b": "Na2CO3",
+      "c": "NaOH",
+      "d": "Na2CO3.10H2O"
+    },
+    "correctAnswer": "b",
+    "explanation": "অনার্দ্র সোডিয়াম কার্বনেটকে ($$Na_2CO_3$$) সোডা অ্যাশ বলা হয়।"
+  },
+  {
+    "id": 17,
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "question": "১৭. নিচের কোনটি উদগ্রাহী পদার্থ?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "NaCl",
+      "b": "NaOH",
+      "c": "H2SO4",
+      "d": "CaCl2"
+    },
+    "correctAnswer": "b",
+    "explanation": "সোডিয়াম হাইড্রক্সাইড ($$NaOH$$) বাতাস থেকে জলীয় বাষ্প শোষণ করে সরাসরি দ্রবণ তৈরি করে ফেলে, তাই এটি উদগ্রাহী।"
+  },
+  {
+    "id": 18,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "১৮. গ্রিগনার্ড বিকারক কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "R-Mg-X",
+      "b": "R-X",
+      "c": "R-OH",
+      "d": "LiAlH4"
+    },
+    "correctAnswer": "a",
+    "explanation": "অ্যালকাইল ম্যাগনেসিয়াম হ্যালাইডকে ($$R-Mg-X$$) আবিষ্কারকের নামানুসারে গ্রিগনার্ড বিকারক বলা হয়।"
+  },
+  {
+    "id": 19,
+    "subject": "Chemistry",
+    "topic": "Environmental Chemistry",
+    "question": "১৯. পানি দূষণ পরিমাপক BOD এর পূর্ণরূপ কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "Basic Oxygen Demand",
+      "b": "Biological Oxygen Demand",
+      "c": "Bio Oxygen Dose",
+      "d": "Binary Oxygen Data"
+    },
+    "correctAnswer": "b",
+    "explanation": "BOD মানে হলো Biological/Biochemical Oxygen Demand, যা পানিতে থাকা জৈব বর্জ্য পচাতে ব্যাক্টেরিয়ার প্রয়োজনীয় অক্সিজেন নির্দেশ করে।"
+  },
+  {
+    "id": 20,
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "question": "২০. কোনটি উভধর্মী অক্সাইড?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "Na2O",
+      "b": "SO2",
+      "c": "Al2O3",
+      "d": "CaO"
+    },
+    "correctAnswer": "c",
+    "explanation": "$$Al_2O_3$$ এসিড এবং ক্ষার উভয়ের সাথেই বিক্রিয়া করে লবণ ও পানি তৈরি করতে পারে।"
+  },
+  {
+    "id": 21,
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "question": "২১. বেকিং পাউডারের মূল উপাদান কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "NaHCO3",
+      "b": "Na2CO3",
+      "c": "CaCO3",
+      "d": "NaCl"
+    },
+    "correctAnswer": "a",
+    "explanation": "সোডিয়াম বাইকার্বনেট ($$NaHCO_3$$) হলো বেকিং পাউডারের প্রধান উপাদান।"
+  },
+  {
+    "id": 22,
+    "subject": "Chemistry",
+    "topic": "Acid-Base Chemistry",
+    "question": "২২. কোনটি মৃদু এসিড?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "HCl",
+      "b": "H2SO4",
+      "c": "HNO3",
+      "d": "CH3COOH"
+    },
+    "correctAnswer": "d",
+    "explanation": "অ্যাসিটিক এসিড ($$CH_3COOH$$) জলীয় দ্রবণে আংশিক বিয়োজিত হয় বলে এটি একটি মৃদু এসিড।"
+  },
+  {
+    "id": 13,
+    "subject": "Chemistry",
+    "topic": "Environmental Chemistry",
+    "question": "২৩. নিচের কোনটি গ্রিন হাউজ গ্যাস নয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "CO2",
+      "b": "CH4",
+      "c": "N2",
+      "d": "N2O"
+    },
+    "correctAnswer": "c",
+    "explanation": "বায়ুমণ্ডলে নাইট্রোজেন ($$N_2$$) এর পরিমাণ সবচেয়ে বেশি হলেও এটি ইনফ্রারেড রেডিয়েশন শোষণ করে না, তাই এটি গ্রিন হাউজ গ্যাস নয়।"
+  },
+  {
+    "id": 24,
+    "subject": "Chemistry",
+    "topic": "Modern Chemistry",
+    "question": "২৪. সবচেয়ে বেশি নমনীয় ধাতু কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "Ag",
+      "b": "Au",
+      "c": "Cu",
+      "d": "Fe"
+    },
+    "correctAnswer": "b",
+    "explanation": "স্বর্ণ ($$Au$$) পৃথিবীর সবচেয়ে বেশি নমনীয় ও প্রসার্য ধাতু। ১ গ্রাম স্বর্ণ দিয়ে প্রায় ২ কিমি লম্বা তার তৈরি করা সম্ভব।"
+  },
+  {
+    "id": 25,
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "question": "২৫. কপার ($$Cu$$) এর ইলেকট্রন বিন্যাসের শেষ অরবিটাল কোনটি?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "3d9 4s2",
+      "b": "3d10 4s1",
+      "c": "3d8 4s2",
+      "d": "4p1"
+    },
+    "correctAnswer": "b",
+    "explanation": " \n পূর্ণ $$d$$-অরবিটাল অধিক স্থিতিশীল হওয়ার কারণে কপারের ইলেকট্রন বিন্যাস সাধারণ নিয়মের ব্যতিক্রম হয়ে $$3d^{10} 4s^1$$ হয়।"
+  }
+]

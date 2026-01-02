@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "question": "১. $$PCl_5$$ অণুর কেন্দ্রীয় পরমাণু $$P$$ এর সংকরায়ন কোনটি?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "$$sp^2$$",
+      "b": "$$sp^3$$",
+      "c": "$$sp^3d$$",
+      "d": "$$sp^3d^2$$"
+    },
+    "correctAnswer": "c",
+    "explanation": " \n $$PCl_5$$ এ ফসফরাস তার যোজনী স্তরের ৫টি ইলেকট্রন ব্যবহার করে ৫টি ক্লোরিনের সাথে বন্ধন তৈরি করে। এখানে ৫টি সিগমা বন্ধন তৈরি হওয়ায় সংকরায়ন হয় $$sp^3d$$ এবং আকৃতি হয় ত্রিকোণাকার দ্বিপিরামিডীয়।"
+  },
+  {
+    "id": 2,
+    "subject": "Chemistry",
+    "topic": "Redox Reaction",
+    "question": "২. কোনটির জারণ মান সর্বোচ্চ?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$KMnO_4$$",
+      "b": "$$K_2Cr_2O_7$$",
+      "c": "$$H_2SO_4$$",
+      "d": "$$KClO_3$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$KMnO_4$$ এ ম্যাঙ্গানিজের ($$Mn$$) জারণ মান +৭। বাকিদের ক্ষেত্রে: $$Cr$$ (+৬), $$S$$ (+৬), এবং $$Cl$$ (+৫)। সুতরাং পটাশিয়াম পারম্যাঙ্গানেটের জারণ মান এখানে সর্বোচ্চ।"
+  },
+  {
+    "id": 3,
+    "subject": "Chemistry",
+    "topic": "Acid-Base",
+    "question": "৩. রক্তের pH কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "৬.৪",
+      "b": "৭.০",
+      "c": "৭.৪",
+      "d": "৮.২"
+    },
+    "correctAnswer": "c",
+    "explanation": "মানুষের রক্তের pH সামান্য ক্ষারীয় এবং এর মান সাধারণত ৭.৩৫ থেকে ৭.৪৫ এর মধ্যে থাকে (গড়ে ৭.৪)।"
+  },
+  {
+    "id": 4,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "৪. $$CH_3-CH_2-OH$$ এবং $$CH_3-O-CH_3$$ পরস্পরের কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "অবস্থান সমানু",
+      "b": "চেইন সমানু",
+      "c": "মেটামার",
+      "d": "কার্যকরী মূলক সমানু"
+    },
+    "correctAnswer": "d",
+    "explanation": " \n ইথানল ($$CH_3CH_2OH$$) এবং ডাইমিথাইল ইথার ($$CH_3OCH_3$$) এর আণবিক সংকেত একই ($$C_2H_6O$$) কিন্তু এদের কার্যকরী মূলক ভিন্ন (অ্যালকোহল ও ইথার)। তাই এরা কার্যকরী মূলক সমানু।"
+  },
+  {
+    "id": 5,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "question": "৫. নিচের কোনটির ব্যাসার্ধ সবচেয়ে ছোট?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$Na^+$$",
+      "b": "$$Mg^{2+}$$",
+      "c": "$$Al^{3+}$$",
+      "d": "$$F^-$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "এগুলো সব আইসো-ইলেক্ট্রনিক (সবার ১০টি ইলেকট্রন আছে)। আইসো-ইলেক্ট্রনিক আয়নের ক্ষেত্রে যার পারমাণবিক সংখ্যা (প্রোটন) বেশি, তার নিউক্লিয়ার আকর্ষণ বেশি বলে আকার ছোট হয়। অ্যালুমিনিয়ামের প্রোটন সংখ্যা ১৩ (সর্বোচ্চ), তাই এর আকার ক্ষুদ্রতম।"
+  },
+  {
+    "id": 6,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "question": "৬. বোরন ট্রাইফ্লোরাইড ($$BF_3$$) এর আকৃতি কীরূপ?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "রৈখিক",
+      "b": "ত্রিকোণাকার সমতলীয়",
+      "c": "পিরামিডীয়",
+      "d": "চতুস্তলকীয়"
+    },
+    "correctAnswer": "b",
+    "explanation": " \n $$BF_3$$ অণুতে বোরনের $$sp^2$$ সংকরায়ন ঘটে। কোনো মুক্তজোড় ইলেকট্রন না থাকায় এটি ১২০° কোণে একটি সমতলীয় ত্রিকোণাকার কাঠামো গঠন করে।"
+  },
+  {
+    "id": 7,
+    "subject": "Chemistry",
+    "topic": "Quantitative Chemistry",
+    "question": "৭. $$0.01 M HCl$$ দ্রবণের pH কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "0"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$HCl$$ একটি তীব্র এসিড, তাই $$[H^+] = 0.01 M = 10^{-2} M$$। সূত্রানুসারে, $$pH = -\\log(10^{-2}) = 2$$।"
+  },
+  {
+    "id": 8,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "৮. ক্যানিজারো বিক্রিয়া দেয় নিচের কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$CH_3CHO$$",
+      "b": "$$HCHO$$",
+      "c": "$$CH_3COCH_3$$",
+      "d": "$$C_2H_5CHO$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "যে সকল অ্যালডিহাইডে আলফা-হাইড্রোজেন নেই তারা ক্যানিজারো বিক্রিয়া দেয়। ফরমালডিহাইড ($$HCHO$$) এ কোনো আলফা-কার্বন বা হাইড্রোজেন নেই, তাই এটি এই বিক্রিয়া প্রদর্শন করে।"
+  },
+  {
+    "id": 9,
+    "subject": "Chemistry",
+    "topic": "Gaseous State",
+    "question": "৯. গ্যাসের ব্যাপন হার কোনটির উপর নির্ভর করে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "চাপ",
+      "b": "আয়তন",
+      "c": "আণবিক ভর",
+      "d": "উষ্ণতা"
+    },
+    "correctAnswer": "c",
+    "explanation": "গ্রাহামের ব্যাপন সূত্রানুসারে, স্থির তাপমাত্রা ও চাপে কোনো গ্যাসের ব্যাপন হার তার আণবিক ভরের বর্গমূলের ব্যস্তানুপাতিক ($$r \\propto 1/\\sqrt{M}$$)।"
+  },
+  {
+    "id": 10,
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "question": "১০. পানিতে চিনির দ্রবণ কী ধরণের তড়িৎ বিশ্লেষ্য?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "তীব্র",
+      "b": "মৃদু",
+      "c": "তড়িৎ অবিশ্লেষ্য",
+      "d": "কোনোটিই নয়"
+    },
+    "correctAnswer": "c",
+    "explanation": "চিনি বা সুক্রোজ একটি সমযোজী যৌগ যা পানিতে দ্রবীভূত হলেও আয়নে বিয়োজিত হয় না। আয়ন তৈরি হয় না বলে এটি বিদ্যুৎ পরিবহন করতে পারে না।"
+  },
+  {
+    "id": 11,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "question": "১১. সবচেয়ে শক্তিশালী ক্ষার কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$LiOH$$",
+      "b": "$$NaOH$$",
+      "c": "$$KOH$$",
+      "d": "$$CsOH$$"
+    },
+    "correctAnswer": "d",
+    "explanation": "পর্যায় সারণির গ্রুপ-১ এর উপর থেকে নিচে গেলে পরমাণুর আকার বৃদ্ধির সাথে সাথে ধাতব ধর্ম বাড়ে। ফলে হাইড্রক্সিল মূলক ত্যাগের প্রবণতা বাড়ে এবং ক্ষারকীয় শক্তি বৃদ্ধি পায়। তাই সিজিয়াম হাইড্রক্সাইড ($$CsOH$$) সবচেয়ে শক্তিশালী ক্ষার।"
+  },
+  {
+    "id": 12,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "১২. লুকাস বিকারক কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$ZnCl_2 + HCl$$",
+      "b": "$$ZnCl_2 + H_2SO_4$$",
+      "c": "$$AgNO_3 + NH_4OH$$",
+      "d": "$$I_2 + NaOH$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "অনার্দ্র জিংক ক্লোরাইড ($$ZnCl_2$$) এবং গাঢ় হাইড্রোক্লোরিক এসিডের ($$HCl$$) মিশ্রণকে লুকাস বিকারক বলা হয় যা অ্যালকোহল শনাক্তকরণে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 13,
+    "subject": "Chemistry",
+    "topic": "Qualitative Chemistry",
+    "question": "১৩. শিখা পরীক্ষায় ইটের মতো লাল বর্ণ দেয় কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$Ba$$",
+      "b": "$$Sr$$",
+      "c": "$$Ca$$",
+      "d": "$$Na$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "শিখা পরীক্ষায় ক্যালসিয়াম ($$Ca$$) পরমাণু উত্তেজিত হয়ে ইটের মতো লাল (Brick red) বর্ণ প্রদর্শন করে।"
+  },
+  {
+    "id": 14,
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "question": "১৪. $$Fe$$ এর পারমাণবিক সংখ্যা ২৬ হলে $$Fe^{2+}$$ এ অযুগ্ম ইলেকট্রন কয়টি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "২টি",
+      "b": "৩টি",
+      "c": "৪টি",
+      "d": "৬টি"
+    },
+    "correctAnswer": "c",
+    "explanation": "$$Fe$$ এর বিন্যাস: $$[Ar] 3d^6 4s^2$$। $$Fe^{2+}$$ হলে বিন্যাস হয় $$[Ar] 3d^6$$। হুন্ডের নীতি অনুযায়ী ৫টি ইলেকট্রন ১টি করে বসার পর ৬ষ্ঠ ইলেকট্রনটি জোড়া গঠন করে। ফলে ৪টি ইলেকট্রন অযুগ্ম (বিজোড়) থাকে।"
+  },
+  {
+    "id": 15,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "question": "১৫. লুইস এসিড কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$NH_3$$",
+      "b": "$$H_2O$$",
+      "c": "$$BF_3$$",
+      "d": "$$CH_4$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "লুইস এসিড হলো সেই অণু যা ইলেকট্রন জোড় গ্রহণ করতে পারে। $$BF_3$$ এর বোরন পরমাণুর বাইরের স্তরে ৬টি ইলেকট্রন থাকে (অষ্টক অপূর্ণ), তাই এটি ইলেকট্রন গ্রহীতা বা লুইস এসিড।"
+  },
+  {
+    "id": 16,
+    "subject": "Chemistry",
+    "topic": "Quantitative Chemistry",
+    "question": "১৬. অ্যাভোলেড্রো সংখ্যার মান কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$6.023 \\times 10^{22}$$",
+      "b": "$$6.023 \\times 10^{23}$$",
+      "c": "$$6.63 \\times 10^{-34}$$",
+      "d": "$$1.6 \\times 10^{-19}$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "১ মোল যেকোনো পদার্থে অণু বা পরমাণুর নির্দিষ্ট সংখ্যাকে অ্যাভোলেড্রো সংখ্যা বলা হয়, যার মান প্রায় $$6.023 \\times 10^{23}$$।"
+  },
+  {
+    "id": 17,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "question": "১৭. ইথিলিন ($$C_2H_4$$) এ কয়টি সিগমা ও পাই বন্ধন আছে?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "৪ সিগমা, ১ পাই",
+      "b": "৫ সিগমা, ১ পাই",
+      "c": "৬ সিগমা, ০ পাই",
+      "d": "৪ সিগমা, ২ পাই"
+    },
+    "correctAnswer": "b",
+    "explanation": " \n ইথিলিনে $$C=C$$ দ্বিবন্ধনের ১টি সিগমা ও ১টি পাই বন্ধন থাকে এবং ৪টি $$C-H$$ একক বন্ধন সিগমা প্রকৃতির হয়। মোট সিগমা বন্ধন ৫টি ও পাই বন্ধন ১টি।"
+  },
+  {
+    "id": 18,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "question": "১৮. নিচের কোনটি প্যারাম্যাগনেটিক?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$Zn^{2+}$$",
+      "b": "$$Cu^+$$",
+      "c": "$$Fe^{2+}$$",
+      "d": "$$Sc^{3+}$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "প্যারাম্যাগনেটিক ধর্মের জন্য অযুগ্ম ইলেকট্রন থাকা প্রয়োজন। $$Fe^{2+}$$ এর বিন্যাসে ৪টি অযুগ্ম ইলেকট্রন থাকে। বাকি অপশনগুলোতে সব ইলেকট্রন জোড়াবদ্ধ অবস্থায় থাকে।"
+  },
+  {
+    "id": 19,
+    "subject": "Chemistry",
+    "topic": "Quantitative Chemistry",
+    "question": "১৯. গ্লুকোজের স্থূল সংকেত কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$C_2H_4O_2$$",
+      "b": "$$CH_2O$$",
+      "c": "$$C_6H_{12}O_6$$",
+      "d": "$$CHO$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "গ্লুকোজের আণবিক সংকেত $$C_6H_{12}O_6$$। পরমাণুগুলোর সংখ্যার সরল অনুপাত করলে ($$6:12:6 = 1:2:1$$) পাওয়া যায় স্থূল সংকেত $$CH_2O$$।"
+  },
+  {
+    "id": 20,
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "question": "২০. ব্লিচিং পাউডারের সংকেত কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$CaOCl_2$$",
+      "b": "$$Ca(OCl)Cl$$",
+      "c": "$$Ca(OH)2$$",
+      "d": "$$CaO$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "ব্লিচিং পাউডারের রাসায়নিক নাম ক্যালসিয়াম ক্লোরো-হাইপোক্লোরাইট। এর সংকেতকে সাধারণত $$Ca(OCl)Cl$$ বা অনেক সময় গুছিয়ে $$CaOCl_2$$ লেখা হয়।"
+  },
+  {
+    "id": 21,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "question": "২১. অক্সিজেন অণুর চুম্বক ধর্ম কীরূপ?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "ডায়াম্যাগনেটিক",
+      "b": "প্যারাম্যাগনেটিক",
+      "c": "ফেরোম্যাগনেটিক",
+      "d": "কোনোটিই নয়"
+    },
+    "correctAnswer": "b",
+    "explanation": " \n আণবিক অরবিটাল তত্ত্ব (MOT) অনুসারে, অক্সিজেন অণুর উচ্চতর এন্টি-বন্ডিং অরবিটালে ২টি বিজোড় ইলেকট্রন থাকে, তাই এটি প্যারাম্যাগনেটিক।"
+  },
+  {
+    "id": 22,
+    "subject": "Chemistry",
+    "topic": "Quantitative Chemistry",
+    "question": "২২. কোনটি প্রাইমারি স্ট্যান্ডার্ড পদার্থ?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$HCl$$",
+      "b": "$$H_2SO_4$$",
+      "c": "$$Na_2CO_3$$",
+      "d": "$$NaOH$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "সোডিয়াম কার্বনেট ($$Na_2CO_3$$) প্রকৃতিতে বিশুদ্ধ অবস্থায় পাওয়া যায় এবং বায়ুর সাথে বিক্রিয়া করে না বলে এটি একটি প্রাইমারি স্ট্যান্ডার্ড পদার্থ।"
+  },
+  {
+    "id": 23,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "question": "২৩. পর্যায় সারণীর কোন গ্রুপে হ্যালোজেন থাকে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "১৫",
+      "b": "১৬",
+      "c": "১৭",
+      "d": "১৮"
+    },
+    "correctAnswer": "c",
+    "explanation": "পর্যায় সারণির গ্রুপ-১৭ মৌলগুলোকে (যেমন: $$F$$, $$Cl$$, $$Br$$, $$I$$) হ্যালোজেন বলা হয়, যার অর্থ 'লবণ উৎপাদনকারী'।"
+  },
+  {
+    "id": 14,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "২৪. টোলেন বিকারকের সাথে সিলভার দর্পণ দেয় কোনটি?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "$$CH_3OH$$",
+      "b": "$$HCHO$$",
+      "c": "$$CH_3COCH_3$$",
+      "d": "$$CH_3COOH$$"
+    },
+    "correctAnswer": "b",
+    "explanation": " \n অ্যালডিহাইড মূলক ($$-CHO$$) যুক্ত যৌগ যেমন ফরমালডিহাইড ($$HCHO$$) টোলেন বিকারককে বিজারিত করে সিলভার দর্পণ তৈরি করে।"
+  },
+  {
+    "id": 25,
+    "subject": "Chemistry",
+    "topic": "Gaseous State",
+    "question": "২৫. এসআই (SI) এককে মোলার গ্যাস ধ্রুবক R এর মান কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "0.0821",
+      "b": "8.314",
+      "c": "1.98",
+      "d": "0.083"
+    },
+    "correctAnswer": "b",
+    "explanation": "SI এককে মোলার গ্যাস ধ্রুবক $$R$$ এর মান হলো ৮.৩১৪ $$J \\cdot mol^{-1} \\cdot K^{-1}$$।"
+  }
+]
