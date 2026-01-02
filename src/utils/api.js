@@ -1,0 +1,183 @@
+export async function saveSubmission(payload) {
+  let res;
+  try {
+    res = await fetch('/api/save-answer', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    })
+  } catch (fetchErr) {
+    throw fetchErr;
+  }
+
+  if (!res.ok) {
+    const text = await res.text()
+    throw new Error(text || 'Failed to save submission')
+  }
+
+  const result = await res.json()
+  return result
+}
+
+export async function deleteSubmission(studentName, timestamp) {
+  let res;
+  try {
+    res = await fetch('/api/delete-answer', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ studentName, timestamp })
+    })
+  } catch (fetchErr) {
+    throw fetchErr;
+  }
+
+  if (!res.ok) {
+    const text = await res.text()
+    throw new Error(text || 'Failed to delete submission')
+  }
+
+  return res.json()
+}
+
+export async function deleteStudent(studentName) {
+  let res;
+  try {
+    res = await fetch('/api/delete-student', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ studentName })
+    })
+  } catch (fetchErr) {
+    throw fetchErr;
+  }
+
+  if (!res.ok) {
+    const text = await res.text()
+    throw new Error(text || 'Failed to delete student')
+  }
+
+  return res.json()
+}
+
+export async function loadSubmissions() {
+  const isDev = window.location.hostname === 'localhost'
+  const url = isDev
+    ? '/answers.json'
+    : 'https://raw.githubusercontent.com/maruf7705/25MCQ/main/answers.json'
+
+  let res;
+  try {
+    res = await fetch(url, {
+      cache: 'no-store'
+    })
+  } catch (fetchErr) {
+    throw fetchErr;
+  }
+
+  if (!res.ok) {
+    const text = await res.text().catch(() => 'Could not read error')
+    throw new Error(`Failed to load submissions: ${res.status} ${res.statusText}`)
+  }
+
+  const data = await res.json()
+  return data
+}
+
+export async function loadLatestQuestions() {
+  // Try to find the latest question file by checking in descending order
+  // Try questions-100.json down to questions-1.json, then questions.json
+
+  for (let version = 100; version >= 1; version--) {
+    const fileName = `questions-${version}.json`
+    try {
+      const res = await fetch(`/${fileName}`)
+      if (res.ok) {
+        // Try to parse as JSON to verify it's a valid file
+        const text = await res.text()
+        JSON.parse(text) // This will throw if it's not valid JSON (like HTML)
+        console.log(`Found latest questions file: ${fileName}`)
+        return { file: fileName, version }
+      }
+    } catch (error) {
+      // File doesn't exist or is not valid JSON, continue to next
+      continue
+    }
+  }
+
+  // Fallback to questions.json
+  console.log('Using default questions.json')
+  return { file: 'questions.json', version: 0 }
+}
+
+export async function savePendingStudent(studentName, timestamp = null) {
+  let res;
+  try {
+    res = await fetch('/api/save-pending-student', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        studentName,
+        timestamp: timestamp ? new Date(timestamp).toISOString() : undefined
+      })
+    })
+  } catch (fetchErr) {
+    throw fetchErr;
+  }
+
+  if (!res.ok) {
+    const text = await res.text()
+    throw new Error(text || 'Failed to save pending student')
+  }
+
+  return res.json()
+}
+
+export async function removePendingStudent(studentName) {
+  let res;
+  try {
+    res = await fetch('/api/remove-pending-student', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ studentName })
+    })
+  } catch (fetchErr) {
+    throw fetchErr;
+  }
+
+  if (!res.ok) {
+    const text = await res.text()
+    throw new Error(text || 'Failed to remove pending student')
+  }
+
+  return res.json()
+}
+
+export async function loadPendingStudents() {
+  const isDev = window.location.hostname === 'localhost'
+  const url = isDev
+    ? '/pending-students.json'
+    : 'https://raw.githubusercontent.com/maruf7705/25MCQ/main/pending-students.json'
+
+  let res;
+  try {
+    res = await fetch(url, {
+      cache: 'no-store'
+    })
+  } catch (fetchErr) {
+    throw fetchErr;
+  }
+
+  if (!res.ok) {
+    // If file doesn't exist yet, return empty array
+    if (res.status === 404) {
+      return []
+    }
+    const text = await res.text().catch(() => 'Could not read error')
+    throw new Error(`Failed to load pending students: ${res.status} ${res.statusText}`)
+  }
+
+  const data = await res.json()
+  return data
+}
+
+
