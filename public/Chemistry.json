@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "subject": "Chemistry",
+    "topic": "Thermodynamics",
+    "question": "০১. ১ মোল আদর্শ গ্যাসকে স্থির তাপমাত্রায় ১০ লিটার থেকে ১০০ লিটার প্রসারিত করলে কৃতকাজ কত? ($$R = 8.314 \\text{ J/mol K}, T = 300 \\text{ K}$$)",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "৫৭৪৪ জুল",
+      "b": "২৮৭২ জুল",
+      "c": "১৭২৯ জুল",
+      "d": "০ জুল"
+    },
+    "correctAnswer": "a",
+    "explanation": ""
+  },
+  {
+    "id": 2,
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "question": "০২. নিচের কোনটি কলিগেটিভ ধর্ম নয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "অভিস্রবণিক চাপ",
+      "b": "স্ফুটনাঙ্কের উন্নয়ন",
+      "c": "বাষ্পচাপ",
+      "d": "হিমাঙ্কের অবনমন"
+    },
+    "correctAnswer": "c",
+    "explanation": "বাষ্পচাপ কলিগেটিভ ধর্ম নয়, তবে 'বাষ্পচাপের আপেক্ষিক অবনমন' একটি কলিগেটিভ ধর্ম। কলিগেটিভ ধর্ম মূলত দ্রবের অণুর সংখ্যার ওপর নির্ভর করে।"
+  },
+  {
+    "id": 3,
+    "subject": "Chemistry",
+    "topic": "Acids and Bases",
+    "question": "০৩. রক্তের pH ৭.৩৫-৭.৪৫ এর নিচে নেমে গেলে তাকে কী বলে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "অ্যালক্যালোসিস",
+      "b": "অ্যাসিডোসিস",
+      "c": "হাইপোক্সিয়া",
+      "d": "অ্যানিমিয়া"
+    },
+    "correctAnswer": "b",
+    "explanation": "রক্তের স্বাভাবিক pH-এর মান ৭.৩৫ এর নিচে নেমে যাওয়াকে অ্যাসিডোসিস বলা হয়। পক্ষান্তরে ৭.৪৫ এর বেশি হওয়াকে অ্যালক্যালোসিস বলে।"
+  },
+  {
+    "id": 4,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "question": "০৪. হ্যালোজেনগুলোর মধ্যে কোনটির বন্ধন বিয়োজন শক্তি সবচেয়ে বেশি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$F_2$$",
+      "b": "$$Cl_2$$",
+      "c": "$$Br_2$$",
+      "d": "$$I_2$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "ফ্লোরিনের আকার খুব ছোট হওয়ায় ইলেকট্রন বিকর্ষণের কারণে এর বন্ধন শক্তি কমে যায়। হ্যালোজেনগুলোর বন্ধন শক্তির সঠিক ক্রম হলো: $$Cl_2 > Br_2 > F_2 > I_2$$।"
+  },
+  {
+    "id": 5,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "০৫. অ্যাসিটিক অ্যানহাইড্রাইডের IUPAC নাম কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ইথানয়িক অ্যানহাইড্রাইড",
+      "b": "মিথানয়িক অ্যানহাইড্রাইড",
+      "c": "প্রোপানয়িক অ্যানহাইড্রাইড",
+      "d": "ইথানল"
+    },
+    "correctAnswer": "a",
+    "explanation": "অ্যাসিটিক অ্যানহাইড্রাইড $$(CH_3CO)_2O$$ দুটি ইথানয়িক এসিড অণু থেকে পানি অপসারণের মাধ্যমে তৈরি হয়, তাই এর IUPAC নাম ইথানয়িক অ্যানহাইড্রাইড।"
+  },
+  {
+    "id": 6,
+    "subject": "Chemistry",
+    "topic": "Solubility",
+    "question": "০৬. $$AgCl$$ এর দ্রাব্যতা $$S$$ হলে, দ্রাব্যতা গুণফল কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$S$$",
+      "b": "$$S^2$$",
+      "c": "$$4S^3$$",
+      "d": "$$27S^4$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$AgCl \\rightleftharpoons Ag^+ + Cl^-$$। যদি দ্রাব্যতা $$S$$ হয়, তবে $$K_{sp} = [Ag^+][Cl^-] = S \\times S = S^2$$।"
+  },
+  {
+    "id": 7,
+    "subject": "Chemistry",
+    "topic": "Quantitative Chemistry",
+    "question": "০৭. ইউরিয়াতে নাইট্রোজেনের শতকরা পরিমাণ কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "২৩\\%",
+      "b": "৪৬\\%",
+      "c": "৫৬\\%",
+      "d": "৩৫\\%"
+    },
+    "correctAnswer": "b",
+    "explanation": "ইউরিয়ার সংকেত $$NH_2CONH_2$$। এর আণবিক ভর ৬০ এবং নাইট্রোজেনের মোট ভর ২৮। শতকরা পরিমাণ $$= (28/60) \\times 100 \\approx 46.6\\%$$।"
+  },
+  {
+    "id": 8,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "question": "০৮. নিচের কোনটি অবস্থান্তর মৌল নয়?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "$$Fe$$",
+      "b": "$$Zn$$",
+      "c": "$$Cu$$",
+      "d": "$$Sc$$"
+    },
+    "correctAnswer": "b",
+    "explanation": " \n জিংক ($$Zn$$) এর সুস্থিত আয়ন $$Zn^{2+}$$ এর ইলেকট্রন বিন্যাস $$3d^{10}$$, যা সম্পূর্ণ পূর্ণ। তাই এটি অবস্থান্তর মৌল নয়।"
+  },
+  {
+    "id": 9,
+    "subject": "Chemistry",
+    "topic": "Qualitative Chemistry",
+    "question": "০৯. ক্রোম্যাটোগ্রাফিতে স্থির দশা হতে পারে-",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "কঠিন বা তরল",
+      "b": "তরল বা গ্যাস",
+      "c": "শুধুমাত্র কঠিন",
+      "d": "শুধুমাত্র গ্যাস"
+    },
+    "correctAnswer": "a",
+    "explanation": "ক্রোম্যাটোগ্রাফিতে স্থির দশা হিসেবে সাধারণত কঠিন (যেমন: সিলিকা জেল) বা তরল (যেমন: কাগজের ভেতরের পানি) ব্যবহৃত হয়।"
+  },
+  {
+    "id": 10,
+    "subject": "Chemistry",
+    "topic": "Biochemistry",
+    "question": "১০. কোনটি সত্য নয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "এনজাইম উচ্চ আণবিক ভরবিশিষ্ট প্রোটিন",
+      "b": "এনজাইম নির্দিষ্ট pH এ কাজ করে",
+      "c": "এনজাইম অজৈব প্রভাবক",
+      "d": "এনজাইম তাপ সংবেদনশীল"
+    },
+    "correctAnswer": "c",
+    "explanation": "এনজাইম হলো জৈব প্রভাবক বা বায়োক্যাটালিস্ট। এরা জীবকোষে প্রোটিন থেকে তৈরি হয়, তাই এরা অজৈব প্রভাবক নয়।"
+  },
+  {
+    "id": 11,
+    "subject": "Chemistry",
+    "topic": "Reaction Kinetics",
+    "question": "১১. কোনো বিক্রিয়া ৫০\\% সম্পন্ন হতে ২ ঘণ্টা এবং ৭৫\\% সম্পন্ন হতে ৪ ঘণ্টা লাগে। বিক্রিয়াটির ক্রম কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "শূন্য",
+      "b": "প্রথম",
+      "c": "দ্বিতীয়",
+      "d": "ভগ্নাংশ"
+    },
+    "correctAnswer": "b",
+    "explanation": "যেহেতু প্রতি ২ ঘণ্টা (অর্ধায়ু) পর পর অবশিষ্টাংশ অর্ধেক হয়ে যাচ্ছে (১০০ থেকে ৫০, ৫০ থেকে ২৫), তাই এটি একটি প্রথম ক্রমের বিক্রিয়া।"
+  },
+  {
+    "id": 12,
+    "subject": "Chemistry",
+    "topic": "Qualitative Chemistry",
+    "question": "১২. $$KMnO_4$$ এর বর্ণ কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "কমলা",
+      "b": "হলুদ",
+      "c": "বেগুনি",
+      "d": "সবুজ"
+    },
+    "correctAnswer": "c",
+    "explanation": "পটাশিয়াম পারম্যাঙ্গানেট একটি উজ্জ্বল বেগুনি বর্ণের শক্তিশালী জারক পদার্থ।"
+  },
+  {
+    "id": 13,
+    "subject": "Chemistry",
+    "topic": "Environmental Chemistry",
+    "question": "১৩. আলোক-রাসায়নিক ধোঁয়াশা (Photochemical Smog) তৈরিতে দায়ী কোনটি?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "$$CO_2$$",
+      "b": "$$CFC$$",
+      "c": "$$NO_x$$ এবং হাইড্রোকার্বন",
+      "d": "$$SO_2$$"
+    },
+    "correctAnswer": "c",
+    "explanation": " \n সূর্যালোকের উপস্থিতিতে নাইট্রোজেন অক্সাইড ($$NO_x$$) এবং অসম্পৃক্ত হাইড্রোকার্বনের বিক্রিয়ায় আলোক-রাসায়নিক ধোঁয়াশা তৈরি হয়।"
+  },
+  {
+    "id": 14,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "১৪. ডাইক্লোরোবেনজিনের কয়টি সমাণু সম্ভব?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "২",
+      "b": "৩",
+      "c": "৪",
+      "d": "৫"
+    },
+    "correctAnswer": "b",
+    "explanation": "ডাইক্লোরোবেনজিনের ৩টি অবস্থান সমাণু সম্ভব: অর্থো (১,২), মেটা (১,৩) এবং প্যারা (১,৪)।"
+  },
+  {
+    "id": 15,
+    "subject": "Chemistry",
+    "topic": "Coordination Chemistry",
+    "question": "১৫. $$K_4[Fe(CN)_6]$$ যৌগে আয়রনের সন্নিবেশ সংখ্যা কত?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "৪",
+      "b": "২",
+      "c": "৬",
+      "d": "৩"
+    },
+    "correctAnswer": "c",
+    "explanation": " \n এই জটিল যৌগে আয়রন পরমাণু ৬টি সায়ানাইড লিগ্যান্ডের সাথে যুক্ত, তাই এর সন্নিবেশ সংখ্যা ৬।"
+  },
+  {
+    "id": 16,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "১৬. অসম্পৃক্ততা (দ্বিবন্ধন/ত্রিবন্ধন) শনাক্ত করতে কোন পরীক্ষাটি করা হয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "বেয়ার পরীক্ষা",
+      "b": "লুকাস পরীক্ষা",
+      "c": "হ্যালোফর্ম পরীক্ষা",
+      "d": "টলেন পরীক্ষা"
+    },
+    "correctAnswer": "a",
+    "explanation": "ক্ষারীয় $$KMnO_4$$ দ্রবণ (বেয়ার বিকারক) অসম্পৃক্ত যৌগের বর্ণহীন করার মাধ্যমে দ্বিবন্ধন বা ত্রিবন্ধন শনাক্ত করে।"
+  },
+  {
+    "id": 17,
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "question": "১৭. কার্বনের কোন রূপভেদ বিদ্যুৎ পরিবহন করে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "হীরা",
+      "b": "গ্রাফাইট",
+      "c": "ফুলারিন",
+      "d": "কয়লা"
+    },
+    "correctAnswer": "b",
+    "explanation": "গ্রাফাইটে মুক্ত পাই-ইলেকট্রন থাকায় এটি অধাতু হওয়া সত্ত্বেও চমৎকার বিদ্যুৎ পরিবহন করে।"
+  },
+  {
+    "id": 18,
+    "subject": "Chemistry",
+    "topic": "Polymers",
+    "question": "১৮. পিভিসি (PVC) এর মনোমার কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ইথিন",
+      "b": "ভিনাইল ক্লোরাইড",
+      "c": "স্টাইরিন",
+      "d": "প্রোপিন"
+    },
+    "correctAnswer": "b",
+    "explanation": "ভিনাইল ক্লোরাইড বা ক্লোরোইথিনের পলিমারকরণ বিক্রিয়ায় পিভিসি প্লাস্টিক তৈরি হয়।"
+  },
+  {
+    "id": 19,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "১৯. বেনজিনের নাইট্রেশন বিক্রিয়ায় ইলেকট্রোফাইল কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$NO_2^-$$",
+      "b": "$$NO_2^+$$",
+      "c": "$$NO_3^-$$",
+      "d": "$$HNO_3$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "নাইট্রেশন মিশ্রণে ($$H_2SO_4 + HNO_3$$) উৎপন্ন নাইট্রোনিয়াম আয়ন ($$NO_2^+$$) ইলেকট্রোফাইল হিসেবে বেনজিন বলয়কে আক্রমণ করে।"
+  },
+  {
+    "id": 20,
+    "subject": "Chemistry",
+    "topic": "Biochemistry",
+    "question": "২০. কোন ভিটামিনে কোবাল্ট ($$Co$$) থাকে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ভিটামিন A",
+      "b": "ভিটামিন C",
+      "c": "ভিটামিন B12",
+      "d": "ভিটামিন D"
+    },
+    "correctAnswer": "c",
+    "explanation": "ভিটামিন B12 বা সায়ানোকোবালামিন এর কেন্দ্রীয় ধাতু হিসেবে কোবাল্ট বিদ্যমান।"
+  },
+  {
+    "id": 21,
+    "subject": "Chemistry",
+    "topic": "Reaction Kinetics",
+    "question": "২১. $$2A + B \\to C$$ বিক্রিয়ার হার সমীকরণ $$r = k[A][B]^2$$। উভয় বিক্রিয়কের ঘনমাত্রা দ্বিগুণ করলে হার কতগুণ বাড়বে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "২ গুণ",
+      "b": "৪ গুণ",
+      "c": "৮ গুণ",
+      "d": "১৬ গুণ"
+    },
+    "correctAnswer": "c",
+    "explanation": "ঘনমাত্রা দ্বিগুণ করলে নতুন হার হবে $$r' = k(2[A])(2[B])^2 = k \\times 2[A] \\times 4[B]^2 = 8 \\times r$$। অর্থাৎ হার ৮ গুণ বাড়বে।"
+  },
+  {
+    "id": 22,
+    "subject": "Chemistry",
+    "topic": "Acids and Bases",
+    "question": "২২. নিচের কোনটি জারক এসিড?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$HCl$$",
+      "b": "$$HNO_3$$",
+      "c": "$$HBr$$",
+      "d": "$$HI$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "নাইট্রিক এসিড একটি শক্তিশালী জারক এসিড। এটি ধাতুর সাথে বিক্রিয়ায় সরাসরি হাইড্রোজেন গ্যাস তৈরির বদলে নাইট্রোজেন অক্সাইড তৈরি করে।"
+  },
+  {
+    "id": 23,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "question": "২৩. $$sp^3d^2$$ সংকরায়নের ফলে অণুর আকৃতি কেমন হয়?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "চতুস্তলকীয়",
+      "b": "অষ্টতলকীয়",
+      "c": "ত্রিভুজাকার দ্বিপিরামিডীয়",
+      "d": "সমতলীয় বর্গাকার"
+    },
+    "correctAnswer": "b",
+    "explanation": " \n $$sp^3d^2$$ সংকরায়িত অণুর (যেমন: $$SF_6$$) আকৃতি সুষম অষ্টতলকীয় হয়।"
+  },
+  {
+    "id": 24,
+    "subject": "Chemistry",
+    "topic": "Colloids",
+    "question": "২৪. দুধ হলো এক প্রকার-",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সল",
+      "b": "জেল",
+      "c": "ইমালশন",
+      "d": "অ্যারোসল"
+    },
+    "correctAnswer": "c",
+    "explanation": "দুধ হলো চর্বি এবং পানির মিশ্রণ বা ইমালশন, যেখানে একটি তরল অন্য তরল পদার্থে সূক্ষ্ম কণা হিসেবে ছড়িয়ে থাকে।"
+  },
+  {
+    "id": 25,
+    "subject": "Chemistry",
+    "topic": "Acids and Bases",
+    "question": "২৫. $$pH = 3$$ এবং $$pH = 5$$ এর দ্রবণের মোলার ঘনমাত্রার অনুপাত কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "২",
+      "b": "১০",
+      "c": "১০০",
+      "d": "১০০০"
+    },
+    "correctAnswer": "c",
+    "explanation": "$$pH = 3$$ মানে $$10^{-3} M$$ এবং $$pH = 5$$ মানে $$10^{-5} M$$। এদের অনুপাত $$= 10^{-3} / 10^{-5} = 10^2 = 100$$।"
+  }
+]
