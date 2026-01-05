@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "০১. নিচের কোন যৌগটি অ্যামোনিয়acal সিলভার নাইট্রেট ($$AgNO_3$$) দ্রবণের সাথে বিক্রিয়া করে সাদা অধঃক্ষেপ তৈরি করে?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "$$CH_3-CH=CH_2$$",
+      "b": "$$CH_3-C\\equiv C-CH_3$$",
+      "c": "$$CH_3-CH_2-C\\equiv CH$$",
+      "d": "$$CH_2=CH_2$$"
+    },
+    "correctAnswer": "c",
+    "explanation": " \n টলেন বিকারক বা অ্যামোনিয়acal সিলভার নাইট্রেট কেবল প্রান্তীয় অ্যালকাইনের (Terminal Alkyne) সাথে বিক্রিয়া করে। বিউটাইন-১ ($$CH_3-CH_2-C\\equiv CH$$) একটি প্রান্তীয় অ্যালকাইন যার অম্লধর্মী হাইড্রোজেন সিলভার দ্বারা প্রতিস্থাপিত হয়ে সাদা অধঃক্ষেপ তৈরি করে।"
+  },
+  {
+    "id": 2,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "০২. $$CH_3-CH(Cl)-CH=CH_2$$ যৌগটির বিশুদ্ধ IUPAC নাম কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "3-Chloro-1-butene",
+      "b": "3-Chlorobut-1-ene",
+      "c": "2-Chlorobut-3-ene",
+      "d": "1-ene-3-chlorobutane"
+    },
+    "correctAnswer": "b",
+    "explanation": "নামকরণের অগ্রাধিকার নীতি অনুযায়ী দ্বিবন্ধন ($$=$$) হ্যালোজেন বা অ্যালকাইল মূলকের চেয়ে বেশি প্রাধান্য পায়। তাই ডানদিক থেকে গণনা শুরু করলে ক্লোরিন ৩-নং কার্বনে পড়ে। সঠিক নাম: 3-Chlorobut-1-ene।"
+  },
+  {
+    "id": 3,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "০৩. $$S_N1$$ বিক্রিয়ার ক্ষেত্রে নিচের কোন তথ্যটি সঠিক?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "এটি এক ধাপে সম্পন্ন হয়",
+      "b": "এতে কার্বোক্যাটায়ন মধ্যক তৈরি হয়",
+      "c": "বিক্রিয়ার হার নিউক্লিওফাইলের ঘনমাত্রার ওপর নির্ভর করে",
+      "d": "জ্যামিতিক কাঠামোর পূর্ণাঙ্গ ইনভারশন ঘটে"
+    },
+    "correctAnswer": "b",
+    "explanation": " \n $$S_N1$$ বিক্রিয়া দুই ধাপে ঘটে। ১ম ধাপে ধীর গতিতে কার্বোক্যাটায়ন মধ্যক তৈরি হয়। এটি প্রথম ক্রমের বিক্রিয়া যা কেবল সাবস্ট্রেটের ঘনমাত্রার ওপর নির্ভর করে।"
+  },
+  {
+    "id": 4,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "question": "০৪. নিচের কোন আয়নটির আকার সবচেয়ে ছোট?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$Na^+$$",
+      "b": "$$Mg^{2+}$$",
+      "c": "$$Al^{3+}$$",
+      "d": "$$F^-$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "এরা সবাই আইসোইলেকট্রনিক সিরিজ (১০টি করে ইলেকট্রন)। যার প্রোটন সংখ্যা বা নিউক্লিয়ার চার্জ সবচেয়ে বেশি, তার আকার সবচেয়ে ছোট হয়। অ্যালুমিনিয়ামের প্রোটন সংখ্যা ১৩ (সর্বোচ্চ), তাই $$Al^{3+}$$ সবচেয়ে ছোট।"
+  },
+  {
+    "id": 5,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "০৫. কার্বনিল মূলকের কার্বনের ($$>C=O$$) সংকরায়ণ কোনটি?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "$$sp$$",
+      "b": "$$sp^2$$",
+      "c": "$$sp^3$$",
+      "d": "$$dsp^2$$"
+    },
+    "correctAnswer": "b",
+    "explanation": " \n কার্বনিল কার্বন অক্সিজেনের সাথে একটি সিগমা ও একটি পাই বন্ধন এবং অন্য দুটি গ্রুপের সাথে দুটি সিগমা বন্ধন তৈরি করে। মোট ৩টি সিগমা বন্ধন থাকায় এর সংকরায়ণ $$sp^2$$।"
+  },
+  {
+    "id": 6,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "০৬. নিচের কোন যৌগটি ক্যানিজারো বিক্রিয়া দেয় না?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$HCHO$$",
+      "b": "$$C_6H_5CHO$$",
+      "c": "$$(CH_3)_3C-CHO$$",
+      "d": "$$CH_3CHO$$"
+    },
+    "correctAnswer": "d",
+    "explanation": "ক্যানিজারো বিক্রিয়া দেয় শুধুমাত্র আলফা-হাইড্রোজেন বিহীন অ্যালডিহাইড। ইথান্যাল ($$CH_3CHO$$)-এ আলফা-হাইড্রোজেন থাকায় এটি অ্যালডল ঘনীভবন বিক্রিয়া দেয়, ক্যানিজারো দেয় না।"
+  },
+  {
+    "id": 7,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "question": "০৭. $$PCl_5$$ অণুর আকৃতি কেমন?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "চতুস্তলকীয়",
+      "b": "ত্রিকোণাকার দ্বিপিরামিডীয়",
+      "c": "অষ্টতলকীয়",
+      "d": "সমতলীয় বর্গাকার"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 8,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "০৮. নিচের কোনটি লুকাস বিকারক?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "গাঢ় $$HCl$$ + অনাদ্র $$ZnCl_2$$",
+      "b": "গাঢ় $$HNO_3$$ + গাঢ় $$H_2SO_4$$",
+      "c": "লঘু $$HCl$$ + $$ZnCl_2$$",
+      "d": "$$I_2$$ + $$NaOH$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "গাঢ় হাইড্রোক্লোরিক এসিড এবং অনাদ্র জিংক ক্লোরাইডের মিশ্রণকে লুকাস বিকারক বলা হয়, যা ১, ২ ও ৩ ডিগ্রি অ্যালকোহল শনাক্তকরণে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 9,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "০৯. নিচের কোনটি ইলেকট্রন আকর্ষী বিকারক (Electrophile)?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$NH_3$$",
+      "b": "$$H_2O$$",
+      "c": "$$BF_3$$",
+      "d": "$$R-OH$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "$$BF_3$$ অণুর বোরন পরমাণুর অষ্টক অপূর্ণ (৬টি ইলেকট্রন) থাকায় এটি ইলেকট্রন জোড় গ্রহণ করতে চায়, তাই এটি একটি ইলেকট্রোফাইল বা লুইস এসিড।"
+  },
+  {
+    "id": 10,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "১০. ফেনলকে ব্রোমিন পানি ($$Br_2/H_2O$$) সহ ঝাকালে কী বর্ণের অধঃক্ষেপ পড়ে?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "লাল",
+      "b": "হলুদ",
+      "c": "সাদা",
+      "d": "নীল"
+    },
+    "correctAnswer": "c",
+    "explanation": " \n ফেনল ব্রোমিন পানির সাথে বিক্রিয়া করে ২,৪,৬-ট্রাইব্রোমোফেনল তৈরি করে, যা সাদা অধঃক্ষেপ হিসেবে তলানিতে জমা পড়ে।"
+  },
+  {
+    "id": 11,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "১১. নিচের কোন যৌগটি জ্যামিতিক সমানুতা (Cis-Trans) প্রদর্শন করে?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "বিউটিন-১",
+      "b": "বিউটিন-২",
+      "c": "প্রোপিন",
+      "d": "ইথিন"
+    },
+    "correctAnswer": "b",
+    "explanation": "বিউটিন-২ ($$CH_3-CH=CH-CH_3$$)-এর দ্বিবন্ধনযুক্ত প্রতিটি কার্বনে দুটি ভিন্ন গ্রুপ ($$H$$ ও $$CH_3$$) যুক্ত থাকায় এটি সিস-ট্রান্স সমানুতা প্রদর্শন করে।"
+  },
+  {
+    "id": 12,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "question": "১২. পানির অণুতে ($$H_2O$$) বন্ধন কোণ কত?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "$$১০৯.৫^\\circ$$",
+      "b": "$$১২০^\\circ$$",
+      "c": "$$১০৭^\\circ$$",
+      "d": "$$১০৪.৫^\\circ$$"
+    },
+    "correctAnswer": "d",
+    "explanation": " \n পানির অণুতে অক্সিজেনের দুটি মুক্তজোড় ইলেকট্রন থাকায় বিকর্ষণের কারণে বন্ধন কোণ সাধারণ চতুস্তলকীয় কোণ ($$১০৯.৫^\\circ$$) থেকে কমে $$১০৪.৫^\\circ$$ হয়।"
+  },
+  {
+    "id": 13,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "১৩. বেনজিন বলায় সক্রিয়কারী মূলক কোনটি?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "$$-NO_2$$",
+      "b": "$$-CHO$$",
+      "c": "$$-OH$$",
+      "d": "$$-COOH$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "$$-OH$$ মূলক রেজোন্যান্সের মাধ্যমে বেনজিন বলয়ে ইলেকট্রন ঘনত্ব বাড়িয়ে দেয় (বিশেষ করে অর্থো ও প্যারা অবস্থানে), তাই এটি বলয় সক্রিয়কারী মূলক।"
+  },
+  {
+    "id": 14,
+    "subject": "Chemistry",
+    "topic": "Environmental Chemistry",
+    "question": "১৪. নিচের কোনটি গ্রিনহাউজ গ্যাস নয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$CO_2$$",
+      "b": "$$CH_4$$",
+      "c": "$$CFC$$",
+      "d": "$$N_2$$"
+    },
+    "correctAnswer": "d",
+    "explanation": "নাইট্রোজেন ($$N_2$$) বায়ুমণ্ডলের প্রধান উপাদান এবং এটি তাপ শোষণ করে না, তাই এটি গ্রিনহাউজ গ্যাস নয়।"
+  },
+  {
+    "id": 15,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "question": "১৫. কোনটির ইলেকট্রন আসক্তি সর্বোচ্চ?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "F",
+      "b": "Cl",
+      "c": "Br",
+      "d": "I"
+    },
+    "correctAnswer": "b",
+    "explanation": "ফ্লোরিনের আকার খুব ছোট হওয়ায় ইলেকট্রন মেঘের ঘনত্ব বেশি থাকে, যা আগত ইলেকট্রনকে বিকর্ষণ করে। তাই ক্লোরিনের ইলেকট্রন আসক্তি ফ্লোরিনের চেয়ে বেশি হয়।"
+  },
+  {
+    "id": 16,
+    "subject": "Chemistry",
+    "topic": "Redox Reaction",
+    "question": "১৬. $$K_2Cr_2O_7$$ যৌগে ক্রোমিয়ামের ($$Cr$$) জারণ মান কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "+৩",
+      "b": "+৫",
+      "c": "+৬",
+      "d": "+৭"
+    },
+    "correctAnswer": "c",
+    "explanation": "$$2(+1) + 2x + 7(-2) = 0 \\Rightarrow 2 + 2x - 14 = 0 \\Rightarrow 2x = 12 \\Rightarrow x = +6$$।"
+  },
+  {
+    "id": 17,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "১৭. অ্যালকোহল ও এসিডের বিক্রিয়ায় এস্টার তৈরির প্রক্রিয়াকে কী বলে?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "স্যাপোনিফিকেশন",
+      "b": "এস্টারিফিকেশন",
+      "c": "হাইড্রোজিনেশন",
+      "d": "পলিমারকরণ"
+    },
+    "correctAnswer": "b",
+    "explanation": "কার্বক্সিলিক এসিড ও অ্যালকোহলের ঘনীভবন বিক্রিয়ায় এস্টার ও পানি উৎপন্ন হয়, এই প্রক্রিয়াকে এস্টারিফিকেশন বা এস্টারীকরণ বলা হয়।"
+  },
+  {
+    "id": 18,
+    "subject": "Chemistry",
+    "topic": "Quantitative Chemistry",
+    "question": "১৮. নিচের কোনটি প্রাইমারি স্ট্যান্ডার্ড পদার্থ?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$KMnO_4$$",
+      "b": "$$H_2SO_4$$",
+      "c": "$$Na_2CO_3$$",
+      "d": "$$HCl$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "অনাদ্র সোডিয়াম কার্বনেট ($$Na_2CO_3$$) বিশুদ্ধ অবস্থায় পাওয়া যায় এবং বায়ুর সাথে বিক্রিয়া করে না, তাই এটি প্রাইমারি স্ট্যান্ডার্ড পদার্থ।"
+  },
+  {
+    "id": 19,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "১৯. রেকটিফাইড স্পিরিটে ইথানলের পরিমাণ কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "১০০%",
+      "b": "৯৫.৬%",
+      "c": "৯০%",
+      "d": "৫%"
+    },
+    "correctAnswer": "b",
+    "explanation": "৯৫.৬% ইথানল এবং ৪.৪% পানির মিশ্রণকে রেকটিফাইড স্পিরিট বলে। এটি একটি অ্যাজিওট্রপিক মিশ্রণ যা সাধারণ পাতন প্রক্রিয়ায় আলাদা করা যায় না।"
+  },
+  {
+    "id": 20,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "২০. নিচের কোন যৌগটি আয়োডোফর্ম বিক্রিয়া দেয়?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "মিথানল",
+      "b": "প্রোপানোন",
+      "c": "মিথান্যাল",
+      "d": "প্রোপানল-১"
+    },
+    "correctAnswer": "b",
+    "explanation": " \n আয়োডোফর্ম বিক্রিয়া দেওয়ার জন্য যৌগে মিথাইল কিটোন ($$CH_3-CO-$$) মূলক থাকতে হবে। প্রোপানোন ($$CH_3COCH_3$$)-এ এই মূলকটি উপস্থিত।"
+  },
+  {
+    "id": 21,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "question": "২১. পর্যায় সারণির কোন ব্লকের মৌলগুলো অবস্থান্তর মৌল গঠন করে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "s-ব্লক",
+      "b": "p-ব্লক",
+      "c": "d-ব্লক",
+      "d": "f-ব্লক"
+    },
+    "correctAnswer": "c",
+    "explanation": "অবস্থান্তর মৌলগুলো মূলত d-ব্লকের অন্তর্ভুক্ত, যাদের সুস্থিত আয়নে আংশিক পূর্ণ d-অরবিটাল বিদ্যমান।"
+  },
+  {
+    "id": 22,
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "question": "২২. কোনটি পলিমার যৌগ নয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "পলিথিন",
+      "b": "স্টার্চ",
+      "c": "গ্লুকোজ",
+      "d": "সেলুলোজ"
+    },
+    "correctAnswer": "c",
+    "explanation": "গ্লুকোজ একটি মনোস্যাকারাইড বা সরল অণু (মনোমার), যা যুক্ত হয়ে স্টার্চ বা সেলুলোজের মতো পলিমার গঠন করে।"
+  },
+  {
+    "id": 23,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "২৩. ফরমালিন হলো ফরমালডিহাইডের কত শতাংশ জলীয় দ্রবণ?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "১০-১৫%",
+      "b": "২০-৩০%",
+      "c": "৩০-৪০%",
+      "d": "৮০-৯০%"
+    },
+    "correctAnswer": "c",
+    "explanation": "সাধারণত ৩৭-৪০% ফরমালডিহাইডের জলীয় দ্রবণকে ফরমালিন বলা হয়, যা পচনশীল বস্তু সংরক্ষণে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 24,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "question": "২৪. হ্যালোজেনসমূহের সক্রিয়তার সঠিক ক্রম কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$F_2 > Cl_2 > Br_2 > I_2$$",
+      "b": "$$I_2 > Br_2 > Cl_2 > F_2$$",
+      "c": "$$Cl_2 > F_2 > Br_2 > I_2$$",
+      "d": "$$F_2 > Br_2 > Cl_2 > I_2$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "হ্যালোজেন গ্রুপের উপর থেকে নিচে নামলে পরমাণুর আকার বাড়ে এবং ইলেকট্রন গ্রহণ করার ক্ষমতা বা সক্রিয়তা হ্রাস পায়। ফ্লোরিন সবচেয়ে বেশি সক্রিয়।"
+  },
+  {
+    "id": 25,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "question": "২৫. সিগমা ($$\\sigma$$) বন্ধন গঠিত হয় অরবিটালের কোন অধিক্রমণ দ্বারা?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "পাশাপাশি",
+      "b": "সামনাসামনি (Head-to-head)",
+      "c": "কৌণিক",
+      "d": "কোনোটিই নয়"
+    },
+    "correctAnswer": "b",
+    "explanation": " \n দুটি অরবিটালের সামনাসামনি বা মুখামুখি (Head-on) অধিক্রমণে সিগমা বন্ধন গঠিত হয়, যা অত্যন্ত শক্তিশালী। পাশাপাশি অধিক্রমণে পাই বন্ধন তৈরি হয়।"
+  }
+]

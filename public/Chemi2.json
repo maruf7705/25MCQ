@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "subject": "Chemistry",
+    "topic": "Gaseous State",
+    "question": "০১. STP-তে ১ লিটার গ্যাসের আয়তন কত মোল?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "২২.৪ মোল",
+      "b": "০.০৪৪৬ মোল",
+      "c": "১ মোল",
+      "d": "6.02 \\times 10^{23} মোল"
+    },
+    "correctAnswer": "b",
+    "explanation": "আমরা জানি, STP-তে ২২.৪ লিটার গ্যাসের মোল সংখ্যা = ১।\nঅতএব, ১ লিটার গ্যাসের মোল সংখ্যা = $$1 / 22.4 \\approx 0.0446$$ মোল।"
+  },
+  {
+    "id": 2,
+    "subject": "Chemistry",
+    "topic": "Gaseous State",
+    "question": "০২. কোন গ্যাসটি ব্যাপন সূত্র মেনে চলে?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "$$PV = nRT$$",
+      "b": "$$r \\propto \\frac{1}{\\sqrt{d}}$$",
+      "c": "$$P \\propto \\frac{1}{V}$$",
+      "d": "$$V \\propto T$$"
+    },
+    "correctAnswer": "b",
+    "explanation": " \n গ্রাহামের ব্যাপন সূত্র মতে, স্থির তাপমাত্রা ও চাপে কোনো গ্যাসের ব্যাপনের হার ($$r$$) তার ঘনত্বের ($$d$$) বর্গমূলের ব্যস্তানুপাতিক ($$r \\propto \\frac{1}{\\sqrt{d}}$$)।"
+  },
+  {
+    "id": 3,
+    "subject": "Chemistry",
+    "topic": "Acids and Bases",
+    "question": "০৩. $$0.1 M HCl$$ দ্রবণের pH কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "১",
+      "b": "০.১",
+      "c": "২",
+      "d": "১০"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$HCl$$ একটি তীব্র এসিড, তাই এটি সম্পূর্ণ বিয়োজিত হয়। $$[H^+] = 0.1 = 10^{-1} M$$।\n$$pH = -\\log[H^+] = -\\log(10^{-1}) = 1$$।"
+  },
+  {
+    "id": 4,
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "question": "০৪. ১ ফ্যারাডে বিদ্যুৎ প্রবাহিত করলে ক্যাথোডে কত গ্রাম সিলভার ($$Ag$$) জমা হবে? ($$Ag = 108$$)",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "১০৮ গ্রাম",
+      "b": "৫৪ গ্রাম",
+      "c": "১০.৮ গ্রাম",
+      "d": "৯৬৫০০ গ্রাম"
+    },
+    "correctAnswer": "a",
+    "explanation": "ফ্যারাডের ১ম সূত্র মতে, ১ ফ্যারাডে বিদ্যুৎ ১ গ্রাম-তুল্যভর পরিমাণ পদার্থ জমা করে। সিলভারের ($$Ag^+$$) যোজনী ১, তাই এর গ্রাম-তুল্যভর = পারমাণবিক ভর = ১০৮ গ্রাম।"
+  },
+  {
+    "id": 5,
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "question": "০৫. $$10\\% (w/v) Na_2CO_3$$ দ্রবণের মোলারিটি কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "০.৯৪ M",
+      "b": "১.০ M",
+      "c": "০.৫ M",
+      "d": "২.০ M"
+    },
+    "correctAnswer": "a",
+    "explanation": "মোলারিটি, $$S = \\frac{10x}{M}$$। এখানে $$x=10$$ এবং $$Na_2CO_3$$ এর আণবিক ভর $$M=106$$।\n$$S = \\frac{10 \\times 10}{106} = \\frac{100}{106} \\approx 0.94 M$$।"
+  },
+  {
+    "id": 6,
+    "subject": "Chemistry",
+    "topic": "Chemical Equilibrium",
+    "question": "০৬. কোন সম্পর্কটি সঠিক? (যেখানে $$K_p$$ ও $$K_c$$ সাম্যধ্রুবক)",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$K_p = K_c (RT)^{\\Delta n}$$",
+      "b": "$$K_c = K_p (RT)^{\\Delta n}$$",
+      "c": "$$K_p = K_c / (RT)$$",
+      "d": "$$K_p = K_c$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "সাম্যধ্রুবক $$K_p$$ এবং $$K_c$$-এর মধ্যে প্রতিষ্ঠিত গাণিতিক সম্পর্ক হলো $$K_p = K_c (RT)^{\\Delta n}$$, যেখানে $$\\Delta n$$ হলো উৎপাদ ও বিক্রিয়কের গ্যাসীয় মোল সংখ্যার পার্থক্য।"
+  },
+  {
+    "id": 7,
+    "subject": "Chemistry",
+    "topic": "Acids and Bases",
+    "question": "০৭. $$25^\\circ C$$ তাপমাত্রায় বিশুদ্ধ পানির আয়নিক গুণফল ($$K_w$$) কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$1.0 \\times 10^{-7}$$",
+      "b": "$$1.0 \\times 10^{-14}$$",
+      "c": "$$1.0 \\times 10^{14}$$",
+      "d": "১৪"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$25^\\circ C$$ তাপমাত্রায় পানির আয়নিক গুণফল $$K_w = [H^+][OH^-] = 1.0 \\times 10^{-14}$$।"
+  },
+  {
+    "id": 8,
+    "subject": "Chemistry",
+    "topic": "Gaseous State",
+    "question": "০৮. কোন আইনটি স্থির তাপমাত্রায় গ্যাসের চাপ ও আয়তনের সম্পর্ক নির্দেশ করে?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "চার্লসের সূত্র",
+      "b": "বয়েলের সূত্র",
+      "c": "অ্যাভোগাড্রোর সূত্র",
+      "d": "ডাল্টনের সূত্র"
+    },
+    "correctAnswer": "b",
+    "explanation": " \n বয়েলের সূত্র স্থির তাপমাত্রায় নির্দিষ্ট ভরের গ্যাসের চাপ ও আয়তনের ব্যস্তানুপাতিক সম্পর্ক ($$P \\propto 1/V$$) প্রকাশ করে।"
+  },
+  {
+    "id": 9,
+    "subject": "Chemistry",
+    "topic": "Environmental Chemistry",
+    "question": "০৯. BOD (Biochemical Oxygen Demand) দ্বারা পানির কী পরিমাপ করা হয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "অজৈব দূষক",
+      "b": "জৈব দূষক",
+      "c": "পানির কঠোরতা",
+      "d": "তেজস্ক্রিয়তা"
+    },
+    "correctAnswer": "b",
+    "explanation": "BOD দ্বারা পানিতে উপস্থিত পচনযোগ্য জৈব পদার্থ ভাঙতে ব্যাকটেরিয়ার কতটুকু অক্সিজেন প্রয়োজন তা পরিমাপ করা হয়।"
+  },
+  {
+    "id": 10,
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "question": "১০. একটি বিক্রিয়ার হার ধ্রুবক ($$k$$) এর একক $$mol \\cdot L^{-1} \\cdot s^{-1}$$। বিক্রিয়াটি কোন ক্রমের?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "প্রথম ক্রম",
+      "b": "দ্বিতীয় ক্রম",
+      "c": "শূন্য ক্রম",
+      "d": "তৃতীয় ক্রম"
+    },
+    "correctAnswer": "c",
+    "explanation": "শূন্য ক্রম বিক্রিয়ার ক্ষেত্রে বিক্রিয়ার হার ঘনমাত্রার ওপর নির্ভর করে না, তাই বিক্রিয়ার হার এবং হার ধ্রুবকের একক একই হয় ($$mol \\cdot L^{-1} \\cdot s^{-1}$$)।"
+  },
+  {
+    "id": 11,
+    "subject": "Chemistry",
+    "topic": "Acids and Bases",
+    "question": "১১. নিচের কোনটি বাফার দ্রবণ?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$HCl + NaCl$$",
+      "b": "$$CH_3COOH + CH_3COONa$$",
+      "c": "$$NaOH + HCl$$",
+      "d": "$$HNO_3 + NaNO_3$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "অম্লীয় বাফার দ্রবণ তৈরি হয় একটি দুর্বল এসিড (যেমন: $$CH_3COOH$$) এবং সেই এসিডের সবল ক্ষারের লবণের (যেমন: $$CH_3COONa$$) মিশ্রণ দ্বারা।"
+  },
+  {
+    "id": 12,
+    "subject": "Chemistry",
+    "topic": "Biochemistry",
+    "question": "১২. রক্তের pH কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "৭.০",
+      "b": "৭.৩৫ - ৭.৪৫",
+      "c": "৬.৫ - ৭.৫",
+      "d": "৮.০"
+    },
+    "correctAnswer": "b",
+    "explanation": "মানব রক্তের pH একটি বাফার সিস্টেম দ্বারা সুনির্দিষ্টভাবে নিয়ন্ত্রিত থাকে এবং এর স্বাভাবিক মান ৭.৩৫ থেকে ৭.৪৫।"
+  },
+  {
+    "id": 13,
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "question": "১৩. সেমিমোলার দ্রবণের ঘনমাত্রা কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "১.০ M",
+      "b": "০.৫ M",
+      "c": "০.১ M",
+      "d": "০.০১ M"
+    },
+    "correctAnswer": "b",
+    "explanation": "মোলার = ১ M, সেমিমোলার = ০.৫ M, ডেসিমোলার = ০.১ M, সেন্টিমোলার = ০.০১ M।"
+  },
+  {
+    "id": 14,
+    "subject": "Chemistry",
+    "topic": "Environmental Chemistry",
+    "question": "১৪. নিচের কোন গ্যাসটি এসিড বৃষ্টির জন্য প্রধানত দায়ী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$CO_2$$",
+      "b": "$$SO_2$$",
+      "c": "$$CH_4$$",
+      "d": "$$NH_3$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "সালফার ডাই অক্সাইড ($$SO_2$$) বৃষ্টির পানির সাথে বিক্রিয়া করে সালফিউরিক এসিড ($$H_2SO_4$$) তৈরি করে, যা এসিড বৃষ্টির মূল কারণ।"
+  },
+  {
+    "id": 15,
+    "subject": "Chemistry",
+    "topic": "Gaseous State",
+    "question": "১৫. প্রমাণ অবস্থায় (STP) গ্যাসের মোলার আয়তন কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "২৪.৭৮৯ লিটার",
+      "b": "২২.৪ লিটার",
+      "c": "২২.৪১৪ লিটার",
+      "d": "২৪.৪ লিটার"
+    },
+    "correctAnswer": "b",
+    "explanation": "প্রমাণ তাপমাত্রা ও চাপে (STP) ১ মোল যেকোনো গ্যাসের আয়তন আদর্শভাবে ২২.৪ লিটার ধরা হয়।"
+  },
+  {
+    "id": 16,
+    "subject": "Chemistry",
+    "topic": "Stoichiometry",
+    "question": "১৬. $$H_2SO_4$$ এর তুল্যভর কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "৯৮",
+      "b": "৪৯",
+      "c": "২৪.৫",
+      "d": "৯.৮"
+    },
+    "correctAnswer": "b",
+    "explanation": "তুল্যভর = আণবিক ভর / ক্ষারকত। $$H_2SO_4$$ ২টি $$H^+$$ দান করে। তাই তুল্যভর = $$98/2 = 49$$।"
+  },
+  {
+    "id": 17,
+    "subject": "Chemistry",
+    "topic": "Acids and Bases",
+    "question": "১৭. লুইস এসিড কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$NH_3$$",
+      "b": "$$AlCl_3$$",
+      "c": "$$Cl^-$$",
+      "d": "$$H_2O$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$AlCl_3$$ তে অ্যালুমিনিয়ামের অষ্টক অপূর্ণ (৬টি ইলেকট্রন) থাকায় এটি ইলেকট্রন জোড় গ্রহণ করতে পারে, তাই এটি লুইস এসিড।"
+  },
+  {
+    "id": 18,
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "question": "১৮. কোন তড়িৎদ্বারে জারণ ঘটে?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "ক্যাথোড",
+      "b": "অ্যানোড",
+      "c": "উভয়টিতে",
+      "d": "কোনোটিতেই নয়"
+    },
+    "correctAnswer": "b",
+    "explanation": " \n তড়িৎ রাসায়নিক কোষে সর্বদাই অ্যানোডে জারণ (ইলেকট্রন ত্যাগ) এবং ক্যাথোডে বিজারণ (ইলেকট্রন গ্রহণ) ঘটে।"
+  },
+  {
+    "id": 19,
+    "subject": "Chemistry",
+    "topic": "Thermochemistry",
+    "question": "১৯. ১ ক্যালরি = কত জুল?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "৪.১৮ জুল",
+      "b": "৪.২ জুল",
+      "c": "০.২৪ জুল",
+      "d": "৮.৩১৪ জুল"
+    },
+    "correctAnswer": "a",
+    "explanation": "তাপ ও কাজের সম্পর্কের রূপান্তর গুণক অনুযায়ী, ১ ক্যালরি = ৪.১৮৪ জুল $$\\approx$$ ৪.১৮ জুল।"
+  },
+  {
+    "id": 20,
+    "subject": "Chemistry",
+    "topic": "Redox Reaction",
+    "question": "২০. $$Fe^{2+} \\rightarrow Fe^{3+} + e^-$$ এটি কোন ধরণের বিক্রিয়া?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "বিজারণ",
+      "b": "জারণ",
+      "c": "প্রশমন",
+      "d": "আদ্রবিশ্লেষণ"
+    },
+    "correctAnswer": "b",
+    "explanation": "জারণ মানে ইলেকট্রন ছারণ। এখানে $$Fe^{2+}$$ একটি ইলেকট্রন ত্যাগ করে জারণ মান বৃদ্ধি করেছে, তাই এটি জারণ বিক্রিয়া।"
+  },
+  {
+    "id": 21,
+    "subject": "Chemistry",
+    "topic": "Environmental Chemistry",
+    "question": "২১. নিচের কোনটি প্রাইমারি বায়ুদূষক?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$SO_3$$",
+      "b": "$$H_2SO_4$$",
+      "c": "$$CO$$",
+      "d": "$$O_3$$ (ওজোন)"
+    },
+    "correctAnswer": "c",
+    "explanation": "যেসব দূষক উৎস থেকে সরাসরি বায়ুমণ্ডলে নির্গত হয় (যেমন: $$CO$$), তাদের প্রাইমারি দূষক বলে। $$O_3$$ বা $$H_2SO_4$$ বায়ুমণ্ডলে বিক্রিয়ার মাধ্যমে তৈরি হয় বলে এরা সেকেন্ডারি দূষক।"
+  },
+  {
+    "id": 22,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "২২. ভিনেগারের রাসায়নিক নাম কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ইথানল",
+      "b": "ইথানয়িক এসিডের ৬-১০% জলীয় দ্রবণ",
+      "c": "মিথানয়িক এসিড",
+      "d": "ফরমালিন"
+    },
+    "correctAnswer": "b",
+    "explanation": "ইথানয়িক এসিড বা অ্যাসিটিক এসিডের ৬-১০% জলীয় দ্রবণকে ভিনেগার বা সিরকা বলা হয়, যা খাদ্য সংরক্ষণে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 23,
+    "subject": "Chemistry",
+    "topic": "Acids and Bases",
+    "question": "২৩. কোন নির্দেশকটি তীব্র এসিড ও তীব্র ক্ষারের টাইট্রেশনে ব্যবহৃত হয়?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "মিথাইল অরেঞ্জ",
+      "b": "ফেনফথ্যালিন",
+      "c": "লিটমাস",
+      "d": "যেকোনোটি"
+    },
+    "correctAnswer": "d",
+    "explanation": " \n তীব্র এসিড ও তীব্র ক্ষারের টাইট্রেশনে pH পরিসীমা ৪ থেকে ১০ এর মধ্যে উল্লম্বভাবে পরিবর্তিত হয়। এই পরিসীমার মধ্যে যেকোনো নির্দেশক (যেমন: মিথাইল অরেঞ্জ, ফেনফথ্যালিন) কাজ করে।"
+  },
+  {
+    "id": 24,
+    "subject": "Chemistry",
+    "topic": "Acids and Bases",
+    "question": "২৪. আরহেনিয়াস মতবাদ অনুযায়ী ক্ষার কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "যারা প্রোটন গ্রহণ করে",
+      "b": "যারা জলীয় দ্রবণে $$OH^-$$ আয়ন দেয়",
+      "c": "যারা ইলেকট্রন জোড় দান করে",
+      "d": "যারা $$H^+$$ আয়ন দেয়"
+    },
+    "correctAnswer": "b",
+    "explanation": "আরহেনিয়াসের মতবাদ অনুযায়ী, যেসব যৌগ জলীয় দ্রবণে বিয়োজিত হয়ে হাইড্রক্সিল আয়ন ($$OH^-$$) প্রদান করে, তাদের ক্ষার বলে।"
+  },
+  {
+    "id": 25,
+    "subject": "Chemistry",
+    "topic": "Stoichiometry",
+    "question": "২৫. $$10 g$$ চুনাপাথর ($$CaCO_3$$) কে উত্তপ্ত করলে কত গ্রাম $$CO_2$$ পাওয়া যাবে? (Ca=40, C=12, O=16)",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "৪.৪ গ্রাম",
+      "b": "২২ গ্রাম",
+      "c": "৪৪ গ্রাম",
+      "d": "২.২ গ্রাম"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$CaCO_3 \\rightarrow CaO + CO_2$$।\n১০০ গ্রাম $$CaCO_3$$ (আণবিক ভর) থেকে $$CO_2$$ পাওয়া যায় ৪৪ গ্রাম।\nঅতএব, ১০ গ্রাম থেকে পাওয়া যাবে $$= (44/100) \\times 10 = 4.4$$ গ্রাম।"
+  }
+]
