@@ -108,5 +108,42 @@
     "wrong": 9,
     "pass": true,
     "questionFile": "Chemistry6.json"
+  },
+  {
+    "studentName": "Chemistry 3",
+    "answers": {
+      "1": "c",
+      "2": "d",
+      "3": "c",
+      "4": "a",
+      "5": "c",
+      "6": "c",
+      "7": "a",
+      "8": "d",
+      "9": "b",
+      "10": "d",
+      "11": "c",
+      "12": "d",
+      "13": "a",
+      "14": "d",
+      "15": "c",
+      "16": "b",
+      "17": "c",
+      "18": "c",
+      "19": "b",
+      "20": "b",
+      "21": "b",
+      "23": "c",
+      "24": "c",
+      "25": "a"
+    },
+    "score": 16.5,
+    "totalMarks": 31.25,
+    "timestamp": "2026-01-05T13:56:28.163Z",
+    "attempted": 24,
+    "correct": 15,
+    "wrong": 9,
+    "pass": true,
+    "questionFile": "Chemistry3.json"
   }
 ]
