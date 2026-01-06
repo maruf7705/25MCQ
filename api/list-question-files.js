@@ -1,3 +1,6 @@
+import fs from 'fs'
+import path from 'path'
+
 export default async function handler(req, res) {
     if (req.method !== 'GET') {
         return res.status(405).json({ error: 'Method not allowed' })
@@ -5,53 +8,65 @@ export default async function handler(req, res) {
 
     try {
         const isDev = !process.env.VERCEL
+        let files = []
 
         if (isDev) {
-            // Local development - use manifest file
-            const manifestResponse = await fetch('/question-files.json', { cache: 'no-store' })
-            if (!manifestResponse.ok) {
-                return res.status(404).json({ error: 'Question files manifest not found' })
+            // Local development - read directly from filesystem
+            const publicDir = path.join(process.cwd(), 'public')
+            try {
+                const dirFiles = fs.readdirSync(publicDir)
+                files = dirFiles.map(name => ({
+                    name,
+                    type: 'file',
+                    size: fs.statSync(path.join(publicDir, name)).size
+                }))
+            } catch (err) {
+                console.error('Error reading public directory:', err)
+                return res.status(500).json({ error: 'Failed to read public directory' })
             }
-            const manifest = await manifestResponse.json()
-            return res.status(200).json({ files: manifest.questionFiles })
+        } else {
+            // On Vercel - use GitHub API to dynamically list all files
+            const GITHUB_REPO = 'maruf7705/25MCQ'
+            const GITHUB_TOKEN = process.env.GITHUB_TOKEN
+            const githubUrl = `https://api.github.com/repos/${GITHUB_REPO}/contents/public`
+
+            const headers = {
+                'Accept': 'application/vnd.github.v3+json'
+            }
+            if (GITHUB_TOKEN) {
+                headers['Authorization'] = `Bearer ${GITHUB_TOKEN}`
+            }
+
+            const response = await fetch(githubUrl, {
+                headers: headers,
+                cache: 'no-store'
+            })
+
+            if (!response.ok) {
+                throw new Error(`GitHub API error: ${response.status}`)
+            }
+
+            files = await response.json()
         }
 
-        // On Vercel - use GitHub API to dynamically list all files
-        const GITHUB_REPO = 'maruf7705/25MCQ'
-        const GITHUB_TOKEN = process.env.GITHUB_TOKEN
+        // List of system files to exclude
+        const excludeFiles = [
+            'manifest.json',
+            'question-files.json',
+            'vercel.json',
+            'package.json',
+            'package-lock.json',
+            'tsconfig.json',
+            'jsconfig.json',
+            'next.config.js'
+        ]
 
-        // Get list of files from GitHub public directory
-        const githubUrl = `https://api.github.com/repos/${GITHUB_REPO}/contents/public`
-
-        const headers = {
-            'Accept': 'application/vnd.github.v3+json'
-        }
-
-        // Add token if available for higher rate limits
-        if (GITHUB_TOKEN) {
-            headers['Authorization'] = `Bearer ${GITHUB_TOKEN}`
-        }
-
-        const response = await fetch(githubUrl, {
-            headers: headers,
-            cache: 'no-store'
-        })
-
-        if (!response.ok) {
-            throw new Error(`GitHub API error: ${response.status}`)
-        }
-
-        const files = await response.json()
-
-        // Filter for question JSON files
+        // Filter for any JSON file that isn't a system file
         const questionFiles = files.filter(file => {
             const name = file.name.toLowerCase()
-            // Match: questions.json, questions-*.json, chemistry*.json, etc.
             return file.type === 'file' &&
                 name.endsWith('.json') &&
-                name !== 'manifest.json' &&
-                name !== 'question-files.json' &&
-                (name.startsWith('questions') || name.startsWith('chemistry'))
+                !excludeFiles.includes(file.name.toLowerCase())
         })
 
         // Format the file list
@@ -84,8 +99,11 @@ export default async function handler(req, res) {
                         displayName = 'Chemistry'
                     }
                 } else {
-                    // Fallback: capitalize each word
+                    // Fallback: capitalize each word and replace dashes/underscores with spaces
+                    // e.g. Chemi1 -> Chemi 1
                     displayName = nameWithoutExt
+                        // Insert space before numbers if they follow a letter
+                        .replace(/([a-zA-Z])(\d)/g, '$1 $2')
                         .split(/[-_]/)
                         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
                         .join(' ')
@@ -96,15 +114,15 @@ export default async function handler(req, res) {
                 name: fileName,
                 displayName: displayName,
                 size: file.size,
-                lastModified: new Date().toISOString() // GitHub API doesn't provide this easily
+                lastModified: new Date().toISOString()
             }
         })
 
-        // Sort: questions.json first, then by name
+        // Sort: questions.json first, then natural sort by name
         fileList.sort((a, b) => {
             if (a.name === 'questions.json') return -1
             if (b.name === 'questions.json') return 1
-            return a.name.localeCompare(b.name)
+            return a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' })
         })
 
         return res.status(200).json({
