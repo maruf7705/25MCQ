@@ -221,5 +221,42 @@
     "wrong": 8,
     "pass": true,
     "questionFile": "Chemistry.json"
+  },
+  {
+    "studentName": "Biology 1",
+    "answers": {
+      "1": "a",
+      "3": "c",
+      "4": "d",
+      "5": "c",
+      "6": "b",
+      "7": "d",
+      "8": "c",
+      "9": "b",
+      "10": "b",
+      "11": "c",
+      "12": "a",
+      "13": "a",
+      "14": "d",
+      "15": "c",
+      "16": "c",
+      "17": "a",
+      "18": "d",
+      "19": "d",
+      "20": "b",
+      "21": "a",
+      "22": "a",
+      "23": "c",
+      "24": "a",
+      "25": "a"
+    },
+    "score": 15,
+    "totalMarks": 31.25,
+    "timestamp": "2026-01-07T07:46:05.213Z",
+    "attempted": 24,
+    "correct": 14,
+    "wrong": 10,
+    "pass": false,
+    "questionFile": "Biology1.json"
   }
 ]
