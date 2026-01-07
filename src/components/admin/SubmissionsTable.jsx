@@ -538,43 +538,62 @@ function SubmissionsTable({
                 </div>
               </div>
 
-              <div className="answer-details">
+
+              <div className="answer-details-minimal">
                 {selectedQuestion.isAnswered ? (
                   <>
                     {selectedQuestion.isCorrect ? (
-                      <div className="answer-comparison correct-answer-case">
-                        <div className="answer-button student-correct">
-                          <div className="answer-label bengali">শিক্ষার্থীর উত্তর</div>
-                          <div className="answer-badge-large correct">{selectedQuestion.studentAnswer}</div>
+                      <div className="answer-card success-card">
+                        <div className="card-header">
+                          <span className="status-icon-large">✓</span>
+                          <span className="status-label bengali">শিক্ষার্থীর উত্তর সঠিক</span>
                         </div>
-                        <div className="status-text correct bengali">✓ সঠিক</div>
+                        <div className="answer-display-single">
+                          <div className="pill-badge success">{selectedQuestion.studentAnswer}</div>
+                        </div>
                       </div>
                     ) : (
-                      <div className="answer-comparison wrong-answer-case">
-                        <div className="answer-button student-wrong">
-                          <div className="answer-label bengali">শিক্ষার্থীর উত্তর</div>
-                          <div className="answer-badge-large wrong">{selectedQuestion.studentAnswer}</div>
-                        </div>
-                        <div className="status-divider">
-                          <span className="status-text wrong bengali">✗ ভুল</span>
-                        </div>
-                        <div className="answer-button correct-answer">
-                          <div className="answer-label bengali">সঠিক উত্তর</div>
-                          <div className="answer-badge-large correct">{selectedQuestion.correctAnswer}</div>
+                      <div className="answer-card error-card">
+                        <div className="answer-grid">
+                          <div className="answer-column">
+                            <div className="column-label bengali">শিক্ষার্থীর উত্তর</div>
+                            <div className="pill-badge error">{selectedQuestion.studentAnswer}</div>
+                          </div>
+                          <div className="divider-column">
+                            <span className="status-icon-large error">✗</span>
+                          </div>
+                          <div className="answer-column">
+                            <div className="column-label bengali">সঠিক উত্তর</div>
+                            <div className="pill-badge success">{selectedQuestion.correctAnswer}</div>
+                          </div>
                         </div>
                       </div>
                     )}
                   </>
                 ) : (
-                  <div className="no-answer bengali">
-                    <strong>শিক্ষার্থী এই প্রশ্নের উত্তর দেয়নি</strong>
-                    <div className="correct-answer-display">
-                      <strong className="bengali">সঠিক উত্তর:</strong>
-                      <span className="answer-badge correct">{selectedQuestion.correctAnswer}</span>
+                  <div className="answer-card neutral-card">
+                    <div className="card-header">
+                      <span className="status-label bengali">শিক্ষার্থী এই প্রশ্নের উত্তর দেয়নি</span>
+                    </div>
+                    <div className="answer-display-single">
+                      <div className="column-label bengali">সঠিক উত্তর</div>
+                      <div className="pill-badge success">{selectedQuestion.correctAnswer}</div>
                     </div>
                   </div>
                 )}
               </div>
+
+              {/* Solution Section - Always show if available */}
+              {selectedQuestion.solution && (
+                <div className="solution-section">
+                  <div className="solution-header bengali">
+                    <span className="solution-icon">💡</span>
+                    <strong>সমাধান/ব্যাখ্যা:</strong>
+                  </div>
+                  <div className="solution-content bengali" dangerouslySetInnerHTML={{ __html: renderLatex(selectedQuestion.solution) }} />
+                </div>
+              )}
+
             </div>
           </div>
         </div>
@@ -584,3 +603,4 @@ function SubmissionsTable({
 }
 
 export default SubmissionsTable
+
