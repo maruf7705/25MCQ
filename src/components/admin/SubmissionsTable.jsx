@@ -512,9 +512,9 @@ function SubmissionsTable({
                 <p dangerouslySetInnerHTML={{ __html: renderLatex(selectedQuestion.question) }} />
               </div>
 
-              {/* Solution Section - Always show for wrong/unanswered - MOVED HERE */}
+              {/* Solution Section - Show here (ABOVE) only if WRONG or UNANSWERED */}
               {selectedQuestion.solution && (!selectedQuestion.isAnswered || !selectedQuestion.isCorrect) && (
-                <div className="solution-section">
+                <div className="solution-section" style={{ marginBottom: '24px' }}>
                   <div className="solution-header bengali">
                     <span className="solution-icon">💡</span>
                     <strong>সমাধান/ব্যাখ্যা:</strong>
@@ -583,8 +583,8 @@ function SubmissionsTable({
                 )}
               </div>
 
-              {/* Solution Section - Always show if available */}
-              {selectedQuestion.solution && (
+              {/* Solution Section - Show here (BELOW) only if CORRECT */}
+              {selectedQuestion.solution && selectedQuestion.isCorrect && (
                 <div className="solution-section">
                   <div className="solution-header bengali">
                     <span className="solution-icon">💡</span>
