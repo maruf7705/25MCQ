@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "subject": "Physics",
+    "topic": "Work, Power, and Energy",
+    "question": "১. একটি কণার উপর $$F = (-2i + 3j + 3k) N$$ বল প্রয়োগের ফলে কণাটি $$(3, -4, -2)$$ বিন্দু হতে $$(-2, 3, 5)$$ বিন্দুতে স্থানান্তরিত হয়। কাজ কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "52 J",
+      "b": "59 J",
+      "c": "48 J",
+      "d": "54 J"
+    },
+    "correctAnswer": "a",
+    "explanation": "সরণ ভেক্টর, $$d = r_2 - r_1 = (-2-3)i + (3+4)j + (5+2)k = -5i + 7j + 7k$$।\nকৃতকাজ, $$W = F \\cdot d = (-2)(-5) + (3)(7) + (3)(7) = 10 + 21 + 21 = 52 \\text{ J}$$।"
+  },
+  {
+    "id": 2,
+    "subject": "Physics",
+    "topic": "Kinematics",
+    "question": "২. $$196 \\text{ m/s}$$ বেগে একটি পাথরকে উপরে নিক্ষেপ করা হলো। $$10 \\text{ sec}$$ পরে পাথরটির বেগ কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "0 m/s",
+      "b": "9.8 m/s",
+      "c": "49 m/s",
+      "d": "98 m/s"
+    },
+    "correctAnswer": "d",
+    "explanation": "আমরা জানি, $$v = u - gt$$।\nএখানে, $$u = 196, g = 9.8, t = 10$$।\n$$v = 196 - (9.8 \\times 10) = 196 - 98 = 98 \\text{ m/s}$$।"
+  },
+  {
+    "id": 3,
+    "subject": "Physics",
+    "topic": "Work, Power, and Energy",
+    "question": "৩. একটি গাড়ি $$10 \\text{ m/s}$$ গতিতে চলছে। কত গতিতে চালালে গতিশক্তি দ্বিগুণ হবে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "14.14 m/s",
+      "b": "20 m/s",
+      "c": "40 m/s",
+      "d": "100 m/s"
+    },
+    "correctAnswer": "a",
+    "explanation": "গতিশক্তি $$E_k \\propto v^2$$। গতিশক্তি দ্বিগুণ ($$2E_k$$) হলে, নতুন বেগ হবে $$\\sqrt{2}v$$।\n$$v' = 10 \\times \\sqrt{2} = 10 \\times 1.414 = 14.14 \\text{ m/s}$$।"
+  },
+  {
+    "id": 4,
+    "subject": "Physics",
+    "topic": "Gravitation",
+    "question": "৪. মহাকর্ষীয় ধ্রুবক $$G$$ এর মাত্রা সমীকরণ কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$M L T^{-2}$$",
+      "b": "$$M^{-1} L^3 T^{-2}$$",
+      "c": "$$M L^2 T^{-2}$$",
+      "d": "$$M L^{-1} T^{-2}$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "মহাকর্ষ সূত্র $$F = G \\frac{m_1m_2}{d^2}$$ হতে পাই, $$G = \\frac{Fd^2}{m^2}$$।\nমাত্রা: $$\\frac{[MLT^{-2}][L^2]}{[M^2]} = M^{-1} L^3 T^{-2}$$।"
+  },
+  {
+    "id": 5,
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "question": "৫. রুদ্ধতাপ প্রক্রিয়ায় কোনটি স্থির থাকে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "তাপমাত্রা",
+      "b": "চাপ",
+      "c": "এনট্রপি",
+      "d": "আয়তন"
+    },
+    "correctAnswer": "c",
+    "explanation": "রুদ্ধতাপ প্রক্রিয়ায় বাইরে থেকে তাপের আদান-প্রদান হয় না ($$dQ=0$$)। ফলে এনট্রপির পরিবর্তন $$dS = dQ/T = 0$$ হয়, অর্থাৎ এনট্রপি স্থির থাকে।"
+  },
+  {
+    "id": 6,
+    "subject": "Physics",
+    "topic": "Properties of Matter",
+    "question": "৬. ইয়ং এর গুণাঙ্ক এর একক কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$N/m$$",
+      "b": "$$N/m^2$$",
+      "c": "$$J$$",
+      "d": "$$Watt$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "ইয়ং এর গুণাঙ্ক $$Y = \\text{Stress} / \\text{Strain}$$। বিকৃতির কোনো একক নেই, তাই পীড়নের এককই ($$N/m^2$$ বা Pascal) ইয়ং গুণাঙ্কের একক।"
+  },
+  {
+    "id": 7,
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "question": "৭. নিচের কোনটি প্যারাম্যাগনেটিক?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$Zn$$",
+      "b": "$$Cu^+$$",
+      "c": "$$Sc^{3+}$$",
+      "d": "$$Fe^{2+}$$"
+    },
+    "correctAnswer": "d",
+    "explanation": "$$Fe^{2+}$$ এর ইলেকট্রন বিন্যাসে $$3d^6$$ থাকে, যেখানে ৪টি অযুগ্ম ইলেকট্রন বিদ্যমান। অযুগ্ম ইলেকট্রন থাকায় এটি প্যারাম্যাগনেটিক। বাকিদের d-অরবিটাল পূর্ণ বা ফাঁকা।"
+  },
+  {
+    "id": 8,
+    "subject": "Chemistry",
+    "topic": "Acids and Bases",
+    "question": "৮. $$pH + pOH =$$ কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "0",
+      "b": "7",
+      "c": "14",
+      "d": "10"
+    },
+    "correctAnswer": "c",
+    "explanation": "$$25^\\circ C$$ তাপমাত্রায় পানির আয়নিক গুণফল $$K_w = 10^{-14}$$। এখান থেকেই সূত্রটি আসে: $$pH + pOH = 14$$।"
+  },
+  {
+    "id": 9,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "৯. ফরমালিন হলো ফরমালডিহাইডের কত শতাংশ জলীয় দ্রবণ?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "10-20%",
+      "b": "30-40%",
+      "c": "50-60%",
+      "d": "90-100%"
+    },
+    "correctAnswer": "b",
+    "explanation": "বাণিজ্যিকভাবে ফরমালডিহাইডের ($$HCHO$$) ৩৭-৪০% জলীয় দ্রবণকে ফরমালিন বলা হয়।"
+  },
+  {
+    "id": 10,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "question": "১০. কোনটি লুইস এসিড?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$NH_3$$",
+      "b": "$$BF_3$$",
+      "c": "$$H_2O$$",
+      "d": "$$Cl^-$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$BF_3$$ অণুর বোরন পরমাণুর অষ্টক অপূর্ণ (৬টি ইলেকট্রন) থাকায় এটি একজোড়া ইলেকট্রন গ্রহণ করতে পারে, তাই এটি লুইস এসিড।"
+  },
+  {
+    "id": 11,
+    "subject": "Chemistry",
+    "topic": "Environmental Chemistry",
+    "question": "১১. নিচের কোনটি গ্রিনহাউজ গ্যাস নয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$CO_2$$",
+      "b": "$$CH_4$$",
+      "c": "$$N_2$$",
+      "d": "$$CFC$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "নাইট্রোজেন ($$N_2$$) বায়ুমণ্ডলের প্রধান উপাদান এবং এটি তাপ শোষণ করে না। তাই এটি গ্রিনহাউজ গ্যাস নয়।"
+  },
+  {
+    "id": 12,
+    "subject": "Chemistry",
+    "topic": "Acids and Bases",
+    "question": "১২. দুধের পিএইচ ($$pH$$) কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "6.6-6.9",
+      "b": "7.4",
+      "c": "3.5",
+      "d": "8.2"
+    },
+    "correctAnswer": "a",
+    "explanation": "দুধের pH সাধারণত ৬.৬ থেকে ৬.৯ এর মধ্যে থাকে, অর্থাৎ এটি সামান্য অম্লীয়।"
+  },
+  {
+    "id": 13,
+    "subject": "ICT",
+    "topic": "Number System & Coding",
+    "question": "১৩. কোনটি ১৬ বিট কোড?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ASCII",
+      "b": "EBCDIC",
+      "c": "Unicode",
+      "d": "BCD"
+    },
+    "correctAnswer": "c",
+    "explanation": "Unicode হলো ১৬ বিটের কোড (শুরুতে), যা বিশ্বের সকল ভাষার বর্ণকে কোডভুক্ত করতে পারে। ASCII ৭ বা ৮ বিটের হয়।"
+  },
+  {
+    "id": 14,
+    "subject": "ICT",
+    "topic": "Number System & Coding",
+    "question": "১৪. হেক্সাডেসিমেল সংখ্যা পদ্ধতিতে ভিত্তি কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "2",
+      "b": "8",
+      "c": "10",
+      "d": "16"
+    },
+    "correctAnswer": "d",
+    "explanation": "হেক্সাডেসিমেল পদ্ধতিতে ০-৯ এবং A-F পর্যন্ত মোট ১৬টি অঙ্ক বা প্রতীক ব্যবহৃত হয়, তাই এর ভিত্তি ১৬।"
+  },
+  {
+    "id": 15,
+    "subject": "ICT",
+    "topic": "HTML",
+    "question": "১৫. HTML এ সবচেয়ে বড় হেডিং ট্যাগ কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "h1",
+      "b": "h6",
+      "c": "head",
+      "d": "title"
+    },
+    "correctAnswer": "a",
+    "explanation": "HTML-এ h1 থেকে h6 পর্যন্ত হেডিং ট্যাগ আছে। এর মধ্যে h1 সবচেয়ে বড় এবং h6 সবচেয়ে ছোট হেডিং প্রদর্শন করে।"
+  },
+  {
+    "id": 16,
+    "subject": "ICT",
+    "topic": "Communication Systems",
+    "question": "১৬. ফাইবার অপটিক কেবল এর মূল উপাদান কি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "তামা",
+      "b": "এলুমিনিয়াম",
+      "c": "কাচ",
+      "d": "প্লাস্টিক"
+    },
+    "correctAnswer": "c",
+    "explanation": "ফাইবার অপটিক কেবল মূলত সিলিকা বা কাচ (Glass) দিয়ে তৈরি, যা পূর্ণ অভ্যন্তরীণ প্রতিফলনের মাধ্যমে ডেটা স্থানান্তর করে।"
+  },
+  {
+    "id": 17,
+    "subject": "ICT",
+    "topic": "Communication Systems",
+    "question": "১৭. ক্লাউড কম্পিউটিং এর সুবিধা নয় কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "খরচ কম",
+      "b": "দ্রুত গতি",
+      "c": "ইন্টারনেট ছাড়া ব্যবহার",
+      "d": "নিরাপত্তা"
+    },
+    "correctAnswer": "c",
+    "explanation": "ক্লাউড কম্পিউটিং ব্যবহারের প্রধান শর্ত হলো ইন্টারনেট সংযোগ। ইন্টারনেট ছাড়া এটি ব্যবহার করা যায় না, যা এর একটি সীমাবদ্ধতা।"
+  },
+  {
+    "id": 18,
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "question": "১৮. কোষের ট্রাফিক পুলিশ বলা হয় কাকে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "রাইবোজোম",
+      "b": "লাইসোজোম",
+      "c": "গলজি বস্তু",
+      "d": "মাইটোকন্ড্রিয়া"
+    },
+    "correctAnswer": "c",
+    "explanation": "গলজি বস্তু (Golgi body) কোষের বিভিন্ন উপাদান পরিবহন ও প্যাকেজিংয়ের কাজ করে বলে একে কোষের ট্রাফিক পুলিশ বলা হয়।"
+  },
+  {
+    "id": 19,
+    "subject": "Biology",
+    "topic": "Biochemistry",
+    "question": "১৯. নিচের কোনটি বিজারক শর্করা নয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "গ্লুকোজ",
+      "b": "ফ্রুক্টোজ",
+      "c": "সুক্রোজ",
+      "d": "মল্টোজ"
+    },
+    "correctAnswer": "c",
+    "explanation": "সুক্রোজ একটি ডাইস্যাকারাইড যেখানে অ্যালডিহাইড বা কিটোন মূলক মুক্ত থাকে না, তাই এটি অবিজারক শর্করা (Non-reducing sugar)।"
+  },
+  {
+    "id": 20,
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "question": "২০. মানুষের করোটিকা স্নায়ু কত জোড়া?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "১০ জোড়া",
+      "b": "১২ জোড়া",
+      "c": "৩১ জোড়া",
+      "d": "৩৩ জোড়া"
+    },
+    "correctAnswer": "b",
+    "explanation": "মানুষের মস্তিষ্ক থেকে উৎপন্ন করোটিকা স্নায়ুর (Cranial Nerves) সংখ্যা ১২ জোড়া। সুষুম্না স্নায়ু ৩১ জোড়া।"
+  },
+  {
+    "id": 21,
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "question": "২১. রক্ত তঞ্চনে সহায়তা করে কোন প্রোটিন?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "অ্যালবুমিন",
+      "b": "ফাইব্রিনোজেন",
+      "c": "গ্লোবিউলিন",
+      "d": "হিমোগ্লোবিন"
+    },
+    "correctAnswer": "b",
+    "explanation": "ফাইব্রিনোজেন রক্তরসে থাকা একটি প্লাজমা প্রোটিন যা রক্ত জমাট বাঁধতে বা তঞ্চনে প্রধান ভূমিকা পালন করে।"
+  },
+  {
+    "id": 22,
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "question": "২২. শালোকসংশ্লেষণে নির্গত অক্সিজেনের উৎস কি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "CO2",
+      "b": "H2O",
+      "c": "ক্লোরোফিল",
+      "d": "সূর্যালোক"
+    },
+    "correctAnswer": "b",
+    "explanation": "শালোকসংশ্লেষণ প্রক্রিয়ায় পানি ($$H_2O$$) ভেঙে (ফোটোলাইসিস) অক্সিজেন উৎপন্ন হয়। $$CO_2$$ থেকে গ্লুকোজ তৈরি হয়।"
+  },
+  {
+    "id": 23,
+    "subject": "Biology",
+    "topic": "Genetics",
+    "question": "২৩. DNA থেকে mRNA তৈরির প্রক্রিয়াকে কি বলে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "Replication",
+      "b": "Translation",
+      "c": "Transcription",
+      "d": "Mutation"
+    },
+    "correctAnswer": "c",
+    "explanation": "DNA থেকে mRNA তৈরির প্রক্রিয়াকে ট্রান্সক্রিপশন (Transcription) বলে। mRNA থেকে প্রোটিন তৈরির প্রক্রিয়াকে ট্রান্সলেশন বলে।"
+  },
+  {
+    "id": 24,
+    "subject": "Biology",
+    "topic": "Microbiology",
+    "question": "২৪. কোনটি ভাইরাসের বৈশিষ্ট্য নয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "অকোষীয়",
+      "b": "নিউক্লিক এসিড আছে",
+      "c": "বিপাকীয় এনজাইম আছে",
+      "d": "বাধ্যতামূলক পরজীবী"
+    },
+    "correctAnswer": "c",
+    "explanation": "ভাইরাসের নিজস্ব কোনো বিপাকীয় এনজাইম নেই, তাই এটি পোষক দেহ ছাড়া বংশবিস্তার করতে পারে না।"
+  },
+  {
+    "id": 25,
+    "subject": "Biology",
+    "topic": "Taxonomy",
+    "question": "২৫. বাংলাদেশের জাতীয় ফুল শাপলার বৈজ্ঞানিক নাম কি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "Nymphaea nouchali",
+      "b": "Oryza sativa",
+      "c": "Hibiscus rosa-sinensis",
+      "d": "Mangifera indica"
+    },
+    "correctAnswer": "a",
+    "explanation": "শাপলার বৈজ্ঞানিক নাম *Nymphaea nouchali*। *Oryza sativa* হলো ধান এবং *Mangifera indica* হলো আম।"
+  }
+]
