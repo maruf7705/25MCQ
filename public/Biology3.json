@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "১. নিউটনের তৃতীয় সূত্রটি কিসের সংরক্ষণের ফল?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ভর",
+      "b": "শক্তি",
+      "c": "ভরবেগ",
+      "d": "চার্জ"
+    },
+    "correctAnswer": "c",
+    "explanation": "নিউটনের তৃতীয় সূত্র অনুযায়ী ক্রিয়া ও প্রতিক্রিয়া সমান ও বিপরীতমুখী। এখান থেকেই ভরবেগের সংরক্ষণ সূত্র প্রতিপাদন করা যায়।"
+  },
+  {
+    "id": 2,
+    "subject": "Physics",
+    "topic": "Current Electricity",
+    "question": "২. তাপমাত্রা বাড়লে পরিবাহীর রোধ—",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "বাড়ে",
+      "b": "কমে",
+      "c": "অপরিবর্তিত থাকে",
+      "d": "শূন্য হয়"
+    },
+    "correctAnswer": "a",
+    "explanation": "তাপমাত্রা বাড়লে পরিবাহীর পরমাণুগুলোর কম্পন বেড়ে যায়, ফলে ইলেকট্রন প্রবাহে বাধার সৃষ্টি হয় এবং রোধ বৃদ্ধি পায়।"
+  },
+  {
+    "id": 3,
+    "subject": "Physics",
+    "topic": "Astronomy",
+    "question": "৩. আলোকবর্ষ (Light year) কিসের একক?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সময়",
+      "b": "দূরত্ব",
+      "c": "আলোর তীব্রতা",
+      "d": "ভর"
+    },
+    "correctAnswer": "b",
+    "explanation": "আলো এক বছরে যে দূরত্ব অতিক্রম করে তাকে এক আলোকবর্ষ বলে। এটি মহাজাগতিক দূরত্ব পরিমাপের একক।"
+  },
+  {
+    "id": 4,
+    "subject": "Physics",
+    "topic": "Electromagnetic Induction",
+    "question": "৪. ট্রান্সফরমার কাজ করে শুধুমাত্র—",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "AC তে",
+      "b": "DC তে",
+      "c": "উভয়ে",
+      "d": "পালসেটিং কারেন্টে"
+    },
+    "correctAnswer": "a",
+    "explanation": "ট্রান্সফরমার পারস্পরিক আবেশ নীতির ওপর ভিত্তি করে কাজ করে, যার জন্য পরিবর্তনশীল চৌম্বক ফ্লাক্স বা দিক পরিবর্তনকারী প্রবাহ (AC) প্রয়োজন।"
+  },
+  {
+    "id": 5,
+    "subject": "Physics",
+    "topic": "Gravitation",
+    "question": "৫. ভূ-স্থির উপগ্রহের পর্যায়কাল কত?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "১২ ঘণ্টা",
+      "b": "২৪ ঘণ্টা",
+      "c": "৩৬ ঘণ্টা",
+      "d": "৪৮ ঘণ্টা"
+    },
+    "correctAnswer": "b",
+    "explanation": " \n ভূ-স্থির উপগ্রহ পৃথিবীর নিজ অক্ষের আবর্তনের গতির সমান গতিতে ঘোরে, তাই এর পর্যায়কাল পৃথিবীর আহ্নিক গতির সমান অর্থাৎ ২৪ ঘণ্টা।"
+  },
+  {
+    "id": 6,
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "question": "৬. পানির ত্রৈধ বিন্দুর তাপমাত্রা কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$273.16 K$$",
+      "b": "$$0 K$$",
+      "c": "$$100 K$$",
+      "d": "$$373 K$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "পানির ত্রৈধ বিন্দু বা Triple Point হলো সেই তাপমাত্রা ($$273.16 K$$) যেখানে পানি কঠিন, তরল ও বায়বীয় তিন অবস্থাতেই সহাবস্থান করে।"
+  },
+  {
+    "id": 7,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "৭. কাঁদুনে গ্যাস (Tear Gas) এর সংকেত কি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$CCl_3NO_2$$",
+      "b": "$$COCl_2$$",
+      "c": "$$N_2O$$",
+      "d": "$$NH_3$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "ক্লোরোপিক্রিন বা নাইট্রোক্লোরোফর্ম ($$CCl_3NO_2$$) কে কাঁদুনে গ্যাস বলা হয় যা চোখের সংস্পর্শে আসলে জ্বালাপোড়া ও অশ্রু সৃষ্টি করে।"
+  },
+  {
+    "id": 8,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "৮. $$R-O-R$$ এটি কিসের সাধারণ সংকেত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "এলকোহল",
+      "b": "ইথার",
+      "c": "এস্টার",
+      "d": "কিটোন"
+    },
+    "correctAnswer": "b",
+    "explanation": "অক্সিজেন পরমাণুর দুই পাশে দুটি অ্যালকাইল মূলক ($$R$$) যুক্ত থাকলে তাকে ইথার বলা হয়।"
+  },
+  {
+    "id": 9,
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "question": "৯. মোলারিটি কোনটির উপর নির্ভর করে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "চাপ",
+      "b": "আয়তন",
+      "c": "তাপমাত্রা",
+      "d": "ঘনত্ব"
+    },
+    "correctAnswer": "c",
+    "explanation": "মোলারিটি দ্রবণের আয়তনের উপর নির্ভরশীল। তাপমাত্রা পরিবর্তন করলে আয়তন পরিবর্তিত হয়, ফলে মোলারিটিও পরিবর্তিত হয়।"
+  },
+  {
+    "id": 10,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "১০. কোনটি সাবান?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সোডিয়াম স্টিয়ারেট",
+      "b": "ক্যালসিয়াম ক্লোরাইড",
+      "c": "বেনজিন",
+      "d": "গ্লিসারিন"
+    },
+    "correctAnswer": "a",
+    "explanation": "উচ্চতর ফ্যাটি এসিডের সোডিয়াম বা পটাশিয়াম লবণকে সাবান বলে। সোডিয়াম স্টিয়ারেট ($$C_{17}H_{35}COONa$$) একটি সাধারণ সাবান।"
+  },
+  {
+    "id": 11,
+    "subject": "Chemistry",
+    "topic": "Industrial Chemistry",
+    "question": "১১. বিরঞ্জক পদার্থ কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ব্লিচিং পাউডার",
+      "b": "কস্টিক সোডা",
+      "c": "লবণ",
+      "d": "চুন"
+    },
+    "correctAnswer": "a",
+    "explanation": "ব্লিচিং পাউডার ($$Ca(OCl)Cl$$) থেকে জায়মান অক্সিজেন বা ক্লোরিন নির্গত হয় যা রঙিন বস্তুকে বর্ণহীন বা বিরঞ্জিত করে।"
+  },
+  {
+    "id": 12,
+    "subject": "Chemistry",
+    "topic": "Nuclear Chemistry",
+    "question": "১২. কোন আইসোটোপটি ক্যান্সারের চিকিৎসায় ব্যবহৃত হয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$I-131$$",
+      "b": "$$Co-60$$",
+      "c": "$$C-14$$",
+      "d": "$$P-32$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "কোবাল্ট-৬০ ($$Co-60$$) আইসোটোপ থেকে শক্তিশালী গামা রশ্মি নির্গত হয় যা ক্যান্সার কোষ ধ্বংস করতে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 13,
+    "subject": "ICT",
+    "topic": "Communication Systems",
+    "question": "১৩. Wi-Fi কোন স্ট্যান্ডার্ড মেনে চলে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "IEEE 802.11",
+      "b": "IEEE 802.16",
+      "c": "IEEE 802.15",
+      "d": "IEEE 802.3"
+    },
+    "correctAnswer": "a",
+    "explanation": "Wi-Fi প্রযুক্তি IEEE 802.11 স্ট্যান্ডার্ড অনুসরণ করে। Wi-MAX হলো IEEE 802.16 এবং ব্লুটুথ হলো IEEE 802.15।"
+  },
+  {
+    "id": 14,
+    "subject": "ICT",
+    "topic": "Emerging Technologies",
+    "question": "১৪. রোবটিক্সে কোন উপাদানটি মস্তিষ্ক হিসেবে কাজ করে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সেন্সর",
+      "b": "একচুয়েটর",
+      "c": "মাইক্রোকন্ট্রোলার",
+      "d": "ব্যাটারি"
+    },
+    "correctAnswer": "c",
+    "explanation": "মাইক্রোকন্ট্রোলার বা প্রসেসর রোবটের সমস্ত কার্যকলাপ নিয়ন্ত্রণ ও প্রসেস করে, তাই একে রোবটের মস্তিষ্ক বলা হয়।"
+  },
+  {
+    "id": 15,
+    "subject": "ICT",
+    "topic": "Number System",
+    "question": "১৫. ১ টেরাবাইট ($$TB$$) = কত গিগাবাইট ($$GB$$)?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "1000",
+      "b": "1024",
+      "c": "$$10^6$$",
+      "d": "$$10^9$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "কম্পিউটারের বাইনারি গণনায় $$1 TB = 1024 GB$$।"
+  },
+  {
+    "id": 16,
+    "subject": "ICT",
+    "topic": "Web Design",
+    "question": "১৬. ওয়েব পেজ তৈরির জন্য কোনটি ব্যবহৃত হয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "HTTP",
+      "b": "HTML",
+      "c": "FTP",
+      "d": "DNS"
+    },
+    "correctAnswer": "b",
+    "explanation": "HTML (Hyper Text Markup Language) হলো ওয়েব পেজ তৈরির মূল মার্কআপ ল্যাঙ্গুয়েজ।"
+  },
+  {
+    "id": 17,
+    "subject": "ICT",
+    "topic": "Database Management",
+    "question": "১৭. Database এ তথ্য খোঁজার প্রক্রিয়াকে কি বলে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "Sorting",
+      "b": "Indexing",
+      "c": "Searching/Query",
+      "d": "Filtering"
+    },
+    "correctAnswer": "c",
+    "explanation": "ডাটাবেজ থেকে নির্দিষ্ট শর্তসাপেক্ষে তথ্য খুঁজে বের করাকে কুয়েরি (Query) বা সার্চিং বলা হয়।"
+  },
+  {
+    "id": 18,
+    "subject": "Biology",
+    "topic": "Biotechnology",
+    "question": "১৮. প্লাজমিড কোথায় পাওয়া যায়?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "ভাইরাস",
+      "b": "ব্যাকটেরিয়া",
+      "c": "শৈবাল",
+      "d": "ছত্রাক"
+    },
+    "correctAnswer": "b",
+    "explanation": " \n ব্যাকটেরিয়ার কোষে মূল ক্রোমোজোম ছাড়াও যে বৃত্তাকার দ্বিসূত্রক DNA অণু থাকে তাকে প্লাজমিড বলে।"
+  },
+  {
+    "id": 19,
+    "subject": "Biology",
+    "topic": "Human Anatomy",
+    "question": "১৯. মানবদেহে মোট অস্থির সংখ্যা কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "২০৬",
+      "b": "৩০৬",
+      "c": "২০৮",
+      "d": "১০০"
+    },
+    "correctAnswer": "a",
+    "explanation": "একজন পূর্ণবয়স্ক মানুষের কঙ্কালতন্ত্রে মোট ২০৬টি অস্থি বা হাড় থাকে।"
+  },
+  {
+    "id": 20,
+    "subject": "Biology",
+    "topic": "Zoology",
+    "question": "২০. রুই মাছের হৃদপিণ্ড কত প্রকোষ্ঠ বিশিষ্ট?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "২",
+      "b": "৩",
+      "c": "৪",
+      "d": "১৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "রুই মাছের হৃদপিণ্ড ২ প্রকোষ্ঠ বিশিষ্ট: একটি অ্যাট্রিয়াম ও একটি ভেন্ট্রিকল। একে ভেনাস হার্টও বলা হয়।"
+  },
+  {
+    "id": 21,
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "question": "২১. কোনটি $$C_4$$ উদ্ভিদ?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ধান",
+      "b": "গম",
+      "c": "ভুট্টা",
+      "d": "আম"
+    },
+    "correctAnswer": "c",
+    "explanation": "ভুট্টা, আখ, মুথা ঘাস ইত্যাদি হলো $$C_4$$ উদ্ভিদ, যাদের সালোকসংশ্লেষণ ক্ষমতা $$C_3$$ উদ্ভিদের চেয়ে বেশি।"
+  },
+  {
+    "id": 22,
+    "subject": "Biology",
+    "topic": "Genetics",
+    "question": "২২. মেন্ডেলের প্রথম সূত্রকে কি বলা হয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "স্বাধীনভাবে মিলনের সূত্র",
+      "b": "পৃথকীকরণ সূত্র",
+      "c": "লিংকেজ",
+      "d": "মিউটেশন"
+    },
+    "correctAnswer": "b",
+    "explanation": "মেন্ডেলের প্রথম সূত্রকে পৃথকীকরণ সূত্র বা Law of Segregation বলা হয়। দ্বিতীয় সূত্র হলো স্বাধীনভাবে মিলনের সূত্র।"
+  },
+  {
+    "id": 23,
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "question": "২৩. কোন এনজাইমটি লালারসে থাকে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "পেপসিন",
+      "b": "টায়ালিন",
+      "c": "লাইপেজ",
+      "d": "ট্রিপসিন"
+    },
+    "correctAnswer": "b",
+    "explanation": "লালারসে টায়ালিন (অ্যামাইলেজ) নামক এনজাইম থাকে যা শর্করা জাতীয় খাদ্য পরিপাকে সাহায্য করে।"
+  },
+  {
+    "id": 24,
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "question": "২৪. অক্সিন কি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ভিটামিন",
+      "b": "এনজাইম",
+      "c": "উদ্ভিদ হরমোন",
+      "d": "খনিজ লবণ"
+    },
+    "correctAnswer": "c",
+    "explanation": "অক্সিন হলো উদ্ভিদের বৃদ্ধি সহায়ক হরমোন যা কাণ্ড ও মূলের অগ্রভাগের বৃদ্ধিতে সাহায্য করে।"
+  },
+  {
+    "id": 25,
+    "subject": "Biology",
+    "topic": "Ecology",
+    "question": "২৫. বাংলাদেশের একমাত্র ম্যানগ্রোভ বন কোনটি?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "সুন্দরবন",
+      "b": "ভাওয়াল গড়",
+      "c": "মধুপুর গড়",
+      "d": "লাউয়াছড়া"
+    },
+    "correctAnswer": "a",
+    "explanation": "সুন্দরবন হলো বাংলাদেশের একমাত্র এবং বিশ্বের বৃহত্তম ম্যানগ্রোভ বা লোনা পানির বন।"
+  }
+]

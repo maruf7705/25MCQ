@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "subject": "Physics",
+    "topic": "Simple Harmonic Motion",
+    "question": "১. সরল দোলকের কার্যকর দৈর্ঘ্য ৪ গুণ করলে দোলনকাল কত গুণ হবে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "২ গুণ",
+      "b": "৪ গুণ",
+      "c": "০.৫ গুণ",
+      "d": "অপরিবর্তিত"
+    },
+    "correctAnswer": "a",
+    "explanation": "আমরা জানি, দোলনকাল $$T = 2\\pi\\sqrt{\\frac{L}{g}}$$। অর্থাৎ $$T \\propto \\sqrt{L}$$। দৈর্ঘ্য ৪ গুণ ($$4L$$) করলে নতুন দোলনকাল হবে $$\\sqrt{4} = 2$$ গুণ।"
+  },
+  {
+    "id": 2,
+    "subject": "Physics",
+    "topic": "Sound",
+    "question": "২. শব্দের তীব্রতার একক কি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "Hz",
+      "b": "Watt",
+      "c": "$$Wm^{-2}$$",
+      "d": "Db"
+    },
+    "correctAnswer": "c",
+    "explanation": "শব্দের তীব্রতা (Intensity) হলো প্রতি একক ক্ষেত্রফলের মধ্য দিয়ে লম্বভাবে প্রবাহিত ক্ষমতা। এর একক ওয়াট/মিটার$$^2$$ ($$Wm^{-2}$$)।"
+  },
+  {
+    "id": 3,
+    "subject": "Physics",
+    "topic": "Work, Power, and Energy",
+    "question": "৩. ১ অশ্বক্ষমতা (HP) = কত ওয়াট?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "546",
+      "b": "746",
+      "c": "1000",
+      "d": "980"
+    },
+    "correctAnswer": "b",
+    "explanation": "ক্ষমতার ব্যবহারিক একক অশ্বক্ষমতা। ১ হর্সপাওয়ার ($$1 HP$$) = ৭৪৬ ওয়াট ($$746 W$$)।"
+  },
+  {
+    "id": 4,
+    "subject": "Physics",
+    "topic": "Electromagnetic Induction",
+    "question": "৪. লেন্জের সূত্র কোন নিত্যতার সূত্র মেনে চলে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ভর",
+      "b": "চার্জ",
+      "c": "শক্তি",
+      "d": "ভরবেগ"
+    },
+    "correctAnswer": "c",
+    "explanation": "লেন্জের সূত্র শক্তির সংরক্ষণশীলতা বা নিত্যতা মেনে চলে। যান্ত্রিক শক্তি তড়িৎ শক্তিতে রূপান্তরিত হওয়ার কারণে আবিষ্ট তড়িৎ প্রবাহের সৃষ্টি হয়।"
+  },
+  {
+    "id": 5,
+    "subject": "Physics",
+    "topic": "Gravitation",
+    "question": "৫. পৃথিবীর মুক্তিবেগ কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "9.8 km/s",
+      "b": "11.2 km/s",
+      "c": "7.9 km/s",
+      "d": "11.2 m/s"
+    },
+    "correctAnswer": "b",
+    "explanation": "মুক্তিবেগ $$v_e = \\sqrt{2gR}$$। পৃথিবীর জন্য এর মান প্রায় $$11.2 \\text{ km/s}$$।"
+  },
+  {
+    "id": 6,
+    "subject": "Physics",
+    "topic": "Ideal Gas",
+    "question": "৬. আদর্শ গ্যাসের সমীকরণ কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$PV=RT$$",
+      "b": "$$PV=nRT$$",
+      "c": "$$P=VRT$$",
+      "d": "$$PV=KT$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "বয়েল ও চার্লসের সূত্র সমন্বয় করে আদর্শ গ্যাসের সমীকরণ পাওয়া যায়: $$PV = nRT$$।"
+  },
+  {
+    "id": 7,
+    "subject": "Chemistry",
+    "topic": "Qualitative Chemistry",
+    "question": "৭. কোনটি শিখা পরীক্ষায় সোনালী হলুদ বর্ণ দেয়?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "$$Na$$",
+      "b": "$$K$$",
+      "c": "$$Ca$$",
+      "d": "$$Cu$$"
+    },
+    "correctAnswer": "a",
+    "explanation": " \n সোডিয়াম ($$Na$$) শিখা পরীক্ষায় সোনালী হলুদ বর্ণ দেয়। $$K$$ দেয় বেগুনি, $$Ca$$ দেয় ইটের মতো লাল, এবং $$Cu$$ দেয় নীলাভ সবুজ।"
+  },
+  {
+    "id": 8,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "৮. কার্বন-কার্বন দ্বিবন্ধন এর দৈর্ঘ্য কত?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "0.154 nm",
+      "b": "0.134 nm",
+      "c": "0.120 nm",
+      "d": "0.139 nm"
+    },
+    "correctAnswer": "b",
+    "explanation": " \n কার্বন-কার্বন একক বন্ধন ($$C-C$$) ০.১৫৪ nm, দ্বিবন্ধন ($$C=C$$) ০.১৩৪ nm এবং ত্রিবন্ধন ($$C\\equiv C$$) ০.১২০ nm।"
+  },
+  {
+    "id": 9,
+    "subject": "Chemistry",
+    "topic": "Acids and Bases",
+    "question": "৯. নিচের কোনটি শক্তিশালী এসিড?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$HCl$$",
+      "b": "$$H_2SO_4$$",
+      "c": "$$HClO_4$$",
+      "d": "$$HNO_3$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "পারক্লোরিক এসিডে ($$HClO_4$$) ক্লোরিনের জারণ মান সর্বোচ্চ ($$+7$$), তাই এটি প্রদত্ত এসিডগুলোর মধ্যে সবচেয়ে শক্তিশালী।"
+  },
+  {
+    "id": 10,
+    "subject": "Chemistry",
+    "topic": "Reaction Mechanism",
+    "question": "১০. $$SN_1$$ বিক্রিয়া কত ধাপে ঘটে?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "১ ধাপে",
+      "b": "২ ধাপে",
+      "c": "৩ ধাপে",
+      "d": "৪ ধাপে"
+    },
+    "correctAnswer": "b",
+    "explanation": " \n $$SN_1$$ বিক্রিয়া দুটি ধাপে ঘটে: প্রথমে কার্বোক্যাটায়ন তৈরি হয় এবং পরে নিউক্লিওফাইল যুক্ত হয়।"
+  },
+  {
+    "id": 11,
+    "subject": "Chemistry",
+    "topic": "Redox Reaction",
+    "question": "১১. জারক পদার্থ কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$H_2S$$",
+      "b": "$$FeSO_4$$",
+      "c": "$$KMnO_4$$",
+      "d": "$$HI$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "পটাশিয়াম পারম্যাঙ্গানেট ($$KMnO_4$$) একটি শক্তিশালী জারক পদার্থ। বাকি অপশনগুলো বিজারক হিসেবে কাজ করে।"
+  },
+  {
+    "id": 12,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "১২. ভিনেগার কি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "6-10% ইথানয়িক এসিড",
+      "b": "100% ইথানল",
+      "c": "মেথিলেটেড স্পিরিট",
+      "d": "টারটারিক এসিড"
+    },
+    "correctAnswer": "a",
+    "explanation": "ইথানয়িক এসিড বা অ্যাসিটিক এসিডের ($$CH_3COOH$$) ৬-১০% জলীয় দ্রবণকে ভিনেগার বলে।"
+  },
+  {
+    "id": 13,
+    "subject": "ICT",
+    "topic": "Network & Internet",
+    "question": "১৩. IP Address এর ভার্সন ৪ (IPv4) কত বিটের?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "16",
+      "b": "32",
+      "c": "64",
+      "d": "128"
+    },
+    "correctAnswer": "b",
+    "explanation": "IPv4 এড্রেস ৩২ বিটের হয় (যেমন: 192.168.0.1)। IPv6 এড্রেস ১২৮ বিটের হয়।"
+  },
+  {
+    "id": 14,
+    "subject": "ICT",
+    "topic": "Logic Gates",
+    "question": "১৪. লজিক গেইট X-OR তৈরি করতে কোন গেইট লাগে না?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "AND",
+      "b": "OR",
+      "c": "NOT",
+      "d": "NAND"
+    },
+    "correctAnswer": "d",
+    "explanation": " \n মৌলিক গেইট (AND, OR, NOT) ব্যবহার করে X-OR তৈরি করা যায় ($$A\\oplus B = A\\bar{B} + \\bar{A}B$$)। NAND গেইট একটি সার্বজনীন গেইট, এটি ব্যবহার করেও করা সম্ভব, তবে মৌলিক গেইট দিয়ে তৈরি করার সমীকরণে NAND সরাসরি থাকে না।"
+  },
+  {
+    "id": 15,
+    "subject": "ICT",
+    "topic": "Global Village",
+    "question": "১৫. বিশ্বগ্রাম (Global Village) এর ধারণা কে দেন?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "বিল গেটস",
+      "b": "টিম বার্নার্স লি",
+      "c": "মার্শাল ম্যাকলুহান",
+      "d": "মার্ক জুকারবার্গ"
+    },
+    "correctAnswer": "c",
+    "explanation": "কানাডিয়ান দার্শনিক মার্শাল ম্যাকলুহান ১৯৬২ সালে তার 'The Gutenberg Galaxy' বইয়ে বিশ্বগ্রামের ধারণা দেন।"
+  },
+  {
+    "id": 16,
+    "subject": "ICT",
+    "topic": "Data Communication",
+    "question": "১৬. ডেটা ট্রান্সমিশন মোড কত প্রকার?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "২",
+      "b": "৩",
+      "c": "৪",
+      "d": "৫"
+    },
+    "correctAnswer": "b",
+    "explanation": "প্রাপকের সংখ্যার ওপর ভিত্তি করে ডেটা ট্রান্সমিশন মোড ৩ প্রকার: ইউনিকাস্ট, মাল্টিকাস্ট এবং ব্রডকাস্ট।"
+  },
+  {
+    "id": 17,
+    "subject": "ICT",
+    "topic": "C Programming",
+    "question": "১৭. সি (C) ভাষায় চলক (Variable) নামের শুরুতে কোনটি ব্যবহার করা যায় না?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "অক্ষর",
+      "b": "আন্ডারস্কোর (_)",
+      "c": "সংখ্যা",
+      "d": "বড় হাতের অক্ষর"
+    },
+    "correctAnswer": "c",
+    "explanation": "সি ভাষায় ভেরিয়েবলের নাম অবশ্যই অক্ষর বা আন্ডারস্কোর দিয়ে শুরু হতে হবে। সংখ্যা (Digit) দিয়ে শুরু করা যায় না।"
+  },
+  {
+    "id": 18,
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "question": "১৮. কোনটি আদিকোষী জীব?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "শৈবাল",
+      "b": "ব্যাকটেরিয়া",
+      "c": "ছত্রাক",
+      "d": "মস"
+    },
+    "correctAnswer": "b",
+    "explanation": "ব্যাকটেরিয়া হলো মনেরা রাজ্যের অন্তর্ভুক্ত আদিকোষী (Prokaryotic) জীব, যাদের সুগঠিত নিউক্লিয়াস নেই।"
+  },
+  {
+    "id": 19,
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "question": "১৯. সবচেয়ে বড় রক্তকণিকা কোনটি?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "লোহিত রক্তকণিকা",
+      "b": "মনোসাইট",
+      "c": "লিম্ফোসাইট",
+      "d": "অণুচক্রিকা"
+    },
+    "correctAnswer": "b",
+    "explanation": " \n শ্বেত রক্তকণিকাগুলোর মধ্যে মনোসাইট (Monocyte) হলো সবচেয়ে বড় আকৃতির রক্তকণিকা।"
+  },
+  {
+    "id": 20,
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "question": "২০. ইউরিয়া তৈরি হয় কোথায়?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "বৃক্ক",
+      "b": "যকৃৎ",
+      "c": "পাকস্থলী",
+      "d": "অগ্ন্যাশয়"
+    },
+    "correctAnswer": "b",
+    "explanation": "যকৃতে (Liver) অরনিথিন চক্রের মাধ্যমে অ্যামোনিয়া থেকে ইউরিয়া তৈরি হয়। বৃক্ক বা কিডনি সেই ইউরিয়া ছেঁকে শরীর থেকে বের করে দেয়।"
+  },
+  {
+    "id": 21,
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "question": "২১. কোন হরমোন রক্তে গ্লুকোজের মাত্রা কমায়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "গ্লুকাগন",
+      "b": "ইনসুলিন",
+      "c": "থাইরক্সিন",
+      "d": "অ্যাড্রেনালিন"
+    },
+    "correctAnswer": "b",
+    "explanation": "অগ্ন্যাশয় থেকে নিঃসৃত ইনসুলিন হরমোন রক্তে গ্লুকোজের মাত্রা কমায়। গ্লুকাগন রক্তে গ্লুকোজের মাত্রা বাড়ায়।"
+  },
+  {
+    "id": 22,
+    "subject": "Biology",
+    "topic": "Taxonomy",
+    "question": "২২. দ্বিপদ নামকরণের প্রবক্তা কে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ডারউইন",
+      "b": "লিনিয়াস",
+      "c": "মেন্ডেল",
+      "d": "ল্যামার্ক"
+    },
+    "correctAnswer": "b",
+    "explanation": "ক্যারোলাস লিনিয়াস (Carolus Linnaeus) ১৭৫৩ সালে তার 'Species Plantarum' বইয়ে দ্বিপদ নামকরণের প্রবর্তন করেন।"
+  },
+  {
+    "id": 23,
+    "subject": "Biology",
+    "topic": "Cell Division",
+    "question": "২৩. মিয়োসিস কোষ বিভাজন কোথায় ঘটে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "দেহকোষে",
+      "b": "জনন মাতৃকোষে",
+      "c": "ভ্রূণে",
+      "d": "স্নায়ুকোষে"
+    },
+    "correctAnswer": "b",
+    "explanation": "জনন মাতৃকোষে (Reproductive mother cell) মিয়োসিস বিভাজন ঘটে, যার ফলে হ্যাপ্লয়েড গ্যামেট (শুক্রাণু ও ডিম্বাণু) তৈরি হয়।"
+  },
+  {
+    "id": 24,
+    "subject": "Biology",
+    "topic": "Zoology",
+    "question": "২৪. ঘাসফড়িং এর রক্ত সংবহনতন্ত্র কোন ধরনের?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "বদ্ধ",
+      "b": "মুক্ত",
+      "c": "অর্ধ-মুক্ত",
+      "d": "নেই"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 25,
+    "subject": "Biology",
+    "topic": "Botany",
+    "question": "২৫. মালভেসি গোত্রের উদ্ভিদ কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ধান",
+      "b": "গম",
+      "c": "জবা",
+      "d": "সরিষা"
+    },
+    "correctAnswer": "c",
+    "explanation": "জবা (Hibiscus rosa-sinensis) মালভেসি গোত্রের উদ্ভিদ। ধান ও গম পোয়েসি গোত্রের এবং সরিষা ক্রুসিফেরি গোত্রের।"
+  }
+]
