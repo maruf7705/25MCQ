@@ -17,7 +17,7 @@ function SubmissionsTable({
   const [selectedSubmission, setSelectedSubmission] = useState(null)
   const [selectedQuestion, setSelectedQuestion] = useState(null)
   const [questions, setQuestions] = useState([])
-  const [solutions, setSolutions] = useState([])
+
 
   useEffect(() => {
     if (selectedSubmission) {
@@ -34,47 +34,13 @@ function SubmissionsTable({
       }
       const data = await res.json()
       setQuestions(data)
-
-      // Load corresponding answer file
-      await loadSolutions(questionFile)
     } catch (err) {
       console.error('Failed to load questions:', err)
     }
   }
 
-  async function loadSolutions(questionFile) {
-    try {
-      // Map question file to answer file
-      // Handle: "questions - 1.json" -> "questions-1-Answer.json" (no spaces for URL compatibility)
-      let baseName = questionFile.replace('.json', '')
-      // Remove all spaces and normalize
-      baseName = baseName.replace(/\s+/g, '')
-      const answerFile = baseName + '-Answer.json'
+  // Solutions are now embedded in the question object
 
-      console.log('🔍 Loading solutions:')
-      console.log('  Question file:', questionFile)
-      console.log('  Base name:', baseName)
-      console.log('  Answer file:', answerFile)
-      console.log('  Fetching from:', `/${answerFile}`)
-
-      const res = await fetch(`/${answerFile}`, { cache: 'no-store' })
-      console.log('  Response status:', res.status, res.ok ? '✓' : '✗')
-      console.log('  Content-Type:', res.headers.get('content-type'))
-
-      if (!res.ok) {
-        console.log('❌ No answer file found for:', questionFile, '-> tried:', answerFile)
-        setSolutions([])
-        return
-      }
-      const data = await res.json()
-      setSolutions(data)
-      console.log('✅ Loaded solutions from:', answerFile, '- Total solutions:', data.length)
-    } catch (err) {
-      console.log('❌ Could not load solutions:', err)
-      console.log('   Error details:', err.message)
-      setSolutions([])
-    }
-  }
 
   function isAnswerCorrect(questionId, studentAnswer) {
     const qid = typeof questionId === 'string' ? parseInt(questionId) : questionId
@@ -86,14 +52,14 @@ function SubmissionsTable({
   function handleQuestionClick(questionId, studentAnswer) {
     const qid = typeof questionId === 'string' ? parseInt(questionId) : questionId
     const question = questions.find(q => q.id === qid || q.id.toString() === questionId.toString())
-    const solution = solutions.find(s => s.id === qid || s.id.toString() === questionId.toString())
+
     if (question) {
       setSelectedQuestion({
         ...question,
         studentAnswer,
         isCorrect: question.correctAnswer === studentAnswer,
         isAnswered: studentAnswer !== undefined && studentAnswer !== null,
-        solution: solution?.solution || null
+        solution: question.explanation || null
       })
     }
   }
@@ -228,7 +194,7 @@ function SubmissionsTable({
           const studentAnswer = (selectedSubmission.answers || {})[qid]
           const isAnswered = studentAnswer !== undefined && studentAnswer !== null
           const isCorrect = isAnswered ? isAnswerCorrect(qid, studentAnswer) : null
-          const solution = solutions.find(s => s.id === question.id || s.id.toString() === qid.toString())
+
 
           return {
             questionId: question.id,
@@ -243,7 +209,7 @@ function SubmissionsTable({
             correctAnswer: question.correctAnswer,
             isCorrect: isCorrect,
             isAnswered: isAnswered,
-            solution: solution?.solution || null
+            solution: question.explanation || null
           }
         })
       }
@@ -546,6 +512,17 @@ function SubmissionsTable({
                 <p dangerouslySetInnerHTML={{ __html: renderLatex(selectedQuestion.question) }} />
               </div>
 
+              {/* Solution Section - Always show for wrong/unanswered - MOVED HERE */}
+              {selectedQuestion.solution && (!selectedQuestion.isAnswered || !selectedQuestion.isCorrect) && (
+                <div className="solution-section">
+                  <div className="solution-header bengali">
+                    <span className="solution-icon">💡</span>
+                    <strong>সমাধান/ব্যাখ্যা:</strong>
+                  </div>
+                  <div className="solution-content bengali" dangerouslySetInnerHTML={{ __html: renderLatex(selectedQuestion.solution) }} />
+                </div>
+              )}
+
               <div className="options-list">
                 <div className="option-item bengali">
                   <strong>A)</strong> <span dangerouslySetInnerHTML={{ __html: renderLatex(selectedQuestion.options.a) }} />
@@ -564,19 +541,27 @@ function SubmissionsTable({
               <div className="answer-details">
                 {selectedQuestion.isAnswered ? (
                   <>
-                    <div className={`student-answer ${selectedQuestion.isCorrect ? 'correct' : 'wrong'}`}>
-                      <strong className="bengali">শিক্ষার্থীর উত্তর:</strong>
-                      <span className="answer-badge">{selectedQuestion.studentAnswer}</span>
-                      {selectedQuestion.isCorrect ? (
-                        <span className="status-text correct bengali">✓ সঠিক</span>
-                      ) : (
-                        <span className="status-text wrong bengali">✗ ভুল</span>
-                      )}
-                    </div>
-                    {!selectedQuestion.isCorrect && (
-                      <div className="correct-answer-display">
-                        <strong className="bengali">সঠিক উত্তর:</strong>
-                        <span className="answer-badge correct">{selectedQuestion.correctAnswer}</span>
+                    {selectedQuestion.isCorrect ? (
+                      <div className="answer-comparison correct-answer-case">
+                        <div className="answer-button student-correct">
+                          <div className="answer-label bengali">শিক্ষার্থীর উত্তর</div>
+                          <div className="answer-badge-large correct">{selectedQuestion.studentAnswer}</div>
+                        </div>
+                        <div className="status-text correct bengali">✓ সঠিক</div>
+                      </div>
+                    ) : (
+                      <div className="answer-comparison wrong-answer-case">
+                        <div className="answer-button student-wrong">
+                          <div className="answer-label bengali">শিক্ষার্থীর উত্তর</div>
+                          <div className="answer-badge-large wrong">{selectedQuestion.studentAnswer}</div>
+                        </div>
+                        <div className="status-divider">
+                          <span className="status-text wrong bengali">✗ ভুল</span>
+                        </div>
+                        <div className="answer-button correct-answer">
+                          <div className="answer-label bengali">সঠিক উত্তর</div>
+                          <div className="answer-badge-large correct">{selectedQuestion.correctAnswer}</div>
+                        </div>
                       </div>
                     )}
                   </>
@@ -590,17 +575,6 @@ function SubmissionsTable({
                   </div>
                 )}
               </div>
-
-              {/* Solution Section */}
-              {selectedQuestion.solution && (
-                <div className="solution-section">
-                  <div className="solution-header bengali">
-                    <span className="solution-icon">💡</span>
-                    <strong>সমাধান/ব্যাখ্যা:</strong>
-                  </div>
-                  <div className="solution-content bengali" dangerouslySetInnerHTML={{ __html: renderLatex(selectedQuestion.solution) }} />
-                </div>
-              )}
             </div>
           </div>
         </div>

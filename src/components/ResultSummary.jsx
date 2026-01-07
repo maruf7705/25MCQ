@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
+import { renderLatex } from '../utils/latex'
 import SubmissionStatus from './SubmissionStatus'
 import AchievementBadge from './AchievementBadge'
 import PerformanceChart from './PerformanceChart'
@@ -9,15 +10,27 @@ function ResultSummary({ questions, answers, studentName, score, onRestart, ques
   const accuracy = attempted > 0 ? ((correct / attempted) * 100).toFixed(1) : 0
   const unanswered = total - attempted
   const pass = totalScore >= 16.5
-  const [solutions, setSolutions] = useState([])
-  const [expandedQuestion, setExpandedQuestion] = useState(null)
+
+  // Initialize expanded questions with wrong answers
+  const [expandedQuestions, setExpandedQuestions] = useState(() => {
+    const wrongIds = new Set()
+    questions.forEach(q => {
+      const selected = answers[q.id]
+      const isCorrect = selected === q.correctOptionId
+      const hasAnswer = selected !== undefined
+      // Auto-expand if wrong or unanswered
+      if (hasAnswer && !isCorrect) {
+        wrongIds.add(q.id)
+      }
+    })
+    return wrongIds
+  })
   const [filter, setFilter] = useState('all')
   const [animatedCorrect, setAnimatedCorrect] = useState(0)
   const [animatedWrong, setAnimatedWrong] = useState(0)
   const hasAnimated = useRef(false)
 
   useEffect(() => {
-    loadSolutions()
     // Animate counters only once
     if (!hasAnimated.current) {
       hasAnimated.current = true
@@ -41,39 +54,24 @@ function ResultSummary({ questions, answers, studentName, score, onRestart, ques
       }
     }, duration / steps)
   }
+  // No external solution loading needed as explanation is now part of question object
 
-  async function loadSolutions() {
-    try {
-      // Load answer file based on questionFile prop
-      const qFile = questionFile || 'questions.json'
-      let baseName = qFile.replace('.json', '')
-      // Remove all spaces
-      baseName = baseName.replace(/\s+/g, '')
-      const answerFile = baseName + '-Answer.json'
-
-      console.log('🔍 Student result loading solutions:')
-      console.log('  Question file:', qFile)
-      console.log('  Answer file:', answerFile)
-
-      const res = await fetch(`/${answerFile}`, { cache: 'no-store' })
-      if (!res.ok) {
-        console.log('No answer file found, tried:', answerFile)
-        return
-      }
-      const data = await res.json()
-      setSolutions(data)
-      console.log('✅ Loaded solutions from:', answerFile, '- Total:', data.length)
-    } catch (err) {
-      console.log('❌ Could not load solutions:', err)
-    }
-  }
 
   function getSolution(questionId) {
-    return solutions.find(s => s.id === questionId || s.id.toString() === questionId.toString())?.solution || null
+    const question = questions.find(q => q.id === questionId)
+    return question ? question.explanation : null
   }
 
   function toggleExpand(questionId) {
-    setExpandedQuestion(expandedQuestion === questionId ? null : questionId)
+    setExpandedQuestions(prev => {
+      const newSet = new Set(prev)
+      if (newSet.has(questionId)) {
+        newSet.delete(questionId)
+      } else {
+        newSet.add(questionId)
+      }
+      return newSet
+    })
   }
 
   function getCongratulatoryMessage() {
@@ -226,16 +224,15 @@ function ResultSummary({ questions, answers, studentName, score, onRestart, ques
                         className="solution-toggle-btn bengali"
                         onClick={() => toggleExpand(q.id)}
                       >
-                        {expandedQuestion === q.id ? '▼ সমাধান লুকান' : '▶ সমাধান দেখুন'}
+                        {expandedQuestions.has(q.id) ? '▼ সমাধান লুকান' : '▶ সমাধান দেখুন'}
                       </button>
-                      {expandedQuestion === q.id && (
+                      {expandedQuestions.has(q.id) && (
                         <div className="solution-box">
                           <div className="solution-header bengali">
-                            <strong>সমাধান/ব্যাখ্যা</strong>
+                            <span className="solution-icon">💡</span>
+                            <strong>সমাধান/ব্যাখ্যা:</strong>
                           </div>
-                          <div className="solution-text bengali">
-                            {getSolution(q.id)}
-                          </div>
+                          <div className="solution-text bengali" dangerouslySetInnerHTML={{ __html: renderLatex(getSolution(q.id)) }} />
                         </div>
                       )}
                     </div>
