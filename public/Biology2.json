@@ -1,402 +1,404 @@
 [
   {
     "id": 1,
-    "subject": "Physics",
-    "topic": "Simple Harmonic Motion",
-    "question": "১. সরল দোলকের কার্যকর দৈর্ঘ্য ৪ গুণ করলে দোলনকাল কত গুণ হবে?",
-    "hasDiagram": false,
+    "subject": "Biology",
+    "topic": "Cell & Structure",
+    "question": "১. কোষের 'পাওয়ার হাউস' বলা হয় কোনটিকে?",
+    "hasDiagram": true,
     "svg_code": "",
     "options": {
-      "a": "২ গুণ",
-      "b": "৪ গুণ",
-      "c": "০.৫ গুণ",
-      "d": "অপরিবর্তিত"
+      "a": "রাইবোজোম",
+      "b": "লাইসোজোম",
+      "c": "মাইটোকন্ড্রিয়া",
+      "d": "গলগি বস্তু"
     },
-    "correctAnswer": "a",
-    "explanation": "আমরা জানি, দোলনকাল $$T = 2\\pi\\sqrt{\\frac{L}{g}}$$। অর্থাৎ $$T \\propto \\sqrt{L}$$। দৈর্ঘ্য ৪ গুণ ($$4L$$) করলে নতুন দোলনকাল হবে $$\\sqrt{4} = 2$$ গুণ।"
+    "correctAnswer": "c",
+    "explanation": ""
   },
   {
     "id": 2,
-    "subject": "Physics",
-    "topic": "Sound",
-    "question": "২. শব্দের তীব্রতার একক কি?",
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "question": "২. নিচের কোনটি উদ্ভিদের মাইক্রো-মৌল?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "Hz",
-      "b": "Watt",
-      "c": "$$Wm^{-2}$$",
-      "d": "Db"
+      "a": "ম্যাগনেসিয়াম",
+      "b": "নাইট্রোজেন",
+      "c": "পটাশিয়াম",
+      "d": "কপার"
     },
-    "correctAnswer": "c",
-    "explanation": "শব্দের তীব্রতা (Intensity) হলো প্রতি একক ক্ষেত্রফলের মধ্য দিয়ে লম্বভাবে প্রবাহিত ক্ষমতা। এর একক ওয়াট/মিটার$$^2$$ ($$Wm^{-2}$$)।"
+    "correctAnswer": "d",
+    "explanation": "উদ্ভিদের পুষ্টির জন্য কপার ($$Cu$$) খুব সামান্য পরিমাণে প্রয়োজন হয়, তাই এটি মাইক্রো-মৌল। ম্যাগনেসিয়াম, নাইট্রোজেন ও পটাশিয়াম হলো ম্যাক্রো-মৌল।"
   },
   {
     "id": 3,
-    "subject": "Physics",
-    "topic": "Work, Power, and Energy",
-    "question": "৩. ১ অশ্বক্ষমতা (HP) = কত ওয়াট?",
-    "hasDiagram": false,
+    "subject": "Biology",
+    "topic": "Genetics",
+    "question": "৩. মানুষের শরীরে অটোজোমের সংখ্যা কতটি?",
+    "hasDiagram": true,
     "svg_code": "",
     "options": {
-      "a": "546",
-      "b": "746",
-      "c": "1000",
-      "d": "980"
+      "a": "৪৪টি",
+      "b": "৪৬টি",
+      "c": "২২টি",
+      "d": "২৩টি"
     },
-    "correctAnswer": "b",
-    "explanation": "ক্ষমতার ব্যবহারিক একক অশ্বক্ষমতা। ১ হর্সপাওয়ার ($$1 HP$$) = ৭৪৬ ওয়াট ($$746 W$$)।"
+    "correctAnswer": "a",
+    "explanation": " \n মানুষের দেহকোষে মোট ৪৬টি (২৩ জোড়া) ক্রোমোজোম থাকে। এর মধ্যে ২২ জোড়া বা ৪৪টি অটোজোম এবং ১ জোড়া সেক্স ক্রোমোজোম।"
   },
   {
     "id": 4,
-    "subject": "Physics",
-    "topic": "Electromagnetic Induction",
-    "question": "৪. লেন্জের সূত্র কোন নিত্যতার সূত্র মেনে চলে?",
-    "hasDiagram": false,
-    "svg_code": "",
-    "options": {
-      "a": "ভর",
-      "b": "চার্জ",
-      "c": "শক্তি",
-      "d": "ভরবেগ"
-    },
-    "correctAnswer": "c",
-    "explanation": "লেন্জের সূত্র শক্তির সংরক্ষণশীলতা বা নিত্যতা মেনে চলে। যান্ত্রিক শক্তি তড়িৎ শক্তিতে রূপান্তরিত হওয়ার কারণে আবিষ্ট তড়িৎ প্রবাহের সৃষ্টি হয়।"
-  },
-  {
-    "id": 5,
-    "subject": "Physics",
-    "topic": "Gravitation",
-    "question": "৫. পৃথিবীর মুক্তিবেগ কত?",
-    "hasDiagram": false,
-    "svg_code": "",
-    "options": {
-      "a": "9.8 km/s",
-      "b": "11.2 km/s",
-      "c": "7.9 km/s",
-      "d": "11.2 m/s"
-    },
-    "correctAnswer": "b",
-    "explanation": "মুক্তিবেগ $$v_e = \\sqrt{2gR}$$। পৃথিবীর জন্য এর মান প্রায় $$11.2 \\text{ km/s}$$।"
-  },
-  {
-    "id": 6,
-    "subject": "Physics",
-    "topic": "Ideal Gas",
-    "question": "৬. আদর্শ গ্যাসের সমীকরণ কোনটি?",
-    "hasDiagram": false,
-    "svg_code": "",
-    "options": {
-      "a": "$$PV=RT$$",
-      "b": "$$PV=nRT$$",
-      "c": "$$P=VRT$$",
-      "d": "$$PV=KT$$"
-    },
-    "correctAnswer": "b",
-    "explanation": "বয়েল ও চার্লসের সূত্র সমন্বয় করে আদর্শ গ্যাসের সমীকরণ পাওয়া যায়: $$PV = nRT$$।"
-  },
-  {
-    "id": 7,
-    "subject": "Chemistry",
-    "topic": "Qualitative Chemistry",
-    "question": "৭. কোনটি শিখা পরীক্ষায় সোনালী হলুদ বর্ণ দেয়?",
-    "hasDiagram": true,
-    "svg_code": "",
-    "options": {
-      "a": "$$Na$$",
-      "b": "$$K$$",
-      "c": "$$Ca$$",
-      "d": "$$Cu$$"
-    },
-    "correctAnswer": "a",
-    "explanation": " \n সোডিয়াম ($$Na$$) শিখা পরীক্ষায় সোনালী হলুদ বর্ণ দেয়। $$K$$ দেয় বেগুনি, $$Ca$$ দেয় ইটের মতো লাল, এবং $$Cu$$ দেয় নীলাভ সবুজ।"
-  },
-  {
-    "id": 8,
-    "subject": "Chemistry",
-    "topic": "Organic Chemistry",
-    "question": "৮. কার্বন-কার্বন দ্বিবন্ধন এর দৈর্ঘ্য কত?",
-    "hasDiagram": true,
-    "svg_code": "",
-    "options": {
-      "a": "0.154 nm",
-      "b": "0.134 nm",
-      "c": "0.120 nm",
-      "d": "0.139 nm"
-    },
-    "correctAnswer": "b",
-    "explanation": " \n কার্বন-কার্বন একক বন্ধন ($$C-C$$) ০.১৫৪ nm, দ্বিবন্ধন ($$C=C$$) ০.১৩৪ nm এবং ত্রিবন্ধন ($$C\\equiv C$$) ০.১২০ nm।"
-  },
-  {
-    "id": 9,
-    "subject": "Chemistry",
-    "topic": "Acids and Bases",
-    "question": "৯. নিচের কোনটি শক্তিশালী এসিড?",
-    "hasDiagram": false,
-    "svg_code": "",
-    "options": {
-      "a": "$$HCl$$",
-      "b": "$$H_2SO_4$$",
-      "c": "$$HClO_4$$",
-      "d": "$$HNO_3$$"
-    },
-    "correctAnswer": "c",
-    "explanation": "পারক্লোরিক এসিডে ($$HClO_4$$) ক্লোরিনের জারণ মান সর্বোচ্চ ($$+7$$), তাই এটি প্রদত্ত এসিডগুলোর মধ্যে সবচেয়ে শক্তিশালী।"
-  },
-  {
-    "id": 10,
-    "subject": "Chemistry",
-    "topic": "Reaction Mechanism",
-    "question": "১০. $$SN_1$$ বিক্রিয়া কত ধাপে ঘটে?",
-    "hasDiagram": true,
-    "svg_code": "",
-    "options": {
-      "a": "১ ধাপে",
-      "b": "২ ধাপে",
-      "c": "৩ ধাপে",
-      "d": "৪ ধাপে"
-    },
-    "correctAnswer": "b",
-    "explanation": " \n $$SN_1$$ বিক্রিয়া দুটি ধাপে ঘটে: প্রথমে কার্বোক্যাটায়ন তৈরি হয় এবং পরে নিউক্লিওফাইল যুক্ত হয়।"
-  },
-  {
-    "id": 11,
-    "subject": "Chemistry",
-    "topic": "Redox Reaction",
-    "question": "১১. জারক পদার্থ কোনটি?",
-    "hasDiagram": false,
-    "svg_code": "",
-    "options": {
-      "a": "$$H_2S$$",
-      "b": "$$FeSO_4$$",
-      "c": "$$KMnO_4$$",
-      "d": "$$HI$$"
-    },
-    "correctAnswer": "c",
-    "explanation": "পটাশিয়াম পারম্যাঙ্গানেট ($$KMnO_4$$) একটি শক্তিশালী জারক পদার্থ। বাকি অপশনগুলো বিজারক হিসেবে কাজ করে।"
-  },
-  {
-    "id": 12,
-    "subject": "Chemistry",
-    "topic": "Organic Chemistry",
-    "question": "১২. ভিনেগার কি?",
-    "hasDiagram": false,
-    "svg_code": "",
-    "options": {
-      "a": "6-10% ইথানয়িক এসিড",
-      "b": "100% ইথানল",
-      "c": "মেথিলেটেড স্পিরিট",
-      "d": "টারটারিক এসিড"
-    },
-    "correctAnswer": "a",
-    "explanation": "ইথানয়িক এসিড বা অ্যাসিটিক এসিডের ($$CH_3COOH$$) ৬-১০% জলীয় দ্রবণকে ভিনেগার বলে।"
-  },
-  {
-    "id": 13,
-    "subject": "ICT",
-    "topic": "Network & Internet",
-    "question": "১৩. IP Address এর ভার্সন ৪ (IPv4) কত বিটের?",
-    "hasDiagram": false,
-    "svg_code": "",
-    "options": {
-      "a": "16",
-      "b": "32",
-      "c": "64",
-      "d": "128"
-    },
-    "correctAnswer": "b",
-    "explanation": "IPv4 এড্রেস ৩২ বিটের হয় (যেমন: 192.168.0.1)। IPv6 এড্রেস ১২৮ বিটের হয়।"
-  },
-  {
-    "id": 14,
-    "subject": "ICT",
-    "topic": "Logic Gates",
-    "question": "১৪. লজিক গেইট X-OR তৈরি করতে কোন গেইট লাগে না?",
-    "hasDiagram": true,
-    "svg_code": "",
-    "options": {
-      "a": "AND",
-      "b": "OR",
-      "c": "NOT",
-      "d": "NAND"
-    },
-    "correctAnswer": "d",
-    "explanation": " \n মৌলিক গেইট (AND, OR, NOT) ব্যবহার করে X-OR তৈরি করা যায় ($$A\\oplus B = A\\bar{B} + \\bar{A}B$$)। NAND গেইট একটি সার্বজনীন গেইট, এটি ব্যবহার করেও করা সম্ভব, তবে মৌলিক গেইট দিয়ে তৈরি করার সমীকরণে NAND সরাসরি থাকে না।"
-  },
-  {
-    "id": 15,
-    "subject": "ICT",
-    "topic": "Global Village",
-    "question": "১৫. বিশ্বগ্রাম (Global Village) এর ধারণা কে দেন?",
-    "hasDiagram": false,
-    "svg_code": "",
-    "options": {
-      "a": "বিল গেটস",
-      "b": "টিম বার্নার্স লি",
-      "c": "মার্শাল ম্যাকলুহান",
-      "d": "মার্ক জুকারবার্গ"
-    },
-    "correctAnswer": "c",
-    "explanation": "কানাডিয়ান দার্শনিক মার্শাল ম্যাকলুহান ১৯৬২ সালে তার 'The Gutenberg Galaxy' বইয়ে বিশ্বগ্রামের ধারণা দেন।"
-  },
-  {
-    "id": 16,
-    "subject": "ICT",
-    "topic": "Data Communication",
-    "question": "১৬. ডেটা ট্রান্সমিশন মোড কত প্রকার?",
+    "subject": "Biology",
+    "topic": "Animal Diversity",
+    "question": "৪. রুই মাছের হৃৎপিণ্ড কত প্রকোষ্ঠ বিশিষ্ট?",
     "hasDiagram": true,
     "svg_code": "",
     "options": {
       "a": "২",
       "b": "৩",
       "c": "৪",
-      "d": "৫"
+      "d": "১"
     },
-    "correctAnswer": "b",
-    "explanation": "প্রাপকের সংখ্যার ওপর ভিত্তি করে ডেটা ট্রান্সমিশন মোড ৩ প্রকার: ইউনিকাস্ট, মাল্টিকাস্ট এবং ব্রডকাস্ট।"
+    "correctAnswer": "a",
+    "explanation": ""
   },
   {
-    "id": 17,
-    "subject": "ICT",
-    "topic": "C Programming",
-    "question": "১৭. সি (C) ভাষায় চলক (Variable) নামের শুরুতে কোনটি ব্যবহার করা যায় না?",
+    "id": 5,
+    "subject": "Biology",
+    "topic": "Digestion",
+    "question": "৫. মানবদেহের সবচেয়ে বড় গ্রন্থি কোনটি?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "অক্ষর",
-      "b": "আন্ডারস্কোর (_)",
-      "c": "সংখ্যা",
-      "d": "বড় হাতের অক্ষর"
+      "a": "অগ্ন্যাশয়",
+      "b": "যকৃৎ",
+      "c": "থাইরয়েড",
+      "d": "পিটুইটারি"
+    },
+    "correctAnswer": "b",
+    "explanation": "যকৃৎ (Liver) হলো মানবদেহের সবচেয়ে বড় গ্রন্থি যা পিত্তরস তৈরি করে এবং বিপাকীয় কার্যাবলি নিয়ন্ত্রণ করে।"
+  },
+  {
+    "id": 6,
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "question": "৬. $$C_3$$ উদ্ভিদে কার্বন বিজারণের প্রথম স্থায়ী পদার্থ কোনটি?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "অক্সালো অ্যাসিটিক অ্যাসিড",
+      "b": "ম্যালিক অ্যাসিড",
+      "c": "৩-ফস্ফোগ্লিসারিক অ্যাসিড",
+      "d": "গ্লুকোজ"
     },
     "correctAnswer": "c",
-    "explanation": "সি ভাষায় ভেরিয়েবলের নাম অবশ্যই অক্ষর বা আন্ডারস্কোর দিয়ে শুরু হতে হবে। সংখ্যা (Digit) দিয়ে শুরু করা যায় না।"
+    "explanation": ""
   },
   {
-    "id": 18,
+    "id": 7,
     "subject": "Biology",
-    "topic": "Cell Biology",
-    "question": "১৮. কোনটি আদিকোষী জীব?",
+    "topic": "Blood & Circulation",
+    "question": "৭. কোনটি রক্ত তঞ্চনে সাহায্য করে?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "শৈবাল",
-      "b": "ব্যাকটেরিয়া",
-      "c": "ছত্রাক",
-      "d": "মস"
+      "a": "হিমোগ্লোবিন",
+      "b": "ফাইব্রিনোজেন",
+      "c": "অ্যালবুমিন",
+      "d": "গ্লোবিউলিন"
     },
     "correctAnswer": "b",
-    "explanation": "ব্যাকটেরিয়া হলো মনেরা রাজ্যের অন্তর্ভুক্ত আদিকোষী (Prokaryotic) জীব, যাদের সুগঠিত নিউক্লিয়াস নেই।"
+    "explanation": "ফাইব্রিনোজেন রক্তরসে থাকা একটি প্রোটিন যা ফাইব্রিন জালক তৈরির মাধ্যমে রক্ত জমাট বাঁধতে বা তঞ্চনে সাহায্য করে।"
   },
   {
-    "id": 19,
+    "id": 8,
     "subject": "Biology",
-    "topic": "Human Physiology",
-    "question": "১৯. সবচেয়ে বড় রক্তকণিকা কোনটি?",
-    "hasDiagram": true,
-    "svg_code": "",
-    "options": {
-      "a": "লোহিত রক্তকণিকা",
-      "b": "মনোসাইট",
-      "c": "লিম্ফোসাইট",
-      "d": "অণুচক্রিকা"
-    },
-    "correctAnswer": "b",
-    "explanation": " \n শ্বেত রক্তকণিকাগুলোর মধ্যে মনোসাইট (Monocyte) হলো সবচেয়ে বড় আকৃতির রক্তকণিকা।"
-  },
-  {
-    "id": 20,
-    "subject": "Biology",
-    "topic": "Human Physiology",
-    "question": "২০. ইউরিয়া তৈরি হয় কোথায়?",
-    "hasDiagram": true,
-    "svg_code": "",
-    "options": {
-      "a": "বৃক্ক",
-      "b": "যকৃৎ",
-      "c": "পাকস্থলী",
-      "d": "অগ্ন্যাশয়"
-    },
-    "correctAnswer": "b",
-    "explanation": "যকৃতে (Liver) অরনিথিন চক্রের মাধ্যমে অ্যামোনিয়া থেকে ইউরিয়া তৈরি হয়। বৃক্ক বা কিডনি সেই ইউরিয়া ছেঁকে শরীর থেকে বের করে দেয়।"
-  },
-  {
-    "id": 21,
-    "subject": "Biology",
-    "topic": "Human Physiology",
-    "question": "২১. কোন হরমোন রক্তে গ্লুকোজের মাত্রা কমায়?",
+    "topic": "Animal Diversity",
+    "question": "৮. ঘাসফড়িং-এর রক্ত সংবহনতন্ত্র কোন ধরনের?",
     "hasDiagram": false,
-    "svg_code": "",
-    "options": {
-      "a": "গ্লুকাগন",
-      "b": "ইনসুলিন",
-      "c": "থাইরক্সিন",
-      "d": "অ্যাড্রেনালিন"
-    },
-    "correctAnswer": "b",
-    "explanation": "অগ্ন্যাশয় থেকে নিঃসৃত ইনসুলিন হরমোন রক্তে গ্লুকোজের মাত্রা কমায়। গ্লুকাগন রক্তে গ্লুকোজের মাত্রা বাড়ায়।"
-  },
-  {
-    "id": 22,
-    "subject": "Biology",
-    "topic": "Taxonomy",
-    "question": "২২. দ্বিপদ নামকরণের প্রবক্তা কে?",
-    "hasDiagram": false,
-    "svg_code": "",
-    "options": {
-      "a": "ডারউইন",
-      "b": "লিনিয়াস",
-      "c": "মেন্ডেল",
-      "d": "ল্যামার্ক"
-    },
-    "correctAnswer": "b",
-    "explanation": "ক্যারোলাস লিনিয়াস (Carolus Linnaeus) ১৭৫৩ সালে তার 'Species Plantarum' বইয়ে দ্বিপদ নামকরণের প্রবর্তন করেন।"
-  },
-  {
-    "id": 23,
-    "subject": "Biology",
-    "topic": "Cell Division",
-    "question": "২৩. মিয়োসিস কোষ বিভাজন কোথায় ঘটে?",
-    "hasDiagram": false,
-    "svg_code": "",
-    "options": {
-      "a": "দেহকোষে",
-      "b": "জনন মাতৃকোষে",
-      "c": "ভ্রূণে",
-      "d": "স্নায়ুকোষে"
-    },
-    "correctAnswer": "b",
-    "explanation": "জনন মাতৃকোষে (Reproductive mother cell) মিয়োসিস বিভাজন ঘটে, যার ফলে হ্যাপ্লয়েড গ্যামেট (শুক্রাণু ও ডিম্বাণু) তৈরি হয়।"
-  },
-  {
-    "id": 24,
-    "subject": "Biology",
-    "topic": "Zoology",
-    "question": "২৪. ঘাসফড়িং এর রক্ত সংবহনতন্ত্র কোন ধরনের?",
-    "hasDiagram": true,
     "svg_code": "",
     "options": {
       "a": "বদ্ধ",
       "b": "মুক্ত",
       "c": "অর্ধ-মুক্ত",
-      "d": "নেই"
+      "d": "কোনটিই নয়"
+    },
+    "correctAnswer": "b",
+    "explanation": "আর্থ্রোপোডা পর্বের প্রাণী হিসেবে ঘাসফড়িং-এর দেহে মুক্ত সংবহনতন্ত্র দেখা যায়, যেখানে রক্ত নালীর বাইরে হিমোসিলে উন্মুক্ত থাকে।"
+  },
+  {
+    "id": 9,
+    "subject": "Biology",
+    "topic": "Cell Division",
+    "question": "৯. কোষ বিভাজনের কোন ধাপে ক্রোমোজোমগুলো বিষুবীয় অঞ্চলে বিন্যস্ত হয়?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "প্রোফেজ",
+      "b": "মেটাফেজ",
+      "c": "অ্যানাফেজ",
+      "d": "টেলোফেজ"
     },
     "correctAnswer": "b",
     "explanation": ""
   },
   {
-    "id": 25,
+    "id": 10,
     "subject": "Biology",
-    "topic": "Botany",
-    "question": "২৫. মালভেসি গোত্রের উদ্ভিদ কোনটি?",
+    "topic": "Excretion",
+    "question": "১০. মানবদেহে বৃক্কের গাঠনিক একক কোনটি?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "নিউরন",
+      "b": "নেফ্রন",
+      "c": "এলভিওলাই",
+      "d": "ভিলাই"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 11,
+    "subject": "Biology",
+    "topic": "Coordination",
+    "question": "১১. কোন হরমোন রক্তে গ্লুকোজের মাত্রা কমায়?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "ধান",
-      "b": "গম",
-      "c": "জবা",
-      "d": "সরিষা"
+      "a": "গ্লুকাগন",
+      "b": "ইনসুলিন",
+      "c": "অ্যাড্রেনালিন",
+      "d": "থাইরক্সিন"
+    },
+    "correctAnswer": "b",
+    "explanation": "অগ্ন্যাশয়ের আইলেটস অব ল্যাঙ্গারহ্যান্স-এর বিটা কোষ থেকে নিঃসৃত ইনসুলিন রক্তে গ্লুকোজের মাত্রা কমিয়ে স্বাভাবিক রাখে।"
+  },
+  {
+    "id": 12,
+    "subject": "Biology",
+    "topic": "Cell & Structure",
+    "question": "১২. DNA থেকে RNA তৈরির প্রক্রিয়াকে কী বলে?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "রেপ্লিকেশন",
+      "b": "ট্রান্সক্রিপশন",
+      "c": "ট্রান্সলেশন",
+      "d": "মিউটেশন"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 13,
+    "subject": "Biology",
+    "topic": "Microbes",
+    "question": "১৩. নিচের কোনটি ভাইরাসজনিত রোগ নয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ডেঙ্গু",
+      "b": "কলেরা",
+      "c": "হাম",
+      "d": "ইনফ্লুয়েঞ্জা"
+    },
+    "correctAnswer": "b",
+    "explanation": "কলেরা একটি ব্যাকটেরিয়াজনিত রোগ (Vibrio cholerae দ্বারা হয়)। বাকিগুলো ভাইরাস দ্বারা সৃষ্টি হয়।"
+  },
+  {
+    "id": 14,
+    "subject": "Biology",
+    "topic": "Animal Diversity",
+    "question": "১৪. হাইড্রার নিডোসাইট কোষে কোন বিষাক্ত তরল থাকে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "হিপনোটক্সিন",
+      "b": "সেরোটোনিন",
+      "c": "হিস্টামিন",
+      "d": "ভেসোপ্রেসিন"
+    },
+    "correctAnswer": "a",
+    "explanation": "হাইড্রার নেমাটোসিস্টের ক্যাপসুলে হিপনোটক্সিন নামক বিষাক্ত তরল থাকে যা আমিষ ও ফেনল দ্বারা গঠিত।"
+  },
+  {
+    "id": 15,
+    "subject": "Biology",
+    "topic": "Genetics",
+    "question": "১৫. মেন্ডেলের ২য় সূত্রকে কী বলা হয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "পৃথকীকরণ সূত্র",
+      "b": "স্বাধীনভাবে মিলনের সূত্র",
+      "c": "প্রকটতার সূত্র",
+      "d": "লিংকেজ সূত্র"
+    },
+    "correctAnswer": "b",
+    "explanation": "মেন্ডেলের ২য় সূত্রটি 'স্বাধীনভাবে মিলনের সূত্র' (Law of Independent Assortment) নামে পরিচিত। ১ম সূত্রটি হলো পৃথকীকরণ সূত্র।"
+  },
+  {
+    "id": 16,
+    "subject": "Biology",
+    "topic": "Tissues",
+    "question": "১৬. কোনটি পেশি টিস্যুর বৈশিষ্ট্য নয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সংকোচনশীলতা",
+      "b": "উত্তেজনা",
+      "c": "শাখা-প্রশাখা যুক্ত (হৃদপেশি)",
+      "d": "ক্যালসিয়াম কার্বনেট জমা হওয়া"
+    },
+    "correctAnswer": "d",
+    "explanation": "পেশি টিস্যু সংকুচিত ও প্রসারিত হতে পারে। ক্যালসিয়াম কার্বনেট জমা হওয়া হাড় বা খোলসের বৈশিষ্ট্য, পেশির নয়।"
+  },
+  {
+    "id": 17,
+    "subject": "Biology",
+    "topic": "Tissues",
+    "question": "১৭. ফ্লোয়েম টিস্যুর মৃত কোষ কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সিভনল",
+      "b": "সঙ্গীকোষ",
+      "c": "ফ্লোয়েম প্যারেনকাইমা",
+      "d": "ফ্লোয়েম ফাইবার"
+    },
+    "correctAnswer": "d",
+    "explanation": "ফ্লোয়েম টিস্যুর উপাদানগুলোর মধ্যে একমাত্র ফ্লোয়েম ফাইবার বা বাস্ট ফাইবার মৃত (স্ক্লেরেনকাইমা কোষ দ্বারা গঠিত)। বাকি সব সজীব।"
+  },
+  {
+    "id": 18,
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "question": "১৮. গ্লাইকোলাইসিস প্রক্রিয়ায় এক অণু গ্লুকোজ ভেঙে কয় অণু পাইরুভিক এসিড তৈরি হয়?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "১",
+      "b": "২",
+      "c": "৪",
+      "d": "৩৬"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+
+
+  },
+  {
+    "id": 19,
+    "subject": "Biology",
+    "topic": "Digestion",
+    "question": "১৯. কোনটি মিশ্র গ্রন্থি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "যকৃৎ",
+      "b": "অগ্ন্যাশয়",
+      "c": "লালাগ্রন্থি",
+      "d": "ম্যামারি গ্রন্থি"
+    },
+    "correctAnswer": "b",
+    "explanation": "অগ্ন্যাশয় একই সাথে এনজাইম (বহিঃক্ষরা) এবং হরমোন (অন্তঃক্ষরা) নিঃসরণ করে বলে একে মিশ্র গ্রন্থি বলা হয়।"
+  },
+  {
+    "id": 20,
+    "subject": "Biology",
+    "topic": "Movement",
+    "question": "২০. মানব কঙ্কালতন্ত্রে মোট অস্থির সংখ্যা কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "২০৬",
+      "b": "৩০৬",
+      "c": "২০৮",
+      "d": "২০০"
+    },
+    "correctAnswer": "a",
+    "explanation": "একজন পূর্ণবয়স্ক মানুষের শরীরে মোট ২০৬টি হাড় বা অস্থি থাকে (অক্ষীয় ৮০টি ও উপাঙ্গীয় ১২৬টি)।"
+  },
+  {
+    "id": 21,
+    "subject": "Biology",
+    "topic": "Blood & Circulation",
+    "question": "২১. ABO রক্ত গ্রুপের আবিষ্কারক কে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "লুই পাস্তুর",
+      "b": "কার্ল ল্যান্ডস্টেইনার",
+      "c": "উইলিয়াম হার্ভে",
+      "d": "গ্রেগর জোহান মেন্ডেল"
+    },
+    "correctAnswer": "b",
+    "explanation": "কার্ল ল্যান্ডস্টেইনার ১৯০১ সালে মানুষের রক্তের ABO গ্রুপ আবিষ্কার করেন।"
+  },
+  {
+    "id": 22,
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "question": "২২. শালোকসংশ্লেষণে নির্গত অক্সিজেনের উৎস কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$$CO_2$$",
+      "b": "$$H_2O$$",
+      "c": "$$C_6H_{12}O_6$$",
+      "d": "ক্লোরোফিল"
+    },
+    "correctAnswer": "b",
+    "explanation": "শালোকসংশ্লেষণ প্রক্রিয়ায় পানি ($$H_2O$$) ভেঙে (ফোটোলাইসিস) অক্সিজেন নির্গত হয়। $$CO_2$$ বিজারিত হয়ে গ্লুকোজ তৈরি করে।"
+  },
+  {
+    "id": 23,
+    "subject": "Biology",
+    "topic": "Microbes",
+    "question": "২৩. নিচের কোনটি জীব ও জড়ের সেতুবন্ধন?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ব্যাকটেরিয়া",
+      "b": "শৈবাল",
+      "c": "ভাইরাস",
+      "d": "ছত্রাক"
     },
     "correctAnswer": "c",
-    "explanation": "জবা (Hibiscus rosa-sinensis) মালভেসি গোত্রের উদ্ভিদ। ধান ও গম পোয়েসি গোত্রের এবং সরিষা ক্রুসিফেরি গোত্রের।"
+    "explanation": "ভাইরাস পোষক দেহের ভেতরে জীব এবং বাইরে জড় পদার্থের ন্যায় আচরণ করে, তাই একে জীব ও জড়ের সেতুবন্ধন বলা হয়।"
+  },
+  {
+    "id": 24,
+    "subject": "Biology",
+    "topic": "Cell Division",
+    "question": "২৪. ক্রসিং ওভার কোন উপপর্যায়ে ঘটে?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "লেপ্টোটিন",
+      "b": "জাইগোটিন",
+      "c": "প্যাকাইটিন",
+      "d": "ডিপ্লোটিন"
+    },
+    "correctAnswer": "c",
+    "explanation": " \n মায়োসিস-১ এর প্রোফেজ-১ এর প্যাকাইটিন উপপর্যায়ে হোমোলগাস ক্রোমোজোমের নন-সিস্টার ক্রোমাটিডের মধ্যে অংশের বিনিময় বা ক্রসিং ওভার ঘটে।"
+  },
+  {
+    "id": 25,
+    "subject": "Biology",
+    "topic": "Cell & Structure",
+    "question": "২৫. কোনটি আদিকোষী জীব?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "মানুষ",
+      "b": "আমগাছ",
+      "c": "ব্যাকটেরিয়া",
+      "d": "অ্যামিবা"
+    },
+    "correctAnswer": "c",
+    "explanation": "ব্যাকটেরিয়ার কোষে সুগঠিত নিউক্লিয়াস ও পর্দাবৃত অঙ্গাণু থাকে না, তাই এটি আদিকোষী বা প্রোক্যারিওটিক জীব।"
   }
 ]
