@@ -3,134 +3,134 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: var(--spacing-3);
+  background: transparent;
+  /* Rely on global background */
 }
 
 .start-card {
   background: white;
-  border-radius: 16px;
-  padding: 40px;
-  max-width: 500px;
+  /* Fallback */
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: var(--radius-2xl);
+  padding: var(--spacing-6) var(--spacing-5);
+  max-width: 480px;
   width: 100%;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  box-shadow: var(--shadow-xl);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  text-align: center;
+  animation: slideUp 0.6s ease-out;
 }
 
 .start-card h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--gray-900);
-  margin-bottom: 24px;
-  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  background: linear-gradient(135deg, var(--slate-900) 0%, var(--slate-700) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: var(--spacing-4);
 }
 
 .exam-info {
-  background: var(--gray-50);
-  border-radius: 8px;
-  padding: 16px;
-  margin-bottom: 24px;
+  background: var(--slate-50);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-4);
+  margin-bottom: var(--spacing-5);
+  border: 1px solid var(--slate-200);
 }
 
 .exam-info p {
-  margin: 8px 0;
-  color: var(--gray-700);
-  font-size: 0.9rem;
+  margin: 6px 0;
+  color: var(--slate-600);
+  font-size: var(--font-sm);
+  font-weight: 500;
 }
 
 .start-card form {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: var(--spacing-4);
+  text-align: left;
 }
 
 .start-card label {
   font-weight: 600;
-  color: var(--gray-700);
-  font-size: 0.9rem;
+  color: var(--slate-700);
+  font-size: var(--font-sm);
+  margin-left: 4px;
 }
 
 .start-card input {
-  padding: 12px 16px;
-  border: 2px solid var(--gray-300);
-  border-radius: 8px;
-  font-size: 1rem;
-  transition: border-color 0.2s;
+  width: 100%;
+  padding: 14px 16px;
+  border: 2px solid var(--slate-200);
+  border-radius: var(--radius-lg);
+  font-size: var(--font-base);
+  transition: all 0.2s;
+  background: white;
+  color: var(--slate-900);
 }
 
 .start-card input:focus {
   outline: none;
   border-color: var(--primary);
+  box-shadow: 0 0 0 4px var(--primary-soft);
+}
+
+.start-card input::placeholder {
+  color: var(--slate-400);
 }
 
 .primary-btn {
-  padding: 14px 24px;
+  padding: 16px;
   background: var(--primary);
   color: white;
   border: none;
-  border-radius: 8px;
-  font-size: 1rem;
+  border-radius: var(--radius-lg);
+  font-size: var(--font-base);
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.2s;
+  transition: all 0.2s;
+  box-shadow: var(--shadow-md);
+  width: 100%;
+  margin-top: var(--spacing-2);
 }
 
 .primary-btn:hover {
   background: var(--primary-dark);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-lg);
+}
+
+.primary-btn:active {
+  transform: translateY(0);
 }
 
 .hint {
   text-align: center;
-  color: var(--gray-500);
-  font-size: 0.875rem;
-  margin-top: 8px;
+  color: var(--slate-500);
+  font-size: var(--font-xs);
+  margin-top: var(--spacing-3);
 }
 
+/* Mobile Optimizations */
 @media (max-width: 640px) {
   .start-screen {
-    padding: 16px;
+    padding: var(--spacing-3);
+    align-items: flex-start;
+    /* Move to top on mobile for keyboard space */
+    padding-top: 10vh;
   }
 
   .start-card {
-    padding: 28px 20px;
-    border-radius: 12px;
+    padding: var(--spacing-5) var(--spacing-4);
+    box-shadow: var(--shadow-lg);
   }
 
   .start-card h1 {
-    font-size: 1.75rem;
-    margin-bottom: 20px;
-  }
-
-  .exam-info {
-    padding: 14px;
-    margin-bottom: 20px;
-  }
-
-  .exam-info p {
-    font-size: 0.95rem;
-    line-height: 1.6;
-  }
-
-  .start-card label {
-    font-size: 1rem;
-    margin-bottom: 8px;
-  }
-
-  .start-card input {
-    padding: 16px 18px;
-    font-size: 1.1rem;
-    border-width: 2px;
-    min-height: 54px;
-  }
-
-  .primary-btn {
-    padding: 16px 28px;
-    font-size: 1.1rem;
-    min-height: 54px;
-    font-weight: 600;
-  }
-
-  .hint {
-    font-size: 0.9rem;
-    margin-top: 12px;
-    line-height: 1.5;
+    font-size: 2rem;
   }
 }

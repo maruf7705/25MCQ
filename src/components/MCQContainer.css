@@ -2,14 +2,15 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: transparent;
 }
 
 .mcq-content {
   flex: 1;
   display: grid;
-  grid-template-columns: 1fr 300px;
-  gap: 24px;
-  padding: 24px;
+  grid-template-columns: 1fr 320px;
+  gap: var(--spacing-4);
+  padding: var(--spacing-4);
   max-width: 1400px;
   margin: 0 auto;
   width: 100%;
@@ -17,18 +18,32 @@
 
 .question-section {
   min-width: 0;
+  /* Prevents flex/grid item overflow */
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-3);
 }
 
+/* Tablet / Small Laptop */
 @media (max-width: 1024px) {
   .mcq-content {
     grid-template-columns: 1fr;
-    padding: 16px;
+    gap: var(--spacing-3);
+    padding: var(--spacing-3);
   }
 }
 
+/* Mobile Devices */
 @media (max-width: 640px) {
   .mcq-content {
-    padding: 12px;
-    gap: 16px;
+    display: flex;
+    /* Switch to flex column for better mobile control */
+    flex-direction: column;
+    padding: var(--spacing-2);
+    gap: var(--spacing-2-5);
+  }
+
+  .question-section {
+    gap: var(--spacing-2);
   }
 }

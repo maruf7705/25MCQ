@@ -1,40 +1,50 @@
 .question-card {
   background: white;
-  border-radius: 12px;
-  padding: 24px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-4);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--slate-100);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
 
 .question-header {
   display: flex;
   align-items: center;
-  gap: 8px;
-  margin-bottom: 12px;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-3);
+  padding-bottom: var(--spacing-2);
+  border-bottom: 1px solid var(--slate-100);
 }
 
 .question-badge {
-  background: var(--primary);
-  color: white;
-  padding: 6px 12px;
-  border-radius: 6px;
+  background: var(--primary-soft);
+  color: var(--primary);
+  padding: 4px 12px;
+  border-radius: var(--radius-md);
   font-weight: 600;
-  font-size: 0.875rem;
+  font-size: var(--font-sm);
+  display: inline-flex;
+  align-items: center;
 }
 
 .review-badge {
-  background: var(--warning);
-  color: white;
+  background: var(--warning-soft);
+  color: var(--warning);
   padding: 4px 10px;
-  border-radius: 6px;
-  font-size: 0.75rem;
-  font-weight: 600;
+  border-radius: var(--radius-md);
+  font-size: var(--font-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .question-text {
-  font-size: 1.125rem;
-  line-height: 1.4;
-  color: var(--gray-900);
-  margin-bottom: 12px;
+  font-size: var(--font-lg);
+  line-height: var(--line-height-relaxed);
+  color: var(--slate-800);
+  margin-bottom: var(--spacing-4);
   font-weight: 500;
 }
 
@@ -42,89 +52,117 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 8px 0;
-  padding: 8px;
-  background: var(--gray-50);
-  border-radius: 8px;
-  border: 1px solid var(--gray-200);
+  margin: var(--spacing-3) 0;
+  padding: var(--spacing-3);
+  background: var(--slate-50);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--slate-200);
 }
 
 .question-diagram svg {
   max-width: 100%;
   height: auto;
+  max-height: 300px;
 }
 
 .options-grid {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin-bottom: 16px;
+  gap: var(--spacing-2);
+  margin-bottom: var(--spacing-4);
 }
 
 .option-card {
   display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 12px;
-  border: 2px solid var(--gray-300);
-  border-radius: 8px;
+  align-items: flex-start;
+  /* Align to top for multi-line options */
+  gap: var(--spacing-2);
+  padding: var(--spacing-2-5);
+  border: 1.5px solid var(--slate-200);
+  border-radius: var(--radius-lg);
   background: white;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   text-align: left;
   width: 100%;
-  font-size: 1rem;
+  font-size: var(--font-base);
+  position: relative;
 }
 
 .option-card:hover {
-  border-color: var(--primary);
-  background: var(--gray-50);
-  transform: translateX(4px);
+  border-color: var(--slate-400);
+  background: var(--slate-50);
 }
 
 .option-card.selected {
   border-color: var(--primary);
-  background: rgba(37, 99, 235, 0.1);
+  background: var(--primary-soft);
+  box-shadow: 0 0 0 1px var(--primary);
+  /* Focus ring effect */
 }
 
+/* Make the whole card clickable area better */
 .option-label {
-  font-weight: 700;
+  font-weight: 600;
+  color: var(--slate-500);
+  min-width: 28px;
+  margin-top: 2px;
+  /* Visual alignment with text */
+}
+
+.option-card.selected .option-label {
   color: var(--primary);
-  min-width: 24px;
 }
 
 .option-text {
   flex: 1;
-  color: var(--gray-900);
+  color: var(--slate-700);
+  line-height: var(--line-height-base);
+}
+
+.option-card.selected .option-text {
+  color: var(--primary-dark);
+  font-weight: 500;
 }
 
 .check-icon {
   color: var(--success);
-  font-size: 1.25rem;
+  font-size: var(--font-lg);
   font-weight: 700;
+  margin-left: auto;
+  /* Push to right */
 }
 
 .question-actions {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 12px;
-  border-top: 1px solid var(--gray-200);
+  padding-top: var(--spacing-3);
+  border-top: 1px solid var(--slate-100);
+  gap: var(--spacing-2);
 }
 
 .nav-buttons {
   display: flex;
-  gap: 12px;
+  gap: var(--spacing-2);
+  flex: 1;
+  justify-content: flex-end;
 }
 
 .action-btn {
   padding: 10px 20px;
   border: none;
-  border-radius: 8px;
-  font-size: 0.9rem;
+  border-radius: var(--radius-md);
+  font-size: var(--font-sm);
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  /* Touch target */
 }
 
 .action-btn:disabled {
@@ -133,21 +171,31 @@
 }
 
 .action-btn.secondary {
-  background: var(--gray-200);
-  color: var(--gray-700);
+  background: white;
+  color: var(--slate-600);
+  border: 1px solid var(--slate-200);
 }
 
 .action-btn.secondary:hover:not(:disabled) {
-  background: var(--gray-300);
+  background: var(--slate-50);
+  border-color: var(--slate-300);
+  color: var(--slate-800);
 }
 
 .action-btn.primary {
   background: var(--primary);
   color: white;
+  box-shadow: var(--shadow-sm);
 }
 
 .action-btn.primary:hover:not(:disabled) {
   background: var(--primary-dark);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.action-btn.primary:active:not(:disabled) {
+  transform: translateY(0);
 }
 
 .submit-btn {
@@ -155,80 +203,71 @@
 }
 
 .submit-btn:hover:not(:disabled) {
-  background: #059669;
+  background: var(--success-dark);
 }
 
+/* Mobile Optimizations */
 @media (max-width: 640px) {
   .question-card {
-    padding: 18px;
-    border-radius: 10px;
+    padding: var(--spacing-3);
+    border-radius: var(--radius-lg);
+    box-shadow: none;
+    /* Flatter design for mobile */
+    border: 1px solid var(--slate-100);
+    /* Keep structural border */
   }
+
+  /* Full-bleed card effect optional, but keeping padding is safer */
 
   .question-header {
-    margin-bottom: 16px;
-  }
-
-  .question-badge {
-    padding: 8px 14px;
-    font-size: 0.95rem;
-  }
-
-  .review-badge {
-    padding: 6px 12px;
-    font-size: 0.8rem;
+    margin-bottom: var(--spacing-3);
   }
 
   .question-text {
-    font-size: 1.1rem;
-    line-height: 1.7;
-    margin-bottom: 20px;
+    font-size: 1.125rem;
+    /* readable size */
+    margin-bottom: var(--spacing-3);
   }
 
   .options-grid {
-    gap: 14px;
-    margin-bottom: 20px;
+    gap: var(--spacing-2);
   }
 
   .option-card {
-    padding: 16px 14px;
-    min-height: 56px;
-    font-size: 1.05rem;
-    border-width: 2px;
-  }
-
-  .option-label {
-    font-size: 1rem;
-    min-width: 28px;
-  }
-
-  .option-text {
-    font-size: 1.05rem;
-    line-height: 1.5;
-  }
-
-  .check-icon {
-    font-size: 1.4rem;
+    padding: 14px;
+    /* Large touch area */
+    border-radius: var(--radius-md);
   }
 
   .question-actions {
-    flex-direction: column;
-    gap: 14px;
-    padding-top: 16px;
+    flex-direction: column-reverse;
+    /* Stack buttons, Nav on top usually better but standard is bottom */
+    /* Actually for this UI, Nav buttons are right, review left. 
+       On mobile, maybe row is still fine if buttons are small, 
+       but let's make them span full width or split row */
+    flex-direction: row;
+    padding-top: var(--spacing-3);
   }
 
   .nav-buttons {
-    width: 100%;
-    gap: 10px;
-  }
-
-  .action-btn {
-    flex: 1;
-    padding: 14px 20px;
-    font-size: 1rem;
-    min-height: 50px;
+    flex: 2;
   }
 
   .action-btn.secondary {
-    width: 100%;
+    flex: 1;
+    /* Review button takes less space */
+    padding: 10px;
+    font-size: 0.8rem;
+    flex-direction: column;
+    /* Stack icon/text if needed, or keep row */
+    gap: 4px;
+    align-items: center;
+    border: none;
+    background: var(--slate-50);
+  }
+
+  .action-btn {
+    font-size: 1rem;
+    padding: 12px 16px;
   }
 }

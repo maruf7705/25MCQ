@@ -1,18 +1,37 @@
 :root {
-  /* 8px Grid System */
+  /* 8px Grid System - Refined for Mobile */
+  --spacing-0-5: 4px;
   --spacing-1: 8px;
+  --spacing-1-5: 12px;
   --spacing-2: 16px;
+  --spacing-2-5: 20px;
   --spacing-3: 24px;
   --spacing-4: 32px;
   --spacing-5: 40px;
   --spacing-6: 48px;
   --spacing-8: 64px;
 
-  /* Professional Typography */
-  --line-height-tight: 1.2;
-  --line-height-base: 1.5;
+  /* Professional Typography - Scaled */
+  --font-xs: 0.75rem;
+  /* 12px */
+  --font-sm: 0.875rem;
+  /* 14px */
+  --font-base: 1rem;
+  /* 16px */
+  --font-lg: 1.125rem;
+  /* 18px */
+  --font-xl: 1.25rem;
+  /* 20px */
+  --font-2xl: 1.5rem;
+  /* 24px */
+  --font-3xl: 1.875rem;
+  /* 30px */
+
+  --line-height-tight: 1.25;
+  --line-height-base: 1.6;
   --line-height-relaxed: 1.75;
-  --letter-spacing-tight: -0.02em;
+
+  --letter-spacing-tight: -0.01em;
   --letter-spacing-normal: 0em;
   --letter-spacing-wide: 0.025em;
 
@@ -32,44 +51,53 @@
   --primary: #2563eb;
   --primary-dark: #1d4ed8;
   --primary-light: #3b82f6;
+  --primary-soft: rgba(37, 99, 235, 0.08);
+  /* Soft background for active states */
+
   --success: #10b981;
+  --success-dark: #059669;
   --success-light: #34d399;
+  --success-soft: rgba(16, 185, 129, 0.1);
+
   --error: #ef4444;
+  --error-dark: #dc2626;
   --error-light: #f87171;
+  --error-soft: rgba(239, 68, 68, 0.1);
+
   --warning: #f59e0b;
   --warning-light: #fbbf24;
+  --warning-soft: rgba(245, 158, 11, 0.1);
 
   /* Legacy Gray Scale Support */
-  --gray-50: #f8fafc;
-  --gray-100: #f1f5f9;
-  --gray-200: #e2e8f0;
-  --gray-300: #cbd5e1;
-  --gray-400: #94a3b8;
-  --gray-500: #64748b;
-  --gray-600: #475569;
-  --gray-700: #334155;
-  --gray-800: #1e293b;
-  --gray-900: #0f172a;
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-400: #9ca3af;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
 
   /* Refined Glassmorphism */
-  --glass-bg: rgba(255, 255, 255, 0.8);
-  --glass-border: rgba(226, 232, 240, 0.8);
-  --glass-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  --glass-bg: rgba(255, 255, 255, 0.9);
+  --glass-border: rgba(255, 255, 255, 0.5);
+  --glass-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
 
-  /* Gradients - Subtle Refinement */
-  --gradient-success: linear-gradient(135deg, #10b981 0%, #34d399 100%);
-  --gradient-error: linear-gradient(135deg, #ef4444 0%, #f87171 100%);
-  --gradient-primary: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
-  --gradient-gold: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
-  --gradient-silver: linear-gradient(135deg, #e2e8f0 0%, #cbd5e1 100%);
-  --gradient-bronze: linear-gradient(135deg, #d97706 0%, #92400e 100%);
+  /* Shadows */
+  --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 
-  /* Professional Shadows - Subtle & High Diffusion */
-  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
-  --shadow-md: 0 2px 4px -1px rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.03);
-  --shadow-lg: 0 4px 6px -2px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.03);
-  --shadow-xl: 0 8px 12px -4px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
-  --shadow-2xl: 0 12px 24px -6px rgba(0, 0, 0, 0.08);
+  /* Radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
 }
 
 * {
@@ -87,6 +115,8 @@ body {
   line-height: var(--line-height-base);
   letter-spacing: var(--letter-spacing-normal);
   position: relative;
+  overflow-x: hidden;
+  /* Prevent horizontal scroll */
 }
 
 #root {
@@ -94,9 +124,11 @@ body {
   width: 100%;
   background: #ffffff;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Aurora Dream Corner Whispers */
+/* Updated Background - Softer & cleaner for mobile reading */
 #root::before {
   content: '';
   position: fixed;
@@ -106,12 +138,7 @@ body {
   bottom: 0;
   z-index: 0;
   pointer-events: none;
-  background:
-    radial-gradient(ellipse 85% 65% at 8% 8%, rgba(175, 109, 255, 0.42), transparent 60%),
-    radial-gradient(ellipse 75% 60% at 75% 35%, rgba(255, 235, 170, 0.55), transparent 62%),
-    radial-gradient(ellipse 70% 60% at 15% 80%, rgba(255, 100, 180, 0.40), transparent 62%),
-    radial-gradient(ellipse 70% 60% at 92% 92%, rgba(120, 190, 255, 0.45), transparent 62%),
-    linear-gradient(180deg, #f7eaff 0%, #fde2ea 100%);
+  background: linear-gradient(to bottom right, #f8fafc, #f1f5f9);
 }
 
 /* Ensure all content appears above the background */
@@ -132,48 +159,60 @@ html {
 
 /* Mobile optimizations */
 @media (max-width: 640px) {
+  :root {
+    --font-base: 16px;
+    /* Ensure 16px base for readability */
+    --spacing-main: 16px;
+    /* Consistency in padding */
+  }
+
   body {
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
-    font-size: 16px;
+    font-size: var(--font-base);
   }
 
   input,
   textarea,
   select {
-    font-size: 16px;
-    /* Prevents zoom on iOS */
+    font-size: 16px !important;
+    /* Forces 16px to prevent iOS zoom */
   }
 
   /* Ensure minimum touch target size */
   button,
   a,
   input[type="button"],
-  input[type="submit"] {
-    min-height: 44px;
-    min-width: 44px;
+  input[type="submit"],
+  .clickable {
+    min-height: 48px;
+    /* Improved touch target */
+    min-width: 48px;
   }
 }
 
 /* Utility Classes */
-.glass-card {
-  background: var(--glass-bg);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid var(--glass-border);
-  box-shadow: var(--glass-shadow);
+.glass-effect {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
+.card-base {
+  background: white;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--slate-100);
+}
+
+/* Animations */
 .animate-fade-in {
-  animation: fadeIn 0.4s ease-out;
-}
-
-.animate-scale-in {
-  animation: scaleIn 0.4s ease-out;
+  animation: fadeIn 0.3s ease-out forwards;
 }
 
 .animate-slide-up {
-  animation: slideUp 0.5s ease-out;
+  animation: slideUp 0.4s ease-out forwards;
 }
 
 @keyframes fadeIn {
@@ -186,22 +225,10 @@ html {
   }
 }
 
-@keyframes scaleIn {
-  from {
-    opacity: 0;
-    transform: scale(0.9);
-  }
-
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
 @keyframes slideUp {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(10px);
   }
 
   to {
@@ -210,114 +237,29 @@ html {
   }
 }
 
-/* Professional Icon Styles - CSS Only */
-.icon-check,
-.icon-cross,
-.icon-dash {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  position: relative;
-  flex-shrink: 0;
-}
-
-.icon-check {
-  background: var(--success);
-  color: white;
-}
-
-.icon-check::after {
-  content: '';
-  width: 5px;
-  height: 9px;
-  border: solid white;
-  border-width: 0 2px 2px 0;
-  transform: rotate(45deg) translateY(-1px);
-}
-
-.icon-cross {
-  background: var(--error);
-  color: white;
-}
-
-.icon-cross::before,
-.icon-cross::after {
-  content: '';
-  position: absolute;
-  width: 10px;
-  height: 2px;
-  background: white;
-}
-
-.icon-cross::before {
-  transform: rotate(45deg);
-}
-
-.icon-cross::after {
-  transform: rotate(-45deg);
-}
-
-.icon-dash {
-  background: var(--slate-400);
-  color: white;
-}
-
-.icon-dash::after {
-  content: '';
-  width: 8px;
-  height: 2px;
-  background: white;
-}
-
-/* Reduced Motion Support */
-@media (prefers-reduced-motion: reduce) {
-
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
-}
-
 /* KaTeX Math Formula Fixes */
 .katex {
-  font-size: 1em !important;
-  line-height: 1 !important;
-  display: inline !important;
-  vertical-align: middle !important;
-  margin: 0 !important;
-  padding: 0 !important;
+  font-size: 1.1em !important;
+  line-height: 1.2 !important;
+  display: inline-block !important;
+  /* Changed from inline to inline-block for better vertical align */
 }
 
-.katex-display {
-  margin: 8px 0 !important;
-  padding: 4px 0 !important;
+/* Scrollbar refinement */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
 }
 
-.katex-html {
-  display: inline !important;
-  line-height: inherit !important;
+::-webkit-scrollbar-track {
+  background: transparent;
 }
 
-.katex .base {
-  display: inline !important;
-  vertical-align: middle !important;
+::-webkit-scrollbar-thumb {
+  background: var(--slate-300);
+  border-radius: 4px;
 }
 
-/* Fix for question text with LaTeX */
-.question-text .katex,
-.option-text .katex {
-  display: inline !important;
-  vertical-align: baseline !important;
-  line-height: 1 !important;
-}
-
-/* Remove extra spacing from KaTeX spans */
-.katex span {
-  line-height: 1 !important;
+::-webkit-scrollbar-thumb:hover {
+  background: var(--slate-400);
 }
