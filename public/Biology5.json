@@ -1,0 +1,354 @@
+[
+    {
+        "id": 1,
+        "subject": "Biology",
+        "topic": "Cell Biology / Photosynthesis",
+        "question": "১. RuBP এনজাইম নিচের কোনটিতে থাকে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "মাইটোকন্ড্রিয়া (Mitochondria)",
+            "b": "ক্লোরোপ্লাস্ট (Chloroplast)",
+            "c": "ক্রোমোপ্লাস্ট (Chromoplast)",
+            "d": "লিউকোপ্লাস্ট (Leucoplast)"
+        },
+        "correctAnswer": "b",
+        "explanation": "RuBP এনজাইম সালোকসংশ্লেষণ প্রক্রিয়ায় কার্বন ডাইঅক্সাইডকে জৈব অণুর সাথে যুক্ত করে শর্করা তৈরি করে। এটি ক্লোরোপ্লাস্টে অবস্থিত।"
+    },
+    {
+        "id": 2,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "question": "২. কোষঝিল্লিতে টনোফাইব্রিলসহ বৃত্তাকার অঞ্চলকে কী বলে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "টনোপ্লাস্ট (Tonoplast)",
+            "b": "ফ্যাগোসাইটিক ভেসিকল (Phagocytic vesicle)",
+            "c": "ডেসমোসোম (Desmosome)",
+            "d": "পিনোসাইটিক ভেসিকল (Pinocytic vesicle)"
+        },
+        "correctAnswer": "c",
+        "explanation": "কোষঝিল্লির কোনো কোনো স্থানে টনোফাইব্রিল নামক অসংখ্য ফিলামেন্টযুক্ত বৃত্তাকার অঞ্চল দেখা যায়। একে ডেসমোসোম বলে।"
+    },
+    {
+        "id": 3,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "question": "৩. নিচের কোনটিকে প্রোটিন ফ্যাক্টরি বলা হয়?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "ক্লোরোপ্লাস্ট (Chloroplast)",
+            "b": "গলগি বডি (Golgi body)",
+            "c": "রাইবোসোম (Ribosome)",
+            "d": "মাইটোকন্ড্রিয়া (Mitochondria)"
+        },
+        "correctAnswer": "c",
+        "explanation": "জীবদেহ গঠনে প্রোটিন তৈরির কারখানা হিসেবে কাজ করে রাইবোসোম।"
+    },
+    {
+        "id": 4,
+        "subject": "Biology",
+        "topic": "Microbiology",
+        "question": "৪. ছত্রাকে কত S রাইবোসোম পাওয়া যায়?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "55 S",
+            "b": "80 S",
+            "c": "77 S",
+            "d": "40 S"
+        },
+        "correctAnswer": "c",
+        "explanation": "ছত্রাকে 77 S রাইবোসোম ও স্তন্যপায়ী প্রাণীর মাইটোকন্ড্রিয়ায় 55 S রাইবোসোম থাকে।"
+    },
+    {
+        "id": 5,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "question": "৫. সর্বাপেক্ষা বড় উদ্ভিদ কোষ হলো-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "Gallisepticum",
+            "b": "Acetabularia",
+            "c": "Gymnodinium",
+            "d": "Caulerpa"
+        },
+        "correctAnswer": "b",
+        "explanation": "এককোষী সর্বাপেক্ষা বড় উদ্ভিদকোষ হলো Acetabularia নামক শৈবাল।"
+    },
+    {
+        "id": 6,
+        "subject": "Biology",
+        "topic": "Cell Division",
+        "question": "৬. বাইভেলেন্টের দুটি সেন্ট্রোমিয়ারের মধ্য কখন বিকর্ষণ শুরু হয়?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "লেপ্টোটিন (Leptotene)",
+            "b": "জাইগোটিন (Zygotene)",
+            "c": "প্যাকাইটিন (Pachytene)",
+            "d": "ডিপ্লোটিন (Diplotene)"
+        },
+        "correctAnswer": "d",
+        "explanation": "ডিপ্লোটিন উপদশায় বাইভেলেন্টের ক্রোমোসোমদ্বয়ের মধ্যে পারস্পরিক বিকর্ষণ শুরু হয়।"
+    },
+    {
+        "id": 7,
+        "subject": "Biology",
+        "topic": "Cell Division",
+        "question": "৭. অ্যাস্টার রশ্মি তৈরি হয় মাইটোসিস বিভাজনের কোন পর্যায়ে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "প্রোফেজ-১ (Prophase-I)",
+            "b": "টেলোফেজ (Telophase)",
+            "c": "মেটাফেজ (Metaphase)",
+            "d": "প্রো-মেটাফেজ (Pro-metaphase)"
+        },
+        "correctAnswer": "d",
+        "explanation": "প্রো-মেটাফেজ দশায় প্রাণিকোষে সেন্ট্রিওল থেকে অ্যাস্টার রশ্মি সৃষ্টি হয়।"
+    },
+    {
+        "id": 8,
+        "subject": "Biology",
+        "topic": "Botany",
+        "question": "৮. স্পোরিক মায়োসিস কোথায় দেখা যায়?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "ছত্রাক (Fungi)",
+            "b": "মশ (Moss)",
+            "c": "ফার্ন (Fern)",
+            "d": "সপুষ্পক উদ্ভিদ (Flowering plants)"
+        },
+        "correctAnswer": "d",
+        "explanation": "সপুষ্পক উদ্ভিদের স্পোর বা রেণু গঠনের সময় যে মায়োসিস ঘটে তাকে স্পোরিক মায়োসিস বলে।"
+    },
+    {
+        "id": 9,
+        "subject": "Biology",
+        "topic": "Cell Division",
+        "question": "৯. কোষচক্রে অভ্যন্তরীণ উদ্দীপনা প্রদান করে কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "সাইক্লিন-Cdk (Cyclin-Cdk)",
+            "b": "হরমোন (Hormone)",
+            "c": "গ্রোথ ফ্যাক্টর (Growth Factor)",
+            "d": "MPF (MPF)"
+        },
+        "correctAnswer": "a",
+        "explanation": "কোষচক্রে অভ্যন্তরীণ উদ্দীপনা প্রদান করে সাইক্লিন-Cdk যৌগ।"
+    },
+    {
+        "id": 10,
+        "subject": "Biology",
+        "topic": "Microbiology",
+        "question": "১০. কোনটি RNA ভাইরাসের উদাহরণ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "পোলিও (Polio)",
+            "b": "ভ্যারিওলা (Variola)",
+            "c": "TIV",
+            "d": "T2"
+        },
+        "correctAnswer": "a",
+        "explanation": "RNA ভাইরাসের উদাহরণ হলো- পোলিও, HIV, ডেঙ্গু ইত্যাদি। টি-টু এবং ভ্যারিওলা DNA ভাইরাস।"
+    },
+    {
+        "id": 11,
+        "subject": "Biology",
+        "topic": "Microbiology",
+        "question": "১১. কোন ভাইরাসের আক্রমণে বার্ড ফ্লু হয়?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "H5N1",
+            "b": "H1N1",
+            "c": "HIV",
+            "d": "TIV"
+        },
+        "correctAnswer": "a",
+        "explanation": "H5N1 ভাইরাসের কারণে পাখি ও হাঁস-মুরগিতে বার্ড ফ্লু হয়।"
+    },
+    {
+        "id": 12,
+        "subject": "Biology",
+        "topic": "Microbiology",
+        "question": "১২. কলেরা রোগের প্রতিষেধক কোথা থেকে তৈরি করা হয়?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "শৈবাল",
+            "b": "ব্যাকটেরিয়া",
+            "c": "ছত্রাক",
+            "d": "ভাইরাস"
+        },
+        "correctAnswer": "b",
+        "explanation": "ব্যাকটেরিয়া হতে কলেরা, টাইফয়েড ও যক্ষ্মার প্রতিষেধক প্রস্তুত করা হয়।"
+    },
+    {
+        "id": 13,
+        "subject": "Biology",
+        "topic": "Microbiology",
+        "question": "১৩. নিচের কোন ব্যাকটেরিয়া মুক্ত অক্সিজেন ছাড়া বাঁচতে পারে না?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "Azotobacter",
+            "b": "Clostridium",
+            "c": "Bacillus",
+            "d": "Staphylococcus"
+        },
+        "correctAnswer": "a",
+        "explanation": "Azotobacter বাধ্যতামূলক বায়বীয় ব্যাকটেরিয়া, যা অক্সিজেন ছাড়া বাঁচে না। Clostridium অক্সিজেন ছাড়া বাঁচে।"
+    },
+    {
+        "id": 14,
+        "subject": "Biology",
+        "topic": "Zoology / Entomology",
+        "question": "১৪. কোন হরমোন ম্যালেরিয়ার লার্ভা নষ্ট করতে ব্যবহৃত হয়?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "থাইরক্সিন",
+            "b": "জুভেনাইল (Juvenile)",
+            "c": "অ্যাড্রিনালিন",
+            "d": "ইনসুলিন"
+        },
+        "correctAnswer": "b",
+        "explanation": "জুভেনাইল হরমোন ছিটিয়ে দিলে মশার লার্ভার রূপান্তর ব্যাহত হয় এবং তারা পূর্ণাঙ্গ হতে পারে না।"
+    },
+    {
+        "id": 15,
+        "subject": "Biology",
+        "topic": "Botany",
+        "question": "১৫. Cycas এর মূলের শৈবাল স্তরে কোন ব্যাকটেরিয়া থাকে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "Azotobacter",
+            "b": "Anabaena",
+            "c": "Clostridium",
+            "d": "Bacillus"
+        },
+        "correctAnswer": "b",
+        "explanation": "Cycas-এর কোরালয়েড মূলের শৈবাল স্তরে Anabaena ও Nostoc নামক সায়ানোব্যাকটেরিয়া থাকে।"
+    },
+    {
+        "id": 16,
+        "subject": "Biology",
+        "topic": "Botany",
+        "question": "১৬. কৃষ্ণচূড়া ফুলের দলমণ্ডলে কোন ধরনের এস্টিভেশন দেখা যায়?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "টুইস্টেড",
+            "b": "ইমব্রিকেট",
+            "c": "ভালভেট",
+            "d": "ভেক্সিলারি"
+        },
+        "correctAnswer": "b",
+        "explanation": "কৃষ্ণচূড়া ও কালকাসুন্দা ফুলে ইমব্রিকেট এস্টিভেশন দেখা যায়।"
+    },
+    {
+        "id": 17,
+        "subject": "Biology",
+        "topic": "Botany",
+        "question": "১৭. কোনটি বাল্ব (Bulb) এর উদাহরণ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "পেঁয়াজ",
+            "b": "আদা",
+            "c": "হলুদ",
+            "d": "আলু"
+        },
+        "correctAnswer": "a",
+        "explanation": "পেঁয়াজ ও রসুন হলো বাল্ব-এর উদাহরণ। আদা ও হলুদ রাইজোম, এবং আলু টিউবার।"
+    },
+    {
+        "id": 18,
+        "subject": "Biology",
+        "topic": "Botany",
+        "question": "১৮. মটরশুটি গাছের অমরাবিন্যাস কিরকম?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "একপ্রান্তীয় (Marginal)",
+            "b": "মুক্তমধ্য",
+            "c": "অক্ষীয়",
+            "d": "বহুপ্রান্তিক"
+        },
+        "correctAnswer": "a",
+        "explanation": "মটরশুটি ও শিম গাছের অমরাবিন্যাস একপ্রান্তীয় বা Marginal।"
+    },
+    {
+        "id": 19,
+        "subject": "Biology",
+        "topic": "Botany",
+        "question": "১৯. পুষ্পের তিনটি স্তবক ক্রমান্বয়ে গর্ভাশয়ের নিচে সজ্জিত থাকলে তাকে কী বলে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "অধিগর্ভ গর্ভাশয় (Superior ovary)",
+            "b": "অর্ধ-অধিগর্ভ",
+            "c": "অধোগর্ভ গর্ভাশয়",
+            "d": "কোনটিই নয়"
+        },
+        "correctAnswer": "a",
+        "explanation": "গর্ভাশয় যখন অন্যসব স্তবকের উপরে থাকে, তখন তাকে অধিগর্ভ গর্ভাশয় বলে (যেমন- জবা, সরিষা)।"
+    },
+    {
+        "id": 20,
+        "subject": "Biology",
+        "topic": "Botany",
+        "question": "২০. কুমড়ার কাণ্ড ফাঁপা হয় কোনটির বিনষ্টের ফলে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "পেরিসাইকেল",
+            "b": "পিথ (Pith)",
+            "c": "মজ্জা রশ্মি",
+            "d": "কর্টেক্স"
+        },
+        "correctAnswer": "b",
+        "explanation": "মজ্জা বা পিথ-এর কোষগুলো বিনষ্ট হওয়ায় কুমড়া বা লাউয়ের কাণ্ড ফাঁপা হয়।"
+    },
+    {
+        "id": 21,
+        "subject": "Biology",
+        "topic": "Botany",
+        "question": "২১. লাউয়ের কাণ্ডে কোন ধরনের ভাস্কুলার বান্ডল দেখা যায়?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "জাইলেম কেন্দ্রিক",
+            "b": "ফ্লোয়েম কেন্দ্রিক",
+            "c": "সমদ্বিপার্শ্বীয় (Bicollateral)",
+            "d": "অরীয়"
+        },
+        "correctAnswer": "c",
+        "explanation": "লাউ, কুমড়া ও শশার কাণ্ডে সমদ্বিপার্শ্বীয় ভাস্কুলার বান্ডল থাকে যেখানে জাইলেমের দুই পাশে ফ্লোয়েম থাকে।"
+    },
+    {
+        "id": 25,
+        "subject": "Biology",
+        "topic": "Plant Physiology",
+        "question": "২৫. ক্রেবস চক্রে সাইট্রিক এসিডকে আইসোসাইট্রেট এসিডে পরিণত করতে সাহায্য করে কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "আইসোমারেজ",
+            "b": "একোনিটেজ (Aconitase)",
+            "c": "ফিউমারেজ",
+            "d": "সাইট্রেট সিনথেজ"
+        },
+        "correctAnswer": "b",
+        "explanation": "একোনিটেজ এনজাইম সাইট্রিক এসিডকে আইসোসাইট্রিক এসিডে পরিণত করে।"
+    }
+]
