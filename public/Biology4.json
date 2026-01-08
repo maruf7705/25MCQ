@@ -1,0 +1,410 @@
+[
+  {
+    "id": 1,
+    "subject": "Biology",
+    "topic": "Cell Chemistry",
+    "question": "১. কোনটিকে 'কো-এনজাইম' বলা হয় না?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "NAD",
+      "b": "FAD",
+      "c": "ATP",
+      "d": "$$Mn^{++}$$"
+    },
+    "correctAnswer": "d",
+    "explanation": "$$Mn^{++}$$ বা ম্যাঙ্গানিজ আয়ন একটি ধাতব আয়ন যা কো-ফ্যাক্টর বা প্রস্থেটিক গ্রুপ হিসেবে কাজ করে, এটি জৈব কো-এনজাইম নয়। NAD, FAD, ATP হলো জৈব কো-এনজাইম।"
+  },
+  {
+    "id": 2,
+    "subject": "Biology",
+    "topic": "Animal Diversity",
+    "question": "২. রুই মাছের হৃৎপিণ্ডকে 'ভেনাস হার্ট' বলা হয় কেন?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "শুধুমাত্র $$O_2$$ যুক্ত রক্ত বহন করে",
+      "b": "শুধুমাত্র $$CO_2$$ যুক্ত রক্ত বহন করে",
+      "c": "মিশ্র রক্ত বহন করে",
+      "d": "কোনটিই নয়"
+    },
+    "correctAnswer": "b",
+    "explanation": " \n রুই মাছের হৃৎপিণ্ড দিয়ে শুধুমাত্র কার্বন ডাই-অক্সাইড ($$CO_2$$) যুক্ত বা দূষিত রক্ত প্রবাহিত হয়, তাই একে ভেনাস হার্ট বা শিরা হৃৎপিণ্ড বলা হয়।"
+  },
+  {
+    "id": 3,
+    "subject": "Biology",
+    "topic": "Cell & Structure",
+    "question": "৩. উদ্ভিদ কোষ প্রাচীরের প্রধান উপাদান কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "কাইটিন",
+      "b": "সেলুলোজ",
+      "c": "গ্লাইকোজেন",
+      "d": "পেপটিডোগ্লাইকান"
+    },
+    "correctAnswer": "b",
+    "explanation": "উদ্ভিদ কোষ প্রাচীর প্রধানত সেলুলোজ (একটি পলিস্যাকারাইড) দ্বারা গঠিত। কাইটিন ছত্রাকের এবং পেপটিডোগ্লাইকান ব্যাকটেরিয়ার কোষ প্রাচীরে থাকে।"
+  },
+  {
+    "id": 4,
+    "subject": "Biology",
+    "topic": "Movement",
+    "question": "৪. মানুষের বক্ষ গহ্বরে পর্শুকার সংখ্যা কত?",
+    "hasDiagram": true,
+    "svg_code": "",
+    "options": {
+      "a": "১২টি",
+      "b": "২৪টি",
+      "c": "১২ জোড়া",
+      "d": "২৪ জোড়া"
+    },
+    "correctAnswer": "c",
+    "explanation": "[Image of human rib cage
+  ]
+ \n মানুষের বক্ষপিঞ্জরে মোট ১২ জোড়া বা ২৪টি পর্শুকা বা রিব (Ribs) থাকে।"
+},
+{
+  "id": 5,
+  "subject": "Biology",
+  "topic": "Ecosystem",
+  "question": "৫. কোনটি বিয়োজক?",
+  "hasDiagram": false,
+  "svg_code": "",
+  "options": {
+    "a": "মানুষ",
+    "b": "গরু",
+    "c": "শৈবাল",
+    "d": "ব্যাকটেরিয়া"
+  },
+  "correctAnswer": "d",
+  "explanation": "ব্যাকটেরিয়া ও ছত্রাক মৃত জীবদেহকে পচিয়ে বা বিয়োজন করে সরল উপাদানে পরিণত করে, তাই এদের বিয়োজক বা ডিকম্পোজার বলা হয়।"
+},
+{
+  "id": 6,
+  "subject": "Biology",
+  "topic": "Animal Diversity",
+  "question": "৬. হাইড্রার এপিডার্মিসের পেশি-আবরণী কোষের কাজ কী?",
+  "hasDiagram": false,
+  "svg_code": "",
+  "options": {
+    "a": "রক্ষা ও সংকোচন",
+    "b": "খাদ্য গ্রহণ",
+    "c": "জনন",
+    "d": "সংবেদন"
+  },
+  "correctAnswer": "a",
+  "explanation": "পেশি-আবরণী কোষ হাইড্রার এপিডার্মিস গঠন করে দেহকে রক্ষা করে এবং পেশির মতো সংকুচিত-প্রসারিত হয়ে দেহকে ছোট-বড় করতে সাহায্য করে।"
+},
+{
+  "id": 7,
+  "subject": "Biology",
+  "topic": "Botany",
+  "question": "৭. Malvaceae গোত্রের পরাগধানী কীরূপ?",
+  "hasDiagram": true,
+  "svg_code": "",
+  "options": {
+    "a": "দ্বিকক্ষী",
+    "b": "এককক্ষী",
+    "c": "বহুকক্ষী",
+    "d": "যুক্ত"
+  },
+  "correctAnswer": "b",
+  "explanation": " \n Malvaceae গোত্রের (যেমন: জবা) পরাগধানী বৃক্কাকার এবং এক প্রকোষ্ঠী বা এককক্ষী (Monothecous) হয়।"
+},
+{
+  "id": 8,
+  "subject": "Biology",
+  "topic": "Coordination",
+  "question": "৮. মানুষের মস্তিষ্কের বৃহত্তম অংশ কোনটি?",
+  "hasDiagram": true,
+  "svg_code": "",
+  "options": {
+    "a": "সেরিবলাম",
+    "b": "মেডুলা",
+    "c": "সেরিব্রাম",
+    "d": "পনস"
+  },
+  "correctAnswer": "c",
+  "explanation": "[Image of human brain showing cerebrum
+]
+ \n সেরিব্রাম বা গুরুমস্তিষ্ক হলো মানুষের মস্তিষ্কের সবচেয়ে বড় এবং প্রধান অংশ, যা বুদ্ধিমত্তা, চিন্তা ও স্মৃতির কেন্দ্র।"
+},
+{
+"id": 9,
+"subject": "Biology",
+"topic": "Genetics",
+"question": "৯. অসম্পূর্ণ প্রকটতার ক্ষেত্রে ফিনোটাইপিক অনুপাত কত?",
+"hasDiagram": false,
+"svg_code": "",
+"options": {
+  "a": "৩:১",
+  "b": "১:২:১",
+  "c": "৯:৩:৩:১",
+  "d": "২:১"
+},
+"correctAnswer": "b",
+"explanation": "অসম্পূর্ণ প্রকটতায় মেন্ডেলের ৩:১ অনুপাত পরিবর্তিত হয়ে ১:২:১ হয় (যেমন: সন্ধ্যামালতী ফুলে লাল ও সাদা ফুলের মিলনে গোলাপি ফুল তৈরি হওয়া)।"
+},
+{
+"id": 10,
+"subject": "Biology",
+"topic": "Plant Physiology",
+"question": "১০. গ্লুকোজ থেকে অ্যালকোহল উৎপাদনে কোন এনজাইম ব্যবহৃত হয়?",
+"hasDiagram": false,
+"svg_code": "",
+"options": {
+  "a": "ইনভার্টেজ",
+  "b": "জাইমেজ",
+  "c": "লাইপেজ",
+  "d": "অ্যামাইলেজ"
+},
+"correctAnswer": "b",
+"explanation": "ঈস্ট থেকে নিঃসৃত জাইমেজ এনজাইম গ্লুকোজকে ভেঙে ইথাইল অ্যালকোহল ও কার্বন ডাই-অক্সাইডে পরিণত করে (গাজন প্রক্রিয়া)।"
+},
+{
+"id": 11,
+"subject": "Biology",
+"topic": "Excretion",
+"question": "১১. বৃক্কের কাজ নয় কোনটি?",
+"hasDiagram": false,
+"svg_code": "",
+"options": {
+  "a": "রেচন",
+  "b": "পানির ভারসাম্য রক্ষা",
+  "c": "তাপমাত্রা নিয়ন্ত্রণ",
+  "d": "লবণ নিয়ন্ত্রণ"
+},
+"correctAnswer": "c",
+"explanation": "বৃক্ক রেচন বর্জ্য অপসারণ, পানির ভারসাম্য (অসমোরেগুলেশন) এবং লবণের ভারসাম্য রক্ষা করে। দেহের তাপমাত্রা নিয়ন্ত্রণ মূলত ত্বক ও হাইপোথ্যালামাসের কাজ।"
+},
+{
+"id": 12,
+"subject": "Biology",
+"topic": "Coordination",
+"question": "১২. কোনটি অন্তঃক্ষরা গ্রন্থি নয়?",
+"hasDiagram": false,
+"svg_code": "",
+"options": {
+  "a": "লালাগ্রন্থি",
+  "b": "থাইরয়েড",
+  "c": "পিটুইটারি",
+  "d": "অ্যাড্রেনাল"
+},
+"correctAnswer": "a",
+"explanation": "লালাগ্রন্থি একটি বহিঃক্ষরা গ্রন্থি (Exocrine gland) কারণ এর নালী আছে এবং এটি এনজাইম নিঃসরণ করে। বাকিগুলো হরমোন নিঃসরণকারী অন্তঃক্ষরা গ্রন্থি।"
+},
+{
+"id": 13,
+"subject": "Biology",
+"topic": "Animal Diversity",
+"question": "১৩. ঘাসফড়িং-এর হেপাটিক সিকাতে কী ঘটে?",
+"hasDiagram": false,
+"svg_code": "",
+"options": {
+  "a": "খাদ্য সঞ্চয়",
+  "b": "এনজাইম নিঃসরণ",
+  "c": "শ্বসন",
+  "d": "রেচন"
+},
+"correctAnswer": "b",
+"explanation": "ঘাসফড়িং-এর মেসেন্টেরন বা মধ্যপৌষ্টিকনালীর সংযোগস্থলে অবস্থিত হেপাটিক সিকা পাচক রস বা এনজাইম নিঃসরণ করে পরিপাকে সাহায্য করে।"
+},
+{
+"id": 14,
+"subject": "Biology",
+"topic": "Cell & Structure",
+"question": "১৪. ডিএনএ (DNA) এর ডাবল হেলিক্স মডেল কে প্রদান করেন?",
+"hasDiagram": true,
+"svg_code": "",
+"options": {
+  "a": "ডারউইন",
+  "b": "ওয়াটসন ও ক্রিক",
+  "c": "মেন্ডেল",
+  "d": "ল্যামার্ক"
+},
+"correctAnswer": "b",
+"explanation": " \n ১৯৫৩ সালে জেমস ওয়াটসন ও ফ্রান্সিস ক্রিক ডিএনএ অণুর দ্বিসূত্রক বা ডাবল হেলিক্স মডেল প্রস্তাব করেন।"
+},
+{
+"id": 15,
+"subject": "Biology",
+"topic": "Biotechnology",
+"question": "১৫. প্লাজমিড কোথায় পাওয়া যায়?",
+"hasDiagram": false,
+"svg_code": "",
+"options": {
+  "a": "ভাইরাসে",
+  "b": "ব্যাকটেরিয়ায়",
+  "c": "মানুষে",
+  "d": "শৈবালে"
+},
+"correctAnswer": "b",
+"explanation": "ব্যাকটেরিয়ার সাইটোপ্লাজমে মূল ক্রোমোজোম বহির্ভূত যে বৃত্তাকার ডিএনএ অণু থাকে তাকে প্লাজমিড বলে।"
+},
+{
+"id": 16,
+"subject": "Biology",
+"topic": "Blood & Circulation",
+"question": "১৬. কোনটি রক্তের প্লাজমা প্রোটিন নয়?",
+"hasDiagram": false,
+"svg_code": "",
+"options": {
+  "a": "অ্যালবুমিন",
+  "b": "গ্লোবিউলিন",
+  "c": "কোলাজেন",
+  "d": "ফাইব্রিনোজেন"
+},
+"correctAnswer": "c",
+"explanation": "কোলাজেন হলো যোজক কলার তন্তুময় প্রোটিন। অ্যালবুমিন, গ্লোবিউলিন, ফাইব্রিনোজেন এবং প্রোথ্রোম্বিন হলো রক্তরসের বা প্লাজমার প্রধান প্রোটিন।"
+},
+{
+"id": 17,
+"subject": "Biology",
+"topic": "Plant Physiology",
+"question": "১৭. পত্ররন্ধ্র খোলা ও বন্ধ হওয়া নিয়ন্ত্রণ করে কোন আয়ন?",
+"hasDiagram": false,
+"svg_code": "",
+"options": {
+  "a": "$$K^+$$",
+  "b": "$$Na^+$$",
+  "c": "$$Ca^{++}$$",
+  "d": "$$Mg^{++}$$"
+},
+"correctAnswer": "a",
+"explanation": "রক্ষীকোষে পটাশিয়াম আয়ন ($$K^+$$) প্রবেশ করলে অভিস্রবণিক চাপ বেড়ে যায় এবং পানি প্রবেশ করে পত্ররন্ধ্র খুলে যায়।"
+},
+{
+"id": 18,
+"subject": "Biology",
+"topic": "Coordination",
+"question": "১৮. মানবদেহের দীর্ঘতম কোষ কোনটি?",
+"hasDiagram": true,
+"svg_code": "",
+"options": {
+  "a": "নিউরন",
+  "b": "ডিম্বাণু",
+  "c": "পেশিকোষ",
+  "d": "অস্থিকোষ"
+},
+"correctAnswer": "a",
+"explanation": "[Image of a neuron
+]
+ \n নিউরন বা স্নায়ুকোষ হলো মানবদেহের দীর্ঘতম কোষ, যা লম্বায় ১ মিটারের বেশি হতে পারে।"
+},
+{
+"id": 19,
+"subject": "Biology",
+"topic": "Botany",
+"question": "১৯. কোনটি জীবন্ত জীবাশ্ম?",
+"hasDiagram": false,
+"svg_code": "",
+"options": {
+"a": "Cycas",
+"b": "Ficus",
+"c": "Mango",
+"d": "Pine"
+},
+"correctAnswer": "a",
+"explanation": "সাইকাস (*Cycas*) উদ্ভিদটি আদিমকালের সাইকাড বর্গের উদ্ভিদ এবং এর অনেক বৈশিষ্ট্য বিলুপ্তপ্রায় ফসিলের সাথে মিলে যায় বলে একে জীবন্ত জীবাশ্ম বলা হয়।"
+},
+{
+"id": 20,
+"subject": "Biology",
+"topic": "Microbes",
+"question": "২০. সিমবায়োসিস বা মিথোজীবিতার উদাহরণ কোনটি?",
+"hasDiagram": false,
+"svg_code": "",
+"options": {
+"a": "লাইকেন",
+"b": "শৈবাল",
+"c": "ছত্রাক",
+"d": "ভাইরাস"
+},
+"correctAnswer": "a",
+"explanation": "লাইকেন হলো শৈবাল ও ছত্রাকের সহাবস্থান বা মিথোজীবিতা, যেখানে উভয় জীব একে অপরের দ্বারা উপকৃত হয়।"
+},
+{
+"id": 21,
+"subject": "Biology",
+"topic": "Cell Division",
+"question": "২১. কোন ধাপে DNA অনুলিপন হয়?",
+"hasDiagram": true,
+"svg_code": "",
+"options": {
+"a": "G1 দশা",
+"b": "S দশা",
+"c": "G2 দশা",
+"d": "M দশা"
+},
+"correctAnswer": "b",
+"explanation": " \n ইন্টারফেজের S দশা (Synthesis phase) বা সংশ্লেষণ ধাপে ডিএনএ রেপ্লিকেশন বা অনুলিপন ঘটে।"
+},
+{
+"id": 22,
+"subject": "Biology",
+"topic": "Excretion",
+"question": "২২. মানবদেহে ইউরিয়া কোথায় তৈরি হয়?",
+"hasDiagram": false,
+"svg_code": "",
+"options": {
+"a": "বৃক্কে",
+"b": "যকৃতে",
+"c": "পাকস্থলীতে",
+"d": "রক্তে"
+},
+"correctAnswer": "b",
+"explanation": "যকৃতে অরনিথিন চক্রের মাধ্যমে অ্যামোনিয়া থেকে ইউরিয়া তৈরি হয়। বৃক্ক রক্ত থেকে সেই ইউরিয়া ছেঁকে মূত্র তৈরি করে।"
+},
+{
+"id": 23,
+"subject": "Biology",
+"topic": "Animal Diversity",
+"question": "২৩. কোন প্রাণীতে রূপান্তর (Metamorphosis) দেখা যায়?",
+"hasDiagram": true,
+"svg_code": "",
+"options": {
+"a": "মানুষ",
+"b": "ঘাসফড়িং",
+"c": "রুই মাছ",
+"d": "হাইড্রা"
+},
+"correctAnswer": "b",
+"explanation": "[Image of metamorphosis stages in grasshopper
+]
+ \n ঘাসফড়িং, প্রজাপতি, ব্যাঙ ইত্যাদি প্রাণীর জীবনচক্রে ডিম থেকে পূর্ণাঙ্গ প্রাণীতে পরিণত হওয়ার মাঝে দৈহিক গঠনের যে পরিবর্তন ঘটে তাকে রূপান্তর বলে।"
+},
+{
+"id": 24,
+"subject": "Biology",
+"topic": "Biotechnology",
+"question": "২৪. জীবপ্রযুক্তিতে 'আনবিক কাঁচি' বলা হয় কোনটিকে?",
+"hasDiagram": false,
+"svg_code": "",
+"options": {
+"a": "DNA লাইগেজ",
+"b": "রেস্ট্রিকশন এনজাইম",
+"c": "পলিমারেজ",
+"d": "প্রাইমেজ"
+},
+"correctAnswer": "b",
+"explanation": "রেস্ট্রিকশন এনজাইম ডিএনএ অণুর নির্দিষ্ট স্থান কেটে ফেলতে পারে বলে একে জীবপ্রযুক্তির 'আনবিক কাঁচি' বা Molecular Scissor বলা হয়।"
+},
+{
+"id": 25,
+"subject": "Biology",
+"topic": "Evolution",
+"question": "২৫. প্রজাতির উৎপত্তি বিষয়ক বই 'Origin of Species' কার লেখা?",
+"hasDiagram": false,
+"svg_code": "",
+"options": {
+"a": "চার্লস ডারউইন",
+"b": "ল্যামার্ক",
+"c": "অ্যারিস্টটল",
+"d": "লিনিয়াস"
+},
+"correctAnswer": "a",
+"explanation": "১৮৫৯ সালে চার্লস ডারউইন তার বিখ্যাত বই 'On the Origin of Species by Means of Natural Selection'-এ প্রাকৃতিক নির্বাচন মতবাদ প্রকাশ করেন।"
+}
+]
