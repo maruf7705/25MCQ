@@ -3,14 +3,14 @@
         "id": 1,
         "subject": "Biology",
         "topic": "Human Physiology (Respiration)",
-        "question": "নাসিকাগহ্বরের প্রাচীর উদ্দীপিত হলে কোন স্নায়ুর মাধ্যমে হাঁচি প্রতিবর্ত ক্রিয়া ঘটে? [If the nasal cavity wall is stimulated, which nerve triggers the sneezing reflex?]",
+        "question": "নাসিকাগহ্বরের প্রাচীর উদ্দীপিত হলে কোন স্নায়ুর মাধ্যমে হাঁচি প্রতিবর্ত ক্রিয়া ঘটে?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
-            "a": "ভেগাস স্নায়ু (Vagus nerve)",
-            "b": "গ্লসোফ্যারিঞ্জিয়াল স্নায়ু (Glossopharyngeal nerve)",
-            "c": "অলফ্যাক্টরি স্নায়ু (Olfactory nerve)",
-            "d": "নিউমোট্যাক্সিক কেন্দ্র (Pneumotaxic center)"
+            "a": "ভেগাস স্নায়ু",
+            "b": "গ্লসোফ্যারিঞ্জিয়াল স্নায়ু",
+            "c": "অলফ্যাক্টরি স্নায়ু",
+            "d": "নিউমোট্যাক্সিক কেন্দ্র"
         },
         "correctAnswer": "c",
         "explanation": "নাসিকা মিউকাসের উদ্দীপনা অলফ্যাক্টরি স্নায়ুর মাধ্যমে হাঁচি (sneezing) রিফ্লেক্স উদ্ভূত করে, যা শ্বাসক্রিয়ায় পরিবর্তন আনে।"
@@ -19,14 +19,14 @@
         "id": 2,
         "subject": "Biology",
         "topic": "Human Physiology (Respiration)",
-        "question": "নিচের কোনটি নিম্ন শ্বসননালির সংক্রমণ? [Which of the following is an infection of the lower respiratory tract?]",
+        "question": "নিচের কোনটি নিম্ন শ্বসননালির সংক্রমণ?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
-            "a": "টনসিলাইটিস (Tonsillitis)",
-            "b": "ওটাইটিস মিডিয়া (Otitis media)",
-            "c": "ল্যারিনজাইটিস (Laryngitis)",
-            "d": "ব্রঙ্কাইটিস (Bronchitis)"
+            "a": "টনসিলাইটিস",
+            "b": "ওটাইটিস মিডিয়া",
+            "c": "ল্যারিনজাইটিস",
+            "d": "ব্রঙ্কাইটিস"
         },
         "correctAnswer": "d",
         "explanation": "শ্বাসনালি ও ফুসফুস আক্রান্ত হওয়াকে নিম্ন শ্বসননালির সংক্রমণ বলে। উদাহরণস্বরূপ: নিউমোনিয়া, যক্ষ্মা এবং ব্রঙ্কাইটিস।"
@@ -35,14 +35,14 @@
         "id": 3,
         "subject": "Biology",
         "topic": "Human Physiology (Skeleton)",
-        "question": "কঙ্কালতন্ত্রের উপর আচ্ছাদিত থাকে কোন অঙ্গতন্ত্র? [Which organ system covers the skeletal system?]",
+        "question": "কঙ্কালতন্ত্রের উপর আচ্ছাদিত থাকে কোন অঙ্গতন্ত্র?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
-            "a": "রক্তসংবহনতন্ত্র (Circulatory system)",
-            "b": "স্নায়ুতন্ত্র (Nervous system)",
-            "c": "পেশিতন্ত্র (Muscular system)",
-            "d": "শ্বসনতন্ত্র (Respiratory system)"
+            "a": "রক্তসংবহনতন্ত্র",
+            "b": "স্নায়ুতন্ত্র",
+            "c": "পেশিতন্ত্র",
+            "d": "শ্বসনতন্ত্র"
         },
         "correctAnswer": "c",
         "explanation": "কঙ্কালতন্ত্রকে আবৃত করে থাকে পেশিতন্ত্র। এই পেশিগুলো সংকুচিত ও প্রসারিত হয়ে দেহের অঙ্গচালনা ও চলাচলে সাহায্য করে।"
@@ -51,7 +51,7 @@
         "id": 4,
         "subject": "Biology",
         "topic": "Human Physiology (Skeleton - Ear)",
-        "question": "মানবদেহে মোট কতটি কর্ণাস্থি রয়েছে? [What is the total number of ear ossicles in the human body?]",
+        "question": "মানবদেহে মোট কতটি কর্ণাস্থি রয়েছে?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
@@ -67,14 +67,14 @@
         "id": 5,
         "subject": "Biology",
         "topic": "Human Physiology (Skeleton - Vertebrae)",
-        "question": "কোন কশেরুকাটি মানুষের মাথাকে ঘুড়াতে সাহায্য করে? [Which vertebra helps to rotate the human head?]",
+        "question": "কোন কশেরুকাটি মানুষের মাথাকে ঘুড়াতে সাহায্য করে?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
-            "a": "অ্যাটলাস (Atlas)",
-            "b": "অ্যাক্সিস (Axis)",
-            "c": "লাম্বার (Lumbar)",
-            "d": "স্যাক্রাম (Sacrum)"
+            "a": "অ্যাটলাস",
+            "b": "অ্যাক্সিস",
+            "c": "লাম্বার",
+            "d": "স্যাক্রাম"
         },
         "correctAnswer": "b",
         "explanation": "সারভাইকাল কশেরুকার দ্বিতীয় কশেরুকাটিকে অ্যাক্সিস বলা হয়, কারণ এটি মাথা ঘোরাতে বা আবর্তনে সাহায্য করে। প্রথম কশেরুকাটির নাম অ্যাটলাস।"
@@ -83,14 +83,14 @@
         "id": 6,
         "subject": "Biology",
         "topic": "Human Physiology (Skeleton - Spinal Cord)",
-        "question": "মেরুদণ্ড কোন গুরুত্বপূর্ণ গঠনকে পরিবেষ্টন করে রাখে? [Which important structure does the vertebral column enclose?]",
+        "question": "মেরুদণ্ড কোন গুরুত্বপূর্ণ গঠনকে পরিবেষ্টন করে রাখে?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
-            "a": "মস্তিষ্ক (Brain)",
-            "b": "সুষুমাকাণ্ড (Spinal cord)",
-            "c": "ইউরেটার (Ureter)",
-            "d": "অন্ননালি (Esophagus)"
+            "a": "মস্তিষ্ক",
+            "b": "সুষুমাকাণ্ড",
+            "c": "ইউরেটার",
+            "d": "অন্ননালি"
         },
         "correctAnswer": "b",
         "explanation": "মেরুদণ্ড সুষুমাকাণ্ডকে (Spinal cord) ঘিরে অবস্থান করে এবং একে বাহ্যিক আঘাত থেকে সুরক্ষা প্রদান করে।"
@@ -99,14 +99,14 @@
         "id": 7,
         "subject": "Biology",
         "topic": "Genetics (Crosses)",
-        "question": "কোনো জীব হোমোজাইগাস না হেটারোজাইগাস তা জানার জন্য নিচের কোনটি করা হয়? [Which cross is performed to know whether an organism is homozygous or heterozygous?]",
+        "question": "কোনো জীব হোমোজাইগাস না হেটারোজাইগাস তা জানার জন্য নিচের কোনটি করা হয়?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
-            "a": "মনোহাইব্রিড ক্রস (Monohybrid cross)",
-            "b": "ডাইহাইব্রিড ক্রস (Dihybrid cross)",
-            "c": "টেস্ট ক্রস (Test cross)",
-            "d": "ব্যাক ক্রস (Back cross)"
+            "a": "মনোহাইব্রিড ক্রস",
+            "b": "ডাইহাইব্রিড ক্রস",
+            "c": "টেস্ট ক্রস",
+            "d": "ব্যাক ক্রস"
         },
         "correctAnswer": "c",
         "explanation": "টেস্ট ক্রস হলো F1 বা F2 জনুর বংশধরগুলো হোমোজাইগাস না হেটারোজাইগাস তা পরীক্ষার জন্য সেগুলোকে বিশুদ্ধ প্রচ্ছন্ন মাতৃবংশীয় জীবের সাথে ক্রস করা।"
@@ -115,14 +115,14 @@
         "id": 8,
         "subject": "Biology",
         "topic": "Genetics (Epistasis)",
-        "question": "সাদা লেগহর্ন মোরগ মুরগিতে নিচের কোনটি দেখা যায়? [Which phenomenon is observed in White Leghorn chickens?]",
+        "question": "সাদা লেগহর্ন মোরগ মুরগিতে নিচের কোনটি দেখা যায়?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
-            "a": "সমপ্রকটতা (Co-dominance)",
-            "b": "অসম্পূর্ণ প্রকটতা (Incomplete dominance)",
-            "c": "লিখালিটি (Lethality)",
-            "d": "এপিস্ট্যাসিস (Epistasis)"
+            "a": "সমপ্রকটতা",
+            "b": "অসম্পূর্ণ প্রকটতা",
+            "c": "লিখালিটি",
+            "d": "এপিস্ট্যাসিস"
         },
         "correctAnswer": "d",
         "explanation": "সাদা লেগহর্ন মোরগ মুরগির পালকের রঙের ক্ষেত্রে এপিস্ট্যাসিস নামক জেনেটিক মিথস্ক্রিয়া দেখা যায়।"
@@ -131,14 +131,14 @@
         "id": 9,
         "subject": "Biology",
         "topic": "Genetics (Lethal Genes)",
-        "question": "সাবভাইটাল জিনের উদাহরণ নিচের কোনটি? [Which of the following is an example of a Sub-vital gene?]",
+        "question": "সাবভাইটাল জিনের উদাহরণ নিচের কোনটি?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
-            "a": "হিমোফিলিয়া (Hemophilia)",
-            "b": "মাছির লুপ্ত প্রায় ডানা (Vestigial wing of a fly)",
-            "c": "ইকথিওসিস (Ichthyosis)",
-            "d": "বর্ণান্ধতা (Color blindness)"
+            "a": "হিমোফিলিয়া",
+            "b": "মাছির লুপ্ত প্রায় ডানা",
+            "c": "ইকথিওসিস",
+            "d": "বর্ণান্ধতা"
         },
         "correctAnswer": "b",
         "explanation": "সাবভাইটাল জিনের প্রভাবে ৫০% এর কম জীব মারা যায়। ড্রসোফিলা মাছির লুপ্তপ্রায় ডানা এর একটি উদাহরণ।"
@@ -147,14 +147,14 @@
         "id": 10,
         "subject": "Biology",
         "topic": "Genetics (Multiple Alleles)",
-        "question": "তিনটি জিন একই হোমোলোগাস ক্রোমোজোমে অবস্থান করলে জিনত্রয়কে কি বলে? [What are three genes called if they are located on the same homologous chromosome?]",
+        "question": "তিনটি জিন একই হোমোলোগাস ক্রোমোজোমে অবস্থান করলে জিনত্রয়কে কি বলে?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
-            "a": "অ্যালিল (Allele)",
-            "b": "লিংকড জিন (Linked gene)",
-            "c": "এপিস্ট্যাটিক জিন (Epistatic gene)",
-            "d": "মাল্টিপল অ্যালিল (Multiple alleles)"
+            "a": "অ্যালিল",
+            "b": "লিংকড জিন",
+            "c": "এপিস্ট্যাটিক জিন",
+            "d": "মাল্টিপল অ্যালিল"
         },
         "correctAnswer": "d",
         "explanation": "যখন কোনো একটি জিনের দুইয়ের অধিক অ্যালিল থাকে এবং তারা হোমোলোগাস ক্রোমোজোমের একই লোকাসে অবস্থান করে, তখন তাদের মাল্টিপল অ্যালিল বলে। মানুষের ABO ব্লাড গ্রুপ এর উদাহরণ।"
@@ -163,14 +163,14 @@
         "id": 11,
         "subject": "Biology",
         "topic": "Cell Organelles (Glyoxysome)",
-        "question": "কোনটির কোষে গ্লাইঅক্সিসোম পাওয়া যায় না? [Which one's cell does not contain Glyoxysome?]",
+        "question": "কোনটির কোষে গ্লাইঅক্সিসোম পাওয়া যায় না?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
-            "a": "ঈস্ট (Yeast)",
-            "b": "ছত্রাক (Fungus)",
-            "c": "তৈলবীজ (Oilseed)",
-            "d": "শৈবাল (Algae)"
+            "a": "ঈস্ট",
+            "b": "ছত্রাক",
+            "c": "তৈলবীজ",
+            "d": "শৈবাল"
         },
         "correctAnswer": "d",
         "explanation": "সূত্রাকার ছত্রাক, ঈস্ট, Neurospora এবং তৈলবীজের কোষে গ্লাইঅক্সিসোম পাওয়া যায়। বীজের লিপিড সঞ্চয়ী কোষেও এদেরকে দেখা যায়। এন্ডোপ্লাজমিক জালিকার সিস্টার্নি অংশ হতে এদের উৎপত্তি।"
@@ -179,14 +179,14 @@
         "id": 12,
         "subject": "Biology",
         "topic": "Cell and its Structure (DNA)",
-        "question": "আদিকোষের DNA তে নিচের কোনটি থাকে না? [Which of the following is not present in the DNA of a prokaryotic cell?]",
+        "question": "আদিকোষের DNA তে নিচের কোনটি থাকে না?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
-            "a": "অজৈব ফসফেট (Inorganic phosphate)",
-            "b": "নাইট্রোজেন বেস (Nitrogen base)",
-            "c": "হিস্টোন প্রোটিন (Histone protein)",
-            "d": "পাঁচ কার্বন বিশিষ্ট শর্করা (Pentose sugar)"
+            "a": "অজৈব ফসফেট",
+            "b": "নাইট্রোজেন বেস",
+            "c": "হিস্টোন প্রোটিন",
+            "d": "পাঁচ কার্বন বিশিষ্ট শর্করা"
         },
         "correctAnswer": "c",
         "explanation": "আদি কোষে নন-হিস্টোন প্রোটিনযুক্ত একটিমাত্র বৃত্তাকার DNA থাকে।"
@@ -195,14 +195,14 @@
         "id": 13,
         "subject": "Biology",
         "topic": "Cell Organelles (Centriole)",
-        "question": "শুক্রাণুর লেজ তৈরিতে সাহায্যে করে নিচের কোনটি? [Which of the following helps in the formation of the tail of a sperm?]",
+        "question": "শুক্রাণুর লেজ তৈরিতে সাহায্যে করে নিচের কোনটি?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
-            "a": "মাইটোকন্ড্রিয়া (Mitochondria)",
-            "b": "লাইসোজোম (Lysosome)",
-            "c": "সেন্ট্রিওল (Centriole)",
-            "d": "রাইবোজোম (Ribosome)"
+            "a": "মাইটোকন্ড্রিয়া",
+            "b": "লাইসোজোম",
+            "c": "সেন্ট্রিওল",
+            "d": "রাইবোজোম"
         },
         "correctAnswer": "c",
         "explanation": "সেন্ট্রিওলের কাজের মধ্যে রয়েছে কোষ বিভাজনের সময় মাকুতন্ত্র গঠন, সিলিয়া ও ফ্ল্যাজেলা সৃষ্টি এবং শুক্রাণুর লেজ গঠন করা।"
@@ -211,14 +211,14 @@
         "id": 14,
         "subject": "Biology",
         "topic": "Cell Organelles (Plastid)",
-        "question": "প্রোটিন সঞ্চয়কারী লিউকোপ্লাস্টকে কী বলে? [What is the leucoplast that stores protein called?]",
+        "question": "প্রোটিন সঞ্চয়কারী লিউকোপ্লাস্টকে কী বলে?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
-            "a": "অ্যামাইলোপ্লাস্ট (Amyloplast)",
-            "b": "ক্রোমোপ্লাস্ট (Chromoplast)",
-            "c": "অ্যালিউরোপ্লাস্ট (Aleuroplast)",
-            "d": "ইলাইওপ্লাস্ট (Elaioplast)"
+            "a": "অ্যামাইলোপ্লাস্ট",
+            "b": "ক্রোমোপ্লাস্ট",
+            "c": "অ্যালিউরোপ্লাস্ট",
+            "d": "ইলাইওপ্লাস্ট"
         },
         "correctAnswer": "c",
         "explanation": "শ্বেতসার সঞ্চয়কারী লিউকোপ্লাস্টকে অ্যামাইলোপ্লাস্ট, তেল সঞ্চয়কারীকে ইলাইওপ্লাস্ট এবং প্রোটিন সঞ্চয়কারীকে অ্যালিউরোপ্লাস্ট বা প্রোটিনোপ্লাস্ট বলা হয়।"
@@ -227,14 +227,14 @@
         "id": 15,
         "subject": "Biology",
         "topic": "Molecular Biology (Replication)",
-        "question": "কোন প্রক্রিয়ায় ওকাজাকি খণ্ড লক্ষ্য করা যায়? [In which process are Okazaki fragments observed?]",
+        "question": "কোন প্রক্রিয়ায় ওকাজাকি খণ্ড লক্ষ্য করা যায়?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
-            "a": "রেপ্লিকেশন (Replication)",
-            "b": "ট্রান্সক্রিপশন (Transcription)",
-            "c": "ট্রান্সলেশন (Translation)",
-            "d": "রিভার্স ট্রান্সক্রিপশন (Reverse Transcription)"
+            "a": "রেপ্লিকেশন",
+            "b": "ট্রান্সক্রিপশন",
+            "c": "ট্রান্সলেশন",
+            "d": "রিভার্স ট্রান্সক্রিপশন"
         },
         "correctAnswer": "a",
         "explanation": "DNA অণু রেপ্লিকেশনে ল্যাগিং সূত্রের খণ্ড বিচ্ছিন্ন অংশকে Okazaki খণ্ড বলে।"
@@ -243,7 +243,7 @@
         "id": 16,
         "subject": "Biology",
         "topic": "Cell Division (Observation)",
-        "question": "ফ্লেমিং সর্বপ্রথম কোন জীবে কোষ বিভাজন প্রত্যক্ষ করেন? [In which organism did Flemming first observe cell division?]",
+        "question": "ফ্লেমিং সর্বপ্রথম কোন জীবে কোষ বিভাজন প্রত্যক্ষ করেন?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
@@ -259,7 +259,7 @@
         "id": 17,
         "subject": "Biology",
         "topic": "Cell Cycle (Cyclin)",
-        "question": "মানুষের কোষে কত প্রকার সাইক্লিন প্রোটিন থাকে? [How many types of cyclin protein are present in human cells?]",
+        "question": "মানুষের কোষে কত প্রকার সাইক্লিন প্রোটিন থাকে?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
@@ -275,14 +275,14 @@
         "id": 18,
         "subject": "Biology",
         "topic": "Cell Division (Meiosis)",
-        "question": "সপুষ্পক উদ্ভিদের মায়োসিস কোন ধরনের? [What type of meiosis occurs in flowering plants?]",
+        "question": "সপুষ্পক উদ্ভিদের মায়োসিস কোন ধরনের?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
-            "a": "টার্মিনাল (Terminal)",
-            "b": "জাইগোটিক (Zygotic)",
-            "c": "স্পোরিক (Sporic)",
-            "d": "কোনটিই নয় (None of these)"
+            "a": "টার্মিনাল",
+            "b": "জাইগোটিক",
+            "c": "স্পোরিক",
+            "d": "কোনটিই নয়"
         },
         "correctAnswer": "c",
         "explanation": "সপুষ্পক উদ্ভিদের ক্ষেত্রে পুংরেণু বা স্ত্রীরেণু (spore) গঠনের সময় মায়োসিস ঘটে, তাই একে স্পোরিক মায়োসিস বলা হয়।"
@@ -291,14 +291,14 @@
         "id": 19,
         "subject": "Biology",
         "topic": "Microbiology (Virus)",
-        "question": "ছত্রাক ধ্বংসকারী ভাইরাসকে কী বলে? [What is the virus that destroys fungi called?]",
+        "question": "ছত্রাক ধ্বংসকারী ভাইরাসকে কী বলে?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
-            "a": "রিট্রোভাইরাস (Retrovirus)",
-            "b": "ব্যাকটেরিওফায (Bacteriophage)",
-            "c": "মাইকোফায (Mycophage)",
-            "d": "সায়ানোফায (Cyanophage)"
+            "a": "রিট্রোভাইরাস",
+            "b": "ব্যাকটেরিওফায",
+            "c": "মাইকোফায",
+            "d": "সায়ানোফায"
         },
         "correctAnswer": "c",
         "explanation": "যেসব ভাইরাস ছত্রাককে আক্রমণ করে বা ধ্বংস করে তাদের মাইকোফায বলা হয়।"
@@ -307,14 +307,14 @@
         "id": 20,
         "subject": "Biology",
         "topic": "Microbiology (Viroids)",
-        "question": "নারিকেলের ক্যাডাং রোগ কিসের মাধ্যমে ছড়ায়? [Cadang-cadang disease of coconut is transmitted by what?]",
+        "question": "নারিকেলের ক্যাডাং রোগ কিসের মাধ্যমে ছড়ায়?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
-            "a": "ভিরিয়ন (Virions)",
-            "b": "ভিরয়েডস (Viroids)",
-            "c": "প্রিয়নস (Prions)",
-            "d": "ব্যাকটেরিয়া (Bacteria)"
+            "a": "ভিরিয়ন",
+            "b": "ভিরয়েডস",
+            "c": "প্রিয়নস",
+            "d": "ব্যাকটেরিয়া"
         },
         "correctAnswer": "b",
         "explanation": "ভিরয়েডস হলো সংক্রামক RNA যা নারিকেল গাছে ক্যাডাং রোগ তৈরি করে।"
@@ -323,14 +323,14 @@
         "id": 21,
         "subject": "Biology",
         "topic": "Protozoa (Malaria)",
-        "question": "সাফনারার্স দানা কখন দেখা যায়? [When are Schuffner's dots seen?]",
+        "question": "সাফনারার্স দানা কখন দেখা যায়?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
-            "a": "ট্রোফোজয়েট (Trophozoite)",
-            "b": "সিগনেট রিং (Signet ring)",
-            "c": "সাইজন্ট (Schizont)",
-            "d": "অ্যামিবয়েড ট্রোফোজয়েট (Amoeboid Trophozoite)"
+            "a": "ট্রোফোজয়েট",
+            "b": "সিগনেট রিং",
+            "c": "সাইজন্ট",
+            "d": "অ্যামিবয়েড ট্রোফোজয়েট"
         },
         "correctAnswer": "d",
         "explanation": "ম্যালেরিয়া আক্রান্ত লোহিত রক্তকণিকায় অ্যামিবয়েড ট্রোফোজয়েট দশায় সাইটোপ্লাজমে ক্ষুদ্র দানা দেখা যায়, যাকে সাফনার্স দানা বলে।"
@@ -339,14 +339,14 @@
         "id": 22,
         "subject": "Biology",
         "topic": "Microbiology (Hepatitis)",
-        "question": "হেপাটাইটিস-B নির্ণয়ে কি পরীক্ষা করা হয়? [What test is done to diagnose Hepatitis-B?]",
+        "question": "হেপাটাইটিস-B নির্ণয়ে কি পরীক্ষা করা হয়?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
-            "a": "HBsAg পরীক্ষা (HBsAg test)",
-            "b": "NS1 অ্যান্টিজেন পরীক্ষা (NS1 antigen test)",
-            "c": "IgG এন্টিবডি পরীক্ষা (IgG antibody test)",
-            "d": "IgM এন্টিবডি পরীক্ষা (IgM antibody test)"
+            "a": "HBsAg পরীক্ষা",
+            "b": "NS1 অ্যান্টিজেন পরীক্ষা",
+            "c": "IgG এন্টিবডি পরীক্ষা",
+            "d": "IgM এন্টিবডি পরীক্ষা"
         },
         "correctAnswer": "a",
         "explanation": "হেপাটাইটিস-B শনাক্ত করতে রক্তের এইচবি সারফেস অ্যান্টিজেন (HBsAg) পরীক্ষা করা হয়।"
@@ -355,7 +355,7 @@
         "id": 23,
         "subject": "Biology",
         "topic": "Microbiology (Bacteria)",
-        "question": "কোন ব্যাকটেরিয়ার চারপাশে ফ্লাজেলা আছে? [Which bacterium has flagella all around it?]",
+        "question": "কোন ব্যাকটেরিয়ার চারপাশে ফ্লাজেলা আছে?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
@@ -371,13 +371,13 @@
         "id": 24,
         "subject": "Biology",
         "topic": "Gymnosperm (Ephedra)",
-        "question": "Ephedra নগ্নবীজী হওয়া সত্ত্বেও এর কোন বৈশিষ্ট্য নগ্নবীজীর মতো না? [Even though Ephedra is a gymnosperm, which of its characteristics is not like a gymnosperm?]",
+        "question": "Ephedra নগ্নবীজী হওয়া সত্ত্বেও এর কোন বৈশিষ্ট্য নগ্নবীজীর মতো না?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
             "a": "শুধুমাত্র বায়ুর মাধ্যমে পরাগায়ন হয়",
             "b": "আর্কিগোনিয়াম সৃষ্টি হয়",
-            "c": "দ্বিনিষেক ঘটে (Double fertilization occurs)",
+            "c": "দ্বিনিষেক ঘটে",
             "d": "Leaf scar দেখা যায়"
         },
         "correctAnswer": "c",
@@ -387,7 +387,7 @@
         "id": 25,
         "subject": "Biology",
         "topic": "Taxonomy (Okra)",
-        "question": "ঢেঁড়স নামে পরিচিত কোনটি? [Which one is known as Okra?]",
+        "question": "ঢেঁড়স নামে পরিচিত কোনটি?",
         "hasDiagram": false,
         "svg_code": "",
         "options": {
