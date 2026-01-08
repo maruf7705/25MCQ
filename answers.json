@@ -336,20 +336,6 @@
     "questionFile": "Chemi1.json"
   },
   {
-    "studentName": "Maruf",
-    "answers": {
-      "23": "c"
-    },
-    "score": 1.25,
-    "totalMarks": 31.25,
-    "timestamp": "2026-01-08T15:16:42.598Z",
-    "attempted": 1,
-    "correct": 1,
-    "wrong": 0,
-    "pass": false,
-    "questionFile": "Biology2.json"
-  },
-  {
     "studentName": "Biology 2",
     "answers": {
       "1": "c",
