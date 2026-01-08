@@ -1,0 +1,351 @@
+[
+    {
+        "id": 26,
+        "subject": "Biology",
+        "topic": "Cell Metabolism (Krebs Cycle)",
+        "question": "ক্রেবস চক্রের প্রধান কাঁচামাল কী? [What is the main raw material for the Krebs cycle?]",
+        "options": [
+            "কিটো এসিড (Keto Acid)",
+            "অ্যাসিটাইল কো-এ (Acetyl Co-A)",
+            "গ্যালাকটোজ (Galactose)"
+        ],
+        "answer": "অ্যাসিটাইল কো-এ (Acetyl Co-A)",
+        "explanation": "যে চক্রপথে অ্যাসিটাইল কো-এ অক্সালো এসিটিক এসিডের সাথে যুক্ত হয়ে CO2, শক্তি অণু (ATP, NADH+H, FADH2) উৎপন্ন করে এবং অক্সালো এসিটিক এসিড পুনঃউৎপাদিত হয় তাকে ক্রেবস চক্র বলে। [cite: 56]"
+    },
+    {
+        "id": 27,
+        "subject": "Biology",
+        "topic": "Photosynthesis",
+        "question": "চক্রীয় ফটোফসফোরাইলেশনে- [In cyclic photophosphorylation-]",
+        "options": [
+            "পানির প্রয়োজন হয় (Water is required)",
+            "ফটোসিস্টেম-১ ও ২ অংশগ্রহণ করে (Photosystem-I and II participate)",
+            "ইলেকট্রন প্রবাহ একমুখী (Electron flow is unidirectional)",
+            "অক্সিজেন উৎপন্ন হয় না (Oxygen is not produced)"
+        ],
+        "answer": "অক্সিজেন উৎপন্ন হয় না (Oxygen is not produced)",
+        "explanation": "চক্রীয় ফটোফসফোরাইলেশনে কোনো O2 উৎপন্ন হয় না, কারণ এ প্রক্রিয়ায় পানি ব্যবহৃত হয় না। এতে কেবলমাত্র PS-I অংশগ্রহণ করে এবং উৎক্ষিপ্ত ইলেকট্রন পুনরায় PS-I এ ফিরে আসে। [cite: 57, 58, 59]"
+    },
+    {
+        "id": 28,
+        "subject": "Biology",
+        "topic": "Biotechnology (Nitrogen Fixation)",
+        "question": "নিফ জিন কোথায় ব্যবহৃত হয়? [Where is the Nif gene used?]",
+        "options": [
+            "নাইট্রোজেন সংবন্ধনে (In nitrogen fixation)",
+            "দ্যুতিময় উদ্ভিদ তৈরিতে (In creating luminous plants)",
+            "Zea mays কে খরা প্রতিরোধী করতে (To make Zea mays drought resistant)",
+            "পীনাটকে লবণাক্ত সহিষ্ণু করতে (To make Peanut salt tolerant)"
+        ],
+        "answer": "নাইট্রোজেন সংবন্ধনে (In nitrogen fixation)",
+        "explanation": "বায়বীয় নাইট্রোজেন সংবন্ধনকারী ব্যাকটেরিয়া হতে নিফ জিন (যা নাইট্রোজেন সংবন্ধনের জন্য দায়ী) E. coli ব্যাকটেরিয়াতে স্থানান্তর করা সম্ভব হয়েছে, যা সার প্রয়োগ কমাতে সহায়তা করে। [cite: 63, 64]"
+    },
+    {
+        "id": 29,
+        "subject": "Biology",
+        "topic": "Biotechnology (Medicine)",
+        "question": "লিম্ফোকাইনস কোন ক্ষেত্রে ব্যবহার করা হয়? [Lymphokines are used in which condition?]",
+        "options": [
+            "শল্য চিকিৎসায় (In surgical treatment)",
+            "হৃদরোগ চিকিৎসায় (In heart disease treatment)",
+            "স্বয়ংক্রিয় ইমিউন কার্যকারিতায় (In autoimmune function)",
+            "ডায়াবেটিস চিকিৎসায় (In diabetes treatment)"
+        ],
+        "answer": "স্বয়ংক্রিয় ইমিউন কার্যকারিতায় (In autoimmune function)",
+        "explanation": "লিম্ফোকাইনস রক্ত সংবহন জটিলতায় এবং স্বয়ংক্রিয় ইমিউন কার্যকারিতায় ব্যবহৃত হয়। অন্যান্য প্রোটিন যেমন ইনসুলিন ডায়াবেটিসে এবং ইন্টারফেরন ক্যান্সারে ব্যবহৃত হয়। [cite: 69, 74]"
+    },
+    {
+        "id": 30,
+        "subject": "Biology",
+        "topic": "Cell Biology (Proteins)",
+        "question": "ইনসুলিন এ কতটি পলিপেপটাইড চেইন থাকে? [How many polypeptide chains are in Insulin?]",
+        "options": [
+            "৫১ (51)",
+            "২ (2)",
+            "২১ (21)",
+            "৩০ (30)"
+        ],
+        "answer": "২ (2)",
+        "explanation": "ইনসুলিন ৫১টি অ্যামিনো অ্যাসিড নিয়ে গঠিত। এতে দুটি পলিপেপটাইড চেইন (চেইন-A তে ২১টি এবং চেইন-B তে ৩০টি অ্যামিনো অ্যাসিড) ডাইসালফাইড বন্ডের মাধ্যমে সংযুক্ত থাকে। [cite: 60, 61]"
+    },
+    {
+        "id": 31,
+        "subject": "Biology",
+        "topic": "Plant Tissue Culture",
+        "question": "হোমোজাইগাস জাত তৈরিতে নিচের কোনটির কালচার করা হয়? [Which culture is done to produce homozygous varieties?]",
+        "options": [
+            "সস্য কালচার (Endosperm culture)",
+            "মেরিস্টেম কালচার (Meristem culture)",
+            "ভ্রূণ কালচার (Embryo culture)",
+            "পুংধানী ও পরাগরেণু কালচার (Anther and pollen culture)"
+        ],
+        "answer": "পুংধানী ও পরাগরেণু কালচার (Anther and pollen culture)",
+        "explanation": "পুংধানী ও পরাগরেণু কালচারের মাধ্যমে হ্যাপ্লয়েড উদ্ভিদ তৈরি করে পরবর্তীতে হোমোজাইগাস উদ্ভিদ পাওয়া সম্ভব। মেরিস্টেম কালচার মূলত ভাইরাসমুক্ত উদ্ভিদ তৈরিতে ব্যবহৃত হয়। [cite: 62]"
+    },
+    {
+        "id": 32,
+        "subject": "Biology",
+        "topic": "Animal Diversity (Pseudocoelomates)",
+        "question": "নিচের কোন প্রাণীতে নকল সিলোম বিদ্যমান? [Which animal has a pseudocoelom?]",
+        "options": [
+            "Taenia solium",
+            "Ascaris lumbricoides",
+            "Hirudo medicinalis",
+            "Fasciola hepatica"
+        ],
+        "answer": "Ascaris lumbricoides",
+        "explanation": "Nematoda পর্বভুক্ত প্রাণীরা (যেমন Ascaris lumbricoides বা গোল কৃমি) স্যুডোসিলোমেট বা নকল সিলোম বিশিষ্ট। [cite: 66, 67]"
+    },
+    {
+        "id": 33,
+        "subject": "Biology",
+        "topic": "Animal Diversity (Embryology)",
+        "question": "কোন পর্বভুক্ত প্রাণীর ভ্রূণীয় পরিস্ফুটনে ব্লাস্টোসিলটি স্পঞ্জি প্যারেনকাইমা দ্বারা পূর্ণ থাকে? [In the embryonic development of animals belonging to which phylum is the blastocoel filled with spongy parenchyma?]",
+        "options": [
+            "Nematoda",
+            "Ctenophora",
+            "Hemichordata",
+            "Rotifera"
+        ],
+        "answer": "Ctenophora",
+        "explanation": "অ্যাসিলোমেট প্রাণীদের (যেমন Porifera, Cnidaria, Ctenophora) ভ্রূণীয় পরিস্ফুটনে ব্লাস্টোসিলটি স্পঞ্জি প্যারেনকাইমা দ্বারা পূর্ণ থাকে। [cite: 70, 71]"
+    },
+    {
+        "id": 34,
+        "subject": "Biology",
+        "topic": "Animal Diversity (Mammals)",
+        "question": "কোন উপশ্রেণির স্তন্যপায়ীতে একটি যোনি বিদ্যমান? [Which subclass of mammals has a single vagina?]",
+        "options": [
+            "Prototheria",
+            "Metatheria",
+            "Eutheria",
+            "None"
+        ],
+        "answer": "Eutheria",
+        "explanation": "Mammalia শ্রেণির Eutheria উপশ্রেণীর প্রাণীদের একটি মাত্র যোনি এবং প্রকৃত ধরনের অমরা থাকে। [cite: 76, 77]"
+    },
+    {
+        "id": 35,
+        "subject": "Biology",
+        "topic": "Animal Diversity (Nematoda)",
+        "question": "চোখ কৃমিতে কি ধরনের লার্ভা দশা দেখা যায়? [What type of larval stage is seen in the eye worm?]",
+        "options": [
+            "ট্রোকোফোর (Trochophore)",
+            "ট্যাডপোল (Tadpole)",
+            "র‍্যাবডিটিফর্ম (Rhabditiform)",
+            "প্লানুলা (Planula)"
+        ],
+        "answer": "র‍্যাবডিটিফর্ম (Rhabditiform)",
+        "explanation": "চোখ কৃমি (Loa loa) নেমাটোডা পর্বের প্রাণী, যাদের জীবনচক্রে র‍্যাবডিটিফর্ম লার্ভা দেখা যায়। [cite: 81, 82]"
+    },
+    {
+        "id": 36,
+        "subject": "Biology",
+        "topic": "Animal Diversity (Annelida)",
+        "question": "কেঁচোর পুং জননরন্ত্র দেহের কত নাম্বার খণ্ডকে থাকে? [In which segment of the earthworm's body is the male genital pore located?]",
+        "options": [
+            "14",
+            "17",
+            "15",
+            "18"
+        ],
+        "answer": "18",
+        "explanation": "কেঁচোর ১৮তম দেহ খণ্ডকের অঙ্কীয়দেশে একজোড়া পুং জননরন্ত্র এবং ১৪তম দেহ খণ্ডকে একটি স্ত্রী জননরন্ত্র থাকে। [cite: 83, 87]"
+    },
+    {
+        "id": 37,
+        "subject": "Biology",
+        "topic": "Animal Diversity (Fish - Labeo rohita)",
+        "question": "রুই মাছের সিউডোব্রাঙ্কের সাথে যুক্ত থাকে কোন ধমনি? [Which artery is connected to the pseudobranch of the Rui fish?]",
+        "options": [
+            "ক্যারোটিড ধমনি (Carotid artery)",
+            "প্যারাইটাল ধমনি (Parietal artery)",
+            "সাবক্যাভিয়ান ধমনি (Subclavian artery)",
+            "অপথ্যালমিক ধমনি (Ophthalmic artery)"
+        ],
+        "answer": "অপথ্যালমিক ধমনি (Ophthalmic artery)",
+        "explanation": "১ম বহির্বাহী ব্রাঙ্কিয়াল ধমনি সিউডোব্রাঙ্কে রক্ত বহন করে এবং পরে অপথ্যালমিক মহাধমনি হিসেবে বিস্তৃত হয়। [cite: 88, 89]"
+    },
+    {
+        "id": 38,
+        "subject": "Biology",
+        "topic": "Animal Diversity (Fish - Labeo rohita)",
+        "question": "রুই মাছের আঁইশে অবস্থিত অ্যানুলি দ্বারা কি বুঝানো হয়? [What is indicated by the annuli on the scale of Rui fish?]",
+        "options": [
+            "আঁইশের বর্ণ (Color of the scale)",
+            "মাছের আকৃতি (Shape of the fish)",
+            "মাছের বর্ণ (Color of the fish)",
+            "বার্ষিক বৃদ্ধি রেখা (Annual growth line)"
+        ],
+        "answer": "বার্ষিক বৃদ্ধি রেখা (Annual growth line)",
+        "explanation": "আঁইশের উপরিভাগের উঁচু রেখা বা সারকুলিগুলোর মধ্যে কিছু রেখা বেশ স্পষ্ট ও মোটা হয়, এদের অ্যানুলি বা বার্ষিক বৃদ্ধি রেখা বলা হয়। এর মাধ্যমে মাছের বয়স নির্ণয় করা যায়। [cite: 78, 79, 80]"
+    },
+    {
+        "id": 39,
+        "subject": "Biology",
+        "topic": "Animal Diversity (Fish - Labeo rohita)",
+        "question": "রুই মাছে জাইগোট সৃষ্টির কত সময় পরে ক্লিভেজ শুরু হয়? [How long after the formation of the zygote does cleavage begin in Rui fish?]",
+        "options": [
+            "৪০-৪৫ মিনিট (40-45 minutes)",
+            "২০-৩০ মিনিট (20-30 minutes)",
+            "৩০-৫০ মিনিট (30-50 minutes)",
+            "৩০-৪৫ মিনিট (30-45 minutes)"
+        ],
+        "answer": "৩০-৪৫ মিনিট (30-45 minutes)",
+        "explanation": "রুই মাছের ক্ষেত্রে নিষিক্তকরণের প্রায় ৩০-৪৫ মিনিট পর মেরোব্লাস্টিক ধরনের ক্লিভেজ শুরু হয়। [cite: 81, 83]"
+    },
+    {
+        "id": 40,
+        "subject": "Biology",
+        "topic": "Animal Diversity (Fish - Labeo rohita)",
+        "question": "অ্যাটরেশিয়া বলতে কি বুঝ? [What does Atresia mean?]",
+        "options": [
+            "রুই মাছের প্রজনন (Reproduction in Rui fish)",
+            "রুই মাছের ডিম নিঃসরণ (Discharge of eggs in Rui fish)",
+            "প্রজনন অক্ষমতা (Infertility)",
+            "পরিপক্ব ডিম দেহ কর্তৃক শোষণ (Absorption of mature eggs by the body)"
+        ],
+        "answer": "পরিপক্ব ডিম দেহ কর্তৃক শোষণ (Absorption of mature eggs by the body)",
+        "explanation": "প্রজননের উপযুক্ত পরিবেশ না থাকলে রুই মাছের পরিপক্ক ডিমগুলো দেহ কর্তৃক শোষিত হয়, একেই অ্যাটরেশিয়া বলে। [cite: 88, 94]"
+    },
+    {
+        "id": 41,
+        "subject": "Biology",
+        "topic": "Animal Nutrition (Vitamins)",
+        "question": "কোনটি পানিতে দ্রবণীয় ভিটামিন? [Which is a water-soluble vitamin?]",
+        "options": [
+            "A",
+            "C",
+            "D",
+            "K"
+        ],
+        "answer": "C",
+        "explanation": "ভিটামিন B এবং C পানিতে দ্রবণীয়, পক্ষান্তরে ভিটামিন A, D, E এবং K চর্বিতে দ্রবণীয়। [cite: 95]"
+    },
+    {
+        "id": 42,
+        "subject": "Biology",
+        "topic": "Human Physiology (Medical Science)",
+        "question": "চিকিৎসাবিজ্ঞানের যে শাখায় স্থূলতার কারণ, প্রতিরোধ, চিকিৎসা ও অস্ত্রোপচার সম্বন্ধে আলোচনা করা হয় তাকে কী বলে? [What is the branch of medicine that deals with the causes, prevention, treatment, and surgery of obesity?]",
+        "options": [
+            "বেরিয়াট্রিকস (Bariatrics)",
+            "জেরিয়াট্রিকস (Geriatrics)",
+            "অনকোলজি (Oncology)",
+            "পেডিয়াট্রিকস (Pediatrics)"
+        ],
+        "answer": "বেরিয়াট্রিকস (Bariatrics)",
+        "explanation": "স্থূলতার আধুনিক চিকিৎসা ও গবেষণার জন্য গঠিত চিকিৎসাবিজ্ঞানের শাখাকে ব্যারিয়াট্রিকস বলা হয়। [cite: 96]"
+    },
+    {
+        "id": 43,
+        "subject": "Biology",
+        "topic": "Human Physiology (Digestion)",
+        "question": "পিত্তরসে কি ধরনের এনজাইম থাকে? [What kind of enzyme is present in bile juice?]",
+        "options": [
+            "অ্যামাইলোলাইটিক (Amylolytic)",
+            "প্রোটিওলাইটিক (Proteolytic)",
+            "লাইপোলাইটিক (Lipolytic)",
+            "কোনো এনজাইম থাকে না (No enzyme is present)"
+        ],
+        "answer": "কোনো এনজাইম থাকে না (No enzyme is present)",
+        "explanation": "পিত্তরস একটি ক্ষারীয় তরল হলেও এতে কোনো পরিপাককারী এনজাইম থাকে না। [cite: 98, 99]"
+    },
+    {
+        "id": 44,
+        "subject": "Biology",
+        "topic": "Human Physiology (Digestion)",
+        "question": "নিচের কোনটি মাইসেলি তৈরিতে সহায়তা করে? [Which of the following helps in the formation of micelles?]",
+        "options": [
+            "পিত্তরস (Bile juice)",
+            "গ্যাস্ট্রিক রস (Gastric juice)",
+            "আন্ত্রিক রস (Intestinal juice)",
+            "লালারস (Saliva)"
+        ],
+        "answer": "পিত্তরস (Bile juice)",
+        "explanation": "পিত্তরস মাইসেলি তৈরির মাধ্যমে চর্বিজাতীয় খাদ্যসার শোষণে প্রধান ভূমিকা পালন করে। [cite: 104]"
+    },
+    {
+        "id": 45,
+        "subject": "Biology",
+        "topic": "Genetics (Diseases)",
+        "question": "হিমোফিলিয়া রোগে কোনটি দেখা যায়? [What is observed in Hemophilia?]",
+        "options": [
+            "লোহিত রক্তকণিকার অনুপস্থিতি (Absence of red blood cells)",
+            "শ্বেত রক্তকণিকার অনুপস্থিতি (Absence of white blood cells)",
+            "অনুচক্রিকার অধিক্যতা (Excess of platelets)",
+            "রক্তের VII ও IX ফ্যাক্টরের অনুপস্থিতি (Absence of blood factors VII and IX)"
+        ],
+        "answer": "রক্তের VII ও IX ফ্যাক্টরের অনুপস্থিতি (Absence of blood factors VII and IX)",
+        "explanation": "রক্তের জমাট বাঁধার জন্য প্রয়োজনীয় VII এবং IX ফ্যাক্টরের অনুপস্থিতির কারণে রক্ত তঞ্চন ব্যাহত হয়, একে হিমোফিলিয়া বলে। [cite: 106, 107]"
+    },
+    {
+        "id": 46,
+        "subject": "Biology",
+        "topic": "Human Physiology (Skeleton)",
+        "question": "কস্টোকড্রাইটিস এর কারণ কোনটি? [What is the cause of Costochondritis?]",
+        "options": [
+            "শ্রেণিদেশ বা নিম্নাঙ্গের শিরা থেকে জমাট রক্ত ফুসফুসে প্রবেশ (Clotted blood entering lungs)",
+            "পর্ষকা ও পর্ষকার সম্মুখস্থ তরুনাস্থির সংযোগস্থলে প্রদাহ (Inflammation at the junction of ribs and cartilage)",
+            "স্নায়ুমূলে হাড়ের চাপ (Pressure on nerve root)",
+            "অবসন্নতা ও আতঙ্কগ্রস্ত হওয়ার কারণে বুকে ব্যথা (Chest pain due to anxiety)"
+        ],
+        "answer": "পর্ষকা ও পর্ষকার সম্মুখস্থ তরুনাস্থির সংযোগস্থলে প্রদাহ (Inflammation at the junction of ribs and cartilage)",
+        "explanation": "কস্টোকড্রাইটিস হলো পর্ষকা এবং তার সম্মুখস্থ তরুণাস্থির সংযোগস্থলে প্রদাহজনিত ব্যথা। [cite: 107, 110]"
+    },
+    {
+        "id": 47,
+        "subject": "Biology",
+        "topic": "Human Physiology (Blood)",
+        "question": "রক্তে লোহিত রক্তকণিকার আয়তন পরিমাপের শতকরা হিসাবকে কি বলে? [What is the percentage measure of the volume of red blood cells in the blood called?]",
+        "options": [
+            "হেমাটোক্রিট (Hematocrit)",
+            "এরিথ্রোপয়েসিস (Erythropoiesis)",
+            "হেমাটোপয়েসিস (Hematopoiesis)",
+            "লিউকোপেনিয়া (Leukopenia)"
+        ],
+        "answer": "হেমাটোক্রিট (Hematocrit)",
+        "explanation": "রক্তে লোহিত রক্তকণিকার আয়তনের শতকরা পরিমাণকে হেমাটোক্রিট বলা হয়। লোহিত কণিকা তৈরির প্রক্রিয়াকে এরিথ্রোপয়েসিস বলে। [cite: 101, 102]"
+    },
+    {
+        "id": 48,
+        "subject": "Biology",
+        "topic": "Human Physiology (Heart)",
+        "question": "গর্ভকালীন সময় ব্যতীত কোন কপাটিকার বিশেষ কোন কাজ থাকে না? [Which valve has no special function except during pregnancy?]",
+        "options": [
+            "ট্রাইকাসপিড (Tricuspid)",
+            "বাইকাসপিড (Bicuspid)",
+            "ইউস্টেশিয়ান (Eustachian)",
+            "করোনারি (Coronary)"
+        ],
+        "answer": "ইউস্টেশিয়ান (Eustachian)",
+        "explanation": "ইউস্টেশিয়ান কপাটিকা মূলত ভ্রূণাবস্থায় এবং গর্ভকালীন সময়ে সক্রিয় থাকে, পূর্ণবয়স্ক অবস্থায় এর বিশেষ কাজ থাকে না। [cite: 105]"
+    },
+    {
+        "id": 49,
+        "subject": "Biology",
+        "topic": "Human Physiology (Respiration)",
+        "question": "শ্বাসগ্রহণের সময় ইন্টারকোস্টাল পেশির কাজ কী? [What is the function of the intercostal muscles during inhalation?]",
+        "options": [
+            "শিথিল হয়ে বক্ষগহ্বর সংকুচিত করে (Relaxation leading to contraction)",
+            "সঙ্কুচিত হয়ে পর্ত্তকাগুলোকে ওপরে ও বাইরে তোলে (Contraction lifting ribs up and outwards)",
+            "সঙ্কুচিত হয়ে ডায়াফ্রামকে নিচে টানে (Contraction pulling diaphragm down)",
+            "রক্ত সঞ্চালনে সাহায্য করে (Aiding blood circulation)"
+        ],
+        "answer": "সঙ্কুচিত হয়ে পর্ত্তকাগুলোকে ওপরে ও বাইরে তোলে (Contraction lifting ribs up and outwards)",
+        "explanation": "শ্বাসগ্রহণের সময় ইন্টারকোস্টাল পেশি সংকুচিত হয়ে বক্ষপিঞ্জরের হাড় বা রিবগুলোকে উপরে ও বাইরের দিকে টেনে তোলে, ফলে বক্ষগহ্বরের আয়তন বেড়ে যায়। [cite: 107, 108]"
+    },
+    {
+        "id": 50,
+        "subject": "Biology",
+        "topic": "Human Physiology (Respiration)",
+        "question": "প্যুরা এর বাইরের স্তরটির নাম কি? [What is the name of the outer layer of the Pleura?]",
+        "options": [
+            "প্যারাইটাল (Parietal)",
+            "ভিসেরাল (Visceral)",
+            "ফ্রন্টাল (Frontal)",
+            "মিউকোসা (Mucosa)"
+        ],
+        "answer": "প্যারাইটাল (Parietal)",
+        "explanation": "ফুসফুস যে পাতলা ঝিল্লি দ্বারা আবৃত থাকে তাকে প্লিউরা বলে। এর বাইরের স্তরটিকে বলা হয় প্যারাইটাল স্তর। [cite: 108]"
+    }
+]
