@@ -1,0 +1,402 @@
+[
+    {
+        "id": 1,
+        "subject": "Biology",
+        "topic": "Cell & Structure",
+        "question": "১. কোষের ‘পাওয়ার হাউস’ কোনটি?",
+        "hasDiagram": true,
+        "svg_code": "",
+        "options": {
+            "a": "নিউক্লিয়াস",
+            "b": "মাইটোকন্ড্রিয়া",
+            "c": "গলগি বডি",
+            "d": "লাইসোজোম"
+        },
+        "correctAnswer": "b",
+        "explanation": "মাইটোকন্ড্রিয়া কোষের শ্বসন প্রক্রিয়ায় শক্তি (ATP) উৎপাদন করে, তাই একে কোষের শক্তিঘর বা পাওয়ার হাউস বলা হয়।"
+    },
+    {
+        "id": 2,
+        "subject": "Biology",
+        "topic": "Cell Division",
+        "question": "২. মিয়োসিস কোষ বিভাজন কোথায় ঘটে?",
+        "hasDiagram": true,
+        "svg_code": "",
+        "options": {
+            "a": "দেহকোষে",
+            "b": "জনন মাতৃকোষে",
+            "c": "স্নায়ুকোষে",
+            "d": "লোহিত কণিকায়"
+        },
+        "correctAnswer": "b",
+        "explanation": "জনন মাতৃকোষে (Germ cells) মিয়োসিস বিভাজন ঘটে, যার ফলে হ্যাপ্লয়েড গ্যামেট (শুক্রাণু ও ডিম্বাণু) তৈরি হয়।"
+    },
+    {
+        "id": 3,
+        "subject": "Biology",
+        "topic": "Plant Physiology",
+        "question": "৩. অবাধ শ্বসনের শেষ পণ্য কী?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "$$CO_2 + H_2O$$",
+            "b": "ইথাইল অ্যালকোহল + $$CO_2$$",
+            "c": "পাইরুভিক এসিড",
+            "d": "ল্যাকটিক এসিড"
+        },
+        "correctAnswer": "b",
+        "explanation": "অবাধ শ্বসনে অক্সিজেনের অনুপস্থিতিতে গ্লুকোজ ভেঙে ইথাইল অ্যালকোহল এবং কার্বন ডাই অক্সাইড তৈরি হয়।"
+    },
+    {
+        "id": 4,
+        "subject": "Biology",
+        "topic": "Plant Physiology",
+        "question": "৪. পত্ররন্ধ্র খোলা ও বন্ধ হওয়া নিয়ন্ত্রণ করে কোন আয়ন?",
+        "hasDiagram": true,
+        "svg_code": "",
+        "options": {
+            "a": "$$Na^+$$",
+            "b": "$$K^+$$",
+            "c": "$$Ca^{++}$$",
+            "d": "$$Mg^{++}$$"
+        },
+        "correctAnswer": "b",
+        "explanation": "রক্ষীকোষে পটাশিয়াম আয়ন ($$K^+$$) প্রবেশের ফলে অভিস্রবণিক চাপ বেড়ে যায় এবং পানি প্রবেশ করে পত্ররন্ধ্র খুলে যায়।"
+    },
+    {
+        "id": 5,
+        "subject": "Biology",
+        "topic": "Gymnosperms",
+        "question": "৫. কোনটি নগ্নবীজী উদ্ভিদ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "Cycas",
+            "b": "ধান",
+            "c": "আম",
+            "d": "জবা"
+        },
+        "correctAnswer": "a",
+        "explanation": "সাইকাস (*Cycas*) একটি নগ্নবীজী উদ্ভিদ, কারণ এর বীজ ফলের ভেতরে আবৃত থাকে না, নগ্ন অবস্থায় থাকে।"
+    },
+    {
+        "id": 6,
+        "subject": "Biology",
+        "topic": "Microbes",
+        "question": "৬. ডেঙ্গু ভাইরাসের বাহক কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "Anopheles",
+            "b": "Aedes",
+            "c": "Culex",
+            "d": "House fly"
+        },
+        "correctAnswer": "b",
+        "explanation": "স্ত্রী *Aedes aegypti* মশা ডেঙ্গু ভাইরাসের প্রধান বাহক।"
+    },
+    {
+        "id": 7,
+        "subject": "Biology",
+        "topic": "Biotechnology",
+        "question": "৭. রিকম্বিনেন্ট DNA প্রযুক্তিতে ‘আণবিক কাঁচি’ কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "লাইগেজ",
+            "b": "পলিমারেজ",
+            "c": "রেস্ট্রিকশন এনজাইম",
+            "d": "হেলিক্স"
+        },
+        "correctAnswer": "c",
+        "explanation": "রেস্ট্রিকশন এনজাইম ডিএনএ অণুর নির্দিষ্ট স্থান কেটে ফেলতে পারে বলে একে 'আণবিক কাঁচি' বা Molecular Scissor বলা হয়।"
+    },
+    {
+        "id": 8,
+        "subject": "Biology",
+        "topic": "Microbes",
+        "question": "৮. কোনটি আদিকোষী জীব?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "মানুষ",
+            "b": "অ্যামিবা",
+            "c": "ব্যাকটেরিয়া",
+            "d": "মাশরুম"
+        },
+        "correctAnswer": "c",
+        "explanation": "ব্যাকটেরিয়ার কোষে সুগঠিত নিউক্লিয়াস এবং পর্দাবৃত অঙ্গাণু থাকে না, তাই এটি আদিকোষী বা প্রোক্যারিওটিক জীব।"
+    },
+    {
+        "id": 9,
+        "subject": "Biology",
+        "topic": "Zoology",
+        "question": "৯. হাইড্রা কোন পদ্ধতির মাধ্যমে দ্রুত চলাফেরা করে?",
+        "hasDiagram": true,
+        "svg_code": "",
+        "options": {
+            "a": "লুপিং",
+            "b": "গ্লাইডিং",
+            "c": "সমারসল্টিং",
+            "d": "সাঁতার"
+        },
+        "correctAnswer": "c",
+        "explanation": " \n সমারসল্টিং বা ডিগবাজি হাইড্রার দ্রুত চলন প্রক্রিয়া। লুপিং বা হামাগুড়ি ধীর গতির চলন।"
+    },
+    {
+        "id": 10,
+        "subject": "Biology",
+        "topic": "Zoology",
+        "question": "১০. ঘাসফড়িংয়ের পুঞ্জাক্ষির একক কোনটি?",
+        "hasDiagram": true,
+        "svg_code": "",
+        "options": {
+            "a": "ওমাটিডিয়াম",
+            "b": "ওসেললাস",
+            "c": "রেটিনা",
+            "d": "লেন্স"
+        },
+        "correctAnswer": "a",
+        "explanation": " \n আর্থ্রোপোডা পর্বের প্রাণীদের পুঞ্জাক্ষি অসংখ্য ষড়ভুজাকৃতি দর্শন একক নিয়ে গঠিত, যাদের ওমাটিডিয়াম বলা হয়।"
+    },
+    {
+        "id": 11,
+        "subject": "Biology",
+        "topic": "Zoology",
+        "question": "১১. রুই মাছের আঁশ কোন ধরণের?",
+        "hasDiagram": true,
+        "svg_code": "",
+        "options": {
+            "a": "প্ল্যাকয়েড",
+            "b": "টিনয়েড",
+            "c": "সাইক্লয়েড",
+            "d": "গ্যানয়েড"
+        },
+        "correctAnswer": "c",
+        "explanation": " \n রুই মাছে গোলাকার, মসৃণ প্রান্তবিশিষ্ট সাইক্লয়েড ধরণের আঁশ থাকে।"
+    },
+    {
+        "id": 12,
+        "subject": "Biology",
+        "topic": "Digestion",
+        "question": "১২. পিত্তরস কোথা থেকে উৎপন্ন হয়?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "পিত্তথলি",
+            "b": "অগ্ন্যাশয়",
+            "c": "যকৃৎ",
+            "d": "পাকস্থলী"
+        },
+        "correctAnswer": "c",
+        "explanation": "পিত্তরস যকৃতে (Liver) তৈরি হয় এবং পিত্তথলিতে জমা থাকে। এটি চর্বি পরিপাকে সাহায্য করে।"
+    },
+    {
+        "id": 13,
+        "subject": "Biology",
+        "topic": "Blood & Circulation",
+        "question": "১৩. রক্তে প্লাজমার পরিমাণ কত শতাংশ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "৪৫%",
+            "b": "৫৫%",
+            "c": "৯০%",
+            "d": "১০%"
+        },
+        "correctAnswer": "b",
+        "explanation": "রক্তের ৫৫% হলো রক্তরস বা প্লাজমা এবং বাকি ৪৫% হলো রক্তকণিকা।"
+    },
+    {
+        "id": 14,
+        "subject": "Biology",
+        "topic": "Blood & Circulation",
+        "question": "১৪. হৃদরোগের চিকিৎসায় কোনটি ব্যবহৃত হয়?",
+        "hasDiagram": true,
+        "svg_code": "",
+        "options": {
+            "a": "এনজিওপ্লাস্টি",
+            "b": "ডায়ালাইসিস",
+            "c": "কেমোথেরাপি",
+            "d": "রেডিওথেরাপি"
+        },
+        "correctAnswer": "a",
+        "explanation": "এনজিওপ্লাস্টি হলো একটি পদ্ধতি যার মাধ্যমে হৃৎপিণ্ডের সরু হয়ে যাওয়া ধমনী প্রশস্ত করা হয়।"
+    },
+    {
+        "id": 15,
+        "subject": "Biology",
+        "topic": "Movement",
+        "question": "১৫. মানবদেহে হাড়ের সংখ্যা কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "২০৬",
+            "b": "৩০৬",
+            "c": "২০৮",
+            "d": "২০০"
+        },
+        "correctAnswer": "a",
+        "explanation": "একজন পূর্ণবয়স্ক মানুষের শরীরে মোট ২০৬টি হাড় থাকে।"
+    },
+    {
+        "id": 16,
+        "subject": "Biology",
+        "topic": "Animal Classification",
+        "question": "১৬. কোন প্রাণীতে শিখা কোষ (Flame cell) পাওয়া যায়?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "কেঁচো",
+            "b": "ফিতাকৃমি",
+            "c": "জোঁক",
+            "d": "চিংড়ি"
+        },
+        "correctAnswer": "b",
+        "explanation": "প্লাটিহেলমিনথিস পর্বের প্রাণীদের (যেমন: ফিতাকৃমি) রেচন অঙ্গ হলো শিখা কোষ বা ফ্লেম সেল।"
+    },
+    {
+        "id": 17,
+        "subject": "Biology",
+        "topic": "Blood & Circulation",
+        "question": "১৭. রক্তের সর্বজনীন দাতা গ্রুপ কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "A",
+            "b": "B",
+            "c": "AB",
+            "d": "O"
+        },
+        "correctAnswer": "d",
+        "explanation": "রক্তের গ্রুপ O-তে কোনো অ্যান্টিজেন থাকে না, তাই এটি অন্য যেকোনো গ্রুপের মানুষকে রক্ত দিতে পারে।"
+    },
+    {
+        "id": 18,
+        "subject": "Biology",
+        "topic": "Genetics",
+        "question": "১৮. মানুষের ক্রোমোজোম সংখ্যা কত?",
+        "hasDiagram": true,
+        "svg_code": "",
+        "options": {
+            "a": "২৩ জোড়া",
+            "b": "২২ জোড়া",
+            "c": "৪৪ টি",
+            "d": "৪৮ টি"
+        },
+        "correctAnswer": "a",
+        "explanation": "মানুষের দেহকোষে ২৩ জোড়া বা ৪৬টি ক্রোমোজোম থাকে (২২ জোড়া অটোজোম ও ১ জোড়া সেক্স ক্রোমোজোম)।"
+    },
+    {
+        "id": 19,
+        "subject": "Biology",
+        "topic": "Genetics",
+        "question": "১৯. কোনটি লিথাল জিনের প্রভাবে ঘটে না?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "ক্রিপার মুরগি",
+            "b": "থ্যালাসেমিয়া",
+            "c": "হিমোফিলিয়া",
+            "d": "বর্ণান্ধতা"
+        },
+        "correctAnswer": "d",
+        "explanation": "ক্রিপার মুরগি, থ্যালাসেমিয়া এবং হিমোফিলিয়া লিথাল বা সেমি-লিথাল জিনের প্রভাবে হতে পারে। বর্ণান্ধতা লিথাল জিন ঘটিত নয়, এটি সেক্স-লিঙ্কড ডিসঅর্ডার।"
+    },
+    {
+        "id": 20,
+        "subject": "Biology",
+        "topic": "Microbes",
+        "question": "২০. কোনটি শৈবালের বৈশিষ্ট্য?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "ক্লোরোফিল নেই",
+            "b": "স্বভোজী",
+            "c": "ফুল হয়",
+            "d": "পরিবহন টিস্যু আছে"
+        },
+        "correctAnswer": "b",
+        "explanation": "শৈবালে ক্লোরোফিল থাকে, তাই তারা সালোকসংশ্লেষণ করতে পারে এবং স্বভোজী (Autotrophic)।"
+    },
+    {
+        "id": 21,
+        "subject": "Biology",
+        "topic": "Biotechnology",
+        "question": "২১. টিস্যু কালচারের জনক কে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "হ্যাবারল্যান্ড",
+            "b": "মেন্ডেল",
+            "c": "হুক",
+            "d": "ডারউইন"
+        },
+        "correctAnswer": "a",
+        "explanation": "গটলিভ হ্যাবারল্যান্ড (Gottlieb Haberlandt) ১৯০২ সালে প্রথম টিস্যু কালচার ধারণা প্রবর্তন করেন।"
+    },
+    {
+        "id": 22,
+        "subject": "Biology",
+        "topic": "Digestion",
+        "question": "২২. প্রোটিন পরিপাককারী এনজাইম কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "অ্যামাইলেজ",
+            "b": "লাইপেজ",
+            "c": "পেপসিন",
+            "d": "মল্টেজ"
+        },
+        "correctAnswer": "c",
+        "explanation": "পেপসিন হলো পাকস্থলী থেকে নিঃসৃত এনজাইম যা প্রোটিন ভেঙে প্রোটিওজ ও পেপটনে পরিণত করে।"
+    },
+    {
+        "id": 23,
+        "subject": "Biology",
+        "topic": "Microbes",
+        "question": "২৩. কোনটি নাইট্রোজেন ফিক্সেশন করে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "ভাইরাস",
+            "b": "সায়ানোব্যাকটেরিয়া",
+            "c": "প্রোটোজোয়া",
+            "d": "শৈবাল"
+        },
+        "correctAnswer": "b",
+        "explanation": "সায়ানোব্যাকটেরিয়া (যেমন: *Nostoc*, *Anabaena*) বায়ুমণ্ডলীয় নাইট্রোজেন সংবন্ধন বা ফিক্সেশন করতে পারে।"
+    },
+    {
+        "id": 24,
+        "subject": "Biology",
+        "topic": "Angiosperms",
+        "question": "২৪. জবা ফুলের অমরাবিন্যাস কেমন?",
+        "hasDiagram": true,
+        "svg_code": "",
+        "options": {
+            "a": "মূলীয়",
+            "b": "অক্ষীয়",
+            "c": "গাত্রীয়",
+            "d": "মুক্তমধ্য"
+        },
+        "correctAnswer": "b",
+        "explanation": " \n জবা ফুলের অমরাবিন্যাস অক্ষীয় (Axile), যেখানে অমরাগুলো কেন্দ্রীয় অক্ষে সাজানো থাকে।"
+    },
+    {
+        "id": 25,
+        "subject": "Biology",
+        "topic": "Coordination",
+        "question": "২৫. মস্তিষ্কের কোন অংশ দেহের ভারসাম্য রক্ষা করে?",
+        "hasDiagram": true,
+        "svg_code": "",
+        "options": {
+            "a": "সেরিব্রাম",
+            "b": "সেরিবেলাম",
+            "c": "মেডুলা",
+            "d": "পনস"
+        },
+        "correctAnswer": "b",
+        "explanation": " সেরিবেলাম (লঘুমস্তিষ্ক) দেহের ভারসাম্য রক্ষা, পেশি টান নিয়ন্ত্রণ এবং ঐচ্ছিক চলাচলে সমন্বয় সাধন করে।"
+    }
+]
