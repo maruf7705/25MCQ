@@ -336,20 +336,6 @@
     "questionFile": "Chemi1.json"
   },
   {
-    "studentName": "Maruf",
-    "answers": {
-      "23": "c"
-    },
-    "score": 1.25,
-    "totalMarks": 31.25,
-    "timestamp": "2026-01-08T15:16:42.598Z",
-    "attempted": 1,
-    "correct": 1,
-    "wrong": 0,
-    "pass": false,
-    "questionFile": "Biology2.json"
-  },
-  {
     "studentName": "Biology 2",
     "answers": {
       "1": "c",
@@ -464,7 +450,7 @@
     "questionFile": "Biology4.json"
   },
   {
-    "studentName": "Biology 6",
+    "studentName": "Biology 5",
     "answers": {
       "2": "a",
       "3": "c",
@@ -496,5 +482,42 @@
     "wrong": 12,
     "pass": false,
     "questionFile": "Biology5.json"
+  },
+  {
+    "studentName": "Biology 6",
+    "answers": {
+      "1": "b",
+      "2": "d",
+      "3": "a",
+      "4": "c",
+      "6": "b",
+      "7": "a",
+      "8": "a",
+      "9": "a",
+      "10": "a",
+      "11": "c",
+      "12": "c",
+      "13": "d",
+      "14": "a",
+      "15": "d",
+      "16": "b",
+      "17": "c",
+      "18": "b",
+      "19": "a",
+      "20": "b",
+      "21": "b",
+      "22": "d",
+      "23": "c",
+      "24": "b",
+      "25": "b"
+    },
+    "score": 10.5,
+    "totalMarks": 31.25,
+    "timestamp": "2026-01-08T17:16:00.766Z",
+    "attempted": 24,
+    "correct": 11,
+    "wrong": 13,
+    "pass": false,
+    "questionFile": "Biology6.json"
   }
 ]
