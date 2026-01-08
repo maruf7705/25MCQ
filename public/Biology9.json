@@ -1,0 +1,402 @@
+[
+    {
+        "id": 1,
+        "subject": "Biology",
+        "topic": "Cell & Structure",
+        "question": "১. কোষ প্রাচীরের প্রধান উপাদান কী?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "লিপিড",
+            "b": "সেলুলোজ",
+            "c": "প্রোটিন",
+            "d": "স্টার্চ"
+        },
+        "correctAnswer": "b",
+        "explanation": "উদ্ভিদ কোষ প্রাচীরের প্রধান গাঠনিক উপাদান হলো সেলুলোজ (এক ধরণের পলিস্যাকারাইড)। এছাড়াও হেমিসেলুলোজ ও পেকটিন থাকে। ছত্রাকের কোষ প্রাচীর কাইটিন এবং ব্যাকটেরিয়ার কোষ প্রাচীর পেপটিডোগ্লাইকান দিয়ে গঠিত।"
+    },
+    {
+        "id": 2,
+        "subject": "Biology",
+        "topic": "Cell & Structure",
+        "question": "২. ‘ফ্লুইড মোজাইক মডেল’ কে প্রবর্তন করেন?",
+        "hasDiagram": true,
+        "svg_code": "",
+        "options": {
+            "a": "ড্যানিয়েলি ও ডপসন",
+            "b": "সিঙ্গার ও নিকলসন",
+            "c": "বেনডা",
+            "d": "রবার্ট হুক"
+        },
+        "correctAnswer": "b",
+        "explanation": "১৯৭২ সালে এস. জে. সিঙ্গার এবং জি. এল. নিকলসন কোষঝিল্লির গঠন ব্যাখ্যার জন্য ফ্লুইড মোজাইক মডেল প্রস্তাব করেন, যা সর্বজনগ্রাহ্য মডেল।"
+    },
+    {
+        "id": 3,
+        "subject": "Biology",
+        "topic": "Cell Division",
+        "question": "৩. কোষ বিভাজনের কোন পর্যায়ে ক্রসিং ওভার ঘটে?",
+        "hasDiagram": true,
+        "svg_code": "",
+        "options": {
+            "a": "লেপ্টোটিন",
+            "b": "জাইগোটিন",
+            "c": "প্যাকাইটিন",
+            "d": "ডিপ্লোটিন"
+        },
+        "correctAnswer": "c",
+        "explanation": " \n মায়োসিস-১ এর প্রোফেজ-১ এর প্যাকাইটিন উপপর্যায়ে নন-সিস্টার ক্রোমাটিডের মধ্যে অংশের বিনিময় বা ক্রসিং ওভার ঘটে।"
+    },
+    {
+        "id": 4,
+        "subject": "Biology",
+        "topic": "Plant Physiology",
+        "question": "৪. গ্লাইকোলাইসিস প্রক্রিয়ায় মোট কত অণু ATP উৎপন্ন হয়?",
+        "hasDiagram": true,
+        "svg_code": "",
+        "options": {
+            "a": "২",
+            "b": "৪",
+            "c": "৩৬",
+            "d": "৩৮"
+        },
+        "correctAnswer": "b",
+        "explanation": "গ্লাইকোলাইসিস প্রক্রিয়ায় সরাসরি মোট ৪ অণু ATP উৎপন্ন হয়। তবে প্রক্রিয়ার শুরুতে ২ অণু ATP খরচ হয়, তাই নিট প্রাপ্তি থাকে ২ অণু ATP।"
+    },
+    {
+        "id": 5,
+        "subject": "Biology",
+        "topic": "Botany",
+        "question": "৫. ‘জীবন্ত জীবাশ্ম’ কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "Cycas",
+            "b": "Ficus",
+            "c": "Hibiscus",
+            "d": "Riccia"
+        },
+        "correctAnswer": "a",
+        "explanation": "*Cycas* উদ্ভিদটি আদিমকালের সাইকাড বর্গের উদ্ভিদ। এর অনেক বৈশিষ্ট্য বিলুপ্তপ্রায় ফসিল উদ্ভিদের সাথে মিলে যায়, অথচ এটি আজও টিকে আছে, তাই একে জীবন্ত জীবাশ্ম বলা হয়।"
+    },
+    {
+        "id": 6,
+        "subject": "Biology",
+        "topic": "Botany",
+        "question": "৬. মালভিসি (Malvaceae) গোত্রের পরাগধানী কেমন?",
+        "hasDiagram": true,
+        "svg_code": "",
+        "options": {
+            "a": "দ্বিকক্ষী",
+            "b": "এককক্ষী",
+            "c": "বৃক্কাকার",
+            "d": "লম্বাকার"
+        },
+        "correctAnswer": "b",
+        "explanation": " \n মালভিসি গোত্রের (যেমন: জবা) পরাগধানী এক প্রকোষ্ঠী বা এককক্ষী (Monothecous) এবং বৃক্কাকার (Kidney shaped)।"
+    },
+    {
+        "id": 7,
+        "subject": "Biology",
+        "topic": "Biotechnology",
+        "question": "৭. টিস্যু কালচার প্রযুক্তিতে ব্যবহৃত আবাদ মাধ্যম কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "MS মাধ্যম",
+            "b": "লিপিড মাধ্যম",
+            "c": "DNA মাধ্যম",
+            "d": "RNA মাধ্যম"
+        },
+        "correctAnswer": "a",
+        "explanation": "টিস্যু কালচারে টিস্যুর পুষ্টির জন্য সবচেয়ে বহুল ব্যবহৃত মাধ্যম হলো MS (Murashige and Skoog) মাধ্যম।"
+    },
+    {
+        "id": 8,
+        "subject": "Biology",
+        "topic": "Plant Physiology",
+        "question": "৮. নিচের কোনটি ম্যাক্রোমৌল নয়?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "Ca",
+            "b": "Mg",
+            "c": "K",
+            "d": "Cu"
+        },
+        "correctAnswer": "d",
+        "explanation": "উদ্ভিদের পুষ্টির জন্য কপার ($$Cu$$) অত্যন্ত অল্প পরিমাণে প্রয়োজন হয়, তাই এটি মাইক্রোমৌল। ক্যালসিয়াম, ম্যাগনেসিয়াম ও পটাশিয়াম হলো ম্যাক্রোমৌল।"
+    },
+    {
+        "id": 9,
+        "subject": "Biology",
+        "topic": "Biotechnology",
+        "question": "৯. প্লাজমিড কোনটিতে পাওয়া যায়?",
+        "hasDiagram": true,
+        "svg_code": "",
+        "options": {
+            "a": "ব্যাকটেরিয়া",
+            "b": "ভাইরাস",
+            "c": "শৈবাল",
+            "d": "ছত্রাক"
+        },
+        "correctAnswer": "a",
+        "explanation": "ব্যাকটেরিয়ার কোষে মূল ক্রোমোজোম ছাড়াও যে বৃত্তাকার অতিরিক্ত DNA অণু থাকে, তাকে প্লাজমিড বলে।"
+    },
+    {
+        "id": 10,
+        "subject": "Biology",
+        "topic": "Plant Physiology",
+        "question": "১০. কোন আলোতে সালোকসংশ্লেষণ সবচেয়ে বেশি হয়?",
+        "hasDiagram": true,
+        "svg_code": "",
+        "options": {
+            "a": "নীল ও লাল",
+            "b": "সবুজ ও হলুদ",
+            "c": "কমলা ও লাল",
+            "d": "বেগুনী ও নীল"
+        },
+        "correctAnswer": "a",
+        "explanation": "ক্লোরোফিল অণু দৃশ্যমান আলোকবর্ণালীর নীল ও লাল অংশ সবচেয়ে বেশি শোষণ করে, তাই এই দুই আলোতে সালোকসংশ্লেষণের হার সর্বাধিক।"
+    },
+    {
+        "id": 11,
+        "subject": "Biology",
+        "topic": "Animal Diversity",
+        "question": "১১. হাইড্রার নিডোসাইট সবচেয়ে বেশি থাকে কোথায়?",
+        "hasDiagram": true,
+        "svg_code": "",
+        "options": {
+            "a": "পদতলে",
+            "b": "হাইপোস্টোমে",
+            "c": "কর্ষিকায়",
+            "d": "দেহকাণ্ডে"
+        },
+        "correctAnswer": "c",
+        "explanation": "হাইড্রার কর্ষিকায় (Tentacles) নিডোসাইট কোষের ঘনত্ব সবচেয়ে বেশি থাকে, যা শিকার ধরা ও আত্মরক্ষায় ব্যবহৃত হয়।"
+    },
+    {
+        "id": 12,
+        "subject": "Biology",
+        "topic": "Animal Diversity",
+        "question": "১২. ঘাসফড়িংয়ের রক্ত সংবহনতন্ত্রের নাম কী?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "বদ্ধ",
+            "b": "মুক্ত",
+            "c": "অর্ধ-মুক্ত",
+            "d": "লসিকাতন্ত্র"
+        },
+        "correctAnswer": "b",
+        "explanation": "ঘাসফড়িং তথা আর্থ্রোপোডা পর্বের প্রাণীদের রক্ত নালীর মধ্যে আবদ্ধ না থেকে দেহগহ্বরে (হিমোসিলে) উন্মুক্ত থাকে, তাই একে মুক্ত সংবহনতন্ত্র বলে।"
+    },
+    {
+        "id": 13,
+        "subject": "Biology",
+        "topic": "Animal Diversity",
+        "question": "১৩. রুই মাছের হৃৎপিণ্ড কত প্রকোষ্ঠ বিশিষ্ট?",
+        "hasDiagram": true,
+        "svg_code": "",
+        "options": {
+            "a": "২",
+            "b": "৩",
+            "c": "৪",
+            "d": "অসম্পূর্ণ ৪"
+        },
+        "correctAnswer": "a",
+        "explanation": "রুই মাছের হৃৎপিণ্ড দুই প্রকোষ্ঠ বিশিষ্ট: একটি অ্যাট্রিয়াম (Atrium) এবং একটি ভেন্ট্রিকল (Ventricle)।"
+    },
+    {
+        "id": 14,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "question": "১৪. কোনটি মিশ্র গ্রন্থি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "যকৃৎ",
+            "b": "অগ্ন্যাশয়",
+            "c": "পিটুইটারি",
+            "d": "থাইরয়েড"
+        },
+        "correctAnswer": "b",
+        "explanation": "অগ্ন্যাশয় এনজাইম (বহিঃক্ষরা) এবং হরমোন (অন্তঃক্ষরা) উভয়ই নিঃসরণ করে, তাই একে মিশ্র গ্রন্থি (Heterocrine Gland) বলা হয়।"
+    },
+    {
+        "id": 15,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "question": "১৫. মানবদেহে লোহিত রক্তকণিকার গড় আয়ু কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "৯০ দিন",
+            "b": "১২০ দিন",
+            "c": "১৫০ দিন",
+            "d": "৬০ দিন"
+        },
+        "correctAnswer": "b",
+        "explanation": "লোহিত রক্তকণিকা (RBC) উৎপন্ন হওয়ার পর রক্তপ্রবাহে প্রায় ১২০ দিন বা ৪ মাস বেঁচে থাকে।"
+    },
+    {
+        "id": 16,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "question": "১৬. হৃৎপিণ্ডের পেসমেকার কোনটি?",
+        "hasDiagram": true,
+        "svg_code": "",
+        "options": {
+            "a": "AV Node",
+            "b": "SA Node",
+            "c": "Purkinje fiber",
+            "d": "Bundle of His"
+        },
+        "correctAnswer": "b",
+        "explanation": "সাইনো-অ্যাট্রিয়াল নোড (SA Node) হৃৎস্পন্দন তৈরি ও নিয়ন্ত্রণ করে, তাই একে প্রাকৃতিক পেসমেকার বলা হয়।"
+    },
+    {
+        "id": 17,
+        "subject": "Biology",
+        "topic": "Taxonomy",
+        "question": "১৭. কোনটি তরুণাস্থিঘটিত মাছ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "রুই",
+            "b": "কাতলা",
+            "c": "ইলিশ",
+            "d": "হাঙর"
+        },
+        "correctAnswer": "d",
+        "explanation": "হাঙর (Shark) কনড্রিকথিস শ্রেণির অন্তর্গত, যাদের কঙ্কাল তরুণাস্থি দিয়ে গঠিত। রুই, কাতলা ও ইলিশ হলো অস্থিময় মাছ।"
+    },
+    {
+        "id": 18,
+        "subject": "Biology",
+        "topic": "Human Skeleton",
+        "question": "১৮. মানুষের বক্ষদেশীয় কশেরুকার সংখ্যা কত?",
+        "hasDiagram": true,
+        "svg_code": "",
+        "options": {
+            "a": "৭টি",
+            "b": "১২টি",
+            "c": "৫টি",
+            "d": "১টি"
+        },
+        "correctAnswer": "b",
+        "explanation": "মানুষের মেরুদণ্ডে বক্ষদেশীয় বা থোরাসিক (Thoracic) অঞ্চলে ১২টি কশেরুকা থাকে। গ্রীবাদেশীয় ৭টি এবং কটিদেশীয় ৫টি।"
+    },
+    {
+        "id": 19,
+        "subject": "Biology",
+        "topic": "Genetics",
+        "question": "১৯. মেন্ডেলের ২য় সূত্রের ফিনোটাইপিক অনুপাত কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "৩:১",
+            "b": "৯:৩:৩:১",
+            "c": "১:২:১",
+            "d": "৯:৭"
+        },
+        "correctAnswer": "b",
+        "explanation": "মেন্ডেলের ২য় সূত্র বা স্বাধীনভাবে মিলনের সূত্রের ডাইহাইব্রিড ক্রসে ফিনোটাইপিক অনুপাত হয় ৯:৩:৩:১।"
+    },
+    {
+        "id": 20,
+        "subject": "Biology",
+        "topic": "Genetics",
+        "question": "২০. সেক্স লিঙ্কড ডিসঅর্ডার কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "বর্ণান্ধতা",
+            "b": "ডায়াবেটিস",
+            "c": "থ্যালাসেমিয়া",
+            "d": "রিকেটস"
+        },
+        "correctAnswer": "a",
+        "explanation": "বর্ণান্ধতা (Color blindness) একটি X-লিঙ্কড বা সেক্স লিঙ্কড বংশগত রোগ। থ্যালাসেমিয়া অটোজোমাল রোগ।"
+    },
+    {
+        "id": 21,
+        "subject": "Biology",
+        "topic": "Cell & Structure",
+        "question": "২১. DNA তে থাইমিনের সাথে কোনটি যুক্ত থাকে?",
+        "hasDiagram": true,
+        "svg_code": "",
+        "options": {
+            "a": "এডেনিন",
+            "b": "গুয়ানিন",
+            "c": "সাইটোসিন",
+            "d": "ইউরাসিল"
+        },
+        "correctAnswer": "a",
+        "explanation": "DNA অণুর ডাবল হেলিক্সে এডেনিন ($$A$$) সর্বদা থাইমিনের ($$T$$) সাথে দুটি হাইড্রোজেন বন্ড দ্বারা যুক্ত থাকে ($$A=T$$)।"
+    },
+    {
+        "id": 22,
+        "subject": "Biology",
+        "topic": "Biotechnology",
+        "question": "২২. কোন এনজাইমটি ডিএনএ কাটার কাজে ব্যবহৃত হয়?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "লাইগেজ",
+            "b": "পলিমারেজ",
+            "c": "রেস্ট্রিকশন এনজাইম",
+            "d": "প্রাইমেজ"
+        },
+        "correctAnswer": "c",
+        "explanation": "রেস্ট্রিকশন এনজাইম (Restriction Enzyme) ডিএনএ অণুর নির্দিষ্ট স্থান কেটে ফেলতে পারে বলে একে 'আনবিক কাঁচি' বলা হয়।"
+    },
+    {
+        "id": 23,
+        "subject": "Biology",
+        "topic": "Respiration",
+        "question": "২৩. ফুসফুসের আবরণীর নাম কী?",
+        "hasDiagram": true,
+        "svg_code": "",
+        "options": {
+            "a": "প্লুরা",
+            "b": "পেরিকার্ডিয়াম",
+            "c": "পেরিটোনিয়াম",
+            "d": "মেনিনজেস"
+        },
+        "correctAnswer": "a",
+        "explanation": "ফুসফুস দ্বিস্তরী একটি পাতলা পর্দা দ্বারা আবৃত থাকে যাকে প্লুরা (Pleura) বলে। পেরিকার্ডিয়াম হৃদপিণ্ডকে আবৃত করে।"
+    },
+    {
+        "id": 24,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "question": "২৪. মানুষের দন্ত সংকেত কোনটি (প্রাপ্তবয়স্ক)?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "$$I_2 C_1 P_2 M_3$$",
+            "b": "$$I_2 C_1 P_1 M_2$$",
+            "c": "$$I_1 C_2 P_2 M_3$$",
+            "d": "$$I_2 C_2 P_1 M_3$$"
+        },
+        "correctAnswer": "a",
+        "explanation": "একজন প্রাপ্তবয়স্ক মানুষের প্রতি চোয়ালের অর্ধাংশে ২ টি কর্তন ($$I$$), ১ টি ছেদন ($$C$$), ২ টি অগ্রপেষণ ($$P$$) এবং ৩ টি পেষণ ($$M$$) দাঁত থাকে। সংকেত: $$I_2 C_1 P_2 M_3$$।"
+    },
+    {
+        "id": 25,
+        "subject": "Biology",
+        "topic": "Taxonomy",
+        "question": "২৫. দ্বিপদ নামকরণের প্রবর্তক কে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "বেন্থাম",
+            "b": "ডারউইন",
+            "c": "ক্যারোলাস লিনিয়াস",
+            "d": "এরিস্টটল"
+        },
+        "correctAnswer": "c",
+        "explanation": "সুইডিশ বিজ্ঞানী ক্যারোলাস লিনিয়াস ১৭৫৩ সালে তার 'Species Plantarum' বইয়ে জীবের দ্বিপদ নামকরণ প্রথা প্রবর্তন করেন।"
+    }
+]
