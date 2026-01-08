@@ -1,6 +1,6 @@
 [
     {
-        "id": 26,
+        "id": 1,
         "subject": "Biology",
         "topic": "Cell Metabolism (Krebs Cycle)",
         "question": "ক্রেবস চক্রের প্রধান কাঁচামাল কী? [What is the main raw material for the Krebs cycle?]",
@@ -13,7 +13,7 @@
         "explanation": "যে চক্রপথে অ্যাসিটাইল কো-এ অক্সালো এসিটিক এসিডের সাথে যুক্ত হয়ে CO2, শক্তি অণু (ATP, NADH+H, FADH2) উৎপন্ন করে এবং অক্সালো এসিটিক এসিড পুনঃউৎপাদিত হয় তাকে ক্রেবস চক্র বলে। [cite: 56]"
     },
     {
-        "id": 27,
+        "id": 2,
         "subject": "Biology",
         "topic": "Photosynthesis",
         "question": "চক্রীয় ফটোফসফোরাইলেশনে- [In cyclic photophosphorylation-]",
@@ -27,7 +27,7 @@
         "explanation": "চক্রীয় ফটোফসফোরাইলেশনে কোনো O2 উৎপন্ন হয় না, কারণ এ প্রক্রিয়ায় পানি ব্যবহৃত হয় না। এতে কেবলমাত্র PS-I অংশগ্রহণ করে এবং উৎক্ষিপ্ত ইলেকট্রন পুনরায় PS-I এ ফিরে আসে। [cite: 57, 58, 59]"
     },
     {
-        "id": 28,
+        "id": 3,
         "subject": "Biology",
         "topic": "Biotechnology (Nitrogen Fixation)",
         "question": "নিফ জিন কোথায় ব্যবহৃত হয়? [Where is the Nif gene used?]",
@@ -41,7 +41,7 @@
         "explanation": "বায়বীয় নাইট্রোজেন সংবন্ধনকারী ব্যাকটেরিয়া হতে নিফ জিন (যা নাইট্রোজেন সংবন্ধনের জন্য দায়ী) E. coli ব্যাকটেরিয়াতে স্থানান্তর করা সম্ভব হয়েছে, যা সার প্রয়োগ কমাতে সহায়তা করে। [cite: 63, 64]"
     },
     {
-        "id": 29,
+        "id": 4,
         "subject": "Biology",
         "topic": "Biotechnology (Medicine)",
         "question": "লিম্ফোকাইনস কোন ক্ষেত্রে ব্যবহার করা হয়? [Lymphokines are used in which condition?]",
@@ -55,7 +55,7 @@
         "explanation": "লিম্ফোকাইনস রক্ত সংবহন জটিলতায় এবং স্বয়ংক্রিয় ইমিউন কার্যকারিতায় ব্যবহৃত হয়। অন্যান্য প্রোটিন যেমন ইনসুলিন ডায়াবেটিসে এবং ইন্টারফেরন ক্যান্সারে ব্যবহৃত হয়। [cite: 69, 74]"
     },
     {
-        "id": 30,
+        "id": 5,
         "subject": "Biology",
         "topic": "Cell Biology (Proteins)",
         "question": "ইনসুলিন এ কতটি পলিপেপটাইড চেইন থাকে? [How many polypeptide chains are in Insulin?]",
@@ -69,7 +69,7 @@
         "explanation": "ইনসুলিন ৫১টি অ্যামিনো অ্যাসিড নিয়ে গঠিত। এতে দুটি পলিপেপটাইড চেইন (চেইন-A তে ২১টি এবং চেইন-B তে ৩০টি অ্যামিনো অ্যাসিড) ডাইসালফাইড বন্ডের মাধ্যমে সংযুক্ত থাকে। [cite: 60, 61]"
     },
     {
-        "id": 31,
+        "id": 6,
         "subject": "Biology",
         "topic": "Plant Tissue Culture",
         "question": "হোমোজাইগাস জাত তৈরিতে নিচের কোনটির কালচার করা হয়? [Which culture is done to produce homozygous varieties?]",
@@ -83,7 +83,7 @@
         "explanation": "পুংধানী ও পরাগরেণু কালচারের মাধ্যমে হ্যাপ্লয়েড উদ্ভিদ তৈরি করে পরবর্তীতে হোমোজাইগাস উদ্ভিদ পাওয়া সম্ভব। মেরিস্টেম কালচার মূলত ভাইরাসমুক্ত উদ্ভিদ তৈরিতে ব্যবহৃত হয়। [cite: 62]"
     },
     {
-        "id": 32,
+        "id": 7,
         "subject": "Biology",
         "topic": "Animal Diversity (Pseudocoelomates)",
         "question": "নিচের কোন প্রাণীতে নকল সিলোম বিদ্যমান? [Which animal has a pseudocoelom?]",
@@ -97,7 +97,7 @@
         "explanation": "Nematoda পর্বভুক্ত প্রাণীরা (যেমন Ascaris lumbricoides বা গোল কৃমি) স্যুডোসিলোমেট বা নকল সিলোম বিশিষ্ট। [cite: 66, 67]"
     },
     {
-        "id": 33,
+        "id": 8,
         "subject": "Biology",
         "topic": "Animal Diversity (Embryology)",
         "question": "কোন পর্বভুক্ত প্রাণীর ভ্রূণীয় পরিস্ফুটনে ব্লাস্টোসিলটি স্পঞ্জি প্যারেনকাইমা দ্বারা পূর্ণ থাকে? [In the embryonic development of animals belonging to which phylum is the blastocoel filled with spongy parenchyma?]",
@@ -111,7 +111,7 @@
         "explanation": "অ্যাসিলোমেট প্রাণীদের (যেমন Porifera, Cnidaria, Ctenophora) ভ্রূণীয় পরিস্ফুটনে ব্লাস্টোসিলটি স্পঞ্জি প্যারেনকাইমা দ্বারা পূর্ণ থাকে। [cite: 70, 71]"
     },
     {
-        "id": 34,
+        "id": 9,
         "subject": "Biology",
         "topic": "Animal Diversity (Mammals)",
         "question": "কোন উপশ্রেণির স্তন্যপায়ীতে একটি যোনি বিদ্যমান? [Which subclass of mammals has a single vagina?]",
@@ -125,7 +125,7 @@
         "explanation": "Mammalia শ্রেণির Eutheria উপশ্রেণীর প্রাণীদের একটি মাত্র যোনি এবং প্রকৃত ধরনের অমরা থাকে। [cite: 76, 77]"
     },
     {
-        "id": 35,
+        "id": 10,
         "subject": "Biology",
         "topic": "Animal Diversity (Nematoda)",
         "question": "চোখ কৃমিতে কি ধরনের লার্ভা দশা দেখা যায়? [What type of larval stage is seen in the eye worm?]",
@@ -139,7 +139,7 @@
         "explanation": "চোখ কৃমি (Loa loa) নেমাটোডা পর্বের প্রাণী, যাদের জীবনচক্রে র‍্যাবডিটিফর্ম লার্ভা দেখা যায়। [cite: 81, 82]"
     },
     {
-        "id": 36,
+        "id": 11,
         "subject": "Biology",
         "topic": "Animal Diversity (Annelida)",
         "question": "কেঁচোর পুং জননরন্ত্র দেহের কত নাম্বার খণ্ডকে থাকে? [In which segment of the earthworm's body is the male genital pore located?]",
@@ -153,7 +153,7 @@
         "explanation": "কেঁচোর ১৮তম দেহ খণ্ডকের অঙ্কীয়দেশে একজোড়া পুং জননরন্ত্র এবং ১৪তম দেহ খণ্ডকে একটি স্ত্রী জননরন্ত্র থাকে। [cite: 83, 87]"
     },
     {
-        "id": 37,
+        "id": 12,
         "subject": "Biology",
         "topic": "Animal Diversity (Fish - Labeo rohita)",
         "question": "রুই মাছের সিউডোব্রাঙ্কের সাথে যুক্ত থাকে কোন ধমনি? [Which artery is connected to the pseudobranch of the Rui fish?]",
@@ -167,7 +167,7 @@
         "explanation": "১ম বহির্বাহী ব্রাঙ্কিয়াল ধমনি সিউডোব্রাঙ্কে রক্ত বহন করে এবং পরে অপথ্যালমিক মহাধমনি হিসেবে বিস্তৃত হয়। [cite: 88, 89]"
     },
     {
-        "id": 38,
+        "id": 13,
         "subject": "Biology",
         "topic": "Animal Diversity (Fish - Labeo rohita)",
         "question": "রুই মাছের আঁইশে অবস্থিত অ্যানুলি দ্বারা কি বুঝানো হয়? [What is indicated by the annuli on the scale of Rui fish?]",
@@ -181,7 +181,7 @@
         "explanation": "আঁইশের উপরিভাগের উঁচু রেখা বা সারকুলিগুলোর মধ্যে কিছু রেখা বেশ স্পষ্ট ও মোটা হয়, এদের অ্যানুলি বা বার্ষিক বৃদ্ধি রেখা বলা হয়। এর মাধ্যমে মাছের বয়স নির্ণয় করা যায়। [cite: 78, 79, 80]"
     },
     {
-        "id": 39,
+        "id": 14,
         "subject": "Biology",
         "topic": "Animal Diversity (Fish - Labeo rohita)",
         "question": "রুই মাছে জাইগোট সৃষ্টির কত সময় পরে ক্লিভেজ শুরু হয়? [How long after the formation of the zygote does cleavage begin in Rui fish?]",
@@ -195,7 +195,7 @@
         "explanation": "রুই মাছের ক্ষেত্রে নিষিক্তকরণের প্রায় ৩০-৪৫ মিনিট পর মেরোব্লাস্টিক ধরনের ক্লিভেজ শুরু হয়। [cite: 81, 83]"
     },
     {
-        "id": 40,
+        "id": 15,
         "subject": "Biology",
         "topic": "Animal Diversity (Fish - Labeo rohita)",
         "question": "অ্যাটরেশিয়া বলতে কি বুঝ? [What does Atresia mean?]",
@@ -209,7 +209,7 @@
         "explanation": "প্রজননের উপযুক্ত পরিবেশ না থাকলে রুই মাছের পরিপক্ক ডিমগুলো দেহ কর্তৃক শোষিত হয়, একেই অ্যাটরেশিয়া বলে। [cite: 88, 94]"
     },
     {
-        "id": 41,
+        "id": 16,
         "subject": "Biology",
         "topic": "Animal Nutrition (Vitamins)",
         "question": "কোনটি পানিতে দ্রবণীয় ভিটামিন? [Which is a water-soluble vitamin?]",
@@ -223,7 +223,7 @@
         "explanation": "ভিটামিন B এবং C পানিতে দ্রবণীয়, পক্ষান্তরে ভিটামিন A, D, E এবং K চর্বিতে দ্রবণীয়। [cite: 95]"
     },
     {
-        "id": 42,
+        "id": 17,
         "subject": "Biology",
         "topic": "Human Physiology (Medical Science)",
         "question": "চিকিৎসাবিজ্ঞানের যে শাখায় স্থূলতার কারণ, প্রতিরোধ, চিকিৎসা ও অস্ত্রোপচার সম্বন্ধে আলোচনা করা হয় তাকে কী বলে? [What is the branch of medicine that deals with the causes, prevention, treatment, and surgery of obesity?]",
@@ -237,7 +237,7 @@
         "explanation": "স্থূলতার আধুনিক চিকিৎসা ও গবেষণার জন্য গঠিত চিকিৎসাবিজ্ঞানের শাখাকে ব্যারিয়াট্রিকস বলা হয়। [cite: 96]"
     },
     {
-        "id": 43,
+        "id": 18,
         "subject": "Biology",
         "topic": "Human Physiology (Digestion)",
         "question": "পিত্তরসে কি ধরনের এনজাইম থাকে? [What kind of enzyme is present in bile juice?]",
@@ -251,7 +251,7 @@
         "explanation": "পিত্তরস একটি ক্ষারীয় তরল হলেও এতে কোনো পরিপাককারী এনজাইম থাকে না। [cite: 98, 99]"
     },
     {
-        "id": 44,
+        "id": 19,
         "subject": "Biology",
         "topic": "Human Physiology (Digestion)",
         "question": "নিচের কোনটি মাইসেলি তৈরিতে সহায়তা করে? [Which of the following helps in the formation of micelles?]",
@@ -265,7 +265,7 @@
         "explanation": "পিত্তরস মাইসেলি তৈরির মাধ্যমে চর্বিজাতীয় খাদ্যসার শোষণে প্রধান ভূমিকা পালন করে। [cite: 104]"
     },
     {
-        "id": 45,
+        "id": 20,
         "subject": "Biology",
         "topic": "Genetics (Diseases)",
         "question": "হিমোফিলিয়া রোগে কোনটি দেখা যায়? [What is observed in Hemophilia?]",
@@ -279,7 +279,7 @@
         "explanation": "রক্তের জমাট বাঁধার জন্য প্রয়োজনীয় VII এবং IX ফ্যাক্টরের অনুপস্থিতির কারণে রক্ত তঞ্চন ব্যাহত হয়, একে হিমোফিলিয়া বলে। [cite: 106, 107]"
     },
     {
-        "id": 46,
+        "id": 21,
         "subject": "Biology",
         "topic": "Human Physiology (Skeleton)",
         "question": "কস্টোকড্রাইটিস এর কারণ কোনটি? [What is the cause of Costochondritis?]",
@@ -293,7 +293,7 @@
         "explanation": "কস্টোকড্রাইটিস হলো পর্ষকা এবং তার সম্মুখস্থ তরুণাস্থির সংযোগস্থলে প্রদাহজনিত ব্যথা। [cite: 107, 110]"
     },
     {
-        "id": 47,
+        "id": 22,
         "subject": "Biology",
         "topic": "Human Physiology (Blood)",
         "question": "রক্তে লোহিত রক্তকণিকার আয়তন পরিমাপের শতকরা হিসাবকে কি বলে? [What is the percentage measure of the volume of red blood cells in the blood called?]",
@@ -307,7 +307,7 @@
         "explanation": "রক্তে লোহিত রক্তকণিকার আয়তনের শতকরা পরিমাণকে হেমাটোক্রিট বলা হয়। লোহিত কণিকা তৈরির প্রক্রিয়াকে এরিথ্রোপয়েসিস বলে। [cite: 101, 102]"
     },
     {
-        "id": 48,
+        "id": 23,
         "subject": "Biology",
         "topic": "Human Physiology (Heart)",
         "question": "গর্ভকালীন সময় ব্যতীত কোন কপাটিকার বিশেষ কোন কাজ থাকে না? [Which valve has no special function except during pregnancy?]",
@@ -321,7 +321,7 @@
         "explanation": "ইউস্টেশিয়ান কপাটিকা মূলত ভ্রূণাবস্থায় এবং গর্ভকালীন সময়ে সক্রিয় থাকে, পূর্ণবয়স্ক অবস্থায় এর বিশেষ কাজ থাকে না। [cite: 105]"
     },
     {
-        "id": 49,
+        "id": 24,
         "subject": "Biology",
         "topic": "Human Physiology (Respiration)",
         "question": "শ্বাসগ্রহণের সময় ইন্টারকোস্টাল পেশির কাজ কী? [What is the function of the intercostal muscles during inhalation?]",
@@ -335,7 +335,7 @@
         "explanation": "শ্বাসগ্রহণের সময় ইন্টারকোস্টাল পেশি সংকুচিত হয়ে বক্ষপিঞ্জরের হাড় বা রিবগুলোকে উপরে ও বাইরের দিকে টেনে তোলে, ফলে বক্ষগহ্বরের আয়তন বেড়ে যায়। [cite: 107, 108]"
     },
     {
-        "id": 50,
+        "id": 25,
         "subject": "Biology",
         "topic": "Human Physiology (Respiration)",
         "question": "প্যুরা এর বাইরের স্তরটির নাম কি? [What is the name of the outer layer of the Pleura?]",
