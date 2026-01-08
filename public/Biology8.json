@@ -1,0 +1,402 @@
+[
+    {
+        "id": 1,
+        "subject": "Biology",
+        "topic": "Taxonomy (Poaceae)",
+        "question": "Poaceae গোত্রের পুষ্পকে কী বলে? [What is the flower of the Poaceae family called?]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "পুষ্পপুট (Perianth)",
+            "b": "সীথ (Sheath)",
+            "c": "ফ্লোরেট (Floret)",
+            "d": "লেমা (Lemma)"
+        },
+        "correctAnswer": "c",
+        "explanation": "Poaceae (ঘাস) গোত্রের পুষ্পকে সাধারণত পুষ্পিকা (floret) বলা হয়। পুষ্পিকা উভলিঙ্গ বা একলিঙ্গ হতে পারে."
+    },
+    {
+        "id": 2,
+        "subject": "Biology",
+        "topic": "Pteridophyta (Cycas)",
+        "question": "কতটি স্পোরাঞ্জিয়া একত্রিত হয়ে সোরাস গঠন করে? [How many sporangia aggregate to form a sorus?]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "1-6 টি",
+            "b": "2-5 টি",
+            "c": "3-7 টি",
+            "d": "4-8 টি"
+        },
+        "correctAnswer": "b",
+        "explanation": "Cycas এর পুংরেণুপত্রের পৃষ্ঠদেশে বহু স্পোরাঞ্জিয়া তৈরি হয়। 2-5 টি স্পোরাঞ্জিয়া একত্রে অবস্থান করে, যাকে সোরাস বলে।"
+    },
+    {
+        "id": 3,
+        "subject": "Biology",
+        "topic": "Plant Anatomy (Epidermis)",
+        "question": "চকচকে আঁঠালো পদার্থে পূর্ণ এপিডার্মাল উপবৃদ্ধিকে কী বলে? [What is the epidermal outgrowth filled with shiny, sticky substance called?]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "শল্ক (Scale)",
+            "b": "থলি (Bladder)",
+            "c": "গ্রন্থিরোম (Glandular hair)",
+            "d": "ট্রাইকোম (Trichome)"
+        },
+        "correctAnswer": "c",
+        "explanation": "বিশেষ ধরনের বহুকোষী ট্রাইকোমকে কোলেটার্স বা গ্রন্থিরোম বলে। কোলেটার্স এক ধরনের চকচকে আঁঠালো পদার্থে পূর্ণ থাকে।"
+    },
+    {
+        "id": 4,
+        "subject": "Biology",
+        "topic": "Plant Physiology (Guttation)",
+        "question": "গাটেশনের জন্য কোনটি সঠিক? [Which statement is correct for guttation?]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "হাইডাথোডের মাধ্যমে হয়ে থাকে (Occurs through hydathodes)",
+            "b": "পানি বাষ্পাকারে বের হয় (Water is released in the form of vapor)",
+            "c": "পত্ররন্ধ্রের মাধ্যমে হয়ে থাকে (Occurs through stomata)",
+            "d": "খনিজ লবণ মুক্তির সাথে সম্পর্ক নেই (No relation to mineral salt release)"
+        },
+        "correctAnswer": "a",
+        "explanation": "হাইডাথোডের মাধ্যমে তরল আকারে পানি বের হয়ে যাওয়াকে গাটেশন বলে।"
+    },
+    {
+        "id": 5,
+        "subject": "Biology",
+        "topic": "Plant Anatomy (Tissue)",
+        "question": "নিচের কোন টিস্যুর কোষগুলোর কোষপ্রাচীর সবচেয়ে বেশি পুরু হয়? [Which tissue's cell walls are the thickest?]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "প্যারেনকাইমা (Parenchyma)",
+            "b": "কোলেনকাইমা (Collenchyma)",
+            "c": "স্ক্লেরেনকাইমা (Sclerenchyma)",
+            "d": "জাইলেম (Xylem)"
+        },
+        "correctAnswer": "c",
+        "explanation": "স্ক্লেরেনকাইমা কোষগুলো প্রাথমিক অবস্থায় জীবিত থাকলেও দ্রুত মৃত হয়ে যায় এবং অত্যন্ত পুরু প্রাচীরবিশিষ্ট হয়।"
+    },
+    {
+        "id": 6,
+        "subject": "Biology",
+        "topic": "Plant Anatomy (Vascular Bundles)",
+        "question": "দ্বিবীজপত্রী উদ্ভিদের কাণ্ডে পরিবহন কলাগুচ্ছ কীভাবে অবস্থান করে? [How are vascular bundles arranged in the stem of dicotyledonous plants?]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "বলয়ের আকারে সজ্জিত থাকে (Arranged in a ring)",
+            "b": "দুই সারিতেই সাজানো থাকে (Arranged in two rows)",
+            "c": "অরীয় (Radial)",
+            "d": "বিক্ষিপ্তভাবে ছড়ানো থাকে (Scattered randomly)"
+        },
+        "correctAnswer": "a",
+        "explanation": "একবীজপত্রী উদ্ভিদের কাণ্ডে ভাস্কুলার বান্ডলগুলো বিক্ষিপ্ত থাকে, কিন্তু দ্বিবীজপত্রী উদ্ভিদের কাণ্ডে এগুলো বলয়াকারে সজ্জিত থাকে।"
+    },
+    {
+        "id": 7,
+        "subject": "Biology",
+        "topic": "Plant Physiology (Photosynthesis)",
+        "question": "সালোকসংশ্লেষণের জন্য কোন উপাদানটি খুবই দরকারি? [Which element is very necessary for photosynthesis?]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "পটাশিয়াম (Potassium)",
+            "b": "আয়রন (Iron)",
+            "c": "ম্যাগনেসিয়াম (Magnesium)",
+            "d": "সালফেট (Sulfate)"
+        },
+        "correctAnswer": "c",
+        "explanation": "ক্লোরোফিল অণু গঠনের জন্য ম্যাগনেসিয়াম অপরিহার্য, যা সালোকসংশ্লেষণের প্রধান উপাদান।"
+    },
+    {
+        "id": 8,
+        "subject": "Biology",
+        "topic": "Plant Physiology (Respiration)",
+        "question": "পাইরুভিক এসিডের অক্সিডেশন কোথায় সংঘটিত হয়? [Where does the oxidation of pyruvic acid take place?]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "মাইটোকন্ড্রিয়নের ম্যাট্রিক্সে (In the matrix of the mitochondrion)",
+            "b": "সাইটোপ্লাজমে (In the cytoplasm)",
+            "c": "স্ট্রোমাতে (In the stroma)",
+            "d": "মাইটোকন্ড্রিয়ার ঝিল্লিতে (In the mitochondrial membrane)"
+        },
+        "correctAnswer": "a",
+        "explanation": "সবাত শ্বসনে পাইরুভিক এসিডের অক্সিডেশন বা অ্যাসিটাইল Co-A সৃষ্টি মাইটোকন্ড্রিয়ার ম্যাট্রিক্সে ঘটে।"
+    },
+    {
+        "id": 9,
+        "subject": "Biology",
+        "topic": "Plant Physiology (Krebs Cycle)",
+        "question": "ক্রেবস চক্রে ফিউমারিক এসিডকে ম্যালিক এসিডে পরিণত করে কোনটি? [Which one converts fumaric acid into malic acid in the Krebs cycle?]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "রুবিস্কো (Rubisco)",
+            "b": "সাকসিনেট ডিহাইড্রোজিনেজ (Succinate dehydrogenase)",
+            "c": "একোনিটেজ (Aconitase)",
+            "d": "ফিউমারেজ (Fumarase)"
+        },
+        "correctAnswer": "d",
+        "explanation": "ক্রেবস চক্রে ফিউমারেজ এনজাইম ফিউমারিক এসিডের সাথে পানি যুক্ত করে ম্যালিক এসিডে রূপান্তর করে।"
+    },
+    {
+        "id": 10,
+        "subject": "Biology",
+        "topic": "Plant Physiology (CAM)",
+        "question": "CAM চক্র দেখা যায় কোন উদ্ভিদে? [In which plant is the CAM cycle observed?]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "পাতাঝিঝিতে (In Putika)",
+            "b": "করবী উদ্ভিদে (In Karabi plant)",
+            "c": "পাথরকুচিতে (In Stonecrop)",
+            "d": "ভুট্টায় (In Maize)"
+        },
+        "correctAnswer": "c",
+        "explanation": "CAM (Crassulacean Acid Metabolism) সাধারণত Crassulaceae গোত্রের উদ্ভিদ যেমন পাথরকুচিতে দেখা যায়।"
+    },
+    {
+        "id": 11,
+        "subject": "Biology",
+        "topic": "Plant Physiology (Photolysis)",
+        "question": "পানির ফটোলাইসিসের জন্য কোনটি প্রয়োজন? [Which is required for the photolysis of water?]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "Mg",
+            "b": "Fe",
+            "c": "Mn",
+            "d": "Ca"
+        },
+        "correctAnswer": "c",
+        "explanation": "পানির ফটোলাইসিসের জন্য ম্যাঙ্গানিজ (Mn2+), ক্লোরিন (Cl-) এবং ওয়াটার স্প্লিটিং এনজাইম প্রয়োজন।"
+    },
+    {
+        "id": 12,
+        "subject": "Biology",
+        "topic": "Biotechnology (Plasmid)",
+        "question": "কোল প্লাসমিডের সমতুল্য প্লাসমিড কোন ব্যাকটেরিয়া কোষকে ধ্বংস করতে পারে? [A plasmid equivalent to Col plasmid can destroy which bacterial cell?]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "E. coli",
+            "b": "V. cholerae",
+            "c": "A. tumefaciens",
+            "d": "B. subtilis"
+        },
+        "correctAnswer": "b",
+        "explanation": "ভিব্রিওসিন (Vibriocin) উৎপাদনকারী প্লাসমিড সংবেদনশীল Vibrio cholerae কোষকে ধ্বংস করতে পারে।"
+    },
+    {
+        "id": 13,
+        "subject": "Biology",
+        "topic": "Biotechnology (Medical)",
+        "question": "হিউম্যান ইউরোকাইনেজ কোন ক্ষেত্রে ব্যবহার করা হয়? [In which condition is Human Urokinase used?]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "শল্য চিকিৎসায় (In surgery)",
+            "b": "হৃদরোগ চিকিৎসায় (In heart disease treatment)",
+            "c": "রক্ত সংবহন জটিলতায় (In blood circulation complications)",
+            "d": "ডায়াবেটিস চিকিৎসায় (In diabetes treatment)"
+        },
+        "correctAnswer": "c",
+        "explanation": "হিউম্যান ইউরোকাইনেজ প্লাজমিনোজেন সক্রিয়ক হিসেবে রক্ত সংবহন জটিলতায় ব্যবহৃত হয়।"
+    },
+    {
+        "id": 14,
+        "subject": "Biology",
+        "topic": "Biotechnology (Pest Control)",
+        "question": "SIT পদ্ধতি কে প্রস্তাব করেন? [Who proposed the SIT method?]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "Edward Kripling & Raymond Bushland",
+            "b": "Dr. F. Sanger",
+            "c": "Laderberg",
+            "d": "Jack Williamson"
+        },
+        "correctAnswer": "a",
+        "explanation": "SIT (Sterile Insect Technique) হলো একটি পরিবেশবান্ধব পতঙ্গ নিয়ন্ত্রণ পদ্ধতি যা ১৯৩৭ সালে এডওয়ার্ড ক্রিপলিং ও রেমন্ড বুশল্যান্ড প্রস্তাব করেন।"
+    },
+    {
+        "id": 15,
+        "subject": "Biology",
+        "topic": "Animal Diversity (Cleavage)",
+        "question": "'ডেভিল ফিশে' কি ধরনের ক্লিভেজ দেখা যায়? [What type of cleavage is observed in 'Devil Fish'?]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "দ্বিপার্শ্বীয় ক্লিভেজ (Bilateral cleavage)",
+            "b": "গোলীয় ক্লিভেজ (Spherical cleavage)",
+            "c": "অরীয় ক্লিভেজ (Radial cleavage)",
+            "d": "সর্পিল ক্লিভেজ (Spiral cleavage)"
+        },
+        "correctAnswer": "d",
+        "explanation": "অক্টোপাস (ডেভিল ফিশ) মলাস্কা পর্বের প্রাণী, যাদের সর্পিল ক্লিভেজ দেখা যায়।"
+    },
+    {
+        "id": 16,
+        "subject": "Biology",
+        "topic": "Animal Diversity (Cnidaria)",
+        "question": "বহুরূপীতা দেখা যায় নিচের কোন প্রাণীতে? [In which animal is polymorphism observed?]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "Ascaris lumbricoides",
+            "b": "Taenia solium",
+            "c": "Pila globosa",
+            "d": "Hydra viridis"
+        },
+        "correctAnswer": "d",
+        "explanation": "বহুরূপীতা (Polymorphism) নিডারিয়া পর্বের একটি প্রধান বৈশিষ্ট্য, যা হাইড্রাতে লক্ষ্য করা যায়।"
+    },
+    {
+        "id": 17,
+        "subject": "Biology",
+        "topic": "Animal Diversity (Mollusca)",
+        "question": "মাংসল পিণ্ডের মতো পায়ের মাধ্যমে কারা চলাচল করে? [Who moves through a fleshy, lump-like foot?]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "অ্যানিলিডা (Annelida)",
+            "b": "মলাস্কা (Mollusca)",
+            "c": "একাইনোডার্মাটা (Echinodermata)",
+            "d": "প্লাটিহেলমিথেস (Platyhelminthes)"
+        },
+        "correctAnswer": "b",
+        "explanation": "মলাস্কা পর্বের প্রাণীদের চলাচলের প্রধান অঙ্গ হলো তাদের মাংসল পা।"
+    },
+    {
+        "id": 18,
+        "subject": "Biology",
+        "topic": "Animal Diversity (Chordata)",
+        "question": "Copsychus saularis এর হৃৎপিণ্ড- [The heart of Copsychus saularis is:]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "দুই প্রকোষ্ঠ বিশিষ্ট (Two-chambered)",
+            "b": "তিন প্রকোষ্ঠ বিশিষ্ট (Three-chambered)",
+            "c": "অসম্পূর্ণ চার প্রকোষ্ঠ বিশিষ্ট (Incomplete four-chambered)",
+            "d": "সম্পূর্ণ চার প্রকোষ্ঠ বিশিষ্ট (Complete four-chambered)"
+        },
+        "correctAnswer": "d",
+        "explanation": "দোয়েল (Copsychus saularis) একটি পাখি। পাখি ও স্তন্যপায়ী প্রাণীদের হৃৎপিণ্ড সম্পূর্ণ চার প্রকোষ্ঠ বিশিষ্ট হয়।"
+    },
+    {
+        "id": 19,
+        "subject": "Biology",
+        "topic": "Animal Diversity (Echinodermata)",
+        "question": "রেচনতন্ত্র নেই নিচের কোন প্রাণীতে? [Which animal lacks an excretory system?]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "Aedes aegypti",
+            "b": "Taenia solium",
+            "c": "Asteris rubens",
+            "d": "Pila globosa"
+        },
+        "correctAnswer": "c",
+        "explanation": "Asteris rubens (সমুদ্র তারা) একাইনোডার্মাটা পর্বের প্রাণী, যাদের কোনো নির্দিষ্ট রেচনতন্ত্র থাকে না।"
+    },
+    {
+        "id": 20,
+        "subject": "Biology",
+        "topic": "Chordata (Fish)",
+        "question": "রুই মাছের ডিমের প্রকৃতি কী? [What is the nature of the egg of Rui fish?]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "সেন্ট্রোলেসিথাল (Centrolecithal)",
+            "b": "ডিমারসাল (Demersal)",
+            "c": "পেলাজিক (Pelagic)",
+            "d": "মেসোলেসিথাল (Mesolecithal)"
+        },
+        "correctAnswer": "b",
+        "explanation": "রুই মাছের ডিম পানির তলায় ডুবে যায় বলে একে ডিমারসাল ডিম বলা হয়।"
+    },
+    {
+        "id": 21,
+        "subject": "Biology",
+        "topic": "Arthropoda (Grasshopper)",
+        "question": "ঘাসফড়িং অ্যান্টেনার মাধ্যমে কি অনুভব করে? [What does a grasshopper sense through its antennae?]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "শব্দতরঙ্গ (Sound waves)",
+            "b": "তাপ (Heat)",
+            "c": "শ্রবণ (Hearing)",
+            "d": "সবগুলো (All of them)"
+        },
+        "correctAnswer": "a",
+        "explanation": "ঘাসফড়িং অ্যান্টেনার মাধ্যমে স্পর্শ, ঘ্রাণ এবং শব্দতরঙ্গ অনুভব করতে পারে।"
+    },
+    {
+        "id": 22,
+        "subject": "Biology",
+        "topic": "Cnidaria (Cell)",
+        "question": "অপরিণত নিডোসাইটকে কি বলে? [What is an immature cnidocyte called?]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "নিডোব্লাস্ট (Cnidoblast)",
+            "b": "নেমাটোসিস্ট (Nematocyst)",
+            "c": "নিডোসিল (Cnidocil)",
+            "d": "নিডোসাইট (Cnidocyte)"
+        },
+        "correctAnswer": "a",
+        "explanation": "পরস্ফুটনরত বা অপরিণত নিডোসাইটকে নিডোব্লাস্ট বলা হয়."
+    },
+    {
+        "id": 23,
+        "subject": "Biology",
+        "topic": "Arthropoda (Excretion)",
+        "question": "ঘাসফড়িং-এ কোন আনুষঙ্গিক রেচন অঙ্গে শর্করা, আমিষ, স্নেহ পদার্থ পরিবর্তিতরূপে জমা থাকে? [In which accessory excretory organ of the grasshopper are nutrients stored?]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "ইউরেট কোষ (Urate cell)",
+            "b": "নেফ্রোসাইট (Nephrocyte)",
+            "c": "ইউরিকোজ কোষ (Uricose cell)",
+            "d": "কিউটিকল (Cuticle)"
+        },
+        "correctAnswer": "a",
+        "explanation": "ইউরেট কোষগুলো ফ্যাট বডির অংশ এবং এতে শর্করা, আমিষ ও চর্বি জাতীয় খাদ্য জমা থাকে।"
+    },
+    {
+        "id": 24,
+        "subject": "Biology",
+        "topic": "Chordata (Life Cycle)",
+        "question": "রুই মাছের ডিম নিষিক্ত হওয়ার কত ঘন্টা পর লার্ভার মাথায় ক্রোমাটোফার দেখা যায়? [How many hours after fertilization do chromatophores appear on the larva's head?]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "36",
+            "b": "12",
+            "c": "24",
+            "d": "48"
+        },
+        "correctAnswer": "b",
+        "explanation": "নিষিক্ত হওয়ার ১২ ঘণ্টা পর লার্ভার চোখে ক্রোমাটোফোরের উদ্ভব হয়।"
+    },
+    {
+        "id": 25,
+        "subject": "Biology",
+        "topic": "Human Physiology (Digestion)",
+        "question": "মানবদেহের কোন প্রকার পরিপাক রসে কার্বোহাইড্রেট পরিপাকে সাহায্যকারী এনজাইম থাকে না? [Which digestive juice lacks carbohydrate-digesting enzymes?]",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "লালারসে (Saliva)",
+            "b": "অগ্ন্যাশয় রসে (Pancreatic juice)",
+            "c": "আন্ত্রিক রসে (Intestinal juice)",
+            "d": "পাকস্থলি রসে (Gastric juice)"
+        },
+        "correctAnswer": "d",
+        "explanation": "পাকস্থলির রসে (গ্যাস্ট্রিক জুস) মূলত আমিষ পরিপাককারী এনজাইম থাকে, কার্বোহাইড্রেট পরিপাককারী কোনো এনজাইম থাকে না।"
+    }
+]

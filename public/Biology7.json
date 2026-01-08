@@ -4,349 +4,399 @@
         "subject": "Biology",
         "topic": "Human Physiology (Respiration)",
         "question": "নাসিকাগহ্বরের প্রাচীর উদ্দীপিত হলে কোন স্নায়ুর মাধ্যমে হাঁচি প্রতিবর্ত ক্রিয়া ঘটে? [If the nasal cavity wall is stimulated, which nerve triggers the sneezing reflex?]",
-        "options": [
-            "ভেগাস স্নায়ু (Vagus nerve)",
-            "গ্লসোফ্যারিঞ্জিয়াল স্নায়ু (Glossopharyngeal nerve)",
-            "অলফ্যাক্টরি স্নায়ু (Olfactory nerve)",
-            "নিউমোট্যাক্সিক কেন্দ্র (Pneumotaxic center)"
-        ],
-        "answer": "অলফ্যাক্টরি স্নায়ু (Olfactory nerve)",
-        "explanation": "নাসিকা মিউকাসের উদ্দীপনা অলফ্যাক্টরি স্নায়ুর মাধ্যমে হাঁচি (sneezing) রিফ্লেক্স উদ্ভূত করে, যা শ্বাসক্রিয়ায় পরিবর্তন আনে। [cite: 111]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "ভেগাস স্নায়ু (Vagus nerve)",
+            "b": "গ্লসোফ্যারিঞ্জিয়াল স্নায়ু (Glossopharyngeal nerve)",
+            "c": "অলফ্যাক্টরি স্নায়ু (Olfactory nerve)",
+            "d": "নিউমোট্যাক্সিক কেন্দ্র (Pneumotaxic center)"
+        },
+        "correctAnswer": "c",
+        "explanation": "নাসিকা মিউকাসের উদ্দীপনা অলফ্যাক্টরি স্নায়ুর মাধ্যমে হাঁচি (sneezing) রিফ্লেক্স উদ্ভূত করে, যা শ্বাসক্রিয়ায় পরিবর্তন আনে।"
     },
     {
         "id": 2,
         "subject": "Biology",
         "topic": "Human Physiology (Respiration)",
         "question": "নিচের কোনটি নিম্ন শ্বসননালির সংক্রমণ? [Which of the following is an infection of the lower respiratory tract?]",
-        "options": [
-            "টনসিলাইটিস (Tonsillitis)",
-            "ওটাইটিস মিডিয়া (Otitis media)",
-            "ল্যারিনজাইটিস (Laryngitis)",
-            "ব্রঙ্কাইটিস (Bronchitis)"
-        ],
-        "answer": "ব্রঙ্কাইটিস (Bronchitis)",
-        "explanation": "শ্বাসনালি ও ফুসফুস আক্রান্ত হওয়াকে নিম্ন শ্বসননালির সংক্রমণ বলে। উদাহরণস্বরূপ: নিউমোনিয়া, যক্ষ্মা এবং ব্রঙ্কাইটিস। [cite: 113, 114]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "টনসিলাইটিস (Tonsillitis)",
+            "b": "ওটাইটিস মিডিয়া (Otitis media)",
+            "c": "ল্যারিনজাইটিস (Laryngitis)",
+            "d": "ব্রঙ্কাইটিস (Bronchitis)"
+        },
+        "correctAnswer": "d",
+        "explanation": "শ্বাসনালি ও ফুসফুস আক্রান্ত হওয়াকে নিম্ন শ্বসননালির সংক্রমণ বলে। উদাহরণস্বরূপ: নিউমোনিয়া, যক্ষ্মা এবং ব্রঙ্কাইটিস।"
     },
     {
         "id": 3,
         "subject": "Biology",
         "topic": "Human Physiology (Skeleton)",
         "question": "কঙ্কালতন্ত্রের উপর আচ্ছাদিত থাকে কোন অঙ্গতন্ত্র? [Which organ system covers the skeletal system?]",
-        "options": [
-            "রক্তসংবহনতন্ত্র (Circulatory system)",
-            "স্নায়ুতন্ত্র (Nervous system)",
-            "পেশিতন্ত্র (Muscular system)",
-            "শ্বসনতন্ত্র (Respiratory system)"
-        ],
-        "answer": "পেশিতন্ত্র (Muscular system)",
-        "explanation": "কঙ্কালতন্ত্রকে আবৃত করে থাকে পেশিতন্ত্র। এই পেশিগুলো সংকুচিত ও প্রসারিত হয়ে দেহের অঙ্গচালনা ও চলাচলে সাহায্য করে। [cite: 115, 116]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "রক্তসংবহনতন্ত্র (Circulatory system)",
+            "b": "স্নায়ুতন্ত্র (Nervous system)",
+            "c": "পেশিতন্ত্র (Muscular system)",
+            "d": "শ্বসনতন্ত্র (Respiratory system)"
+        },
+        "correctAnswer": "c",
+        "explanation": "কঙ্কালতন্ত্রকে আবৃত করে থাকে পেশিতন্ত্র। এই পেশিগুলো সংকুচিত ও প্রসারিত হয়ে দেহের অঙ্গচালনা ও চলাচলে সাহায্য করে।"
     },
     {
         "id": 4,
         "subject": "Biology",
         "topic": "Human Physiology (Skeleton - Ear)",
         "question": "মানবদেহে মোট কতটি কর্ণাস্থি রয়েছে? [What is the total number of ear ossicles in the human body?]",
-        "options": [
-            "3 টি",
-            "4 টি",
-            "5 টি",
-            "6 টি"
-        ],
-        "answer": "6 টি",
-        "explanation": "মানবদেহে দুই কানে তিনটি করে (ম্যালিয়াস, ইনকাস ও স্টেপিস) মোট ৬টি কর্ণাস্থি থাকে। [cite: 117, 122]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "3 টি",
+            "b": "4 টি",
+            "c": "5 টি",
+            "d": "6 টি"
+        },
+        "correctAnswer": "d",
+        "explanation": "মানবদেহে দুই কানে তিনটি করে (ম্যালিয়াস, ইনকাস ও স্টেপিস) মোট ৬টি কর্ণাস্থি থাকে।"
     },
     {
         "id": 5,
         "subject": "Biology",
         "topic": "Human Physiology (Skeleton - Vertebrae)",
         "question": "কোন কশেরুকাটি মানুষের মাথাকে ঘুড়াতে সাহায্য করে? [Which vertebra helps to rotate the human head?]",
-        "options": [
-            "অ্যাটলাস (Atlas)",
-            "অ্যাক্সিস (Axis)",
-            "লাম্বার (Lumbar)",
-            "স্যাক্রাম (Sacrum)"
-        ],
-        "answer": "অ্যাক্সিস (Axis)",
-        "explanation": "সারভাইকাল কশেরুকার দ্বিতীয় কশেরুকাটিকে অ্যাক্সিস বলা হয়, কারণ এটি মাথা ঘোরাতে বা আবর্তনে সাহায্য করে। প্রথম কশেরুকাটির নাম অ্যাটলাস। [cite: 124, 126]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "অ্যাটলাস (Atlas)",
+            "b": "অ্যাক্সিস (Axis)",
+            "c": "লাম্বার (Lumbar)",
+            "d": "স্যাক্রাম (Sacrum)"
+        },
+        "correctAnswer": "b",
+        "explanation": "সারভাইকাল কশেরুকার দ্বিতীয় কশেরুকাটিকে অ্যাক্সিস বলা হয়, কারণ এটি মাথা ঘোরাতে বা আবর্তনে সাহায্য করে। প্রথম কশেরুকাটির নাম অ্যাটলাস।"
     },
     {
         "id": 6,
         "subject": "Biology",
         "topic": "Human Physiology (Skeleton - Spinal Cord)",
         "question": "মেরুদণ্ড কোন গুরুত্বপূর্ণ গঠনকে পরিবেষ্টন করে রাখে? [Which important structure does the vertebral column enclose?]",
-        "options": [
-            "মস্তিষ্ক (Brain)",
-            "সুষুমাকাণ্ড (Spinal cord)",
-            "ইউরেটার (Ureter)",
-            "অন্ননালি (Esophagus)"
-        ],
-        "answer": "সুষুমাকাণ্ড (Spinal cord)",
-        "explanation": "মেরুদণ্ড সুষুমাকাণ্ডকে (Spinal cord) ঘিরে অবস্থান করে এবং একে বাহ্যিক আঘাত থেকে সুরক্ষা প্রদান করে। [cite: 127, 128]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "মস্তিষ্ক (Brain)",
+            "b": "সুষুমাকাণ্ড (Spinal cord)",
+            "c": "ইউরেটার (Ureter)",
+            "d": "অন্ননালি (Esophagus)"
+        },
+        "correctAnswer": "b",
+        "explanation": "মেরুদণ্ড সুষুমাকাণ্ডকে (Spinal cord) ঘিরে অবস্থান করে এবং একে বাহ্যিক আঘাত থেকে সুরক্ষা প্রদান করে।"
     },
     {
         "id": 7,
         "subject": "Biology",
         "topic": "Genetics (Crosses)",
         "question": "কোনো জীব হোমোজাইগাস না হেটারোজাইগাস তা জানার জন্য নিচের কোনটি করা হয়? [Which cross is performed to know whether an organism is homozygous or heterozygous?]",
-        "options": [
-            "মনোহাইব্রিড ক্রস (Monohybrid cross)",
-            "ডাইহাইব্রিড ক্রস (Dihybrid cross)",
-            "টেস্ট ক্রস (Test cross)",
-            "ব্যাক ক্রস (Back cross)"
-        ],
-        "answer": "টেস্ট ক্রস (Test cross)",
-        "explanation": "টেস্ট ক্রস হলো F1 বা F2 জনুর বংশধরগুলো হোমোজাইগাস না হেটারোজাইগাস তা পরীক্ষার জন্য সেগুলোকে বিশুদ্ধ প্রচ্ছন্ন মাতৃবংশীয় জীবের সাথে ক্রস করা। [cite: 118, 120]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "মনোহাইব্রিড ক্রস (Monohybrid cross)",
+            "b": "ডাইহাইব্রিড ক্রস (Dihybrid cross)",
+            "c": "টেস্ট ক্রস (Test cross)",
+            "d": "ব্যাক ক্রস (Back cross)"
+        },
+        "correctAnswer": "c",
+        "explanation": "টেস্ট ক্রস হলো F1 বা F2 জনুর বংশধরগুলো হোমোজাইগাস না হেটারোজাইগাস তা পরীক্ষার জন্য সেগুলোকে বিশুদ্ধ প্রচ্ছন্ন মাতৃবংশীয় জীবের সাথে ক্রস করা।"
     },
     {
         "id": 8,
         "subject": "Biology",
         "topic": "Genetics (Epistasis)",
         "question": "সাদা লেগহর্ন মোরগ মুরগিতে নিচের কোনটি দেখা যায়? [Which phenomenon is observed in White Leghorn chickens?]",
-        "options": [
-            "সমপ্রকটতা (Co-dominance)",
-            "অসম্পূর্ণ প্রকটতা (Incomplete dominance)",
-            "লিখালিটি (Lethality)",
-            "এপিস্ট্যাসিস (Epistasis)"
-        ],
-        "answer": "এপিস্ট্যাসিস (Epistasis)",
-        "explanation": "সাদা লেগহর্ন মোরগ মুরগির পালকের রঙের ক্ষেত্রে এপিস্ট্যাসিস নামক জেনেটিক মিথস্ক্রিয়া দেখা যায়। [cite: 122, 123]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "সমপ্রকটতা (Co-dominance)",
+            "b": "অসম্পূর্ণ প্রকটতা (Incomplete dominance)",
+            "c": "লিখালিটি (Lethality)",
+            "d": "এপিস্ট্যাসিস (Epistasis)"
+        },
+        "correctAnswer": "d",
+        "explanation": "সাদা লেগহর্ন মোরগ মুরগির পালকের রঙের ক্ষেত্রে এপিস্ট্যাসিস নামক জেনেটিক মিথস্ক্রিয়া দেখা যায়।"
     },
     {
         "id": 9,
         "subject": "Biology",
         "topic": "Genetics (Lethal Genes)",
         "question": "সাবভাইটাল জিনের উদাহরণ নিচের কোনটি? [Which of the following is an example of a Sub-vital gene?]",
-        "options": [
-            "হিমোফিলিয়া (Hemophilia)",
-            "মাছির লুপ্ত প্রায় ডানা (Vestigial wing of a fly)",
-            "ইকথিওসিস (Ichthyosis)",
-            "বর্ণান্ধতা (Color blindness)"
-        ],
-        "answer": "মাছির লুপ্ত প্রায় ডানা (Vestigial wing of a fly)",
-        "explanation": "সাবভাইটাল জিনের প্রভাবে ৫০% এর কম জীব মারা যায়। ড্রসোফিলা মাছির লুপ্তপ্রায় ডানা এর একটি উদাহরণ। [cite: 123, 127]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "হিমোফিলিয়া (Hemophilia)",
+            "b": "মাছির লুপ্ত প্রায় ডানা (Vestigial wing of a fly)",
+            "c": "ইকথিওসিস (Ichthyosis)",
+            "d": "বর্ণান্ধতা (Color blindness)"
+        },
+        "correctAnswer": "b",
+        "explanation": "সাবভাইটাল জিনের প্রভাবে ৫০% এর কম জীব মারা যায়। ড্রসোফিলা মাছির লুপ্তপ্রায় ডানা এর একটি উদাহরণ।"
     },
     {
         "id": 10,
         "subject": "Biology",
         "topic": "Genetics (Multiple Alleles)",
         "question": "তিনটি জিন একই হোমোলোগাস ক্রোমোজোমে অবস্থান করলে জিনত্রয়কে কি বলে? [What are three genes called if they are located on the same homologous chromosome?]",
-        "options": [
-            "অ্যালিল (Allele)",
-            "লিংকড জিন (Linked gene)",
-            "এপিস্ট্যাটিক জিন (Epistatic gene)",
-            "মাল্টিপল অ্যালিল (Multiple alleles)"
-        ],
-        "answer": "মাল্টিপল অ্যালিল (Multiple alleles)",
-        "explanation": "যখন কোনো একটি জিনের দুইয়ের অধিক অ্যালিল থাকে এবং তারা হোমোলোগাস ক্রোমোজোমের একই লোকাসে অবস্থান করে, তখন তাদের মাল্টিপল অ্যালিল বলে। মানুষের ABO ব্লাড গ্রুপ এর উদাহরণ। [cite: 128, 129]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "অ্যালিল (Allele)",
+            "b": "লিংকড জিন (Linked gene)",
+            "c": "এপিস্ট্যাটিক জিন (Epistatic gene)",
+            "d": "মাল্টিপল অ্যালিল (Multiple alleles)"
+        },
+        "correctAnswer": "d",
+        "explanation": "যখন কোনো একটি জিনের দুইয়ের অধিক অ্যালিল থাকে এবং তারা হোমোলোগাস ক্রোমোজোমের একই লোকাসে অবস্থান করে, তখন তাদের মাল্টিপল অ্যালিল বলে। মানুষের ABO ব্লাড গ্রুপ এর উদাহরণ।"
     },
     {
         "id": 11,
         "subject": "Biology",
         "topic": "Cell Organelles (Glyoxysome)",
         "question": "কোনটির কোষে গ্লাইঅক্সিসোম পাওয়া যায় না? [Which one's cell does not contain Glyoxysome?]",
-        "options": [
-            "ঈস্ট (Yeast)",
-            "ছত্রাক (Fungus)",
-            "তৈলবীজ (Oilseed)",
-            "শৈবাল (Algae)"
-        ],
-        "answer": "শৈবাল (Algae)",
-        "explanation": "সূত্রাকার ছত্রাক, ঈস্ট, Neurospora এবং তৈলবীজের কোষে গ্লাইঅক্সিসোম পাওয়া যায়। বীজের লিপিড সঞ্চয়ী কোষেও এদেরকে দেখা যায়। এন্ডোপ্লাজমিক জালিকার সিস্টার্নি অংশ হতে এদের উৎপত্তি। [cite: 3, 4]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "ঈস্ট (Yeast)",
+            "b": "ছত্রাক (Fungus)",
+            "c": "তৈলবীজ (Oilseed)",
+            "d": "শৈবাল (Algae)"
+        },
+        "correctAnswer": "d",
+        "explanation": "সূত্রাকার ছত্রাক, ঈস্ট, Neurospora এবং তৈলবীজের কোষে গ্লাইঅক্সিসোম পাওয়া যায়। বীজের লিপিড সঞ্চয়ী কোষেও এদেরকে দেখা যায়। এন্ডোপ্লাজমিক জালিকার সিস্টার্নি অংশ হতে এদের উৎপত্তি।"
     },
     {
         "id": 12,
         "subject": "Biology",
         "topic": "Cell and its Structure (DNA)",
         "question": "আদিকোষের DNA তে নিচের কোনটি থাকে না? [Which of the following is not present in the DNA of a prokaryotic cell?]",
-        "options": [
-            "অজৈব ফসফেট (Inorganic phosphate)",
-            "নাইট্রোজেন বেস (Nitrogen base)",
-            "হিস্টোন প্রোটিন (Histone protein)",
-            "পাঁচ কার্বন বিশিষ্ট শর্করা (Pentose sugar)"
-        ],
-        "answer": "হিস্টোন প্রোটিন (Histone protein)",
-        "explanation": "আদি কোষে নন-হিস্টোন প্রোটিনযুক্ত একটিমাত্র বৃত্তাকার DNA থাকে। [cite: 8]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "অজৈব ফসফেট (Inorganic phosphate)",
+            "b": "নাইট্রোজেন বেস (Nitrogen base)",
+            "c": "হিস্টোন প্রোটিন (Histone protein)",
+            "d": "পাঁচ কার্বন বিশিষ্ট শর্করা (Pentose sugar)"
+        },
+        "correctAnswer": "c",
+        "explanation": "আদি কোষে নন-হিস্টোন প্রোটিনযুক্ত একটিমাত্র বৃত্তাকার DNA থাকে।"
     },
     {
         "id": 13,
         "subject": "Biology",
         "topic": "Cell Organelles (Centriole)",
         "question": "শুক্রাণুর লেজ তৈরিতে সাহায্যে করে নিচের কোনটি? [Which of the following helps in the formation of the tail of a sperm?]",
-        "options": [
-            "মাইটোকন্ড্রিয়া (Mitochondria)",
-            "লাইসোজোম (Lysosome)",
-            "সেন্ট্রিওল (Centriole)",
-            "রাইবোজোম (Ribosome)"
-        ],
-        "answer": "সেন্ট্রিওল (Centriole)",
-        "explanation": "সেন্ট্রিওলের কাজের মধ্যে রয়েছে কোষ বিভাজনের সময় মাকুতন্ত্র গঠন, সিলিয়া ও ফ্ল্যাজেলা সৃষ্টি এবং শুক্রাণুর লেজ গঠন করা। [cite: 11]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "মাইটোকন্ড্রিয়া (Mitochondria)",
+            "b": "লাইসোজোম (Lysosome)",
+            "c": "সেন্ট্রিওল (Centriole)",
+            "d": "রাইবোজোম (Ribosome)"
+        },
+        "correctAnswer": "c",
+        "explanation": "সেন্ট্রিওলের কাজের মধ্যে রয়েছে কোষ বিভাজনের সময় মাকুতন্ত্র গঠন, সিলিয়া ও ফ্ল্যাজেলা সৃষ্টি এবং শুক্রাণুর লেজ গঠন করা।"
     },
     {
         "id": 14,
         "subject": "Biology",
         "topic": "Cell Organelles (Plastid)",
         "question": "প্রোটিন সঞ্চয়কারী লিউকোপ্লাস্টকে কী বলে? [What is the leucoplast that stores protein called?]",
-        "options": [
-            "অ্যামাইলোপ্লাস্ট (Amyloplast)",
-            "ক্রোমোপ্লাস্ট (Chromoplast)",
-            "অ্যালিউরোপ্লাস্ট (Aleuroplast)",
-            "ইলাইওপ্লাস্ট (Elaioplast)"
-        ],
-        "answer": "অ্যালিউরোপ্লাস্ট (Aleuroplast)",
-        "explanation": "শ্বেতসার সঞ্চয়কারী লিউকোপ্লাস্টকে অ্যামাইলোপ্লাস্ট, তেল সঞ্চয়কারীকে ইলাইওপ্লাস্ট এবং প্রোটিন সঞ্চয়কারীকে অ্যালিউরোপ্লাস্ট বা প্রোটিনোপ্লাস্ট বলা হয়। [cite: 15, 16]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "অ্যামাইলোপ্লাস্ট (Amyloplast)",
+            "b": "ক্রোমোপ্লাস্ট (Chromoplast)",
+            "c": "অ্যালিউরোপ্লাস্ট (Aleuroplast)",
+            "d": "ইলাইওপ্লাস্ট (Elaioplast)"
+        },
+        "correctAnswer": "c",
+        "explanation": "শ্বেতসার সঞ্চয়কারী লিউকোপ্লাস্টকে অ্যামাইলোপ্লাস্ট, তেল সঞ্চয়কারীকে ইলাইওপ্লাস্ট এবং প্রোটিন সঞ্চয়কারীকে অ্যালিউরোপ্লাস্ট বা প্রোটিনোপ্লাস্ট বলা হয়।"
     },
     {
         "id": 15,
         "subject": "Biology",
         "topic": "Molecular Biology (Replication)",
         "question": "কোন প্রক্রিয়ায় ওকাজাকি খণ্ড লক্ষ্য করা যায়? [In which process are Okazaki fragments observed?]",
-        "options": [
-            "রেপ্লিকেশন (Replication)",
-            "ট্রান্সক্রিপশন (Transcription)",
-            "ট্রান্সলেশন (Translation)",
-            "রিভার্স ট্রান্সক্রিপশন (Reverse Transcription)"
-        ],
-        "answer": "রেপ্লিকেশন (Replication)",
-        "explanation": "DNA অণু রেপ্লিকেশনে ল্যাগিং সূত্রের খণ্ড বিচ্ছিন্ন অংশকে Okazaki খণ্ড বলে। [cite: 6]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "রেপ্লিকেশন (Replication)",
+            "b": "ট্রান্সক্রিপশন (Transcription)",
+            "c": "ট্রান্সলেশন (Translation)",
+            "d": "রিভার্স ট্রান্সক্রিপশন (Reverse Transcription)"
+        },
+        "correctAnswer": "a",
+        "explanation": "DNA অণু রেপ্লিকেশনে ল্যাগিং সূত্রের খণ্ড বিচ্ছিন্ন অংশকে Okazaki খণ্ড বলে।"
     },
     {
         "id": 16,
         "subject": "Biology",
         "topic": "Cell Division (Observation)",
         "question": "ফ্লেমিং সর্বপ্রথম কোন জীবে কোষ বিভাজন প্রত্যক্ষ করেন? [In which organism did Flemming first observe cell division?]",
-        "options": [
-            "Triturus maculosa",
-            "Hydra vulgaris",
-            "Zea mays",
-            "Amoeba"
-        ],
-        "answer": "Triturus maculosa",
-        "explanation": "ওয়াল্টার ফ্লেমিং (Walter Flemming) ১৮৮২ সালে সর্বপ্রথম Triturus maculosa (সামুদ্রিক স্যালামান্ডার)-এ কোষ বিভাজন প্রত্যক্ষ করেন। [cite: 7]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "Triturus maculosa",
+            "b": "Hydra vulgaris",
+            "c": "Zea mays",
+            "d": "Amoeba"
+        },
+        "correctAnswer": "a",
+        "explanation": "ওয়াল্টার ফ্লেমিং (Walter Flemming) ১৮৮২ সালে সর্বপ্রথম Triturus maculosa (সামুদ্রিক স্যালামান্ডার)-এ কোষ বিভাজন প্রত্যক্ষ করেন।"
     },
     {
         "id": 17,
         "subject": "Biology",
         "topic": "Cell Cycle (Cyclin)",
         "question": "মানুষের কোষে কত প্রকার সাইক্লিন প্রোটিন থাকে? [How many types of cyclin protein are present in human cells?]",
-        "options": [
-            "1 প্রকার",
-            "2 প্রকার",
-            "3 প্রকার",
-            "4 প্রকার"
-        ],
-        "answer": "4 প্রকার",
-        "explanation": "মানুষের কোষে সাধারণত চার প্রকার সাইক্লিন প্রোটিন পাওয়া যায়। [cite: 12]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "1 প্রকার",
+            "b": "2 প্রকার",
+            "c": "3 প্রকার",
+            "d": "4 প্রকার"
+        },
+        "correctAnswer": "d",
+        "explanation": "মানুষের কোষে সাধারণত চার প্রকার সাইক্লিন প্রোটিন পাওয়া যায়।"
     },
     {
         "id": 18,
         "subject": "Biology",
         "topic": "Cell Division (Meiosis)",
         "question": "সপুষ্পক উদ্ভিদের মায়োসিস কোন ধরনের? [What type of meiosis occurs in flowering plants?]",
-        "options": [
-            "টার্মিনাল (Terminal)",
-            "জাইগোটিক (Zygotic)",
-            "স্পোরিক (Sporic)",
-            "কোনটিই নয় (None of these)"
-        ],
-        "answer": "স্পোরিক (Sporic)",
-        "explanation": "সপুষ্পক উদ্ভিদের ক্ষেত্রে পুংরেণু বা স্ত্রীরেণু (spore) গঠনের সময় মায়োসিস ঘটে, তাই একে স্পোরিক মায়োসিস বলা হয়। [cite: 13, 14]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "টার্মিনাল (Terminal)",
+            "b": "জাইগোটিক (Zygotic)",
+            "c": "স্পোরিক (Sporic)",
+            "d": "কোনটিই নয় (None of these)"
+        },
+        "correctAnswer": "c",
+        "explanation": "সপুষ্পক উদ্ভিদের ক্ষেত্রে পুংরেণু বা স্ত্রীরেণু (spore) গঠনের সময় মায়োসিস ঘটে, তাই একে স্পোরিক মায়োসিস বলা হয়।"
     },
     {
         "id": 19,
         "subject": "Biology",
         "topic": "Microbiology (Virus)",
         "question": "ছত্রাক ধ্বংসকারী ভাইরাসকে কী বলে? [What is the virus that destroys fungi called?]",
-        "options": [
-            "রিট্রোভাইরাস (Retrovirus)",
-            "ব্যাকটেরিওফায (Bacteriophage)",
-            "মাইকোফায (Mycophage)",
-            "সায়ানোফায (Cyanophage)"
-        ],
-        "answer": "মাইকোফায (Mycophage)",
-        "explanation": "যেসব ভাইরাস ছত্রাককে আক্রমণ করে বা ধ্বংস করে তাদের মাইকোফায বলা হয়। [cite: 17, 18]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "রিট্রোভাইরাস (Retrovirus)",
+            "b": "ব্যাকটেরিওফায (Bacteriophage)",
+            "c": "মাইকোফায (Mycophage)",
+            "d": "সায়ানোফায (Cyanophage)"
+        },
+        "correctAnswer": "c",
+        "explanation": "যেসব ভাইরাস ছত্রাককে আক্রমণ করে বা ধ্বংস করে তাদের মাইকোফায বলা হয়।"
     },
     {
         "id": 20,
         "subject": "Biology",
         "topic": "Microbiology (Viroids)",
         "question": "নারিকেলের ক্যাডাং রোগ কিসের মাধ্যমে ছড়ায়? [Cadang-cadang disease of coconut is transmitted by what?]",
-        "options": [
-            "ভিরিয়ন (Virions)",
-            "ভিরয়েডস (Viroids)",
-            "প্রিয়নস (Prions)",
-            "ব্যাকটেরিয়া (Bacteria)"
-        ],
-        "answer": "ভিরয়েডস (Viroids)",
-        "explanation": "ভিরয়েডস হলো সংক্রামক RNA যা নারিকেল গাছে ক্যাডাং রোগ তৈরি করে। [cite: 19, 20]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "ভিরিয়ন (Virions)",
+            "b": "ভিরয়েডস (Viroids)",
+            "c": "প্রিয়নস (Prions)",
+            "d": "ব্যাকটেরিয়া (Bacteria)"
+        },
+        "correctAnswer": "b",
+        "explanation": "ভিরয়েডস হলো সংক্রামক RNA যা নারিকেল গাছে ক্যাডাং রোগ তৈরি করে।"
     },
     {
         "id": 21,
         "subject": "Biology",
         "topic": "Protozoa (Malaria)",
         "question": "সাফনারার্স দানা কখন দেখা যায়? [When are Schuffner's dots seen?]",
-        "options": [
-            "ট্রোফোজয়েট (Trophozoite)",
-            "সিগনেট রিং (Signet ring)",
-            "সাইজন্ট (Schizont)",
-            "অ্যামিবয়েড ট্রোফোজয়েট (Amoeboid Trophozoite)"
-        ],
-        "answer": "অ্যামিবয়েড ট্রোফোজয়েট (Amoeboid Trophozoite)",
-        "explanation": "ম্যালেরিয়া আক্রান্ত লোহিত রক্তকণিকায় অ্যামিবয়েড ট্রোফোজয়েট দশায় সাইটোপ্লাজমে ক্ষুদ্র দানা দেখা যায়, যাকে সাফনার্স দানা বলে। [cite: 21, 23]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "ট্রোফোজয়েট (Trophozoite)",
+            "b": "সিগনেট রিং (Signet ring)",
+            "c": "সাইজন্ট (Schizont)",
+            "d": "অ্যামিবয়েড ট্রোফোজয়েট (Amoeboid Trophozoite)"
+        },
+        "correctAnswer": "d",
+        "explanation": "ম্যালেরিয়া আক্রান্ত লোহিত রক্তকণিকায় অ্যামিবয়েড ট্রোফোজয়েট দশায় সাইটোপ্লাজমে ক্ষুদ্র দানা দেখা যায়, যাকে সাফনার্স দানা বলে।"
     },
     {
         "id": 22,
         "subject": "Biology",
         "topic": "Microbiology (Hepatitis)",
         "question": "হেপাটাইটিস-B নির্ণয়ে কি পরীক্ষা করা হয়? [What test is done to diagnose Hepatitis-B?]",
-        "options": [
-            "HBsAg পরীক্ষা (HBsAg test)",
-            "NS1 অ্যান্টিজেন পরীক্ষা (NS1 antigen test)",
-            "IgG এন্টিবডি পরীক্ষা (IgG antibody test)",
-            "IgM এন্টিবডি পরীক্ষা (IgM antibody test)"
-        ],
-        "answer": "HBsAg পরীক্ষা (HBsAg test)",
-        "explanation": "হেপাটাইটিস-B শনাক্ত করতে রক্তের এইচবি সারফেস অ্যান্টিজেন (HBsAg) পরীক্ষা করা হয়। [cite: 28]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "HBsAg পরীক্ষা (HBsAg test)",
+            "b": "NS1 অ্যান্টিজেন পরীক্ষা (NS1 antigen test)",
+            "c": "IgG এন্টিবডি পরীক্ষা (IgG antibody test)",
+            "d": "IgM এন্টিবডি পরীক্ষা (IgM antibody test)"
+        },
+        "correctAnswer": "a",
+        "explanation": "হেপাটাইটিস-B শনাক্ত করতে রক্তের এইচবি সারফেস অ্যান্টিজেন (HBsAg) পরীক্ষা করা হয়।"
     },
     {
         "id": 23,
         "subject": "Biology",
         "topic": "Microbiology (Bacteria)",
         "question": "কোন ব্যাকটেরিয়ার চারপাশে ফ্লাজেলা আছে? [Which bacterium has flagella all around it?]",
-        "options": [
-            "Spirillum volutans",
-            "Pseudomonas fluorescens",
-            "Salmonella typhi",
-            "Vibrio cholerae"
-        ],
-        "answer": "Salmonella typhi",
-        "explanation": "Salmonella typhi একটি পেরিট্রিকাস ব্যাকটেরিয়া, যার কোষের চারদিকেই ফ্ল্যাজেলা থাকে। [cite: 29, 32]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "Spirillum volutans",
+            "b": "Pseudomonas fluorescens",
+            "c": "Salmonella typhi",
+            "d": "Vibrio cholerae"
+        },
+        "correctAnswer": "c",
+        "explanation": "Salmonella typhi একটি পেরিট্রিকাস ব্যাকটেরিয়া, যার কোষের চারদিকেই ফ্ল্যাজেলা থাকে।"
     },
     {
         "id": 24,
         "subject": "Biology",
         "topic": "Gymnosperm (Ephedra)",
         "question": "Ephedra নগ্নবীজী হওয়া সত্ত্বেও এর কোন বৈশিষ্ট্য নগ্নবীজীর মতো না? [Even though Ephedra is a gymnosperm, which of its characteristics is not like a gymnosperm?]",
-        "options": [
-            "শুধুমাত্র বায়ুর মাধ্যমে পরাগায়ন হয়",
-            "আর্কিগোনিয়াম সৃষ্টি হয়",
-            "দ্বিনিষেক ঘটে (Double fertilization occurs)",
-            "Leaf scar দেখা যায়"
-        ],
-        "answer": "দ্বিনিষেক ঘটে (Double fertilization occurs)",
-        "explanation": "সাধারণত নগ্নবীজী উদ্ভিদে দ্বিনিষেক হয় না, তবে ব্যতিক্রম হিসেবে Ephedra-তে এটি দেখা যায়। [cite: 24, 25]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "শুধুমাত্র বায়ুর মাধ্যমে পরাগায়ন হয়",
+            "b": "আর্কিগোনিয়াম সৃষ্টি হয়",
+            "c": "দ্বিনিষেক ঘটে (Double fertilization occurs)",
+            "d": "Leaf scar দেখা যায়"
+        },
+        "correctAnswer": "c",
+        "explanation": "সাধারণত নগ্নবীজী উদ্ভিদে দ্বিনিষেক হয় না, তবে ব্যতিক্রম হিসেবে Ephedra-তে এটি দেখা যায়।"
     },
     {
         "id": 25,
         "subject": "Biology",
         "topic": "Taxonomy (Okra)",
         "question": "ঢেঁড়স নামে পরিচিত কোনটি? [Which one is known as Okra?]",
-        "options": [
-            "Hibiscus rosa-sinensis",
-            "Hibiscus cannabinus",
-            "Gossypium herbaceum",
-            "Abelmoschus esculentus"
-        ],
-        "answer": "Abelmoschus esculentus",
-        "explanation": "ঢেঁড়সের বৈজ্ঞানিক নাম হলো Abelmoschus esculentus। [cite: 26, 27]"
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "Hibiscus rosa-sinensis",
+            "b": "Hibiscus cannabinus",
+            "c": "Gossypium herbaceum",
+            "d": "Abelmoschus esculentus"
+        },
+        "correctAnswer": "d",
+        "explanation": "ঢেঁড়সের বৈজ্ঞানিক নাম হলো Abelmoschus esculentus।"
     }
 ]
