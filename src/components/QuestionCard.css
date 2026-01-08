@@ -1,7 +1,8 @@
 .question-card {
   background: white;
-  border-radius: var(--radius-xl);
-  padding: var(--spacing-4);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-3);
+  /* Reduced from 4 */
   box-shadow: var(--shadow-sm);
   border: 1px solid var(--slate-100);
   transition: all 0.3s ease;
@@ -13,38 +14,38 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: var(--spacing-3);
-  padding-bottom: var(--spacing-2);
+  margin-bottom: var(--spacing-2);
+  /* Reduced */
+  padding-bottom: var(--spacing-1-5);
   border-bottom: 1px solid var(--slate-100);
 }
 
 .question-badge {
   background: var(--primary-soft);
   color: var(--primary);
-  padding: 4px 12px;
+  padding: 4px 10px;
   border-radius: var(--radius-md);
   font-weight: 600;
-  font-size: var(--font-sm);
-  display: inline-flex;
-  align-items: center;
+  font-size: 0.8rem;
 }
 
 .review-badge {
   background: var(--warning-soft);
   color: var(--warning);
-  padding: 4px 10px;
+  padding: 4px 8px;
   border-radius: var(--radius-md);
-  font-size: var(--font-xs);
+  font-size: 0.7rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
 .question-text {
-  font-size: var(--font-lg);
-  line-height: var(--line-height-relaxed);
+  font-size: 1.05rem;
+  /* Slightly reduced max size */
+  line-height: 1.5;
   color: var(--slate-800);
-  margin-bottom: var(--spacing-4);
+  margin-bottom: var(--spacing-3);
   font-weight: 500;
 }
 
@@ -52,34 +53,35 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: var(--spacing-3) 0;
-  padding: var(--spacing-3);
+  margin: var(--spacing-2) 0;
+  padding: var(--spacing-2);
   background: var(--slate-50);
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-md);
   border: 1px solid var(--slate-200);
 }
 
 .question-diagram svg {
   max-width: 100%;
   height: auto;
-  max-height: 300px;
+  max-height: 250px;
 }
 
 .options-grid {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-2);
-  margin-bottom: var(--spacing-4);
+  gap: var(--spacing-1-5);
+  /* Tighter options */
+  margin-bottom: var(--spacing-3);
 }
 
 .option-card {
   display: flex;
   align-items: flex-start;
-  /* Align to top for multi-line options */
   gap: var(--spacing-2);
-  padding: var(--spacing-2-5);
-  border: 1.5px solid var(--slate-200);
-  border-radius: var(--radius-lg);
+  padding: 12px;
+  /* Fixed compact padding */
+  border: 1px solid var(--slate-200);
+  border-radius: var(--radius-md);
   background: white;
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
@@ -87,6 +89,7 @@
   width: 100%;
   font-size: var(--font-base);
   position: relative;
+  min-height: 44px;
 }
 
 .option-card:hover {
@@ -98,16 +101,13 @@
   border-color: var(--primary);
   background: var(--primary-soft);
   box-shadow: 0 0 0 1px var(--primary);
-  /* Focus ring effect */
 }
 
-/* Make the whole card clickable area better */
 .option-label {
   font-weight: 600;
   color: var(--slate-500);
-  min-width: 28px;
-  margin-top: 2px;
-  /* Visual alignment with text */
+  min-width: 24px;
+  margin-top: 1px;
 }
 
 .option-card.selected .option-label {
@@ -117,7 +117,7 @@
 .option-text {
   flex: 1;
   color: var(--slate-700);
-  line-height: var(--line-height-base);
+  line-height: 1.4;
 }
 
 .option-card.selected .option-text {
@@ -130,14 +130,13 @@
   font-size: var(--font-lg);
   font-weight: 700;
   margin-left: auto;
-  /* Push to right */
 }
 
 .question-actions {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: var(--spacing-3);
+  padding-top: var(--spacing-2);
   border-top: 1px solid var(--slate-100);
   gap: var(--spacing-2);
 }
@@ -150,19 +149,20 @@
 }
 
 .action-btn {
-  padding: 10px 20px;
+  padding: 8px 16px;
+  /* Compact buttons */
   border: none;
   border-radius: var(--radius-md);
-  font-size: var(--font-sm);
+  font-size: 0.9rem;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  min-height: 44px;
-  /* Touch target */
+  gap: 6px;
+  min-height: 40px;
+  /* Compact touch target */
 }
 
 .action-btn:disabled {
@@ -191,7 +191,6 @@
 .action-btn.primary:hover:not(:disabled) {
   background: var(--primary-dark);
   transform: translateY(-1px);
-  box-shadow: var(--shadow-md);
 }
 
 .action-btn.primary:active:not(:disabled) {
@@ -209,44 +208,37 @@
 /* Mobile Optimizations */
 @media (max-width: 640px) {
   .question-card {
-    padding: var(--spacing-3);
+    padding: var(--spacing-2-5);
+    /* Tighter padding on mobile */
     border-radius: var(--radius-lg);
     box-shadow: none;
-    /* Flatter design for mobile */
-    border: 1px solid var(--slate-100);
-    /* Keep structural border */
+    border: 1px solid var(--slate-200);
   }
 
-  /* Full-bleed card effect optional, but keeping padding is safer */
-
   .question-header {
-    margin-bottom: var(--spacing-3);
+    margin-bottom: var(--spacing-2);
   }
 
   .question-text {
-    font-size: 1.125rem;
-    /* readable size */
-    margin-bottom: var(--spacing-3);
+    font-size: 1rem;
+    /* 16px exact for reading */
+    margin-bottom: var(--spacing-2);
+    line-height: 1.4;
   }
 
   .options-grid {
-    gap: var(--spacing-2);
+    gap: var(--spacing-1-5);
   }
 
   .option-card {
-    padding: 14px;
-    /* Large touch area */
+    padding: 10px 12px;
+    /* Very compact */
     border-radius: var(--radius-md);
   }
 
   .question-actions {
-    flex-direction: column-reverse;
-    /* Stack buttons, Nav on top usually better but standard is bottom */
-    /* Actually for this UI, Nav buttons are right, review left. 
-       On mobile, maybe row is still fine if buttons are small, 
-       but let's make them span full width or split row */
     flex-direction: row;
-    padding-top: var(--spacing-3);
+    padding-top: var(--spacing-2);
   }
 
   .nav-buttons {
@@ -254,20 +246,15 @@
   }
 
   .action-btn.secondary {
-    flex: 1;
-    /* Review button takes less space */
-    padding: 10px;
-    font-size: 0.8rem;
-    flex-direction: column;
-    /* Stack icon/text if needed, or keep row */
-    gap: 4px;
-    align-items: center;
-    border: none;
-    background: var(--slate-50);
+    flex: 0 0 auto;
+    padding: 0 12px;
   }
 
   .action-btn {
-    font-size: 1rem;
-    padding: 12px 16px;
+    font-size: 0.95rem;
+    /* Good size */
+    padding: 0 16px;
+    height: 44px;
+    /* Ensure 44px height for touch */
   }
 }

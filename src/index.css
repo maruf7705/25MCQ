@@ -28,8 +28,10 @@
   /* 30px */
 
   --line-height-tight: 1.25;
-  --line-height-base: 1.6;
-  --line-height-relaxed: 1.75;
+  --line-height-base: 1.5;
+  /* Slightly tighter base line height */
+  --line-height-relaxed: 1.6;
+  /* Tighter relaxed */
 
   --letter-spacing-tight: -0.01em;
   --letter-spacing-normal: 0em;
@@ -160,10 +162,23 @@ html {
 /* Mobile optimizations */
 @media (max-width: 640px) {
   :root {
+    /* Compact Spacing for Mobile */
     --font-base: 16px;
-    /* Ensure 16px base for readability */
-    --spacing-main: 16px;
-    /* Consistency in padding */
+    --font-lg: 1.125rem;
+    /* 18px */
+
+    /* Redefine spacings for tighter mobile UI */
+    --spacing-1: 4px;
+    --spacing-1-5: 8px;
+    --spacing-2: 12px;
+    --spacing-2-5: 16px;
+    --spacing-3: 20px;
+    --spacing-4: 24px;
+    --spacing-5: 32px;
+
+    --radius-lg: 0.5rem;
+    /* Smaller radius on mobile */
+    --radius-xl: 0.75rem;
   }
 
   body {
@@ -185,9 +200,9 @@ html {
   input[type="button"],
   input[type="submit"],
   .clickable {
-    min-height: 48px;
-    /* Improved touch target */
-    min-width: 48px;
+    min-height: 40px;
+    /* Reduced specific min-height for compactness, but still accessible */
+    min-width: 40px;
   }
 }
 
