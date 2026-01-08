@@ -424,5 +424,43 @@
     "wrong": 10,
     "pass": false,
     "questionFile": "Biology3.json"
+  },
+  {
+    "studentName": "Biology 4",
+    "answers": {
+      "1": "d",
+      "2": "b",
+      "3": "b",
+      "4": "c",
+      "5": "d",
+      "6": "a",
+      "7": "d",
+      "8": "c",
+      "9": "b",
+      "10": "b",
+      "11": "c",
+      "12": "d",
+      "13": "b",
+      "14": "b",
+      "15": "b",
+      "16": "c",
+      "17": "a",
+      "18": "a",
+      "19": "a",
+      "20": "b",
+      "21": "b",
+      "22": "a",
+      "23": "b",
+      "24": "b",
+      "25": "a"
+    },
+    "score": 25.25,
+    "totalMarks": 31.25,
+    "timestamp": "2026-01-08T16:25:13.622Z",
+    "attempted": 25,
+    "correct": 21,
+    "wrong": 4,
+    "pass": true,
+    "questionFile": "Biology4.json"
   }
 ]
