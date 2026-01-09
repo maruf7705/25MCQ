@@ -10,9 +10,14 @@ function QuestionSetModal({ isOpen, onClose, onSave }) {
     const [error, setError] = useState(null)
     const [saving, setSaving] = useState(false)
 
+    const [searchQuery, setSearchQuery] = useState('')
+    const [activeSubject, setActiveSubject] = useState('all')
+
     useEffect(() => {
         if (isOpen) {
             loadData()
+            setSearchQuery('')
+            setActiveSubject('all')
         }
     }, [isOpen])
 
@@ -90,6 +95,28 @@ function QuestionSetModal({ isOpen, onClose, onSave }) {
         })
     }
 
+    // Filter logic
+    const filteredFiles = questionFiles.filter(file => {
+        const name = file.name.toLowerCase()
+        const displayName = file.displayName.toLowerCase()
+        const query = searchQuery.toLowerCase()
+
+        // Search filter
+        const matchesSearch = name.includes(query) || displayName.includes(query)
+
+        // Subject filter
+        let matchesSubject = true
+        if (activeSubject !== 'all') {
+            if (activeSubject === 'math') {
+                matchesSubject = name.includes('math') || displayName.includes('math') || displayName.includes('গণিত')
+            } else {
+                matchesSubject = name.includes(activeSubject) || displayName.includes(activeSubject)
+            }
+        }
+
+        return matchesSearch && matchesSubject
+    })
+
     if (!isOpen) return null
 
     return (
@@ -109,20 +136,66 @@ function QuestionSetModal({ isOpen, onClose, onSave }) {
                         </div>
                     )}
 
+                    <div className="filter-section">
+                        <div className="search-container">
+                            <span className="search-icon">🔍</span>
+                            <input
+                                type="text"
+                                className="search-input bengali"
+                                placeholder="নাম বা আইডি দিয়ে খুঁজুন..."
+                                value={searchQuery}
+                                onChange={(e) => setSearchQuery(e.target.value)}
+                            />
+                        </div>
+
+                        <div className="filter-buttons">
+                            <button
+                                className={`filter-btn bengali ${activeSubject === 'all' ? 'active' : ''}`}
+                                onClick={() => setActiveSubject('all')}
+                            >
+                                সব
+                            </button>
+                            <button
+                                className={`filter-btn bengali ${activeSubject === 'biology' ? 'active' : ''}`}
+                                onClick={() => setActiveSubject('biology')}
+                            >
+                                জীববিজ্ঞান
+                            </button>
+                            <button
+                                className={`filter-btn bengali ${activeSubject === 'chemistry' ? 'active' : ''}`}
+                                onClick={() => setActiveSubject('chemistry')}
+                            >
+                                রসায়ন
+                            </button>
+                            <button
+                                className={`filter-btn bengali ${activeSubject === 'physics' ? 'active' : ''}`}
+                                onClick={() => setActiveSubject('physics')}
+                            >
+                                পদার্থবিজ্ঞান
+                            </button>
+                            <button
+                                className={`filter-btn bengali ${activeSubject === 'math' ? 'active' : ''}`}
+                                onClick={() => setActiveSubject('math')}
+                            >
+                                গণিত
+                            </button>
+                        </div>
+                    </div>
+
                     {loading ? (
                         <div className="loading-state">
                             <div className="spinner"></div>
                             <p className="bengali">লোড হচ্ছে...</p>
                         </div>
-                    ) : questionFiles.length === 0 ? (
+                    ) : filteredFiles.length === 0 ? (
                         <div className="empty-state">
                             <div className="empty-icon">📭</div>
                             <h3 className="bengali">কোন প্রশ্ন সেট পাওয়া যায়নি</h3>
-                            <p>public folder এ question JSON file যোগ করুন</p>
+                            <p>আপনার সার্চ ফিল্টার পরিবর্তন করুন</p>
                         </div>
                     ) : (
                         <div className="question-sets-grid">
-                            {questionFiles.map((file) => {
+                            {filteredFiles.map((file) => {
                                 const isActive = file.name === activeFile
                                 const isSelected = file.name === selectedFile
 
