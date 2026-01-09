@@ -11,7 +11,7 @@ function AdminPage() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const [searchTerm, setSearchTerm] = useState('')
-  const [statusFilter, setStatusFilter] = useState('all')
+  const [subjectFilter, setSubjectFilter] = useState('all-subjects')
   const [lastRefresh, setLastRefresh] = useState(null)
   const [autoRefresh, setAutoRefresh] = useState(false)
   const [notification, setNotification] = useState(null)
@@ -136,23 +136,28 @@ function AdminPage() {
       )
     }
 
-    // Filter by status
-    if (statusFilter === 'pending') {
-      filtered = filtered.filter(sub => sub.isPending === true && !sub.isExpired)
-    } else if (statusFilter === 'timeout') {
-      filtered = filtered.filter(sub => sub.isPending === true && sub.isExpired === true)
-    } else if (statusFilter === 'pass') {
-      filtered = filtered.filter(sub => !sub.isPending && sub.pass === true)
-    } else if (statusFilter === 'fail') {
-      filtered = filtered.filter(sub => !sub.isPending && sub.pass === false)
-    } else if (statusFilter === 'all') {
-      // Show everything except expired pending students
-      filtered = filtered.filter(sub => !sub.isExpired)
-    } else if (statusFilter === 'all-including-expired') {
-      // Show absolutely everything including expired
-      // No filter needed
+    // Filter by subject
+    if (subjectFilter !== 'all-subjects') {
+      filtered = filtered.filter(sub => {
+        // Pending students might not have questionFile, so we might want to show them in 'all' or specific if we knew their subject
+        // For now, if they don't have questionFile, they only appear in 'all-subjects'
+        if (!sub.questionFile) return false
+
+        const fileName = sub.questionFile.toLowerCase()
+        const fileDisplayName = (sub.questionSetDisplayName || '').toLowerCase() // Fallback if we add this later
+
+        if (subjectFilter === 'biology') {
+          return fileName.includes('biology') || fileName.includes('জীববিজ্ঞান')
+        } else if (subjectFilter === 'chemistry') {
+          return fileName.includes('chemistry') || fileName.includes('chem') || fileName.includes('রসায়ন')
+        } else if (subjectFilter === 'physics') {
+          return fileName.includes('physics') || fileName.includes('পদার্থ')
+        } else if (subjectFilter === 'math') {
+          return fileName.includes('math') || fileName.includes('গণিত')
+        }
+        return true
+      })
     }
-    // Default: filter out expired pending students
 
     // Sort: Pending first, then by timestamp - most recent first
     filtered = filtered.sort((a, b) => {
@@ -164,7 +169,7 @@ function AdminPage() {
     })
 
     return filtered
-  }, [submissionsByStudent, searchTerm, statusFilter])
+  }, [submissionsByStudent, searchTerm, subjectFilter])
 
   // Pagination
   const totalPages = Math.ceil(filteredSubmissions.length / itemsPerPage)
@@ -244,15 +249,14 @@ function AdminPage() {
 
           <select
             className="filter-select bengali"
-            value={statusFilter}
-            onChange={(e) => setStatusFilter(e.target.value)}
+            value={subjectFilter}
+            onChange={(e) => setSubjectFilter(e.target.value)}
           >
-            <option value="all">সকল স্ট্যাটাস</option>
-            <option value="pending">পেন্ডিং</option>
-            <option value="timeout">টাইম আউট</option>
-            <option value="pass">পাস</option>
-            <option value="fail">ফেল</option>
-            <option value="all-including-expired">সব (টাইম আউট সহ)</option>
+            <option value="all-subjects">সকল বিষয়</option>
+            <option value="biology">জীববিজ্ঞান</option>
+            <option value="chemistry">রসায়ন</option>
+            <option value="physics">পদার্থবিজ্ঞান</option>
+            <option value="math">গণিত</option>
           </select>
 
           <button className="export-button bengali" onClick={() => alert('Export feature coming soon!')}>
