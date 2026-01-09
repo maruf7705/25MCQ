@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "কুলম্বের ধ্রুবক k এর একক কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "Nm²C⁻²",
+      "b": "NmC⁻¹",
+      "c": "NC⁻²",
+      "d": "Fm⁻¹"
+    },
+    "correctAnswer": "a",
+    "explanation": ""
+  },
+  {
+    "id": 2,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "তড়িৎ প্রাবল্য ও বিভবের সম্পর্ক কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "E = -dV/dx",
+      "b": "V = dE/dx",
+      "c": "E = Vd",
+      "d": "V = E²"
+    },
+    "correctAnswer": "a",
+    "explanation": ""
+  },
+  {
+    "id": 3,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "পৃথিবীর ধারকত্ব কত (গোলক ধরলে)?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "711 μF",
+      "b": "9×10⁹ F",
+      "c": "শূন্য",
+      "d": "অসীম"
+    },
+    "correctAnswer": "a",
+    "explanation": ""
+  },
+  {
+    "id": 4,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "একটি তার টেনে লম্বা করে দৈর্ঘ্য দ্বিগুণ করা হলো। রোধ কতগুণ হবে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "2 গুণ",
+      "b": "4 গুণ",
+      "c": "8 গুণ",
+      "d": "অপরিবর্তিত"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 5,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "কারশফের ২য় সূত্রটি কোন নিত্যতা সূত্র মেনে চলে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "চার্জ",
+      "b": "শক্তি",
+      "c": "ভরবেগ",
+      "d": "ভর"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 6,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "1 kWh = কত জুল?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "3.6 × 10⁶ J",
+      "b": "3.6 × 10⁵ J",
+      "c": "1000 J",
+      "d": "3600 J"
+    },
+    "correctAnswer": "a",
+    "explanation": ""
+  },
+  {
+    "id": 7,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "গ্যালভানোমিটারকে ভোল্টমিটারে রূপান্তর করতে কী করতে হয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সমান্তরালে নিম্ন রোধ",
+      "b": "শ্রেণিতে উচ্চ রোধ",
+      "c": "শ্রেণিতে নিম্ন রোধ",
+      "d": "সমান্তরালে উচ্চ রোধ"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 8,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "লরেন্জ বলের সূত্র কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "F = qE",
+      "b": "F = q(v × B)",
+      "c": "F = qE + q(v × B)",
+      "d": "F = BIL"
+    },
+    "correctAnswer": "c",
+    "explanation": ""
+  },
+  {
+    "id": 9,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "হল ভোল্টেজ ব্যবহার করে কী নির্ণয় করা যায়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "চার্জের প্রকৃতি",
+      "b": "রোধ",
+      "c": "ক্ষমতা",
+      "d": "কম্পাঙ্ক"
+    },
+    "correctAnswer": "a",
+    "explanation": ""
+  },
+  {
+    "id": 10,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "তড়িৎচৌম্বকীয় আবেশের ক্ষেত্রে লেন্জের সূত্র কোনটির ফল?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "শক্তির সংরক্ষণশীলতা",
+      "b": "আধানের সংরক্ষণশীলতা",
+      "c": "ভরের সংরক্ষণশীলতা",
+      "d": "কোনোটিই নয়"
+    },
+    "correctAnswer": "a",
+    "explanation": ""
+  },
+  {
+    "id": 11,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "ট্রান্সফরমার কোথায় কাজ করে না?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "AC",
+      "b": "DC",
+      "c": "উভয়",
+      "d": "পালসেটিং DC"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 12,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "আলোর ব্যতিচারের জন্য উৎস দুটিকে কেমন হতে হবে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "তীব্র",
+      "b": "সুসংগত",
+      "c": "বড়",
+      "d": "সাদা"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 13,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "ইয়াং-এর দ্বি-চির পরীক্ষায় চিরদ্বয়ের দূরত্ব বাড়ালে ডোরার প্রস্থ কী হবে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "বাড়বে",
+      "b": "কমবে",
+      "c": "একই থাকবে",
+      "d": "শূন্য হবে"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 14,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "মরীচিকা কোন ঘটনার ফল?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "প্রতিসরণ",
+      "b": "পূর্ণ অভ্যন্তরীণ প্রতিফলন",
+      "c": "অপবর্তন",
+      "d": "বিচ্ছুরণ"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 15,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "ফোটনের স্থির ভর কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "1.6×10⁻¹⁹ kg",
+      "b": "9.1×10⁻³¹ kg",
+      "c": "শূন্য",
+      "d": "অসীম"
+    },
+    "correctAnswer": "c",
+    "explanation": ""
+  },
+  {
+    "id": 16,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "E = mc² সূত্রটি কে প্রদান করেন?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "নিউটন",
+      "b": "আইনস্টাইন",
+      "c": "ম্যাক্স প্লাঙ্ক",
+      "d": "রাদারফোর্ড"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 17,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "কোন কণাটি তেজস্ক্রিয় ক্ষয়কালে নির্গত হয় না?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "আলফা",
+      "b": "বিটা",
+      "c": "গামা",
+      "d": "প্রোটন"
+    },
+    "correctAnswer": "d",
+    "explanation": ""
+  },
+  {
+    "id": 18,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "অর্ধপরিবাহীর তাপমাত্রা বাড়ালে রোধ কী হয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "বাড়ে",
+      "b": "কমে",
+      "c": "একই থাকে",
+      "d": "শূন্য হয়"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 19,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "p-টাইপ অর্ধপরিবাহীতে গরিষ্ঠ আধান বাহক কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ইলেকট্রন",
+      "b": "হোল",
+      "c": "আয়ন",
+      "d": "নিউট্রন"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 20,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "ট্রানজিস্টরের ক্ষেত্রে কোনটি সত্য?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "IE = IB + IC",
+      "b": "IC = IE + IB",
+      "c": "IB = IC + IE",
+      "d": "IE = IC/IB"
+    },
+    "correctAnswer": "a",
+    "explanation": ""
+  },
+  {
+    "id": 21,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "লজিক গেট 'AND' এর আউটপুট ১ হবে যখন-",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সব ইনপুট ০",
+      "b": "যেকোনো একটি ১",
+      "c": "সব ইনপুট ১",
+      "d": "কোনোটিই নয়"
+    },
+    "correctAnswer": "c",
+    "explanation": ""
+  },
+  {
+    "id": 22,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "বাইনারি সংখ্যা (101)₂ এর দশমিক মান কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "3",
+      "b": "5",
+      "c": "7",
+      "d": "2"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 23,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "সূর্যের শক্তির উৎস কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "নিউক্লীয় ফিশন",
+      "b": "নিউক্লীয় ফিউশন",
+      "c": "রাসায়নিক বিক্রিয়া",
+      "d": "মহাকর্ষ"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 24,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "হাইজেনবার্গের অনিশ্চয়তা নীতি কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "Δx.Δp ≥ h/4π",
+      "b": "E=hv",
+      "c": "λ=h/p",
+      "d": "F=ma"
+    },
+    "correctAnswer": "a",
+    "explanation": ""
+  },
+  {
+    "id": 25,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "1 amu = কত MeV?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "931.5 MeV",
+      "b": "934 MeV",
+      "c": "100 MeV",
+      "d": "1.6 MeV"
+    },
+    "correctAnswer": "a",
+    "explanation": ""
+  }
+]
