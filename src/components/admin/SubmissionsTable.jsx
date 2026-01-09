@@ -360,28 +360,11 @@ function SubmissionsTable({
             >
               ←
             </button>
-            {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
-              let pageNum
-              if (totalPages <= 5) {
-                pageNum = i + 1
-              } else if (currentPage <= 3) {
-                pageNum = i + 1
-              } else if (currentPage >= totalPages - 2) {
-                pageNum = totalPages - 4 + i
-              } else {
-                pageNum = currentPage - 2 + i
-              }
 
-              return (
-                <button
-                  key={pageNum}
-                  className={`pagination-button ${currentPage === pageNum ? 'active' : ''}`}
-                  onClick={() => onPageChange(pageNum)}
-                >
-                  {pageNum}
-                </button>
-              )
-            })}
+            <button className="pagination-button active">
+              {currentPage}
+            </button>
+
             <button
               className="pagination-button"
               onClick={() => onPageChange(currentPage + 1)}

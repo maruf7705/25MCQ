@@ -17,7 +17,7 @@ function AdminPage() {
   const [notification, setNotification] = useState(null)
   const [currentPage, setCurrentPage] = useState(1)
   const [showSettingsModal, setShowSettingsModal] = useState(false)
-  const itemsPerPage = 20
+  const itemsPerPage = 7
 
   useEffect(() => {
     loadData()
