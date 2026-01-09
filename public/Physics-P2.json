@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "রুদ্ধতাপীয় প্রক্রিয়ায় কোনটি স্থির থাকে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "তাপমাত্রা",
+      "b": "চাপ",
+      "c": "এনট্রপি",
+      "d": "আয়তন"
+    },
+    "correctAnswer": "c",
+    "explanation": "রুদ্ধতাপীয় প্রক্রিয়ায় বাইরে থেকে তাপ আদান-প্রদান হয় না ($dQ=0$), ফলে এনট্রপি স্থির থাকে।"
+  },
+  {
+    "id": 2,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "গামা ($\\\\gamma$) এর মান এক পারমাণবিক গ্যাসের জন্য কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "1.41",
+      "b": "1.67",
+      "c": "1.33",
+      "d": "1.50"
+    },
+    "correctAnswer": "b",
+    "explanation": "এক পারমাণবিক গ্যাসের জন্য $\\\\gamma = 1.67$, দ্বিপারমাণবিক $\\\\gamma = 1.41$।"
+  },
+  {
+    "id": 3,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "থার্মোমিটারের যে ধর্ম কাজে লাগানো হয় তাকে কী বলে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "তাপমিতিক ধর্ম",
+      "b": "ক্যালরিমিতি",
+      "c": "পরিবাহিতা",
+      "d": "রোধ"
+    },
+    "correctAnswer": "a",
+    "explanation": "তাপমাত্রার সাথে পদার্থের যে ধর্ম নিয়মিতভাবে পরিবর্তিত হয় তাকে তাপমিতিক ধর্ম বলে।"
+  },
+  {
+    "id": 4,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "পানির ত্রৈধ বিন্দুর তাপমাত্রা কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "273.16 K",
+      "b": "0 K",
+      "c": "100 K",
+      "d": "373 K"
+    },
+    "correctAnswer": "a",
+    "explanation": "পানির ত্রৈধ বিন্দু (Triple point) হলো 273.16 K বা 0.01°C।"
+  },
+  {
+    "id": 5,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "ইঞ্জিনের কর্মদক্ষতা 100% হতে হলে সিঙ্কের তাপমাত্রা কত হতে হবে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "0°C",
+      "b": "0 K",
+      "c": "100°C",
+      "d": "অসীম"
+    },
+    "correctAnswer": "b",
+    "explanation": "$\\\\eta = 1 - \\\\frac{T_2}{T_1}$। $\\\\eta = 1$ বা 100% হবে যদি $T_2 = 0 \\\\text{ K}$ হয়।"
+  },
+  {
+    "id": 6,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "সূর্যের তাপ পৃথিবীতে কোন পদ্ধতিতে আসে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "পরিবহন",
+      "b": "পরিচলন",
+      "c": "বিকিরণ",
+      "d": "কোনটিই নয়"
+    },
+    "correctAnswer": "c",
+    "explanation": "শূন্য মাধ্যমের মধ্য দিয়ে তাপ বিকিরণ (Radiation) পদ্ধতিতে সঞ্চালিত হয়।"
+  },
+  {
+    "id": 7,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "নিচের কোনটি স্টেট ফাংশন নয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "অভ্যন্তরীণ শক্তি",
+      "b": "এনট্রপি",
+      "c": "কাজ",
+      "d": "চাপ"
+    },
+    "correctAnswer": "c",
+    "explanation": "কাজ (Work) এবং তাপ (Heat) পথের উপর নির্ভর করে (Path function), এগুলো স্টেট ফাংশন নয়।"
+  },
+  {
+    "id": 8,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "রেফ্রিজারেটরের কার্যকৃত সহগ (COP) এর মান সর্বদা-",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "১ এর কম",
+      "b": "১ এর বেশি",
+      "c": "১ এর সমান",
+      "d": "শূন্য"
+    },
+    "correctAnswer": "b",
+    "explanation": "COP সাধারণত ১ এর চেয়ে বেশি হয়।"
+  },
+  {
+    "id": 9,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "স্থির আয়তনে গ্যাসের মোলার আপেক্ষিক তাপ কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "Cp",
+      "b": "Cv",
+      "c": "R",
+      "d": "Gamma"
+    },
+    "correctAnswer": "b",
+    "explanation": "স্থির আয়তনে = $C_v$ (Volume constant)।"
+  },
+  {
+    "id": 10,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "কেলভিন স্কেলে তাপমাত্রার ঋণাত্মক মান-",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সম্ভব",
+      "b": "অসম্ভব",
+      "c": "মাঝে মাঝে হয়",
+      "d": "অবস্থভেদে"
+    },
+    "correctAnswer": "b",
+    "explanation": "0 K বা পরম শূন্যের নিচে তাপমাত্রা নামতে পারে না, তাই কেলভিন স্কেলে ঋণাত্মক মান অসম্ভব।"
+  },
+  {
+    "id": 11,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "গ্যাসের গতিতত্ত্ব অনুযায়ী অণুগুলোর মধ্যে আকর্ষণ বল-",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "অসীম",
+      "b": "নগণ্য",
+      "c": "খুব বেশি",
+      "d": "শূন্য"
+    },
+    "correctAnswer": "d",
+    "explanation": "আদর্শ গ্যাসের স্বীকার্য অনুযায়ী অণুগুলোর মধ্যে কোনো আকর্ষণ বা বিকর্ষণ বল নেই।"
+  },
+  {
+    "id": 12,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "গড় মুক্ত পথ ও চাপের সম্পর্ক কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সমানুপাতিক",
+      "b": "ব্যস্তানুপাতিক",
+      "c": "বর্গের সমানুপাতিক",
+      "d": "বর্গের ব্যস্তানুপাতিক"
+    },
+    "correctAnswer": "b",
+    "explanation": "গড় মুক্ত পথ $\\\\lambda \\\\propto \\\\frac{1}{P}$ (তাপমাত্রা স্থির থাকলে)।"
+  },
+  {
+    "id": 13,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "শিশিরাঙ্ক বলতে কী বোঝায়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "চাপ",
+      "b": "তাপমাত্রা",
+      "c": "আর্দ্রতা",
+      "d": "ভরের একক"
+    },
+    "correctAnswer": "b",
+    "explanation": "শিশিরাঙ্ক হলো সেই তাপমাত্রা (Temperature) যে তাপমাত্রায় বায়ু সম্পৃক্ত হয়।"
+  },
+  {
+    "id": 14,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "বায়ুমণ্ডলের চাপ মাপার যন্ত্রের নাম কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "থার্মোমিটার",
+      "b": "ব্যারোমিটার",
+      "c": "ম্যানোমিটার",
+      "d": "হাইগ্রোমিটার"
+    },
+    "correctAnswer": "b",
+    "explanation": "ব্যারোমিটার দিয়ে বায়ুমণ্ডলের চাপ মাপা হয়।"
+  },
+  {
+    "id": 15,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "শব্দ তরঙ্গ হলো-",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "আড় তরঙ্গ",
+      "b": "অনুদৈর্ঘ্য তরঙ্গ",
+      "c": "তড়িৎচুম্বকীয় তরঙ্গ",
+      "d": "স্থির তরঙ্গ"
+    },
+    "correctAnswer": "b",
+    "explanation": "শব্দ একটি অনুদৈর্ঘ্য (Longitudinal) তরঙ্গ।"
+  },
+  {
+    "id": 16,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "সরল দোলকের দোলনকাল ২ গুণ করতে দৈর্ঘ্য কত গুণ করতে হবে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "২ গুণ",
+      "b": "৪ গুণ",
+      "c": "৮ গুণ",
+      "d": "হাফ"
+    },
+    "correctAnswer": "b",
+    "explanation": "$T \\\\propto \\\\sqrt{L}$। তাই $T$ দ্বিগুণ করতে $L$ কে $2^2 = 4$ গুণ করতে হবে।"
+  },
+  {
+    "id": 17,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "দশা পার্থক্য = $\\\\frac{2\\\\pi}{\\\\lambda} \\\\times$ ?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "পথ পার্থক্য",
+      "b": "সময়",
+      "c": "বেগ",
+      "d": "কম্পাঙ্ক"
+    },
+    "correctAnswer": "a",
+    "explanation": "সূত্র: দশা পার্থক্য = $\\\\frac{2\\\\pi}{\\\\lambda} \\\\times$ পথ পার্থক্য।"
+  },
+  {
+    "id": 18,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "টানটান করা তারের কম্পাঙ্ক ও দৈর্ঘ্যের সম্পর্ক কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সমানুপাতিক",
+      "b": "ব্যস্তানুপাতিক",
+      "c": "বর্গের সমানুপাতিক",
+      "d": "বর্গের ব্যস্তানুপাতিক"
+    },
+    "correctAnswer": "b",
+    "explanation": "$n \\\\propto \\\\frac{1}{L}$ (টান ও একক দৈর্ঘ্যের ভর স্থির থাকলে)।"
+  },
+  {
+    "id": 19,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "শব্দের তীব্রতা লেভেলের একক কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "Watt",
+      "b": "Decibel (dB)",
+      "c": "Hz",
+      "d": "Joule"
+    },
+    "correctAnswer": "b",
+    "explanation": "তীব্রতা লেভেল মাপা হয় বেল বা ডেসিবেল (dB) এককে।"
+  },
+  {
+    "id": 20,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "বিটের সংখ্যা থেকে কী নির্ণয় করা যায়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "বেগের পার্থক্য",
+      "b": "কম্পাঙ্কের পার্থক্য",
+      "c": "দশার পার্থক্য",
+      "d": "তরঙ্গদৈর্ঘ্য"
+    },
+    "correctAnswer": "b",
+    "explanation": "প্রতি সেকেন্ডে বিট সংখ্যা = কম্পাঙ্কদ্বয়ের পার্থক্য ($N = f_1 - f_2$)।"
+  },
+  {
+    "id": 21,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "পানিতে ঢিল ছুড়লে সৃষ্ট তরঙ্গ কেমন?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "অনুদৈর্ঘ্য",
+      "b": "অনুপ্রস্থ",
+      "c": "স্থির",
+      "d": "কোনটিই নয়"
+    },
+    "correctAnswer": "b",
+    "explanation": "পানির উপরিতলে সৃষ্ট ঢেউ অনুপ্রস্থ তরঙ্গ (Transverse Wave)।"
+  },
+  {
+    "id": 22,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "সরল ছন্দিত স্পন্দনরত কণার সর্বোচ্চ বেগের সূত্র কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "$\\\\omega A$",
+      "b": "$\\\\omega^2 A$",
+      "c": "$\\\\omega / A$",
+      "d": "$A / \\\\omega$"
+    },
+    "correctAnswer": "a",
+    "explanation": "সর্বোচ্চ বেগ $V_{max} = \\\\omega A$ (সাম্যাবস্থানে)।"
+  },
+  {
+    "id": 23,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "নিচের কোনটি যান্ত্রিক তরঙ্গ নয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "শব্দ তরঙ্গ",
+      "b": "পানির তরঙ্গ",
+      "c": "বেতার তরঙ্গ",
+      "d": "স্প্রিং এর তরঙ্গ"
+    },
+    "correctAnswer": "c",
+    "explanation": "বেতার তরঙ্গ (Radio wave) হলো তড়িৎচুম্বকীয় তরঙ্গ, যান্ত্রিক নয়।"
+  },
+  {
+    "id": 24,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "স্প্রিং এর সঞ্চিত শক্তি কিসের সমানুপাতিক?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সরণ",
+      "b": "সরণের বর্গ",
+      "c": "বেগ",
+      "d": "ত্বরণ"
+    },
+    "correctAnswer": "b",
+    "explanation": "$E = \\\\frac{1}{2} k x^2$, তাই শক্তি $\\\\propto x^2$।"
+  },
+  {
+    "id": 25,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "মহাকাশচারী মহাকাশ যানে নিজেকে ওজনহীন মনে করেন কেন?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ভর শূন্য তাই",
+      "b": "মুক্তভাবে পড়ন্ত বস্তুর ন্যায়",
+      "c": "অভিকর্ষ নেই",
+      "d": "বাতাস নেই"
+    },
+    "correctAnswer": "b",
+    "explanation": "উপগ্রহটি মুক্তভাবে পড়ন্ত বস্তুর মতো ঘুরছে, তাই প্রতিক্রিয়া বল শূন্য হয় ($g_{eff}=0$)।"
+  }
+]

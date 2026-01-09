@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "দুটি ভেক্টরের স্কেলার গুণফল শূন্য হলে, ভেক্টরদ্বয় পরস্পর-",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সমান্তরাল",
+      "b": "লম্ব",
+      "c": "সমান",
+      "d": "বিপরীতমুখী"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 2,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "∇.A = 0 হলে ভেক্টর ক্ষেত্রটি কী হবে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সলিডনয়ডাল",
+      "b": "অঘূর্ণনশীল",
+      "c": "সংরক্ষণশীল",
+      "d": "কোনোটিই নয়"
+    },
+    "correctAnswer": "a",
+    "explanation": ""
+  },
+  {
+    "id": 3,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "একটি কণার অবস্থান ভেক্টর r = 3t i - 2t² j। t=2s সময়ে বেগ কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "3i - 4j",
+      "b": "3i - 8j",
+      "c": "2i - 3j",
+      "d": "6i - 4j"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 4,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "স্থির অবস্থান হতে একটি বস্তু a সুষম তরণে চললে, অতিক্রান্ত দূরত্ব ও সময়ের সম্পর্ক কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "s ∝ t",
+      "b": "s ∝ t²",
+      "c": "s ∝ √t",
+      "d": "s = vt"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 5,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "সর্বোচ্চ পাল্লার জন্য প্রক্ষেপণ কোণ কত হতে হবে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "30°",
+      "b": "60°",
+      "c": "45°",
+      "d": "90°"
+    },
+    "correctAnswer": "c",
+    "explanation": ""
+  },
+  {
+    "id": 6,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "ঘূর্ণনরত বস্তুর কৌণিক ভরবেগ L এবং কৌণিক কম্পাঙ্ক ω হলে, গতিশক্তি কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "Lω",
+      "b": "L/2ω",
+      "c": "0.5 Lω",
+      "d": "L²ω"
+    },
+    "correctAnswer": "c",
+    "explanation": ""
+  },
+  {
+    "id": 7,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "নিউটনের গতির ৩য় সূত্র কোনটির সংরক্ষণের ফল?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "শক্তি",
+      "b": "ভর",
+      "c": "রৈখিক ভরবেগ",
+      "d": "কৌণিক ভরবেগ"
+    },
+    "correctAnswer": "c",
+    "explanation": ""
+  },
+  {
+    "id": 8,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "একটি স্প্রিং কেটে অর্ধেক করলে স্প্রিং ধ্রুবক কত গুণ হবে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "অর্ধেক",
+      "b": "দ্বিগুণ",
+      "c": "একই থাকবে",
+      "d": "চারগুণ"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 9,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "১ অশ্বক্ষমতা (HP) = কত ওয়াট?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "746 W",
+      "b": "764 W",
+      "c": "550 W",
+      "d": "1000 W"
+    },
+    "correctAnswer": "a",
+    "explanation": ""
+  },
+  {
+    "id": 10,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "মহাকর্ষীয় বিভবের একক কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "Jkg",
+      "b": "Jkg⁻¹",
+      "c": "Jm",
+      "d": "Nm⁻¹"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 11,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "পৃথিবীর কেন্দ্রে 'g' এর মান কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "9.8 ms⁻²",
+      "b": "সর্বোচ্চ",
+      "c": "শূন্য",
+      "d": "অসীম"
+    },
+    "correctAnswer": "c",
+    "explanation": ""
+  },
+  {
+    "id": 12,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "মুক্তিবেগের মান বস্তুর ভরের উপর-",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সমানুপাতিক",
+      "b": "ব্যস্তানুপাতিক",
+      "c": "নির্ভর করে না",
+      "d": "বর্গের সমানুপাতিক"
+    },
+    "correctAnswer": "c",
+    "explanation": ""
+  },
+  {
+    "id": 13,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "পয়সনের অনুপাতের তাত্ত্বিক সীমা কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "-1 থেকে 0.5",
+      "b": "0 থেকে 1",
+      "c": "0.2 থেকে 0.4",
+      "d": "-∞ থেকে +∞"
+    },
+    "correctAnswer": "a",
+    "explanation": ""
+  },
+  {
+    "id": 14,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "পানির ফোঁটা গোলাকার হওয়ার কারণ কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সান্দ্রতা",
+      "b": "পৃষ্ঠটান",
+      "c": "চাপ",
+      "d": "ঘনত্ব"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 15,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "সরল দোলকের দৈর্ঘ্য 4 গুণ করলে দোলনকাল কত হবে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "2 গুণ",
+      "b": "4 গুণ",
+      "c": "8 গুণ",
+      "d": "অর্ধেক"
+    },
+    "correctAnswer": "a",
+    "explanation": ""
+  },
+  {
+    "id": 16,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "শব্দের তীব্রতা লেভেলের একক কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ওয়াট",
+      "b": "বেল",
+      "c": "হার্টজ",
+      "d": "জুল"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 17,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "পরম শূন্য তাপমাত্রা কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "0°C",
+      "b": "-273°C",
+      "c": "273 K",
+      "d": "0°F"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 18,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "রুদ্ধতাপীয় প্রক্রিয়ায় কোনটি স্থির থাকে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "তাপমাত্রা",
+      "b": "চাপ",
+      "c": "এনট্রপি",
+      "d": "আয়তন"
+    },
+    "correctAnswer": "c",
+    "explanation": ""
+  },
+  {
+    "id": 19,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "কার্নো ইঞ্জিনের দক্ষতা কিসের উপর নির্ভর করে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "উৎস ও গ্রাহকের তাপমাত্রা",
+      "b": "কার্যনির্বাহী বস্তু",
+      "c": "জ্বালানি",
+      "d": "চাপ"
+    },
+    "correctAnswer": "a",
+    "explanation": ""
+  },
+  {
+    "id": 20,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "ইঞ্জিনের দক্ষতা 100% হতে হলে গ্রাহকের তাপমাত্রা কত হতে হবে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "0°C",
+      "b": "100°C",
+      "c": "0 K",
+      "d": "273 K"
+    },
+    "correctAnswer": "c",
+    "explanation": ""
+  },
+  {
+    "id": 21,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "আদর্শ গ্যাসের ক্ষেত্রে Cp - Cv = ?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "R",
+      "b": "R/J",
+      "c": "J",
+      "d": "0"
+    },
+    "correctAnswer": "a",
+    "explanation": ""
+  },
+  {
+    "id": 22,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "শিশিরাঙ্ক বলতে কী বোঝায়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "চাপ",
+      "b": "তাপমাত্রা",
+      "c": "ঘনত্ব",
+      "d": "আর্দ্রতা"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 23,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "শব্দ কোন ধরনের তরঙ্গ?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "আড় তরঙ্গ",
+      "b": "অণুদৈর্ঘ্য তরঙ্গ",
+      "c": "তড়িৎচৌম্বক তরঙ্গ",
+      "d": "স্থির তরঙ্গ"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 24,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "টর্ক (Torque) এর একক কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "N",
+      "b": "Nm",
+      "c": "Ns",
+      "d": "J"
+    },
+    "correctAnswer": "b",
+    "explanation": ""
+  },
+  {
+    "id": 25,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "বলের ঘাত (Impulse) সমান-",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ভরবেগের পরিবর্তন",
+      "b": "শক্তির পরিবর্তন",
+      "c": "বলের পরিবর্তন",
+      "d": "ত্বরণের পরিবর্তন"
+    },
+    "correctAnswer": "a",
+    "explanation": ""
+  }
+]

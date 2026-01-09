@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "দুটি ভেক্টরের লব্ধির মান সর্বোচ্চ হয় যখন তাদের মধ্যবর্তী কোণ কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "0°",
+      "b": "90°",
+      "c": "180°",
+      "d": "45°"
+    },
+    "correctAnswer": "a",
+    "explanation": "লব্ধি সর্বোচ্চ হয় যখন ভেক্টরদ্বয় একই দিকে ক্রিয়া করে, অর্থাৎ কোণ 0°। $R_{max} = P+Q$"
+  },
+  {
+    "id": 2,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "কার্নো ইঞ্জিনের দক্ষতা কিসের উপর নির্ভর করে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "কার্যনির্বাহী বস্তু",
+      "b": "ইঞ্জিনের গঠন",
+      "c": "উৎস ও গ্রাহকের তাপমাত্রা",
+      "d": "জ্বালানির পরিমাণ"
+    },
+    "correctAnswer": "c",
+    "explanation": "কার্নো ইঞ্জিনের দক্ষতা $\\\\eta = 1 - \\\\frac{T_2}{T_1}$, যা শুধুমাত্র উৎস ($T_1$) ও গ্রাহকের ($T_2$) তাপমাত্রার উপর নির্ভর করে।"
+  },
+  {
+    "id": 3,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "একটি তারকে টেনে লম্বা করে ৩ গুণ করা হলো। বর্তমান রোধ পূর্বের কত গুণ?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "3 গুণ",
+      "b": "6 গুণ",
+      "c": "9 গুণ",
+      "d": "1/3 গুণ"
+    },
+    "correctAnswer": "c",
+    "explanation": "টেনে লম্বা করলে আয়তন স্থির থাকে। সূত্র: $R' = n^2 R$। এখানে $n=3$, তাই $R' = 3^2 R = 9R$।"
+  },
+  {
+    "id": 4,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "ভূপৃষ্ঠে মুক্তিবেগের মান কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "11.2 km/s",
+      "b": "11.2 m/s",
+      "c": "9.8 km/s",
+      "d": "7.9 km/s"
+    },
+    "correctAnswer": "a",
+    "explanation": "পৃথিবীর জন্য মুক্তিবেগ $v_e = \\\\sqrt{2gR} \\\\approx 11.2 \\\\text{ km/s}$।"
+  },
+  {
+    "id": 5,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "কোনটি চার্জ নিরপেক্ষ কণা?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ইলেকট্রন",
+      "b": "প্রোটন",
+      "c": "নিউট্রন",
+      "d": "পজিট্রন"
+    },
+    "correctAnswer": "c",
+    "explanation": "নিউট্রন হলো চার্জহীন বা নিরপেক্ষ কণা। ইলেকট্রন (-), প্রোটন (+)।"
+  },
+  {
+    "id": 6,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "ইয়ং-এর দ্বি-চির পরীক্ষায় চিরদ্বয়ের মধ্যবর্তী দূরত্ব বাড়ালে ডোরার প্রস্থ কী হবে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "বাড়বে",
+      "b": "কমবে",
+      "c": "অপরিবর্তিত থাকবে",
+      "d": "শূন্য হবে"
+    },
+    "correctAnswer": "b",
+    "explanation": "ডোরার প্রস্থ $\\\\beta = \\\\frac{\\\\lambda D}{d}$। এখানে $d$ (চিরদ্বয়ের দূরত্ব) বাড়ালে $\\\\beta$ (প্রস্থ) কমবে।"
+  },
+  {
+    "id": 7,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "কোন লজিক গেটকে 'সর্বজনীন গেট' বলা হয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "AND",
+      "b": "OR",
+      "c": "NAND",
+      "d": "XOR"
+    },
+    "correctAnswer": "c",
+    "explanation": "NAND এবং NOR গেট দিয়ে সব ধরনের গেট বাস্তবায়ন করা যায় বলে এদের সর্বজনীন গেট বলে।"
+  },
+  {
+    "id": 8,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "১ অশ্বশক্তি (HP) = কত ওয়াট?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "746 W",
+      "b": "764 W",
+      "c": "550 W",
+      "d": "1000 W"
+    },
+    "correctAnswer": "a",
+    "explanation": "$1 \\\\text{ HP} = 746 \\\\text{ Watt}$ (British unit)।"
+  },
+  {
+    "id": 9,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "শব্দের বেগ সবচেয়ে বেশি কোন মাধ্যমে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "বায়বীয়",
+      "b": "তরল",
+      "c": "কঠিন",
+      "d": "শূন্য"
+    },
+    "correctAnswer": "c",
+    "explanation": "কঠিন মাধ্যমের স্থিতিস্থাপকতা সবচেয়ে বেশি, তাই শব্দের বেগ কঠিন মাধ্যমে সর্বোচ্চ (যেমন লোহায় ~5000 m/s)।"
+  },
+  {
+    "id": 10,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "একটি সেকেন্ড দোলকের কার্যকরী দৈর্ঘ্য কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "1 m",
+      "b": "0.993 m",
+      "c": "2 m",
+      "d": "4 m"
+    },
+    "correctAnswer": "b",
+    "explanation": "সেকেন্ড দোলকের দোলনকাল $T=2s$। আমরা জানি $T = 2\\\\pi \\\\sqrt{\\\\frac{L}{g}}$। হিসাব করলে $L \\\\approx 0.993 \\\\text{ m}$।"
+  },
+  {
+    "id": 11,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "নিচের কোনটি স্কেলার রাশি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "তড়িৎ প্রাবল্য",
+      "b": "কাজ",
+      "c": "বেগ",
+      "d": "তড়িৎ ক্ষেত্র"
+    },
+    "correctAnswer": "b",
+    "explanation": "কাজ (Work) এর মান আছে কিন্তু দিক নেই। এটি দুটি ভেক্টরের ডট গুণফল ($W = \\\\vec{F} \\\\cdot \\\\vec{d}$)।"
+  },
+  {
+    "id": 12,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "পরম শূন্য তাপমাত্রা কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "0°C",
+      "b": "-273°C",
+      "c": "273 K",
+      "d": "100°C"
+    },
+    "correctAnswer": "b",
+    "explanation": "পরম শূন্য তাপমাত্রা হলো 0 K বা -273.15°C।"
+  },
+  {
+    "id": 13,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "ফটনের নিশ্চল ভর কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "অসীম",
+      "b": "1.6 × 10^-19 kg",
+      "c": "শূন্য",
+      "d": "9.1 × 10^-31 kg"
+    },
+    "correctAnswer": "c",
+    "explanation": "ফোটন আলোর বেগে চলে, তাই এর নিশ্চল ভর (Rest mass) শূন্য।"
+  },
+  {
+    "id": 14,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "P-type অর্ধপরিবাহীতে মেজরিটি ক্যারিয়ার কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ইলেকট্রন",
+      "b": "হোল",
+      "c": "নিউট্রন",
+      "d": "আয়ন"
+    },
+    "correctAnswer": "b",
+    "explanation": "P-type এ ত্রিযোজী মৌল মেশানো হয়, ফলে 'হোল' (Hole) এর আধিক্য থাকে।"
+  },
+  {
+    "id": 15,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "স্প্রিং ধ্রুবকের একক কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "N/m",
+      "b": "N-m",
+      "c": "N/m²",
+      "d": "Joule"
+    },
+    "correctAnswer": "a",
+    "explanation": "হুকের সূত্র $F = kx \\\\Rightarrow k = F/x$। একক $N/m$।"
+  },
+  {
+    "id": 16,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "আদর্শ গ্যাসের জন্য $C_p - C_v = ?$ ",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "R",
+      "b": "2R",
+      "c": "R/2",
+      "d": "0"
+    },
+    "correctAnswer": "a",
+    "explanation": "মোলার আপেক্ষিক তাপদ্বয়ের পার্থক্য সর্বজনীন গ্যাস ধ্রুবক R এর সমান।"
+  },
+  {
+    "id": 17,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "লেন্জের সূত্র কোন নিত্যতার ফল?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ভর",
+      "b": "চার্জ",
+      "c": "শক্তি",
+      "d": "ভরবেগ"
+    },
+    "correctAnswer": "c",
+    "explanation": "লেন্জের সূত্র শক্তির নিত্যতা সূত্র (Conservation of Energy) মেনে চলে।"
+  },
+  {
+    "id": 18,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "বৃষ্টির ফোঁটা গোলাকার হওয়ার কারণ কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সান্দ্রতা",
+      "b": "পৃষ্ঠটান",
+      "c": "অভিকর্ষ",
+      "d": "প্লবতা"
+    },
+    "correctAnswer": "b",
+    "explanation": "পৃষ্ঠটান (Surface Tension) তরল পৃষ্ঠের ক্ষেত্রফল সংকুচিত করে ন্যূনতম করতে চায়, তাই ফোঁটা গোল হয়।"
+  },
+  {
+    "id": 19,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "ভূ-স্থির উপগ্রহের পর্যায়কাল কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "১২ ঘণ্টা",
+      "b": "২৪ ঘণ্টা",
+      "c": "৩৬ ঘণ্টা",
+      "d": "১ বছর"
+    },
+    "correctAnswer": "b",
+    "explanation": "ভূ-স্থির উপগ্রহ পৃথিবীর আবর্তনের সাথে তাল মিলিয়ে ঘোরে, তাই এর পর্যায়কাল পৃথিবীর আবর্তন কালের সমান (২৪ ঘণ্টা)।"
+  },
+  {
+    "id": 20,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "কোন তাপমাত্রায় ফারেনহাইট ও সেলসিয়াস স্কেল সমান পাঠ দেয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "-40°",
+      "b": "40°",
+      "c": "160°",
+      "d": "-160°"
+    },
+    "correctAnswer": "a",
+    "explanation": "$\\\\frac{C}{5} = \\\\frac{F-32}{9}$ সূত্রে $C=F=x$ বসালে $x = -40$ পাওয়া যায়।"
+  },
+  {
+    "id": 21,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "1 kWh = কত জুল?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "3.6 × 10^5 J",
+      "b": "3.6 × 10^6 J",
+      "c": "3600 J",
+      "d": "1000 J"
+    },
+    "correctAnswer": "b",
+    "explanation": "$1 \\\\text{ kWh} = 1000 \\\\text{ W} \\\\times 3600 \\\\text{ s} = 3.6 \\\\times 10^6 \\\\text{ J}$।"
+  },
+  {
+    "id": 22,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "আলোর কণাতত্ত্বের প্রবক্তা কে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "হাইগেন",
+      "b": "নিউটন",
+      "c": "ম্যাক্সওয়েল",
+      "d": "আইনস্টাইন"
+    },
+    "correctAnswer": "b",
+    "explanation": "স্যার আইজ্যাক নিউটন আলোর কণাতত্ত্ব (Corpuscular Theory) প্রদান করেন।"
+  },
+  {
+    "id": 23,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "তড়িৎ বিভবের একক কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "Volt",
+      "b": "Joule",
+      "c": "Watt",
+      "d": "Coulomb"
+    },
+    "correctAnswer": "a",
+    "explanation": "তড়িৎ বিভবের একক ভোল্ট (Volt) বা জুল/কুলম্ব ($J/C$)।"
+  },
+  {
+    "id": 24,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "কৌণিক ভরবেগের মাত্রা কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ML²T⁻¹",
+      "b": "MLT⁻¹",
+      "c": "ML²T⁻²",
+      "d": "ML⁻¹T⁻¹"
+    },
+    "correctAnswer": "a",
+    "explanation": "কৌণিক ভরবেগ $L = mvr = M(LT^{-1})L = ML^2T^{-1}$।"
+  },
+  {
+    "id": 25,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "ট্রান্সফরমার কোথায় কাজ করে না?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "AC বর্তনীতে",
+      "b": "DC বর্তনীতে",
+      "c": "উচ্চ ভোল্টেজে",
+      "d": "নিম্ন ভোল্টেজে"
+    },
+    "correctAnswer": "b",
+    "explanation": "ট্রান্সফরমার তড়িৎচুম্বকীয় আবেশের উপর ভিত্তি করে চলে যা ডিসি (DC) তে ঘটে না। তাই এটি ডিসিতে কাজ করে না।"
+  }
+]

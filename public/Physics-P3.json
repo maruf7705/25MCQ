@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "কুলম্বের সূত্র কোনটির জন্য প্রযোজ্য?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "বিন্দু চার্জ",
+      "b": "যেকোনো চার্জ",
+      "c": "চৌম্বক দণ্ড",
+      "d": "গ্রহ"
+    },
+    "correctAnswer": "a",
+    "explanation": "কুলম্বের সূত্র শুধুমাত্র স্থির বিন্দু চার্জের (Point Charge) জন্য প্রযোজ্য।"
+  },
+  {
+    "id": 2,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "ধারকত্বের একক কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "Farad",
+      "b": "Coulomb",
+      "c": "Ohm",
+      "d": "Henry"
+    },
+    "correctAnswer": "a",
+    "explanation": "ধারকত্বের (Capacitance) একক ফ্যারাড (F)।"
+  },
+  {
+    "id": 3,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "পৃথিবীর বিভব কত ধরা হয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "অসীম",
+      "b": "শূন্য",
+      "c": "১০০ ভোল্ট",
+      "d": "নেগেটিভ"
+    },
+    "correctAnswer": "b",
+    "explanation": "পৃথিবীকে নির্দেশক কাঠামো ধরলে এর বিভব শূন্য (Zero) ধরা হয়।"
+  },
+  {
+    "id": 4,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "তড়িৎ প্রাবল্যের দিক কোন দিকে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "উচ্চ বিভব হতে নিম্ন বিভবে",
+      "b": "নিম্ন হতে উচ্চে",
+      "c": "চার্জের দিকে",
+      "d": "কোনোটিই নয়"
+    },
+    "correctAnswer": "a",
+    "explanation": "তড়িৎ বলরেখা বা প্রাবল্য ধণাত্মক (উচ্চ) থেকে ঋনাত্মক (নিম্ন) বিভবের দিকে যায়।"
+  },
+  {
+    "id": 5,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "একটি সমান্তরাল পাত ধারকের পাতদ্বয়ের দূরত্ব দ্বিগুণ করলে ধারকত্ব কত হবে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "দ্বিগুণ",
+      "b": "চারগুণ",
+      "c": "অর্ধেক",
+      "d": "একই"
+    },
+    "correctAnswer": "c",
+    "explanation": "$C = \\\\frac{\\\\epsilon_0 A}{d}$। $d$ দ্বিগুণ করলে $C$ অর্ধেক হয়ে যাবে।"
+  },
+  {
+    "id": 6,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "কোনটি অহমিক পরিবাহী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ধাতব তার",
+      "b": "ডায়োড",
+      "c": "ট্রানজিস্টর",
+      "d": "থার্মিস্টর"
+    },
+    "correctAnswer": "a",
+    "explanation": "ধাতব পরিবাহী ওহমের সূত্র মেনে চলে, সেমিকন্ডাক্টর চলে না।"
+  },
+  {
+    "id": 7,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "কিশর্ফের ১ম সূত্র কোন নীতির উপর প্রতিষ্ঠিত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "শক্তির নিত্যতা",
+      "b": "চার্জের নিত্যতা",
+      "c": "ভরের নিত্যতা",
+      "d": "বেগ"
+    },
+    "correctAnswer": "b",
+    "explanation": "KCL বা ১ম সূত্র চার্জের নিত্যতা (Conservation of Charge) মেনে চলে।"
+  },
+  {
+    "id": 8,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "গ্যালভানোমিটারকে ভোল্টমিটারে রূপান্তর করতে কী করতে হয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সমান্তরালে নিম্ন রোধ",
+      "b": "শ্রেণিতে উচ্চ রোধ",
+      "c": "শ্রেণিতে নিম্ন রোধ",
+      "d": "সমান্তরালে উচ্চ রোধ"
+    },
+    "correctAnswer": "b",
+    "explanation": "ভোল্টমিটার বানাতে গ্যালভানোমিটারের সাথে শ্রেণিতে উচ্চ মানের রোধ যুক্ত করতে হয়।"
+  },
+  {
+    "id": 9,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "হুইটস্টোন ব্রীজ নীতির ব্যবহার কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "পোস্ট অফিস বক্স",
+      "b": "মোটর",
+      "c": "জেনারেটর",
+      "d": "ট্রান্সফরমার"
+    },
+    "correctAnswer": "a",
+    "explanation": "মিটার ব্রীজ ও পোস্ট অফিস বক্স হুইটস্টোন ব্রীজ নীতিতে কাজ করে।"
+  },
+  {
+    "id": 10,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "১ ইউনিট বিদ্যুৎ খরচ বলতে কী বোঝায়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "1 J",
+      "b": "1 kWh",
+      "c": "1 Watt",
+      "d": "1 Amp"
+    },
+    "correctAnswer": "b",
+    "explanation": "বোর্ড অফ ট্রেড ইউনিট (B.O.T) বা ১ ইউনিট = 1 kWh।"
+  },
+  {
+    "id": 11,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "চৌম্বক ফ্লাক্স ঘনত্বের একক কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "Tesla",
+      "b": "Weber",
+      "c": "Henry",
+      "d": "Farad"
+    },
+    "correctAnswer": "a",
+    "explanation": "চৌম্বক ফ্লাক্স $\\\\phi$ এর একক ওয়েবার, কিন্তু ফ্লাক্স ঘনত্ব $B$ এর একক টেসলা (Tesla)।"
+  },
+  {
+    "id": 12,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "হল ভোল্টেজ ($V_H$) এর সাথে তড়িৎ প্রবাহের সম্পর্ক কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সমানুপাতিক",
+      "b": "ব্যস্তানুপাতিক",
+      "c": "বর্গের সমানুপাতিক",
+      "d": "স্বাধীন"
+    },
+    "correctAnswer": "a",
+    "explanation": "$V_H = \\\\frac{BI}{ntq}$। অর্থাৎ $V_H \\\\propto I$।"
+  },
+  {
+    "id": 13,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "লরেন্জ বলের সমীকরণ কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "F = qE",
+      "b": "F = qvB",
+      "c": "F = qE + q(v × B)",
+      "d": "F = ma"
+    },
+    "correctAnswer": "c",
+    "explanation": "লরেন্জ বল হলো তড়িৎ বল ও চৌম্বক বলের সমষ্টি: $\\\\vec{F} = q\\\\vec{E} + q(\\\\vec{v} \\\\times \\\\vec{B})$।"
+  },
+  {
+    "id": 14,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "কোনটি ফেরাচৌম্বক পদার্থ?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "তামা",
+      "b": "লোহা",
+      "c": "পানি",
+      "d": "সোডিয়াম"
+    },
+    "correctAnswer": "b",
+    "explanation": "লোহা, নিকেল, কোবাল্ট হলো ফেরাচৌম্বক (Ferromagnetic) পদার্থ।"
+  },
+  {
+    "id": 15,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "চৌম্বক উত্তর মেরুতে বিনতি কোণ কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "0°",
+      "b": "45°",
+      "c": "90°",
+      "d": "180°"
+    },
+    "correctAnswer": "c",
+    "explanation": "মেরুতে চুম্বক খাড়াভাবে থাকে, তাই বিনতি কোণ 90°। বিষুবরেখায় 0°।"
+  },
+  {
+    "id": 16,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "ভেক্টর বিভব একটি-",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "স্কেলার রাশি",
+      "b": "ভেক্টর রাশি",
+      "c": "কাল্পনিক রাশি",
+      "d": "টেনসর"
+    },
+    "correctAnswer": "b",
+    "explanation": "নামেই ভেক্টর বিভব, তাই এটি ভেক্টর রাশি।"
+  },
+  {
+    "id": 17,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "আবেশের একক কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "Weber",
+      "b": "Tesla",
+      "c": "Henry",
+      "d": "Gauss"
+    },
+    "correctAnswer": "c",
+    "explanation": "স্বকীয় বা পারস্পরিক আবেশ গুণাঙ্কের একক হেনরী (H)।"
+  },
+  {
+    "id": 18,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "ভোল্টেজ দ্বিগুণ করলে রোধ স্থির থাকলে ক্ষমতা কত গুণ হবে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "২ গুণ",
+      "b": "৪ গুণ",
+      "c": "৮ গুণ",
+      "d": "অপরিবর্তিত"
+    },
+    "correctAnswer": "b",
+    "explanation": "$P = \\\\frac{V^2}{R}$। $V$ দ্বিগুণ করলে $P$ চারগুণ ($2^2$) হবে।"
+  },
+  {
+    "id": 19,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "রূপান্তরক বা ট্রান্সফরমার কোন নীতিতে কাজ করে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "স্বকীয় আবেশ",
+      "b": "পারস্পরিক আবেশ",
+      "c": "তড়িৎ প্রবাহ",
+      "d": "ঘর্ষণ"
+    },
+    "correctAnswer": "b",
+    "explanation": "ট্রান্সফরমার পারস্পরিক আবেশ (Mutual Induction) নীতিতে কাজ করে।"
+  },
+  {
+    "id": 20,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "RMS মান শীর্ষমানের কত গুণ?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "0.707",
+      "b": "1.414",
+      "c": "0.637",
+      "d": "0.5"
+    },
+    "correctAnswer": "a",
+    "explanation": "$I_{rms} = \\\\frac{I_0}{\\\\sqrt{2}} = 0.707 I_0$।"
+  },
+  {
+    "id": 21,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "কোনটি তড়িৎচুম্বকীয় তরঙ্গ নয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "আলফা রশ্মি",
+      "b": "গামা রশ্মি",
+      "c": "এক্স-রে",
+      "d": "বেতার তরঙ্গ"
+    },
+    "correctAnswer": "a",
+    "explanation": "আলফা রশ্মি হিলিয়াম নিউক্লিয়াস (কণা), তরঙ্গ নয়। বাকি সব তড়িৎচুম্বকীয়।"
+  },
+  {
+    "id": 22,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "শূন্য মাধ্যমে আলোর বেগ কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "3 × 10^8 m/s",
+      "b": "332 m/s",
+      "c": "3 × 10^10 cm/s",
+      "d": "ক ও গ উভয়ই"
+    },
+    "correctAnswer": "d",
+    "explanation": "3 × 10^8 m/s এবং 3 × 10^10 cm/s দুটোই সঠিক।"
+  },
+  {
+    "id": 23,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "মরীচিকা কিসের উদাহরণ?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "প্রতিফলন",
+      "b": "প্রতিসরণ",
+      "c": "পূর্ণ অভ্যন্তরীণ প্রতিফলন",
+      "d": "বিচ্ছুরণ"
+    },
+    "correctAnswer": "c",
+    "explanation": "মরুভূমিতে মরীচিকা পূর্ণ অভ্যন্তরীণ প্রতিফলনের জন্য সৃষ্টি হয়।"
+  },
+  {
+    "id": 24,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "অপটিক্যাল ফাইবারের মূলনীতি কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "প্রতিসরণ",
+      "b": "ব্যতিচার",
+      "c": "পূর্ণ অভ্যন্তরীণ প্রতিফলন",
+      "d": "সমবর্তন"
+    },
+    "correctAnswer": "c",
+    "explanation": "আলোক সংকেত অপটিক্যাল ফাইবারের দেয়ালে পূর্ণ অভ্যন্তরীণ প্রতিফলিত হয়ে এগিয়ে যায়।"
+  },
+  {
+    "id": 25,
+    "subject": "Physics",
+    "topic": "General Physics",
+    "question": "লেন্সের ক্ষমতার একক কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "Diopter",
+      "b": "Meter",
+      "c": "Watt",
+      "d": "Candela"
+    },
+    "correctAnswer": "a",
+    "explanation": "ক্ষমতা $P = 1/f$ (মিটারে)। একক ডায়োপ্টার (D)।"
+  }
+]
