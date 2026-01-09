@@ -706,5 +706,41 @@
     "wrong": 11,
     "pass": false,
     "questionFile": "Physics-P2.json"
+  },
+  {
+    "studentName": "Physics 3",
+    "answers": {
+      "1": "a",
+      "2": "b",
+      "3": "a",
+      "4": "a",
+      "5": "b",
+      "7": "b",
+      "8": "d",
+      "9": "d",
+      "10": "b",
+      "11": "a",
+      "12": "c",
+      "14": "b",
+      "15": "c",
+      "16": "b",
+      "17": "b",
+      "18": "b",
+      "19": "b",
+      "20": "c",
+      "21": "d",
+      "22": "a",
+      "23": "b",
+      "24": "c",
+      "25": "b"
+    },
+    "score": 10.75,
+    "totalMarks": 31.25,
+    "timestamp": "2026-01-09T18:25:30.100Z",
+    "attempted": 23,
+    "correct": 11,
+    "wrong": 12,
+    "pass": false,
+    "questionFile": "Physics-P3.json"
   }
 ]
