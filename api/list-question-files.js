@@ -25,15 +25,12 @@ export default async function handler(req, res) {
             }
         } else {
             // On Vercel - use GitHub API to dynamically list all files
+            // No auth needed since this is a public repo
             const GITHUB_REPO = 'maruf7705/25MCQ'
-            const GITHUB_TOKEN = process.env.GITHUB_TOKEN
             const githubUrl = `https://api.github.com/repos/${GITHUB_REPO}/contents/public`
 
             const headers = {
                 'Accept': 'application/vnd.github.v3+json'
-            }
-            if (GITHUB_TOKEN) {
-                headers['Authorization'] = `Bearer ${GITHUB_TOKEN}`
             }
 
             let response
