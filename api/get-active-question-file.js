@@ -12,7 +12,7 @@ export default async function handler(req, res) {
         // Get the config URL - from GitHub on Vercel, local in dev
         const configUrl = isDev
             ? `/exam-config.json${cacheBuster}`
-            : `https://raw.githubusercontent.com/Marufceoai/25MCQ/main/exam-config.json${cacheBuster}`
+            : `https://raw.githubusercontent.com/maruf7705/25MCQ/main/exam-config.json${cacheBuster}`
 
         let config;
 
