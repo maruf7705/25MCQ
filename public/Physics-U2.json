@@ -2,401 +2,401 @@
   {
     "id": 1,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "বায়ু সাপেক্ষে পানি ও কাচের প্রতিসরণাঙ্ক যথাক্রমে 4/3 ও 3/2 হলে, কাচ সাপেক্ষে পানির প্রতিসরণাঙ্ক হবে –",
+    "topic": "Modern Physics",
+    "question": "মাইকেলসন-মর্লি পরীক্ষার প্রধান উদ্দেশ্য কী ছিল?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "9/8",
-      "b": "3/2",
-      "c": "2",
-      "d": "8/9"
+      "a": "আলোর বেগ নির্ণয়",
+      "b": "ইথারের অস্তিত্ব প্রমাণ (বা নাকচ) করা",
+      "c": "পৃথিবীর গতি নির্ণয়",
+      "d": "সূর্যের ভর নির্ণয়"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "b",
+    "explanation": "মাইকেলসন-মর্লি পরীক্ষার মাধ্যমে ইথারের অস্তিত্বহীনতা প্রমাণিত হয়।"
   },
   {
     "id": 2,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "ভূপৃষ্ঠ হতে কত গভীরে অভিকর্ষীয় ত্বরণের মান ভূপৃষ্ঠের মানের এক-চতুর্থাংশ হবে?",
+    "topic": "Modern Physics",
+    "question": "কোনো দণ্ড আলোর বেগে গতিশীল থাকলে তার দৈর্ঘ্য কত হবে?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "R/4",
-      "b": "3/R",
-      "c": "R/2",
-      "d": "R"
+      "a": "অসীম",
+      "b": "শূন্য",
+      "c": "আদি দৈর্ঘ্যের সমান",
+      "d": "আদি দৈর্ঘ্যের অর্ধেক"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "b",
+    "explanation": "সূত্রানুসারে $L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$। যদি $v=c$ হয়, তবে $L = L_0 \sqrt{1-1} = 0$।"
   },
   {
     "id": 3,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "কোনোক্রমে সমান ভরের দুটি বস্তুকে একই উচ্চতা হতে ছেড়ে দেওয়া হলো। একটি বস্তু মুক্তপতনে ও অন্যটি ঢালু তলে গড়িয়ে নিচে নামল। নিচে পৌঁছালে কোনটির বেগ বেশি হবে?",
+    "topic": "Modern Physics",
+    "question": "একজন পর্যবেক্ষকের সাপেক্ষে 0.6c বেগে চলমান মিটার স্কেলের দৈর্ঘ্য কত মনে হবে?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "মুক্তপতনে বস্তুটির",
-      "b": "ঢালু তলে গড়ানো বস্তুটির",
-      "c": "দুটির বেগ সমান হবে",
-      "d": "তথ্য অপর্যাপ্ত"
+      "a": "1 m",
+      "b": "0.8 m",
+      "c": "0.6 m",
+      "d": "0.4 m"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "b",
+    "explanation": "$L = L_0 \sqrt{1 - (0.6)^2} = 1 \times 0.8 = 0.8 m$"
   },
   {
     "id": 4,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "একটি তারকে সমদৈর্ঘ্যের চার ভাগে ভাগ করে সমান্তরালে যুক্ত করা হলো। নতুন তারটির রোধ পূর্বের তুলনায় কত গুণ হবে?",
+    "topic": "Modern Physics",
+    "question": "কোনো বস্তুর বেগ আলোর বেগের কত অংশ হলে এর ভর নিশ্চল ভরের দ্বিগুণ হবে?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "1/16",
-      "b": "1/4",
-      "c": "4",
-      "d": "16"
+      "a": "$\frac{\sqrt{3}}{2}c$",
+      "b": "$\frac{1}{2}c$",
+      "c": "$\frac{1}{\sqrt{2}}c$",
+      "d": "$0.9c$"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "a",
+    "explanation": "$m = 2m_0 \Rightarrow \frac{m_0}{\sqrt{1-v^2/c^2}} = 2m_0 \Rightarrow 1-v^2/c^2 = 1/4 \Rightarrow v = \frac{\sqrt{3}}{2}c$"
   },
   {
     "id": 5,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "একটি বস্তুর উপর ক্রিয়াশীল বলের মান 10 N এবং এটি 2 m সরলে কাজের মান কত (বল ও সরণ একই দিকে)?",
+    "topic": "Modern Physics",
+    "question": "আইনস্টাইনের ভর-শক্তি সমীকরণ কোনটি?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "5 J",
-      "b": "10 J",
-      "c": "20 J",
-      "d": "40 J"
+      "a": "$E = mc$",
+      "b": "$E = m^2c$",
+      "c": "$E = mc^2$",
+      "d": "$E = \frac{1}{2}mv^2$"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "c",
+    "explanation": "বিখ্যাত সূত্র $E=mc^2$।"
   },
   {
     "id": 6,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "একটি বস্তুর ভর 2 kg এবং বেগ 3 m/s হলে ভরবেগ কত?",
+    "topic": "Modern Physics",
+    "question": "ফোটনের স্থির ভর (Rest Mass) কত?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "1 kg·m/s",
-      "b": "5 kg·m/s",
-      "c": "6 kg·m/s",
-      "d": "9 kg·m/s"
+      "a": "অসীম",
+      "b": "শূন্য",
+      "c": "$1.6 \times 10^{-19} kg$",
+      "d": "$9.1 \times 10^{-31} kg$"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "b",
+    "explanation": "ফোটন আলোর বেগে চলে, তাই এর নিশ্চল বা স্থির ভর শূন্য।"
   },
   {
     "id": 7,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "তড়িৎ প্রবাহের একক কোনটি?",
+    "topic": "Modern Physics",
+    "question": "প্লাঙ্কের ধ্রুবক (h) এর মান কত?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "ভোল্ট",
-      "b": "অ্যাম্পিয়ার",
-      "c": "ওহম",
-      "d": "ওয়াট"
+      "a": "$6.63 \times 10^{-34} Js$",
+      "b": "$6.63 \times 10^{-30} Js$",
+      "c": "$3 \times 10^{8} ms^{-1}$",
+      "d": "$1.6 \times 10^{-19} J$"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "a",
+    "explanation": "প্লাঙ্কের ধ্রুবক $h = 6.626 \times 10^{-34} Js$।"
   },
   {
     "id": 8,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "তাপমাত্রার SI একক কী?",
+    "topic": "Modern Physics",
+    "question": "ফোটোইলেকট্রিক ইফেক্ট বা আলোক তড়িৎ ক্রিয়া কে ব্যাখ্যা করেন?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "সেলসিয়াস",
-      "b": "ফারেনহাইট",
-      "c": "কেলভিন",
-      "d": "জুল"
+      "a": "নিউটন",
+      "b": "আইনস্টাইন",
+      "c": "ম্যাক্সওয়েল",
+      "d": "রাদারফোর্ড"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "b",
+    "explanation": "আইনস্টাইন ১৯০৫ সালে কোয়ান্টাম তত্ত্ব ব্যবহার করে এটি ব্যাখ্যা করেন।"
   },
   {
     "id": 9,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "আলোক তরঙ্গের প্রকৃতি কী?",
+    "topic": "Modern Physics",
+    "question": "কোনো ধাতুর কার্য অপেক্ষক $2.5 eV$। আপতিত ফোটনের শক্তি $3.5 eV$ হলে সর্বোচ্চ গতিশক্তি কত?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "অনুদৈর্ঘ্য",
-      "b": "আনুভূমিক",
-      "c": "অনুপ্রস্থ",
-      "d": "যান্ত্রিক"
+      "a": "1.0 eV",
+      "b": "6.0 eV",
+      "c": "2.5 eV",
+      "d": "3.5 eV"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "a",
+    "explanation": "$K_{max} = E - \phi = 3.5 - 2.5 = 1.0 eV$"
   },
   {
     "id": 10,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "একটি বস্তুর উপর ক্রিয়াশীল বল শূন্য হলে বস্তুটির অবস্থা কী হবে?",
+    "topic": "Modern Physics",
+    "question": "নিবৃতি বিভব (Stopping Potential) নির্ভর করে কোনটির উপর?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "স্থির থাকবে",
-      "b": "সমবেগে সরবে বা স্থির থাকবে",
-      "c": "ত্বরণ পাবে",
-      "d": "বেগ বৃদ্ধি পাবে"
+      "a": "আলোর তীব্রতা",
+      "b": "আপতিত আলোর কম্পাঙ্ক",
+      "c": "সময়ের উপর",
+      "d": "দূরত্বের উপর"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "b",
+    "explanation": "নিবৃতি বিভব ($V_s$) আপতিত আলোর কম্পাঙ্কের সমানুপাতিক।"
   },
   {
     "id": 11,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "ঘর্ষণ বল সর্বদা কোন দিকে ক্রিয়া করে?",
+    "topic": "Modern Physics",
+    "question": "ডি-ব্রগলি তরঙ্গদৈর্ঘ্য নির্ণয়ের সূত্র কোনটি?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "গতির দিকে",
-      "b": "গতির বিপরীত দিকে",
-      "c": "লম্বভাবে",
-      "d": "সমান্তরালে"
+      "a": "$\lambda = \frac{h}{p}$",
+      "b": "$\lambda = \frac{p}{h}$",
+      "c": "$\lambda = hp$",
+      "d": "$\lambda = \frac{h}{c}$"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "a",
+    "explanation": "ডি-ব্রগলি সমীকরণ $\lambda = \frac{h}{mv} = \frac{h}{p}$।"
   },
   {
     "id": 12,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "বেগের SI একক কী?",
+    "topic": "Modern Physics",
+    "question": "কম্পটন ক্রিয়ায় আপতিত ফোটনের তরঙ্গদৈর্ঘ্য ও বিক্ষিপ্ত ফোটনের তরঙ্গদৈর্ঘ্যের সম্পর্ক কী?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "m/s",
-      "b": "m/s²",
-      "c": "kg·m/s",
-      "d": "N"
+      "a": "$\lambda' < \lambda$",
+      "b": "$\lambda' = \lambda$",
+      "c": "$\lambda' > \lambda$",
+      "d": "কোনোটিই নয়"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "c",
+    "explanation": "কম্পটন ক্রিয়ায় শক্তি হ্রাসের ফলে তরঙ্গদৈর্ঘ্য বৃদ্ধি পায় ($\lambda' > \lambda$)।"
   },
   {
     "id": 13,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "চাপের SI একক কোনটি?",
+    "topic": "Modern Physics",
+    "question": "হাইজেনবার্গের অনিশ্চয়তা নীতি কোনটি?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "জুল",
-      "b": "পাস্কাল",
-      "c": "নিউটন",
-      "d": "ওয়াট"
+      "a": "$\Delta x \Delta p \geq \frac{h}{4\pi}$",
+      "b": "$\Delta x \Delta p = 0$",
+      "c": "$\Delta E \Delta t = 0$",
+      "d": "$\Delta x \Delta p \leq h$"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "a",
+    "explanation": "অবস্থান ও ভরবেগের অনিশ্চয়তার গুণফল $\frac{h}{4\pi}$ এর সমান বা বড়।"
   },
   {
     "id": 14,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "শক্তির SI একক কোনটি?",
+    "topic": "Nuclear Physics",
+    "question": "1 amu (atomic mass unit) ভরের সমতুল্য শক্তি কত?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "ওয়াট",
-      "b": "নিউটন",
-      "c": "জুল",
-      "d": "পাস্কাল"
+      "a": "931.5 MeV",
+      "b": "1.6 MeV",
+      "c": "9.11 MeV",
+      "d": "100 MeV"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "a",
+    "explanation": "$1 amu \approx 931.5 MeV$ শক্তি উৎপন্ন করে।"
   },
   {
     "id": 15,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "ক্ষমতার SI একক কী?",
+    "topic": "Nuclear Physics",
+    "question": "নিউক্লিয়াসের ব্যাসার্ধ নির্ণয়ের সূত্র কোনটি?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "ওয়াট",
-      "b": "ভোল্ট",
-      "c": "অ্যাম্পিয়ার",
-      "d": "ওহম"
+      "a": "$R = R_0 A^{1/3}$",
+      "b": "$R = R_0 A$",
+      "c": "$R = R_0 A^2$",
+      "d": "$R = R_0 / A$"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "a",
+    "explanation": "নিউক্লিয়াসের ব্যাসার্ধ $R$, ভরসংখ্যা $A$-এর ঘনমূলের সমানুপাতিক।"
   },
   {
     "id": 16,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "পরিবাহীর রোধ কোন বিষয়ের উপর নির্ভর করে?",
+    "topic": "Nuclear Physics",
+    "question": "তেজস্ক্রিয় ক্ষয়ের সূচকীয় সূত্র কোনটি?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "দৈর্ঘ্য",
-      "b": "ক্ষেত্রফল",
-      "c": "উপাদান ও তাপমাত্রা",
-      "d": "সবগুলো"
+      "a": "$N = N_0 e^{-\lambda t}$",
+      "b": "$N = N_0 e^{\lambda t}$",
+      "c": "$N = N_0 t^2$",
+      "d": "$N = N_0 (1-\lambda t)$"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "a",
+    "explanation": "রাদারফোর্ড ও সডির সূত্রানুসারে $N = N_0 e^{-\lambda t}$।"
   },
   {
     "id": 17,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "লেন্সের ক্ষমতা (Power) এর একক কী?",
+    "topic": "Nuclear Physics",
+    "question": "অর্ধায়ু ($T_{1/2}$) এবং ক্ষয় ধ্রুবক ($\lambda$) এর মধ্যে সম্পর্ক কী?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "ডায়োপ্টার",
-      "b": "ওহম",
-      "c": "জুল",
-      "d": "নিউটন"
+      "a": "$T_{1/2} = \frac{0.693}{\lambda}$",
+      "b": "$T_{1/2} = 0.693 \lambda$",
+      "c": "$T_{1/2} = \frac{1}{\lambda}$",
+      "d": "$T_{1/2} = \lambda^2$"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "a",
+    "explanation": "আমরা জানি, $\lambda T_{1/2} = \ln(2) \approx 0.693$।"
   },
   {
     "id": 18,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "বিশিষ্ট তাপ (Specific heat) এর একক কী?",
+    "topic": "Nuclear Physics",
+    "question": "গড় আয়ু ($\tau$) এবং ক্ষয় ধ্রুবক ($\lambda$) এর সম্পর্ক কী?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "J/kg·K",
-      "b": "J/K",
-      "c": "kg/J",
-      "d": "N/m²"
+      "a": "$\tau = 1/\lambda$",
+      "b": "$\tau = \lambda$",
+      "c": "$\tau = 0.693 \lambda$",
+      "d": "$\tau = \lambda^2$"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "a",
+    "explanation": "গড় আয়ু হলো ক্ষয় ধ্রুবকের বিপরীত রাশি।"
   },
   {
     "id": 19,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "একটি কণা বৃত্তাকার পথে চললে কেন্দ্রাভিমুখ ত্বরণ কোন দিকে হয়?",
+    "topic": "Nuclear Physics",
+    "question": "কোনো তেজস্ক্রিয় পদার্থের অর্ধায়ু 10 দিন হলে, গড় আয়ু কত?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "স্পর্শকের দিকে",
-      "b": "কেন্দ্রের দিকে",
-      "c": "কেন্দ্র থেকে বাইরে",
-      "d": "উপরের দিকে"
+      "a": "14.4 দিন",
+      "b": "10 দিন",
+      "c": "6.93 দিন",
+      "d": "20 দিন"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "a",
+    "explanation": "$\tau = 1.44 \times T_{1/2} = 1.44 \times 10 = 14.4$ দিন।"
   },
   {
     "id": 20,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "রেডিওঅ্যাকটিভ ক্ষয়ের একক সময়ের ক্ষয়ের সম্ভাবনাকে কী বলে?",
+    "topic": "Nuclear Physics",
+    "question": "আলফা কণা মূলত কী?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "হাফ লাইফ",
-      "b": "ক্ষয় ধ্রুবক",
-      "c": "অ্যাক্টিভিটি",
-      "d": "ডোজ"
+      "a": "হিলিয়াম নিউক্লিয়াস",
+      "b": "ইলেকট্রন",
+      "c": "প্রোটন",
+      "d": "নিউট্রন"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "a",
+    "explanation": "আলফা কণা হলো দ্বি-ধনাত্মক হিলিয়াম আয়ন ($^4_2He^{2+}$)।"
   },
   {
     "id": 21,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "প্রবাহিত তড়িৎ চার্জের SI একক কী?",
+    "topic": "Nuclear Physics",
+    "question": "কোনো নিউক্লিয়াস থেকে একটি বিটা কণা নির্গত হলে পারমাণবিক সংখ্যা কীরূপ পরিবর্তন হয়?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "কুলম্ব",
-      "b": "ভোল্ট",
-      "c": "ওহম",
-      "d": "ওয়াট"
+      "a": "1 বৃদ্ধি পায়",
+      "b": "1 হ্রাস পায়",
+      "c": "অপরিবর্তিত থাকে",
+      "d": "2 হ্রাস পায়"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "a",
+    "explanation": "বিটা ক্ষয়ে নিউট্রন প্রোটনে পরিণত হয়, তাই পারমাণবিক সংখ্যা 1 বৃদ্ধি পায়।"
   },
   {
     "id": 22,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "চৌম্বক ক্ষেত্রের একক কোনটি?",
+    "topic": "Nuclear Physics",
+    "question": "সবচেয়ে বেশি ভেদন ক্ষমতা কোন রশ্মির?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "টেসলা",
-      "b": "ওয়েবার",
-      "c": "হেনরি",
-      "d": "ফ্যারাড"
+      "a": "গামা রশ্মি",
+      "b": "বিটা রশ্মি",
+      "c": "আলফা রশ্মি",
+      "d": "এক্স-রে"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "a",
+    "explanation": "গামা রশ্মি আধানহীন ও ভরহীন হওয়ায় এর ভেদন ক্ষমতা সর্বাধিক।"
   },
   {
     "id": 23,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "আপেক্ষিকতাবাদে আলোর বেগ সম্পর্কে সঠিকটি কোনটি?",
+    "topic": "Nuclear Physics",
+    "question": "সূর্যে শক্তি উৎপাদনের মূল উৎস কোনটি?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "পর্যবেক্ষকের উপর নির্ভরশীল",
-      "b": "মাধ্যমের উপর নির্ভরশীল",
-      "c": "শূন্যস্থানে ধ্রুব",
-      "d": "সময়ভেদে পরিবর্তিত"
+      "a": "নিউক্লিয়ার ফিউশন",
+      "b": "নিউক্লিয়ার ফিশন",
+      "c": "রাসায়নিক বিক্রিয়া",
+      "d": "তেজস্ক্রিয়তা"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "a",
+    "explanation": "সূর্যে হাইড্রোজেন নিউক্লিয়াস যুক্ত হয়ে হিলিয়াম গঠন করে (ফিউশন) এবং শক্তি নির্গত হয়।"
   },
   {
     "id": 24,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "গ্যাসের অণুগত গতিতত্ত্ব অনুযায়ী চাপ সৃষ্টি হয় কেন?",
+    "topic": "Nuclear Physics",
+    "question": "মাস ডিফেক্ট (Mass Defect) বা ভরত্রুটি ($\Delta m$) বলতে কী বোঝায়?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "অণুগুলোর সংঘর্ষে",
-      "b": "অণুগুলোর আকর্ষণে",
-      "c": "অণুগুলোর ওজনে",
-      "d": "অণুগুলোর আয়তনে"
+      "a": "নিউক্লিয়নের মোট ভর - নিউক্লিয়াসের ভর",
+      "b": "নিউক্লিয়াসের ভর - নিউক্লিয়নের মোট ভর",
+      "c": "প্রোটন ও নিউট্রনের ভরের যোগফল",
+      "d": "ইলেকট্রনের ভরের পার্থক্য"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "a",
+    "explanation": "নিউক্লিয়াস গঠনের সময় কিছু ভর শক্তিতে রূপান্তরিত হয়, এই ভরের পার্থক্যই ভরত্রুটি।"
   },
   {
     "id": 25,
     "subject": "Physics",
-    "topic": "Physics",
-    "question": "একটি আদর্শ ট্রান্সফরমারে ইনপুট শক্তি ও আউটপুট শক্তির সম্পর্ক কী?",
+    "topic": "Nuclear Physics",
+    "question": "নিউক্লিয়ার রিঅ্যাক্টরে মডারেটর হিসেবে কী ব্যবহৃত হয়?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "ইনপুট > আউটপুট",
-      "b": "ইনপুট < আউটপুট",
-      "c": "ইনপুট = আউটপুট",
-      "d": "কোনো সম্পর্ক নেই"
+      "a": "গ্রাফাইট বা ভারী পানি",
+      "b": "ক্যাডমিয়াম দণ্ড",
+      "c": "ইউরেনিয়াম",
+      "d": "লোহা"
     },
-    "correctAnswer": "",
-    "explanation": "none"
+    "correctAnswer": "a",
+    "explanation": "নিউট্রনের গতি মন্থর করার জন্য গ্রাফাইট বা ভারী পানি ($D_2O$) মডারেটর হিসেবে ব্যবহৃত হয়।"
   }
 ]
