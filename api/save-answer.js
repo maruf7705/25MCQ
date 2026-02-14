@@ -1,9 +1,7 @@
 import { Buffer } from "buffer";
-import fs from "fs/promises";
-import path from "path";
 
-const OWNER = process.env.GITHUB_OWNER;
-const REPO = process.env.GITHUB_REPO;
+const OWNER = process.env.GITHUB_OWNER || 'maruf7705';
+const REPO = process.env.GITHUB_REPO || '25MCQ';
 const BRANCH = process.env.GITHUB_BRANCH || "main";
 const TOKEN = process.env.GITHUB_TOKEN;
 const FILE_PATH = "answers.json";
@@ -37,6 +35,10 @@ function getUniqueStudentName(desiredName, existingSubmissions) {
 }
 
 async function saveLocally(data) {
+  // Dynamic imports to avoid Vercel crash
+  const fs = await import("fs/promises");
+  const path = await import("path");
+
   const filePath = path.join(process.cwd(), FILE_PATH);
   let currentData = [];
   try {
@@ -83,8 +85,8 @@ export default async function handler(req, res) {
     }
   }
 
-  if (!OWNER || !REPO || !TOKEN) {
-    return res.status(500).json({ error: "Missing GitHub configuration" });
+  if (!TOKEN) {
+    return res.status(500).json({ error: "Missing GITHUB_TOKEN configuration" });
   }
 
   try {
@@ -108,30 +110,33 @@ export default async function handler(req, res) {
     });
   } catch (err) {
     console.error(err);
-    return res.status(500).json({ error: "Failed to save answer" });
+    const statusCode = err.message.includes('GitHub Token Invalid') ? 401 : 500;
+    return res.status(statusCode).json({
+      error: "Failed to save answer",
+      details: err.message
+    });
   }
 }
 
 async function fetchFile() {
   const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE_PATH}?ref=${BRANCH}`;
-  let res;
-  try {
-    res = await fetch(url, {
-      headers: {
-        Authorization: `Bearer ${TOKEN}`,
-        Accept: "application/vnd.github+json",
-      },
-    });
-  } catch (fetchErr) {
-    throw fetchErr;
-  }
+
+  const res = await fetch(url, {
+    headers: {
+      Authorization: `Bearer ${TOKEN}`,
+      Accept: "application/vnd.github+json",
+    },
+  });
 
   if (!res.ok) {
-    const errorText = await res.text().catch(() => 'Could not read error');
+    if (res.status === 401) {
+      throw new Error('GitHub Token Invalid or Expired');
+    }
     if (res.status === 404) {
       return { content: [], sha: undefined };
     }
-    throw new Error(`GitHub fetch failed: ${res.status}`);
+    const errorText = await res.text().catch(() => 'Could not read error');
+    throw new Error(`GitHub fetch failed: ${res.status} ${errorText}`);
   }
 
   try {
@@ -146,27 +151,26 @@ async function fetchFile() {
 
 async function updateFile(content, sha) {
   const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE_PATH}`;
-  let res;
-  try {
-    res = await fetch(url, {
-      method: "PUT",
-      headers: {
-        Authorization: `Bearer ${TOKEN}`,
-        Accept: "application/vnd.github+json",
-      },
-      body: JSON.stringify({
-        message: "chore: append exam submission",
-        content: Buffer.from(content).toString("base64"),
-        branch: BRANCH,
-        sha,
-      }),
-    });
-  } catch (fetchErr) {
-    throw fetchErr;
-  }
+
+  const res = await fetch(url, {
+    method: "PUT",
+    headers: {
+      Authorization: `Bearer ${TOKEN}`,
+      Accept: "application/vnd.github+json",
+    },
+    body: JSON.stringify({
+      message: "chore: append exam submission",
+      content: Buffer.from(content).toString("base64"),
+      branch: BRANCH,
+      sha,
+    }),
+  });
 
   if (!res.ok) {
     const text = await res.text();
+    if (res.status === 401) {
+      throw new Error('GitHub Token Invalid or Expired');
+    }
     throw new Error(`GitHub update failed: ${res.status} ${text}`);
   }
 }

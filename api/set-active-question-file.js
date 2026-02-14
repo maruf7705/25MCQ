@@ -104,12 +104,21 @@ export default async function handler(req, res) {
                 })
 
                 if (!updateResponse.ok) {
-                    const errorData = await updateResponse.json()
-                    throw new Error(`GitHub API error: ${errorData.message}`)
+                    const errorData = await updateResponse.json().catch(() => ({}))
+                    const errorMessage = errorData.message || updateResponse.statusText
+
+                    if (updateResponse.status === 401) {
+                        throw new Error('GitHub Token Invalid or Expired. Please update GITHUB_TOKEN in Vercel.')
+                    }
+
+                    throw new Error(`GitHub API error: ${updateResponse.status} ${errorMessage}`)
                 }
             } catch (githubError) {
                 console.error('GitHub update failed:', githubError)
-                return res.status(500).json({
+
+                // Return a more specific error message based on the exception
+                const statusCode = githubError.message.includes('GitHub Token Invalid') ? 401 : 500
+                return res.status(statusCode).json({
                     error: 'Failed to update config in GitHub',
                     details: githubError.message
                 })
