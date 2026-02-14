@@ -5,12 +5,112 @@
             "displayName": "Default Question Set"
         },
         {
-            "name": "questions-4.json",
-            "displayName": "Question Set 4"
+            "name": "Biology1.json",
+            "displayName": "Biology 1"
         },
         {
-            "name": "questions-Answer.json",
-            "displayName": "Answer Question Set"
+            "name": "Biology2.json",
+            "displayName": "Biology 2"
+        },
+        {
+            "name": "Biology3.json",
+            "displayName": "Biology 3"
+        },
+        {
+            "name": "Biology4.json",
+            "displayName": "Biology 4"
+        },
+        {
+            "name": "Biology5.json",
+            "displayName": "Biology 5"
+        },
+        {
+            "name": "Biology6.json",
+            "displayName": "Biology 6"
+        },
+        {
+            "name": "Biology7.json",
+            "displayName": "Biology 7"
+        },
+        {
+            "name": "Biology8.json",
+            "displayName": "Biology 8"
+        },
+        {
+            "name": "Biology9.json",
+            "displayName": "Biology 9"
+        },
+        {
+            "name": "Biology10.json",
+            "displayName": "Biology 10"
+        },
+        {
+            "name": "Biology11.json",
+            "displayName": "Biology 11"
+        },
+        {
+            "name": "Chemi1.json",
+            "displayName": "Chemi 1"
+        },
+        {
+            "name": "Chemi2.json",
+            "displayName": "Chemi 2"
+        },
+        {
+            "name": "Chemistry.json",
+            "displayName": "Chemistry"
+        },
+        {
+            "name": "Chemistry2.json",
+            "displayName": "Chemistry 2"
+        },
+        {
+            "name": "Chemistry3.json",
+            "displayName": "Chemistry 3"
+        },
+        {
+            "name": "Chemistry4.json",
+            "displayName": "Chemistry 4"
+        },
+        {
+            "name": "Chemistry5.json",
+            "displayName": "Chemistry 5"
+        },
+        {
+            "name": "Chemistry6.json",
+            "displayName": "Chemistry 6"
+        },
+        {
+            "name": "Physics-P1.json",
+            "displayName": "Physics P 1"
+        },
+        {
+            "name": "Physics-P2.json",
+            "displayName": "Physics P 2"
+        },
+        {
+            "name": "Physics-P3.json",
+            "displayName": "Physics P 3"
+        },
+        {
+            "name": "Physics-P4.json",
+            "displayName": "Physics P 4"
+        },
+        {
+            "name": "Physics-P5.json",
+            "displayName": "Physics P 5"
+        },
+        {
+            "name": "Physics-P6.json",
+            "displayName": "Physics P 6"
+        },
+        {
+            "name": "Physics-P7.json",
+            "displayName": "Physics P 7"
+        },
+        {
+            "name": "physcisc.json",
+            "displayName": "Physcisc"
         }
     ]
 }

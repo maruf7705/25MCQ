@@ -60,7 +60,7 @@ export default async function handler(req, res) {
         // For now, we'll use environment variable for GitHub token
         if (!isDev) {
             const GITHUB_TOKEN = process.env.GITHUB_TOKEN
-            const GITHUB_REPO = 'maruf7705/25MCQ'
+            const GITHUB_REPO = 'Marufceoai/25MCQ'
 
             if (!GITHUB_TOKEN) {
                 return res.status(500).json({

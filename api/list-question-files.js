@@ -1,6 +1,129 @@
 import fs from 'fs'
 import path from 'path'
 
+const GITHUB_REPO = 'Marufceoai/25MCQ'
+const GITHUB_BRANCH = 'main'
+
+// Generate display name from filename
+function getDisplayName(fileName) {
+    if (fileName === 'questions.json') {
+        return 'Default Question Set'
+    }
+
+    const nameWithoutExt = fileName.replace('.json', '')
+
+    if (/^questions-\d+/.test(nameWithoutExt)) {
+        const match = nameWithoutExt.match(/^questions-(\d+)/)
+        return `Question Set ${match[1]}`
+    } else if (/^questions-/.test(nameWithoutExt)) {
+        const version = nameWithoutExt.replace('questions-', '')
+        return version.charAt(0).toUpperCase() + version.slice(1) + ' Question Set'
+    } else if (/^chemistry/i.test(nameWithoutExt)) {
+        const match = nameWithoutExt.match(/^chemistry(\d+)?/i)
+        return (match && match[1]) ? `Chemistry ${match[1]}` : 'Chemistry'
+    } else {
+        return nameWithoutExt
+            .replace(/([a-zA-Z])(\d)/g, '$1 $2')
+            .split(/[-_]/)
+            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(' ')
+    }
+}
+
+// System files that should never appear in the question file list
+const EXCLUDE_FILES = [
+    'manifest.json',
+    'question-files.json',
+    'vercel.json',
+    'package.json',
+    'package-lock.json',
+    'tsconfig.json',
+    'jsconfig.json',
+    'next.config.js'
+]
+
+function isQuestionFile(fileName) {
+    const name = fileName.toLowerCase()
+    return name.endsWith('.json') && !EXCLUDE_FILES.includes(name)
+}
+
+function formatFileList(files) {
+    const questionFiles = files.filter(f => isQuestionFile(f.name))
+
+    const fileList = questionFiles.map(file => ({
+        name: file.name,
+        displayName: getDisplayName(file.name),
+        size: file.size || 0,
+        lastModified: new Date().toISOString()
+    }))
+
+    fileList.sort((a, b) => {
+        if (a.name === 'questions.json') return -1
+        if (b.name === 'questions.json') return 1
+        return a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' })
+    })
+
+    return fileList
+}
+
+// Strategy 1: Local filesystem (dev mode)
+function getFilesFromFilesystem() {
+    const publicDir = path.join(process.cwd(), 'public')
+    const dirFiles = fs.readdirSync(publicDir)
+    return dirFiles.map(name => ({
+        name,
+        type: 'file',
+        size: fs.statSync(path.join(publicDir, name)).size
+    }))
+}
+
+// Strategy 2: GitHub Contents API (production, with or without token)
+async function getFilesFromGitHubAPI() {
+    const GITHUB_TOKEN = process.env.GITHUB_TOKEN
+    const githubUrl = `https://api.github.com/repos/${GITHUB_REPO}/contents/public?ref=${GITHUB_BRANCH}`
+
+    const headers = {
+        'Accept': 'application/vnd.github.v3+json',
+        'User-Agent': '25MCQ-App'
+    }
+    if (GITHUB_TOKEN) {
+        headers['Authorization'] = `Bearer ${GITHUB_TOKEN}`
+    }
+
+    const response = await fetch(githubUrl, { headers })
+
+    if (!response.ok) {
+        const rateLimitRemaining = response.headers.get('x-ratelimit-remaining')
+        throw new Error(
+            `GitHub API error: ${response.status} (rate-limit-remaining: ${rateLimitRemaining})`
+        )
+    }
+
+    return await response.json()
+}
+
+// Strategy 3: Fallback - fetch question-files.json from raw GitHub
+async function getFilesFromFallback() {
+    const rawUrl = `https://raw.githubusercontent.com/${GITHUB_REPO}/${GITHUB_BRANCH}/public/question-files.json`
+    const response = await fetch(rawUrl)
+
+    if (!response.ok) {
+        throw new Error(`Fallback fetch failed: ${response.status}`)
+    }
+
+    const data = await response.json()
+    // question-files.json has { questionFiles: [{ name, displayName }] }
+    if (data.questionFiles && Array.isArray(data.questionFiles)) {
+        return data.questionFiles.map(f => ({
+            name: f.name,
+            type: 'file',
+            size: 0
+        }))
+    }
+
+    throw new Error('Invalid question-files.json format')
+}
+
 export default async function handler(req, res) {
     if (req.method !== 'GET') {
         return res.status(405).json({ error: 'Method not allowed' })
@@ -11,123 +134,20 @@ export default async function handler(req, res) {
         let files = []
 
         if (isDev) {
-            // Local development - read directly from filesystem
-            const publicDir = path.join(process.cwd(), 'public')
-            try {
-                const dirFiles = fs.readdirSync(publicDir)
-                files = dirFiles.map(name => ({
-                    name,
-                    type: 'file',
-                    size: fs.statSync(path.join(publicDir, name)).size
-                }))
-            } catch (err) {
-                console.error('Error reading public directory:', err)
-                return res.status(500).json({ error: 'Failed to read public directory' })
-            }
+            files = getFilesFromFilesystem()
         } else {
-            // On Vercel - use GitHub API to dynamically list all files
-            const GITHUB_REPO = 'maruf7705/25MCQ'
-            const GITHUB_TOKEN = process.env.GITHUB_TOKEN
-            const githubUrl = `https://api.github.com/repos/${GITHUB_REPO}/contents/public`
-
-            const headers = {
-                'Accept': 'application/vnd.github.v3+json'
+            // Try GitHub Contents API first, fall back to raw question-files.json
+            try {
+                files = await getFilesFromGitHubAPI()
+            } catch (apiError) {
+                console.warn('GitHub API failed, using fallback:', apiError.message)
+                files = await getFilesFromFallback()
             }
-            if (GITHUB_TOKEN) {
-                headers['Authorization'] = `Bearer ${GITHUB_TOKEN}`
-            }
-
-            const response = await fetch(githubUrl, {
-                headers: headers,
-                cache: 'no-store'
-            })
-
-            if (!response.ok) {
-                throw new Error(`GitHub API error: ${response.status}`)
-            }
-
-            files = await response.json()
         }
 
-        // List of system files to exclude
-        const excludeFiles = [
-            'manifest.json',
-            'question-files.json',
-            'vercel.json',
-            'package.json',
-            'package-lock.json',
-            'tsconfig.json',
-            'jsconfig.json',
-            'next.config.js'
-        ]
+        const fileList = formatFileList(files)
 
-        // Filter for any JSON file that isn't a system file
-        const questionFiles = files.filter(file => {
-            const name = file.name.toLowerCase()
-            return file.type === 'file' &&
-                name.endsWith('.json') &&
-                !excludeFiles.includes(file.name.toLowerCase())
-        })
-
-        // Format the file list
-        const fileList = questionFiles.map(file => {
-            const fileName = file.name
-            let displayName = fileName
-
-            // Generate display name
-            if (fileName === 'questions.json') {
-                displayName = 'Default Question Set'
-            } else {
-                // Remove .json extension
-                const nameWithoutExt = fileName.replace('.json', '')
-
-                // Check for patterns
-                if (/^questions-\d+/.test(nameWithoutExt)) {
-                    // questions-4.json -> Question Set 4
-                    const match = nameWithoutExt.match(/^questions-(\d+)/)
-                    displayName = `Question Set ${match[1]}`
-                } else if (/^questions-/.test(nameWithoutExt)) {
-                    // questions-Answer.json -> Answer Question Set
-                    const version = nameWithoutExt.replace('questions-', '')
-                    displayName = version.charAt(0).toUpperCase() + version.slice(1) + ' Question Set'
-                } else if (/^chemistry/i.test(nameWithoutExt)) {
-                    // Chemistry2.json -> Chemistry 2
-                    const match = nameWithoutExt.match(/^chemistry(\d+)?/i)
-                    if (match && match[1]) {
-                        displayName = `Chemistry ${match[1]}`
-                    } else {
-                        displayName = 'Chemistry'
-                    }
-                } else {
-                    // Fallback: capitalize each word and replace dashes/underscores with spaces
-                    // e.g. Chemi1 -> Chemi 1
-                    displayName = nameWithoutExt
-                        // Insert space before numbers if they follow a letter
-                        .replace(/([a-zA-Z])(\d)/g, '$1 $2')
-                        .split(/[-_]/)
-                        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-                        .join(' ')
-                }
-            }
-
-            return {
-                name: fileName,
-                displayName: displayName,
-                size: file.size,
-                lastModified: new Date().toISOString()
-            }
-        })
-
-        // Sort: questions.json first, then natural sort by name
-        fileList.sort((a, b) => {
-            if (a.name === 'questions.json') return -1
-            if (b.name === 'questions.json') return 1
-            return a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' })
-        })
-
-        return res.status(200).json({
-            files: fileList
-        })
+        return res.status(200).json({ files: fileList })
 
     } catch (error) {
         console.error('Error listing question files:', error)
