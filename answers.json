@@ -850,5 +850,32 @@
     "wrong": 6,
     "pass": true,
     "questionFile": "Biology1.json"
+  },
+  {
+    "studentName": "physics 6",
+    "answers": {
+      "2": "d",
+      "3": "d",
+      "4": "b",
+      "7": "a",
+      "10": "b",
+      "11": "b",
+      "14": "b",
+      "19": "a",
+      "20": "c",
+      "21": "a",
+      "22": "c",
+      "23": "a",
+      "24": "a",
+      "25": "c"
+    },
+    "score": 2.5,
+    "totalMarks": 31.25,
+    "timestamp": "2026-02-13T14:29:16.209Z",
+    "attempted": 14,
+    "correct": 4,
+    "wrong": 10,
+    "pass": false,
+    "questionFile": "physcisc.json"
   }
 ]
