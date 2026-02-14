@@ -1,6 +1,6 @@
 [
     {
-        "id": 21,
+        "id": 1,
         "subject": "Physics",
         "topic": "General Physics",
         "question": "6.63 × 10 − 19 J শক্তিবিশিষ্ট ফোটনের তরঙ্গদৈর্ঘ্য কত nm?",
@@ -16,7 +16,7 @@
         "explanation": ""
     },
     {
-        "id": 22,
+        "id": 2,
         "subject": "Physics",
         "topic": "General Physics",
         "question": "2 × 10 − 17 C চার্জের একটি কণা 4 × 10 − 9 W b m − 2 মানের চৌম্বক ক্ষেত্রে স্থির অবস্থায় কত নিউটন (N) বল অনুভব করবে?",
@@ -32,7 +32,7 @@
         "explanation": ""
     },
     {
-        "id": 23,
+        "id": 3,
         "subject": "Physics",
         "topic": "General Physics",
         "question": "একটি কার্নো ইঞ্জিনের তাপ উৎস ও তাপ গ্রাহকের তাপমাত্রা যথাক্রমে 327 ∘ C ও 127 ∘ C । ইঞ্জিনটি তাপ উৎস থেকে 4500 J তাপ গ্রহণ করে কিছু তাপ কাজে রূপান্তরিত করে এবং অবশিষ্ট তাপ গ্রাহকে বর্জন করে। বর্জিত তাপের পরিমাণ কত জুল (J)?",
@@ -48,7 +48,7 @@
         "explanation": ""
     },
     {
-        "id": 24,
+        "id": 4,
         "subject": "Physics",
         "topic": "General Physics",
         "question": "ইয়ং-এর ব্যতিচার প্রদর্শন পরীক্ষায় পর্দায় উৎপন্ন অন্ধকার বিন্দুর জন্য পথ পার্থক্য হচ্ছে। [ λ = তরঙ্গদৈর্ঘ্য এবং n = 0 , 1 , 2 … . ]",
@@ -64,7 +64,7 @@
         "explanation": ""
     },
     {
-        "id": 25,
+        "id": 5,
         "subject": "Physics",
         "topic": "General Physics",
         "question": "",
@@ -80,7 +80,7 @@
         "explanation": ""
     },
     {
-        "id": 26,
+        "id": 6,
         "subject": "Physics",
         "topic": "General Physics",
         "question": "ভূ-সমতলের সাথে 30 ∘ কোণে আনত পথে একটি 2 k g ভরের বস্তুকে 3 m s − 2 ত্বরণে উঠাতে হলে বস্তুটির উপর কত নিউটন (N) বল প্রয়োগ করতে হবে?",
@@ -96,7 +96,7 @@
         "explanation": ""
     },
     {
-        "id": 27,
+        "id": 7,
         "subject": "Physics",
         "topic": "General Physics",
         "question": "একটি p-টাইপ অর্ধপরিবাহীর চার্জ-",
@@ -112,7 +112,7 @@
         "explanation": ""
     },
     {
-        "id": 28,
+        "id": 8,
         "subject": "Physics",
         "topic": "General Physics",
         "question": "একটি অগ্রগামী তরঙ্গের সমীকরণ SI এককে y = 2 s i n ( 120 t − 4 x ) হলে এর রৈখিক বেগ-",
@@ -128,7 +128,7 @@
         "explanation": ""
     },
     {
-        "id": 29,
+        "id": 9,
         "subject": "Physics",
         "topic": "General Physics",
         "question": "একটি দালানের ছাদের সাথে লাগানো 10 m লম্বা একটি মই ভূমির সাথে 30 ∘ কোণে আনত আছে। 68 kg ভরের এক ব্যক্তি 12 kg ভরের জিনিসসহ 19.6 s এ মই বেয়ে ছাদে উঠে। ঐ ব্যক্তি কত ওয়াট (W) ক্ষমতা প্রয়োগ করেছে?",
@@ -144,7 +144,7 @@
         "explanation": ""
     },
     {
-        "id": 30,
+        "id": 10,
         "subject": "Physics",
         "topic": "General Physics",
         "question": "A ও B গ্রহদ্বয়ের ভর যথাক্রমে M ও 2M, এবং ব্যাসার্ধ যথাক্রমে R ও 2R হলে তাদের অভিকর্ষজ ত্বরণের অনুপাত g A : g B কত?",
@@ -160,7 +160,7 @@
         "explanation": ""
     },
     {
-        "id": 31,
+        "id": 11,
         "subject": "Physics",
         "topic": "General Physics",
         "question": "সান্দ্রতা গুণাঙ্কের মাত্রা কোনটি?",
@@ -176,7 +176,7 @@
         "explanation": ""
     },
     {
-        "id": 32,
+        "id": 12,
         "subject": "Physics",
         "topic": "General Physics",
         "question": "0.5 m ব্যবধানে অবস্থিত ‍দু ’ টি সমান্তরাল তারের উভয়ের মধ্য দিয়ে 10 A বিদ্যুৎ প্রবাহিত হচ্ছে। উভয় তারের দৈর্ঘ্য 0.5 m হলে এদের মধ্যে ক্রিয়াশীল বলের মান কত নিউটন (N)? [ μ 0 = 4 π × 10 − 7 T m A − 1 ]",
@@ -192,7 +192,7 @@
         "explanation": ""
     },
     {
-        "id": 33,
+        "id": 13,
         "subject": "Physics",
         "topic": "General Physics",
         "question": "5 kg ভরের একটি বস্তু 1.2 m s − 1 বেগে একটি দেয়ালে লম্বভাবে ধাক্কা খেয়ে 0.8 m s − 1 বেগে বিপরীত দিকে ফিরে আসলে বলের ঘাত কত Ns হবে?",
@@ -208,7 +208,7 @@
         "explanation": ""
     },
     {
-        "id": 34,
+        "id": 14,
         "subject": "Physics",
         "topic": "General Physics",
         "question": "কোন রশ্মি/ কণার ভেদন ক্ষমতা সবচেয়ে বেশী?",
@@ -224,7 +224,7 @@
         "explanation": ""
     },
     {
-        "id": 35,
+        "id": 15,
         "subject": "Physics",
         "topic": "General Physics",
         "question": "10 লিটার আয়তনের বদ্ধ পাত্রে 300 K তাপমাত্রায় 16 g অক্সিজেন যে চাপ প্রদর্শন করে, একই পাত্রে একই তাপমাত্রায় কত গ্রাম নাইট্রোজেন রাখলে একই চাপ প্রদর্শন করবে?",
@@ -240,7 +240,7 @@
         "explanation": ""
     },
     {
-        "id": 36,
+        "id": 16,
         "subject": "Physics",
         "topic": "General Physics",
         "question": "একটি গোলকের ব্যাসার্ধ ( 2.0 ± 0.1 ) m ধরে পৃষ্ঠতলের ক্ষেত্রফল হিসাব করলে শতকরা ত্রুটি কত?",
@@ -256,7 +256,7 @@
         "explanation": ""
     },
     {
-        "id": 37,
+        "id": 17,
         "subject": "Physics",
         "topic": "General Physics",
         "question": "কত m s − 1 বেগে একটি বল উপরের দিকে নিক্ষেপ করলে বলটি 1s পর ভূ-পৃষ্ঠে ফিরে আসবে?",
@@ -272,7 +272,7 @@
         "explanation": ""
     },
     {
-        "id": 38,
+        "id": 18,
         "subject": "Physics",
         "topic": "General Physics",
         "question": "সরল ছন্দিত গতিসম্পন্ন বস্তুর সরণের সমীকরণ, x = 2 s i n 3 t এবং স্প্রিং ধ্রুবক, k = 30 N m − 1 হলে, t = π 9 সময়ে এর বিভব শক্তি কত একক?",
@@ -288,7 +288,7 @@
         "explanation": ""
     },
     {
-        "id": 39,
+        "id": 19,
         "subject": "Physics",
         "topic": "General Physics",
         "question": "একটি হাইড্রোজেন পরমাণু উত্তেজিত অবস্থা থেকে ভূমি অবস্থায় ফিরে আসলে-",
@@ -304,7 +304,7 @@
         "explanation": ""
     },
     {
-        "id": 40,
+        "id": 20,
         "subject": "Physics",
         "topic": "General Physics",
         "question": "কোন তল দ্বারা আবদ্ধকৃত 2 একক চার্জের জন্য শূন্যস্থানে বৈদ্যুতিক ফ্লাক্স-",
@@ -318,5 +318,85 @@
         },
         "correctAnswer": "?",
         "explanation": ""
+    },
+    {
+        "id": 21,
+        "subject": "Physics",
+        "topic": "General Physics",
+        "question": "দুটি ভেক্টরের লব্ধির মান সর্বোচ্চ হয় যখন তাদের মধ্যবর্তী কোণ কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "0°",
+            "b": "90°",
+            "c": "180°",
+            "d": "45°"
+        },
+        "correctAnswer": "a",
+        "explanation": "লব্ধি সর্বোচ্চ হয় যখন ভেক্টরদ্বয় একই দিকে ক্রিয়া করে, অর্থাৎ কোণ 0°। $R_{max} = P+Q$"
+    },
+    {
+        "id": 22,
+        "subject": "Physics",
+        "topic": "General Physics",
+        "question": "কার্নো ইঞ্জিনের দক্ষতা কিসের উপর নির্ভর করে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "কার্যনির্বাহী বস্তু",
+            "b": "ইঞ্জিনের গঠন",
+            "c": "উৎস ও গ্রাহকের তাপমাত্রা",
+            "d": "জ্বালানির পরিমাণ"
+        },
+        "correctAnswer": "c",
+        "explanation": "কার্নো ইঞ্জিনের দক্ষতা $\\\\eta = 1 - \\\\frac{T_2}{T_1}$, যা শুধুমাত্র উৎস ($T_1$) ও গ্রাহকের ($T_2$) তাপমাত্রার উপর নির্ভর করে।"
+    },
+    {
+        "id": 23,
+        "subject": "Physics",
+        "topic": "General Physics",
+        "question": "একটি তারকে টেনে লম্বা করে ৩ গুণ করা হলো। বর্তমান রোধ পূর্বের কত গুণ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "3 গুণ",
+            "b": "6 গুণ",
+            "c": "9 গুণ",
+            "d": "1/3 গুণ"
+        },
+        "correctAnswer": "c",
+        "explanation": "টেনে লম্বা করলে আয়তন স্থির থাকে। সূত্র: $R' = n^2 R$। এখানে $n=3$, তাই $R' = 3^2 R = 9R$।"
+    },
+    {
+        "id": 24,
+        "subject": "Physics",
+        "topic": "General Physics",
+        "question": "ভূপৃষ্ঠে মুক্তিবেগের মান কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "11.2 km/s",
+            "b": "11.2 m/s",
+            "c": "9.8 km/s",
+            "d": "7.9 km/s"
+        },
+        "correctAnswer": "a",
+        "explanation": "পৃথিবীর জন্য মুক্তিবেগ $v_e = \\\\sqrt{2gR} \\\\approx 11.2 \\\\text{ km/s}$।"
+    },
+    {
+        "id": 25,
+        "subject": "Physics",
+        "topic": "General Physics",
+        "question": "কোনটি চার্জ নিরপেক্ষ কণা?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "ইলেকট্রন",
+            "b": "প্রোটন",
+            "c": "নিউট্রন",
+            "d": "পজিট্রন"
+        },
+        "correctAnswer": "c",
+        "explanation": "নিউট্রন হলো চার্জহীন বা নিরপেক্ষ কণা। ইলেকট্রন (-), প্রোটন (+)।"
     }
 ]
