@@ -29,7 +29,7 @@
       "d": "আদি দৈর্ঘ্যের অর্ধেক"
     },
     "correctAnswer": "b",
-    "explanation": "সূত্রানুসারে $L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$। যদি $v=c$ হয়, তবে $L = L_0 \sqrt{1-1} = 0$।"
+    "explanation": "সূত্রানুসারে $L = L_0 \\sqrt{1 - \\frac{v^2}{c^2}}$। যদি $v=c$ হয়, তবে $L = L_0 \\sqrt{1-1} = 0$।"
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
       "d": "0.4 m"
     },
     "correctAnswer": "b",
-    "explanation": "$L = L_0 \sqrt{1 - (0.6)^2} = 1 \times 0.8 = 0.8 m$"
+    "explanation": "$L = L_0 \\sqrt{1 - (0.6)^2} = 1 \\times 0.8 = 0.8 m$"
   },
   {
     "id": 4,
@@ -55,13 +55,13 @@
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "$\frac{\sqrt{3}}{2}c$",
-      "b": "$\frac{1}{2}c$",
-      "c": "$\frac{1}{\sqrt{2}}c$",
+      "a": "$\\frac{\\sqrt{3}}{2}c$",
+      "b": "$\\frac{1}{2}c$",
+      "c": "$\\frac{1}{\\sqrt{2}}c$",
       "d": "$0.9c$"
     },
     "correctAnswer": "a",
-    "explanation": "$m = 2m_0 \Rightarrow \frac{m_0}{\sqrt{1-v^2/c^2}} = 2m_0 \Rightarrow 1-v^2/c^2 = 1/4 \Rightarrow v = \frac{\sqrt{3}}{2}c$"
+    "explanation": "$m = 2m_0 \\Rightarrow \\frac{m_0}{\\sqrt{1-v^2/c^2}} = 2m_0 \\Rightarrow 1-v^2/c^2 = 1/4 \\Rightarrow v = \\frac{\\sqrt{3}}{2}c$"
   },
   {
     "id": 5,
@@ -74,7 +74,7 @@
       "a": "$E = mc$",
       "b": "$E = m^2c$",
       "c": "$E = mc^2$",
-      "d": "$E = \frac{1}{2}mv^2$"
+      "d": "$E = \\frac{1}{2}mv^2$"
     },
     "correctAnswer": "c",
     "explanation": "বিখ্যাত সূত্র $E=mc^2$।"
@@ -89,8 +89,8 @@
     "options": {
       "a": "অসীম",
       "b": "শূন্য",
-      "c": "$1.6 \times 10^{-19} kg$",
-      "d": "$9.1 \times 10^{-31} kg$"
+      "c": "$1.6 \\times 10^{-19} kg$",
+      "d": "$9.1 \\times 10^{-31} kg$"
     },
     "correctAnswer": "b",
     "explanation": "ফোটন আলোর বেগে চলে, তাই এর নিশ্চল বা স্থির ভর শূন্য।"
@@ -103,13 +103,13 @@
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "$6.63 \times 10^{-34} Js$",
-      "b": "$6.63 \times 10^{-30} Js$",
-      "c": "$3 \times 10^{8} ms^{-1}$",
-      "d": "$1.6 \times 10^{-19} J$"
+      "a": "$6.63 \\times 10^{-34} Js$",
+      "b": "$6.63 \\times 10^{-30} Js$",
+      "c": "$3 \\times 10^{8} ms^{-1}$",
+      "d": "$1.6 \\times 10^{-19} J$"
     },
     "correctAnswer": "a",
-    "explanation": "প্লাঙ্কের ধ্রুবক $h = 6.626 \times 10^{-34} Js$।"
+    "explanation": "প্লাঙ্কের ধ্রুবক $h = 6.626 \\times 10^{-34} Js$।"
   },
   {
     "id": 8,
@@ -141,7 +141,7 @@
       "d": "3.5 eV"
     },
     "correctAnswer": "a",
-    "explanation": "$K_{max} = E - \phi = 3.5 - 2.5 = 1.0 eV$"
+    "explanation": "$K_{max} = E - \\phi = 3.5 - 2.5 = 1.0 eV$"
   },
   {
     "id": 10,
@@ -167,13 +167,13 @@
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "$\lambda = \frac{h}{p}$",
-      "b": "$\lambda = \frac{p}{h}$",
-      "c": "$\lambda = hp$",
-      "d": "$\lambda = \frac{h}{c}$"
+      "a": "$\\lambda = \\frac{h}{p}$",
+      "b": "$\\lambda = \\frac{p}{h}$",
+      "c": "$\\lambda = hp$",
+      "d": "$\\lambda = \\frac{h}{c}$"
     },
     "correctAnswer": "a",
-    "explanation": "ডি-ব্রগলি সমীকরণ $\lambda = \frac{h}{mv} = \frac{h}{p}$।"
+    "explanation": "ডি-ব্রগলি সমীকরণ $\\lambda = \\frac{h}{mv} = \\frac{h}{p}$।"
   },
   {
     "id": 12,
@@ -183,13 +183,13 @@
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "$\lambda' < \lambda$",
-      "b": "$\lambda' = \lambda$",
-      "c": "$\lambda' > \lambda$",
+      "a": "$\\lambda' < \\lambda$",
+      "b": "$\\lambda' = \\lambda$",
+      "c": "$\\lambda' > \\lambda$",
       "d": "কোনোটিই নয়"
     },
     "correctAnswer": "c",
-    "explanation": "কম্পটন ক্রিয়ায় শক্তি হ্রাসের ফলে তরঙ্গদৈর্ঘ্য বৃদ্ধি পায় ($\lambda' > \lambda$)।"
+    "explanation": "কম্পটন ক্রিয়ায় শক্তি হ্রাসের ফলে তরঙ্গদৈর্ঘ্য বৃদ্ধি পায় ($\\lambda' > \\lambda$)।"
   },
   {
     "id": 13,
@@ -199,13 +199,13 @@
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "$\Delta x \Delta p \geq \frac{h}{4\pi}$",
-      "b": "$\Delta x \Delta p = 0$",
-      "c": "$\Delta E \Delta t = 0$",
-      "d": "$\Delta x \Delta p \leq h$"
+      "a": "$\\Delta x \\Delta p \\geq \\frac{h}{4\\pi}$",
+      "b": "$\\Delta x \\Delta p = 0$",
+      "c": "$\\Delta E \\Delta t = 0$",
+      "d": "$\\Delta x \\Delta p \\leq h$"
     },
     "correctAnswer": "a",
-    "explanation": "অবস্থান ও ভরবেগের অনিশ্চয়তার গুণফল $\frac{h}{4\pi}$ এর সমান বা বড়।"
+    "explanation": "অবস্থান ও ভরবেগের অনিশ্চয়তার গুণফল $\\frac{h}{4\\pi}$ এর সমান বা বড়।"
   },
   {
     "id": 14,
@@ -221,7 +221,7 @@
       "d": "100 MeV"
     },
     "correctAnswer": "a",
-    "explanation": "$1 amu \approx 931.5 MeV$ শক্তি উৎপন্ন করে।"
+    "explanation": "$1 amu \\approx 931.5 MeV$ শক্তি উৎপন্ন করে।"
   },
   {
     "id": 15,
@@ -247,42 +247,42 @@
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "$N = N_0 e^{-\lambda t}$",
-      "b": "$N = N_0 e^{\lambda t}$",
+      "a": "$N = N_0 e^{-\\lambda t}$",
+      "b": "$N = N_0 e^{\\lambda t}$",
       "c": "$N = N_0 t^2$",
-      "d": "$N = N_0 (1-\lambda t)$"
+      "d": "$N = N_0 (1-\\lambda t)$"
     },
     "correctAnswer": "a",
-    "explanation": "রাদারফোর্ড ও সডির সূত্রানুসারে $N = N_0 e^{-\lambda t}$।"
+    "explanation": "রাদারফোর্ড ও সডির সূত্রানুসারে $N = N_0 e^{-\\lambda t}$।"
   },
   {
     "id": 17,
     "subject": "Physics",
     "topic": "Nuclear Physics",
-    "question": "অর্ধায়ু ($T_{1/2}$) এবং ক্ষয় ধ্রুবক ($\lambda$) এর মধ্যে সম্পর্ক কী?",
+    "question": "অর্ধায়ু ($T_{1/2}$) এবং ক্ষয় ধ্রুবক ($\\lambda$) এর মধ্যে সম্পর্ক কী?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "$T_{1/2} = \frac{0.693}{\lambda}$",
-      "b": "$T_{1/2} = 0.693 \lambda$",
-      "c": "$T_{1/2} = \frac{1}{\lambda}$",
-      "d": "$T_{1/2} = \lambda^2$"
+      "a": "$T_{1/2} = \\frac{0.693}{\\lambda}$",
+      "b": "$T_{1/2} = 0.693 \\lambda$",
+      "c": "$T_{1/2} = \\frac{1}{\\lambda}$",
+      "d": "$T_{1/2} = \\lambda^2$"
     },
     "correctAnswer": "a",
-    "explanation": "আমরা জানি, $\lambda T_{1/2} = \ln(2) \approx 0.693$।"
+    "explanation": "আমরা জানি, $\\lambda T_{1/2} = \\ln(2) \\approx 0.693$।"
   },
   {
     "id": 18,
     "subject": "Physics",
     "topic": "Nuclear Physics",
-    "question": "গড় আয়ু ($\tau$) এবং ক্ষয় ধ্রুবক ($\lambda$) এর সম্পর্ক কী?",
+    "question": "গড় আয়ু ($\\tau$) এবং ক্ষয় ধ্রুবক ($\\lambda$) এর সম্পর্ক কী?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
-      "a": "$\tau = 1/\lambda$",
-      "b": "$\tau = \lambda$",
-      "c": "$\tau = 0.693 \lambda$",
-      "d": "$\tau = \lambda^2$"
+      "a": "$\\tau = 1/\\lambda$",
+      "b": "$\\tau = \\lambda$",
+      "c": "$\\tau = 0.693 \\lambda$",
+      "d": "$\\tau = \\lambda^2$"
     },
     "correctAnswer": "a",
     "explanation": "গড় আয়ু হলো ক্ষয় ধ্রুবকের বিপরীত রাশি।"
@@ -301,7 +301,7 @@
       "d": "20 দিন"
     },
     "correctAnswer": "a",
-    "explanation": "$\tau = 1.44 \times T_{1/2} = 1.44 \times 10 = 14.4$ দিন।"
+    "explanation": "$\\tau = 1.44 \\times T_{1/2} = 1.44 \\times 10 = 14.4$ দিন।"
   },
   {
     "id": 20,
@@ -371,7 +371,7 @@
     "id": 24,
     "subject": "Physics",
     "topic": "Nuclear Physics",
-    "question": "মাস ডিফেক্ট (Mass Defect) বা ভরত্রুটি ($\Delta m$) বলতে কী বোঝায়?",
+    "question": "মাস ডিফেক্ট (Mass Defect) বা ভরত্রুটি ($\\Delta m$) বলতে কী বোঝায়?",
     "hasDiagram": false,
     "svg_code": "",
     "options": {
