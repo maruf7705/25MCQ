@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "বায়ু সাপেক্ষে পানি ও কাচের প্রতিসরণাঙ্ক যথাক্রমে 4/3 ও 3/2 হলে, কাচ সাপেক্ষে পানির প্রতিসরণাঙ্ক হবে –",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "9/8",
+      "b": "3/2",
+      "c": "2",
+      "d": "8/9"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  },
+  {
+    "id": 2,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "ভূপৃষ্ঠ হতে কত গভীরে অভিকর্ষীয় ত্বরণের মান ভূপৃষ্ঠের মানের এক-চতুর্থাংশ হবে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "R/4",
+      "b": "3/R",
+      "c": "R/2",
+      "d": "R"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  },
+  {
+    "id": 3,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "কোনোক্রমে সমান ভরের দুটি বস্তুকে একই উচ্চতা হতে ছেড়ে দেওয়া হলো। একটি বস্তু মুক্তপতনে ও অন্যটি ঢালু তলে গড়িয়ে নিচে নামল। নিচে পৌঁছালে কোনটির বেগ বেশি হবে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "মুক্তপতনে বস্তুটির",
+      "b": "ঢালু তলে গড়ানো বস্তুটির",
+      "c": "দুটির বেগ সমান হবে",
+      "d": "তথ্য অপর্যাপ্ত"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  },
+  {
+    "id": 4,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "একটি তারকে সমদৈর্ঘ্যের চার ভাগে ভাগ করে সমান্তরালে যুক্ত করা হলো। নতুন তারটির রোধ পূর্বের তুলনায় কত গুণ হবে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "1/16",
+      "b": "1/4",
+      "c": "4",
+      "d": "16"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  },
+  {
+    "id": 5,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "একটি বস্তুর উপর ক্রিয়াশীল বলের মান 10 N এবং এটি 2 m সরলে কাজের মান কত (বল ও সরণ একই দিকে)?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "5 J",
+      "b": "10 J",
+      "c": "20 J",
+      "d": "40 J"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  },
+  {
+    "id": 6,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "একটি বস্তুর ভর 2 kg এবং বেগ 3 m/s হলে ভরবেগ কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "1 kg·m/s",
+      "b": "5 kg·m/s",
+      "c": "6 kg·m/s",
+      "d": "9 kg·m/s"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  },
+  {
+    "id": 7,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "তড়িৎ প্রবাহের একক কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ভোল্ট",
+      "b": "অ্যাম্পিয়ার",
+      "c": "ওহম",
+      "d": "ওয়াট"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  },
+  {
+    "id": 8,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "তাপমাত্রার SI একক কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সেলসিয়াস",
+      "b": "ফারেনহাইট",
+      "c": "কেলভিন",
+      "d": "জুল"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  },
+  {
+    "id": 9,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "আলোক তরঙ্গের প্রকৃতি কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "অনুদৈর্ঘ্য",
+      "b": "আনুভূমিক",
+      "c": "অনুপ্রস্থ",
+      "d": "যান্ত্রিক"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  },
+  {
+    "id": 10,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "একটি বস্তুর উপর ক্রিয়াশীল বল শূন্য হলে বস্তুটির অবস্থা কী হবে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "স্থির থাকবে",
+      "b": "সমবেগে সরবে বা স্থির থাকবে",
+      "c": "ত্বরণ পাবে",
+      "d": "বেগ বৃদ্ধি পাবে"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  },
+  {
+    "id": 11,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "ঘর্ষণ বল সর্বদা কোন দিকে ক্রিয়া করে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "গতির দিকে",
+      "b": "গতির বিপরীত দিকে",
+      "c": "লম্বভাবে",
+      "d": "সমান্তরালে"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  },
+  {
+    "id": 12,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "বেগের SI একক কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "m/s",
+      "b": "m/s²",
+      "c": "kg·m/s",
+      "d": "N"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  },
+  {
+    "id": 13,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "চাপের SI একক কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "জুল",
+      "b": "পাস্কাল",
+      "c": "নিউটন",
+      "d": "ওয়াট"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  },
+  {
+    "id": 14,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "শক্তির SI একক কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ওয়াট",
+      "b": "নিউটন",
+      "c": "জুল",
+      "d": "পাস্কাল"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  },
+  {
+    "id": 15,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "ক্ষমতার SI একক কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ওয়াট",
+      "b": "ভোল্ট",
+      "c": "অ্যাম্পিয়ার",
+      "d": "ওহম"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  },
+  {
+    "id": 16,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "পরিবাহীর রোধ কোন বিষয়ের উপর নির্ভর করে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "দৈর্ঘ্য",
+      "b": "ক্ষেত্রফল",
+      "c": "উপাদান ও তাপমাত্রা",
+      "d": "সবগুলো"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  },
+  {
+    "id": 17,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "লেন্সের ক্ষমতা (Power) এর একক কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ডায়োপ্টার",
+      "b": "ওহম",
+      "c": "জুল",
+      "d": "নিউটন"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  },
+  {
+    "id": 18,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "বিশিষ্ট তাপ (Specific heat) এর একক কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "J/kg·K",
+      "b": "J/K",
+      "c": "kg/J",
+      "d": "N/m²"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  },
+  {
+    "id": 19,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "একটি কণা বৃত্তাকার পথে চললে কেন্দ্রাভিমুখ ত্বরণ কোন দিকে হয়?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "স্পর্শকের দিকে",
+      "b": "কেন্দ্রের দিকে",
+      "c": "কেন্দ্র থেকে বাইরে",
+      "d": "উপরের দিকে"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  },
+  {
+    "id": 20,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "রেডিওঅ্যাকটিভ ক্ষয়ের একক সময়ের ক্ষয়ের সম্ভাবনাকে কী বলে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "হাফ লাইফ",
+      "b": "ক্ষয় ধ্রুবক",
+      "c": "অ্যাক্টিভিটি",
+      "d": "ডোজ"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  },
+  {
+    "id": 21,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "প্রবাহিত তড়িৎ চার্জের SI একক কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "কুলম্ব",
+      "b": "ভোল্ট",
+      "c": "ওহম",
+      "d": "ওয়াট"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  },
+  {
+    "id": 22,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "চৌম্বক ক্ষেত্রের একক কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "টেসলা",
+      "b": "ওয়েবার",
+      "c": "হেনরি",
+      "d": "ফ্যারাড"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  },
+  {
+    "id": 23,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "আপেক্ষিকতাবাদে আলোর বেগ সম্পর্কে সঠিকটি কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "পর্যবেক্ষকের উপর নির্ভরশীল",
+      "b": "মাধ্যমের উপর নির্ভরশীল",
+      "c": "শূন্যস্থানে ধ্রুব",
+      "d": "সময়ভেদে পরিবর্তিত"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  },
+  {
+    "id": 24,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "গ্যাসের অণুগত গতিতত্ত্ব অনুযায়ী চাপ সৃষ্টি হয় কেন?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "অণুগুলোর সংঘর্ষে",
+      "b": "অণুগুলোর আকর্ষণে",
+      "c": "অণুগুলোর ওজনে",
+      "d": "অণুগুলোর আয়তনে"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  },
+  {
+    "id": 25,
+    "subject": "Physics",
+    "topic": "Physics",
+    "question": "একটি আদর্শ ট্রান্সফরমারে ইনপুট শক্তি ও আউটপুট শক্তির সম্পর্ক কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "ইনপুট > আউটপুট",
+      "b": "ইনপুট < আউটপুট",
+      "c": "ইনপুট = আউটপুট",
+      "d": "কোনো সম্পর্ক নেই"
+    },
+    "correctAnswer": "",
+    "explanation": "none"
+  }
+]
