@@ -1,6 +1,3 @@
-import fs from 'fs'
-import path from 'path'
-
 export default async function handler(req, res) {
     if (req.method !== 'GET') {
         return res.status(405).json({ error: 'Method not allowed' })
@@ -11,7 +8,9 @@ export default async function handler(req, res) {
         let files = []
 
         if (isDev) {
-            // Local development - read directly from filesystem
+            // Local development - dynamically import fs and path (not available on Vercel)
+            const fs = await import('fs')
+            const path = await import('path')
             const publicDir = path.join(process.cwd(), 'public')
             try {
                 const dirFiles = fs.readdirSync(publicDir)
