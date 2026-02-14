@@ -1,14 +1,16 @@
 import { Buffer } from "buffer";
-import fs from "fs/promises";
-import path from "path";
 
-const OWNER = process.env.GITHUB_OWNER;
-const REPO = process.env.GITHUB_REPO;
+const OWNER = process.env.GITHUB_OWNER || 'maruf7705';
+const REPO = process.env.GITHUB_REPO || '25MCQ';
 const BRANCH = process.env.GITHUB_BRANCH || "main";
 const TOKEN = process.env.GITHUB_TOKEN;
 const FILE_PATH = "answers.json";
 
 async function deleteLocally(studentName, timestamp) {
+  // Dynamic imports
+  const fs = (await import("fs/promises")).default;
+  const path = (await import("path")).default;
+
   const filePath = path.join(process.cwd(), FILE_PATH);
   let currentData = [];
   try {
@@ -56,7 +58,7 @@ export default async function handler(req, res) {
     }
   }
 
-  if (!OWNER || !REPO || !TOKEN) {
+  if (!TOKEN) {
     return res.status(500).json({ error: "Missing GitHub configuration" });
   }
 
@@ -79,12 +81,17 @@ export default async function handler(req, res) {
     return res.status(200).json({ success: true });
   } catch (err) {
     console.error(err);
-    return res.status(500).json({ error: "Failed to delete answer" });
+    const statusCode = err.message.includes('GitHub Token Invalid') ? 401 : 500;
+    return res.status(statusCode).json({
+      error: "Failed to delete answer",
+      details: err.message
+    });
   }
 }
 
 async function fetchFile() {
   const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE_PATH}?ref=${BRANCH}`;
+
   const res = await fetch(url, {
     headers: {
       Authorization: `Bearer ${TOKEN}`,
@@ -93,10 +100,14 @@ async function fetchFile() {
   });
 
   if (!res.ok) {
+    if (res.status === 401) {
+      throw new Error('GitHub Token Invalid or Expired');
+    }
     if (res.status === 404) {
       return { content: [], sha: undefined };
     }
-    throw new Error(`GitHub fetch failed: ${res.status}`);
+    const errorText = await res.text().catch(() => 'Could not read error');
+    throw new Error(`GitHub fetch failed: ${res.status} ${errorText}`);
   }
 
   const data = await res.json();
@@ -107,6 +118,7 @@ async function fetchFile() {
 
 async function updateFile(content, sha) {
   const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE_PATH}`;
+
   const res = await fetch(url, {
     method: "PUT",
     headers: {
@@ -123,6 +135,9 @@ async function updateFile(content, sha) {
 
   if (!res.ok) {
     const text = await res.text();
+    if (res.status === 401) {
+      throw new Error('GitHub Token Invalid or Expired');
+    }
     throw new Error(`GitHub update failed: ${res.status} ${text}`);
   }
 }
