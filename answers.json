@@ -877,5 +877,39 @@
     "wrong": 10,
     "pass": false,
     "questionFile": "physcisc.json"
+  },
+  {
+    "studentName": "Physics U-2",
+    "answers": {
+      "1": "b",
+      "2": "a",
+      "3": "b",
+      "4": "b",
+      "5": "c",
+      "6": "a",
+      "7": "a",
+      "8": "c",
+      "9": "a",
+      "11": "d",
+      "13": "a",
+      "14": "a",
+      "16": "a",
+      "17": "b",
+      "18": "c",
+      "19": "a",
+      "20": "a",
+      "22": "c",
+      "23": "a",
+      "24": "a",
+      "25": "a"
+    },
+    "score": 14.25,
+    "totalMarks": 31.25,
+    "timestamp": "2026-02-14T13:53:48.808Z",
+    "attempted": 21,
+    "correct": 13,
+    "wrong": 8,
+    "pass": false,
+    "questionFile": "Physics-U2.json"
   }
 ]
