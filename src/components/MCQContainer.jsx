@@ -16,9 +16,9 @@ const STATUS = {
 }
 
 const DURATION_SECONDS = 18 * 60 // 18 minutes
-const MARK_PER_QUESTION = 1.25
+const MARK_PER_QUESTION = 1
 const NEGATIVE_MARKING = 0.25
-const PASS_MARK = 16.5
+const PASS_MARK = 13.5
 
 function MCQContainer({ questions, studentName, questionFile = 'questions.json' }) {
   console.log('MCQContainer rendered:', {
@@ -300,6 +300,7 @@ function MCQContainer({ questions, studentName, questionFile = 'questions.json' 
         onRestart={() => window.location.reload()}
         questionFile={questionFile}
         submissionStatus={submissionStatus}
+        passMark={PASS_MARK}
       />
     )
   }

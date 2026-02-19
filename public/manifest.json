@@ -1,16 +1,16 @@
 {
-  "name": "MCQ Exam System",
-  "short_name": "MCQ Exam",
-  "description": "Online MCQ Examination System",
+  "name": "25 MCQ Exam System",
+  "short_name": "25 MCQ",
+  "description": "Practice timed MCQ exams for Biology, Chemistry, and Physics.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#2563eb",
   "icons": [
     {
-      "src": "/vite.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
+      "src": "/ai-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ]
 }

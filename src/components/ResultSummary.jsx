@@ -5,11 +5,11 @@ import AchievementBadge from './AchievementBadge'
 import PerformanceChart from './PerformanceChart'
 import './ResultSummary.css'
 
-function ResultSummary({ questions, answers, studentName, score, onRestart, questionFile, submissionStatus }) {
+function ResultSummary({ questions, answers, studentName, score, onRestart, questionFile, submissionStatus, passMark = 13.5 }) {
   const { score: totalScore, correct, wrong, attempted, total } = score
   const accuracy = attempted > 0 ? ((correct / attempted) * 100).toFixed(1) : 0
   const unanswered = total - attempted
-  const pass = totalScore >= 16.5
+  const pass = totalScore >= passMark
 
   // Initialize expanded questions with wrong answers
   const [expandedQuestions, setExpandedQuestions] = useState(() => {

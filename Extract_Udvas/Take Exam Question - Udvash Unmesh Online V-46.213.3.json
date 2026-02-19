@@ -1,0 +1,2402 @@
+[
+    {
+        "id": 1,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "বায়ু সাপেক্ষে পানি ও কাচের প্রতিসরণাঙ্ক যথাক্রমে 4 3 ও 3 2 হলে, কাচ সাপেক্ষে পানির প্রতিসরণাঙ্ক হবে –",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "9 8",
+            "b": "3 2",
+            "c": "2",
+            "d": "8 9"
+        },
+        "correctAnswer": "d",
+        "explanation": "g μ w = a μ w a μ g = 4 3 3 2 = 4 × 2 3 × 3 = 8 9"
+    },
+    {
+        "id": 2,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "ভূপৃষ্ঠ হতে কত গভীরে অভিকর্ষীয় ত্বরণের মান ভূপৃষ্ঠের মানের এক-চতুর্থাংশ হবে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "R 4",
+            "b": "3 R 4",
+            "c": "R 2",
+            "d": "R"
+        },
+        "correctAnswer": "b",
+        "explanation": "g ′ g = 1 − d R ⇒ 1 4 = 1 − d R ⇒ d R = 3 4 ∴ d = 3 R 4"
+    },
+    {
+        "id": 3,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "আটটি সমান ব্যাসার্ধের পানির ফোঁটা বায়ুর মধ্য দিয়ে 8 c m s − 1 বেগে নিচে পড়ছে। এই ফোঁটাগুলো একত্র হয়ে একটি বড় ফোঁটার পরিণত হলে এর প্রান্তীয় বেগ কত হবে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "16 c m s − 1",
+            "b": "8 c m s − 1",
+            "c": "32 c m s − 1",
+            "d": "4 c m s − 1"
+        },
+        "correctAnswer": "c",
+        "explanation": "r 2 = n 3 × r 1 = ( 8 ) 1 3 × r 1 = 2 r 1 ; v ∝ r 2 ∴ v 2 v 1 = ( r 2 r 1 ) 2 ⇒ v 2 8 = ( 2 r r ) 2 ∴ v 2 = 4 × 8 = 32 c m s − 1"
+    },
+    {
+        "id": 4,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "যদি একটি বস্তু আলোর বেগে ধাবিত হয়, তবে এর ভর হবে –",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "অসীম",
+            "b": "অপরিবর্তিত",
+            "c": "10 g",
+            "d": "0"
+        },
+        "correctAnswer": "a",
+        "explanation": "m = m 0 1 − v 2 c 2 = m 0 1 − 1 = ∞"
+    },
+    {
+        "id": 5,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "সাম্যাবস্থায় হুইটস্টোন ব্রিজের গ্যালভানোমিটার প্রবাহের মান –",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "অসীম",
+            "b": "শূন্য",
+            "c": "মূল প্রবাহের সমান",
+            "d": "সর্বোচ্চ"
+        },
+        "correctAnswer": "b",
+        "explanation": ""
+    },
+    {
+        "id": 6,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "একটি 5 kg ভরের বস্তু 30 m উচ্চতা থেকে মুক্তভাবে অভিকর্ষ বলের প্রভাবে পড়লে, 3 s পরে তার গতিশক্তি কত হবে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "2169.0 J",
+            "b": "2160.9 J",
+            "c": "2196.0 J",
+            "d": "2190.6 J"
+        },
+        "correctAnswer": "b",
+        "explanation": "v = g t = 9.8 × 3 = 29.4 m s − 1 ∴ E K = 1 2 m v 2 = 1 2 × 5 × ( 29.4 ) 2 = 2160.9 J [Note: প্রকৃতপক্ষে, বস্তুটি t = 2 h g = 2.47 s পরেই ভূমিতে পতিত হয়। তাই 3 s পরে বস্তুটি ভূমিতে থাকবে ও গতিশক্তি হবে 0 J । তবে প্রশ্নে থাকা তথ্যের ভিত্তিতে উত্তরটি দেওয়া হলো। ]"
+    },
+    {
+        "id": 7,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "3 kg পানির তাপমাত্রা 0 ∘ C থেকে 10 ∘ C পর্যন্ত বৃদ্ধি করলে এনট্রপির পরিবর্তন কত হবে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "602 J K − 1",
+            "b": "453 J K − 1",
+            "c": "101 J K − 1",
+            "d": "151 J K − 1"
+        },
+        "correctAnswer": "b",
+        "explanation": "∆ S = m s l n ( T 2 T 1 ) = 3 × 4200 × l n ( 283 273 ) = 453 J K − 1 [ক্যালকুলেটর ব্যবহার করে ]"
+    },
+    {
+        "id": 8,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "একটি সরলদোলক পৃথিবীর কেন্দ্রে নিলে এর দোলনকাল হবে –",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "ভূপৃষ্ঠের চেয়ে কম",
+            "b": "অসীম",
+            "c": "শূন্য",
+            "d": "ভূপৃষ্ঠের চেয়ে বেশি"
+        },
+        "correctAnswer": "b",
+        "explanation": "পৃ থিবীর কেন্দ্রে, g = 0 ∴ দোলনকাল, T = 2 π L 0 = ∞"
+    },
+    {
+        "id": 9,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "m এর মান কত হলে, ভেক্টর A → = m i ^ − 2 j ^ + k ^ , B → = i ^ − 3 j ^ + 5 k ^ এবং C → = 2 i ^ + j ^ − 4 k ^ একটি সমকোণী ত্রিভুজ তৈরি করবে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "2",
+            "b": "3",
+            "c": "4",
+            "d": "কোনোটিই নয়"
+        },
+        "correctAnswer": "b",
+        "explanation": "B → ⋅ C → = 2 − 3 − 20 = − 21 ≠ 0 ; সুতরাং , B → এবং C → কোনোটিই লম্ব হতে পারবে না। তাই A → লম্ব ধরবো। এবার চিত্রানুসারে, A → ⋅ C → = 0 ⇒ 2 m − 2 − 4 = 0 ∴ m = 3 , যা অপশনে আছে। আবার, C → এর স্থানে B → ধরলে, A → ⋅ B → = 0 ⇒ m + 6 + 5 = 0 ∴ m = − 11 ; যা অপশনে নেই।"
+    },
+    {
+        "id": 10,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "কোন ধাতব পৃষ্ঠের উপর অতিবেগুণী রশ্মি আপতিত হলে, পৃষ্ঠ হতে নির্গত কণা কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "ইলেকট্রন",
+            "b": "আলফা রে",
+            "c": "ফোটন",
+            "d": "এক্স-রে"
+        },
+        "correctAnswer": "a",
+        "explanation": ""
+    },
+    {
+        "id": 11,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "একটি চাকার জড়তার ভ্রামক 10 k g m 2 । চাকাটিতে 10 r a d s − 2 কৌণিক ত্বরণ সৃষ্টি করতে কত টর্ক প্রয়োগ করতে হবে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "100 Nm",
+            "b": "10 Nm",
+            "c": "150 Nm",
+            "d": "200 Nm"
+        },
+        "correctAnswer": "a",
+        "explanation": "τ = I α = 10 × 10 = 100 N m"
+    },
+    {
+        "id": 12,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "একটি তরঙ্গের দুইটি বিন্দুর মধ্যে দশা পার্থক্য π , বিন্দুদ্বয়ের মধ্যে পথপার্থক্য কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "λ 4",
+            "b": "λ",
+            "c": "λ 2",
+            "d": "2 λ"
+        },
+        "correctAnswer": "c",
+        "explanation": "∆ x = λ 2 π ⇒ φ = λ 2 π × π = λ 2"
+    },
+    {
+        "id": 13,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "60 m উঁচু থেকে একটি বল ফেলা হলো। অন্য একটি বল একই সময়ে 30 m s − 1 বেগে উপরে নিক্ষেপ করা হলে, কতক্ষণে তারা মিলিত হবে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "1 s",
+            "b": "1.5 s",
+            "c": "0.5 s",
+            "d": "2 s"
+        },
+        "correctAnswer": "d",
+        "explanation": "t = h v = 60 30 = 2 s"
+    },
+    {
+        "id": 14,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "হাইড্রোজেন পরমাণুর প্রথম বোর কক্ষের শক্তি − 13.6 e V , এর ২য় কক্ষের শক্তি কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "− 27.2 e V",
+            "b": "− 4.7 e V",
+            "c": "− 6.8 e V",
+            "d": "− 3.4 e V"
+        },
+        "correctAnswer": "d",
+        "explanation": "E 2 = E 1 2 2 = − 13.6 4 = − 136 40 = − 3.4 e V"
+    },
+    {
+        "id": 15,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "একটি দ্বি-অবতল লেন্সের বক্রতার ব্যাসার্ধ যথাক্রমে 30 cm ও 20 cm । লেন্সের উপাদানের প্রতিসরণাঙ্ক 1.5 হলে এর ফোকাস দূরত্ব-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "− 22 c m",
+            "b": "− 24 c m",
+            "c": "− 20 c m",
+            "d": "− 26 c m"
+        },
+        "correctAnswer": "b",
+        "explanation": "1 f = ( μ − 1 ) × ( 1 r 1 − 1 r 2 ) = ( 1.5 − 1 ) × ( 1 − 30 − 1 20 ) = 0.5 × ( − 2 − 3 60 ) = 1 2 × ( − 1 12 ) = − 1 24 ∴ f = − 24 c m"
+    },
+    {
+        "id": 16,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "27 ∘ C তাপমাত্রার গ্যাসকে কত তাপমাত্রায় নেয়া হলে, মূল গড় বর্গবেগের দ্বিগুণ হবে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "54 ∘ C",
+            "b": "927 ∘ C",
+            "c": "540 ∘ C",
+            "d": "27 ∘ C"
+        },
+        "correctAnswer": "b",
+        "explanation": "C ∝ T ⇒ C 2 C 1 = T 2 T 1 ⇒ 2 = T 2 300 ∴ T 2 = 300 × 4 = 1200 k ℃ ℃ = ( 1200 − 273 ) ℃ = 927 ℃"
+    },
+    {
+        "id": 17,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "কোন দুটি আলোর জন্য কৌণিক বিচ্ছুরণ সর্বাধিক?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "হলুদ ও সবুজ",
+            "b": "নীল ও কমলা",
+            "c": "লাল ও সবুজ",
+            "d": "লাল ও নীল"
+        },
+        "correctAnswer": "d",
+        "explanation": ""
+    },
+    {
+        "id": 18,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "বৃত্তাকার পথে 72 k m h − 1 সমুদ্রুতিতে চলমান কোনো গাড়ির কেন্দ্রমুখী ত্বরণ 1 m s − 2 হলে, বৃত্তাকার পথের ব্যাসার্ধ কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "200 m",
+            "b": "400 m",
+            "c": "300 m",
+            "d": "150 m"
+        },
+        "correctAnswer": "b",
+        "explanation": "এখানে, v = 72 k m h − 1 = 72 3.6 m s − 1 = 20 m s − 1 a c = v 2 r ⇒ r = v 2 a c = 20 2 1 = 400 m"
+    },
+    {
+        "id": 19,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "একটি 1200 W হিটারকে 120 V লাইনে 1 ঘণ্টার জন্য সংযুক্ত করা হলো। ঐ হিটারে বিদ্যুৎ প্রবাহ কত হবে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "1 A",
+            "b": "360 A",
+            "c": "10 A",
+            "d": "5 A"
+        },
+        "correctAnswer": "c",
+        "explanation": "বিদ্যুৎ প্রবাহ, I = P V = 1200 120 A = 10 A"
+    },
+    {
+        "id": 20,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "L দৈর্ঘ্য ও k স্প্রিং ধ্রুবক বিশিষ্ট একটি স্প্রিংকে কেটে সমান চার টুকরা করা হলে, প্রতি টুকরার স্প্রিং ধ্রুবক কত হবে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "k 4",
+            "b": "k 2",
+            "c": "4k",
+            "d": "2k"
+        },
+        "correctAnswer": "c",
+        "explanation": "সমান n টুকরো করা হলে, প্রতি টুকরোর স্প্রিং ধ্রুবক, k = n k = 4 k"
+    },
+    {
+        "id": 21,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "কোনো বস্তুর গতিশক্তি 300% বৃদ্ধি করা হলে, উক্ত বস্তুর ভরবেগ বাড়বে–",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "150%",
+            "b": "400%",
+            "c": "100%",
+            "d": "200%"
+        },
+        "correctAnswer": "c",
+        "explanation": "E k ′ = E k + 300 % × E k = 4 E k ∴ p = 2 m E k ∴ p ′ = E k ′ E k × p = 2 p ∴ ∆ p = p ′ − p = 100 % p"
+    },
+    {
+        "id": 22,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "দুটি হালকা মৌল একত্র হয়ে একটি ভারী মৌল গঠনের প্রক্রিয়াকে কী বলে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "নিউক্লিয় ফিউশন বিক্রিয়া",
+            "b": "শৃঙ্খল বিক্রিয়া",
+            "c": "নিউক্লিয় ফিশন বিক্রিয়া",
+            "d": "কোনোটিই নয়"
+        },
+        "correctAnswer": "a",
+        "explanation": ""
+    },
+    {
+        "id": 23,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "যদি স্পর্শ কোণ 90 ∘ এর বেশি হয়, তবে তরলের পৃষ্ঠ হবে –",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "উত্তল",
+            "b": "সমতল-অবতল",
+            "c": "অবতল",
+            "d": "সমতল-উত্তল"
+        },
+        "correctAnswer": "a",
+        "explanation": ""
+    },
+    {
+        "id": 24,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "কোন তাপমাত্রায় ফারেনহাইট স্কেলের মান সেলসিয়াস স্কেলের মান থেকে 10 ∘ বেশি হবে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "− 27.5 ∘ F",
+            "b": "27.5 ∘ F",
+            "c": "27.5 ∘ C",
+            "d": "− 27.5 ∘ C"
+        },
+        "correctAnswer": "d",
+        "explanation": "c 5 = F − 32 9 ⇒ c 5 = c + 10 − 32 9 ℃ ⇒ 9 c = 5 c − 22 × 5 ⇒ 4 c = − 110 ∴ c = − 27.5 ℃"
+    },
+    {
+        "id": 25,
+        "subject": "Physics",
+        "topic": "Exam",
+        "question": "2 ঘণ্টা পর কোন তেজস্ক্রিয় মৌলের 1 16 অংশ অবশিষ্ট থাকে। মৌলটির অর্ধজীবন কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "1 hour",
+            "b": "45 min",
+            "c": "30 min",
+            "d": "15 min"
+        },
+        "correctAnswer": "c",
+        "explanation": "N = N 0 16 = N 0 2 4 − N 0 2 n ∴ n = 4 ; t = n × T 1 2 ⇒ T 1 2 = 2 4 h r = 120 4 m i n = 30 m i n"
+    },
+    {
+        "id": 26,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "C u S O 4 + K I → C u 2 I 2 + I 2 + K 2 S O 4 - এই বিক্রিয়ায় বিজারক কোনটি ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "I −",
+            "b": "C u 2 +",
+            "c": "K +",
+            "d": "I 2"
+        },
+        "correctAnswer": "a",
+        "explanation": "যেহেতু I − এর জারণ ঘটে তাই এটি বিজারক।"
+    },
+    {
+        "id": 27,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "কোনটি পোলার অণু ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "C O 2",
+            "b": "B F 3",
+            "c": "C C l 4",
+            "d": "N H 3"
+        },
+        "correctAnswer": "d",
+        "explanation": ""
+    },
+    {
+        "id": 28,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "N H 4 + এর আকৃতি কোনটি ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "ট্রাইগোনাল বাইপিরাডিম",
+            "b": "টেট্রেহেড্রাল",
+            "c": "স্কয়ার প্ল্যানার",
+            "d": "পিরামিড"
+        },
+        "correctAnswer": "b",
+        "explanation": ""
+    },
+    {
+        "id": 29,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "ফেনলিক − O H গ্রুপ নির্ণয় করতে কোনটি ব্যবহার করা হয় ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "N a H C O 3",
+            "b": "F e C l 3",
+            "c": "N a",
+            "d": "Z n + H C l"
+        },
+        "correctAnswer": "b",
+        "explanation": ""
+    },
+    {
+        "id": 30,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "4.0 g C H 4 এবং 24.0 g O 2 গ্যাসের মিশ্রণে C H 4 এর মোল ভগ্নাংশ কত ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "0.50",
+            "b": "0.33",
+            "c": "0.25",
+            "d": "0.75"
+        },
+        "correctAnswer": "c",
+        "explanation": "C H 4 এর মোল ভগ্নাংশ = n C H 4 n C H 4 + n O 2 = 4 16 4 16 + 24 32 = 0.25 0.25 + 0.75 = 0.25"
+    },
+    {
+        "id": 31,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "কোন যৌগটি কেন্দ্রাকর্ষী প্রতিস্থাপন বিক্রিয়া দেয় ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "ইথিন",
+            "b": "ইথাইল ক্লোরাইড",
+            "c": "ইথান্যাল",
+            "d": "ক্লোরোবেনজিন"
+        },
+        "correctAnswer": "b",
+        "explanation": ""
+    },
+    {
+        "id": 32,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "কোন যৌগটির স্ফুটনাঙ্ক সবচেয়ে বেশি ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "C H 3 − O − C H 3",
+            "b": "C 2 H 6",
+            "c": "C H 3 O H",
+            "d": "C 2 H 5 O H"
+        },
+        "correctAnswer": "d",
+        "explanation": "পোলার যৌগসমূহের স্ফুটনাঙ্ক বেশি হয়। তাই C H 3 O H এবং C 2 H 5 O H এর স্ফুটনাঙ্ক বেশি হবে। আবার, C H 3 − O H ও C 2 H 5 O H এর মধ্যে C 2 H 5 O H এর আণবিক ভর বেশি। তাই C 2 H 5 O H এর স্ফুটনাঙ্ক বেশি।"
+    },
+    {
+        "id": 33,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "কোনটি জারক নয় ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "M n O 2",
+            "b": "I 2",
+            "c": "C O",
+            "d": "H 2 O 2"
+        },
+        "correctAnswer": "c",
+        "explanation": ""
+    },
+    {
+        "id": 34,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "কোন যৌগটি কার্বিল অ্যামিন বিক্রিয়া দেয় ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "( C H 3 ) 3 N",
+            "b": "( C H 3 ) 2 N H",
+            "c": "C 2 H 5 N H 2",
+            "d": "C 6 H 5 N H ( C H 3 )"
+        },
+        "correctAnswer": "c",
+        "explanation": "1 ∘ অ্যামিনসমূহ কার্বিল অ্যামিন পরীক্ষা দেয়। C 2 H 5 N H 2 1 ∘ অ্যামিন হওয়ায় কার্বিল অ্যামিন পরীক্ষা দিবে।"
+    },
+    {
+        "id": 35,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "কোনটি সবচেয়ে দুর্বল এসিড ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "C H 3 C O O H",
+            "b": "C l C H 2 C O O H",
+            "c": "H C O O H",
+            "d": "C l 2 C H C O O H"
+        },
+        "correctAnswer": "a",
+        "explanation": ""
+    },
+    {
+        "id": 36,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "কোন যৌগটি আয়োডোফর্ম বিক্রিয়া দেয় ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "C H 3 C O O H",
+            "b": "C H 3 C O N H 2",
+            "c": "C H 3 C H 2 C H O",
+            "d": "C H 3 C H ( O H ) C H 3"
+        },
+        "correctAnswer": "d",
+        "explanation": ""
+    },
+    {
+        "id": 37,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "উল্লেখিত ইলেকট্রন বিন্যাস সম্পন্ন কোন মৌলটির ব্যাসার্ধ সবচেয়ে বেশি ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "1 s 2 2 s 2 2 p 3",
+            "b": "1 s 2 2 s 2",
+            "c": "1 s 2 2 s 1",
+            "d": "1 s 2 2 s 2 2 p 1"
+        },
+        "correctAnswer": "c",
+        "explanation": "একই পর্যায়ের বাম থেকে ডান দিকে মৌলসমূহের পারমাণবিক ব্যাসার্ধ হ্রাস পায়। যেহেতু option এর মৌলটি পর্যায় সারণির সবচেয়ে বামে অবস্থিত। তাই ঐ মৌলের ব্যাসার্ধ সবচেয়ে বেশি হবে।"
+    },
+    {
+        "id": 38,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "দ্রবণের [ H + ] = 1.0 × 10 − 4 M হলে, p O H কত ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "4.0",
+            "b": "14.0",
+            "c": "10.0",
+            "d": "6.0"
+        },
+        "correctAnswer": "c",
+        "explanation": "p H + p O H = 14 ⇒ p O H = 14 − p H ⇒ p O H = 14 + l o g [ H + ] = 14 + l o g ( 1 × 10 − 4 ) = 14 − 4 = 10"
+    },
+    {
+        "id": 39,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "যে যৌগে দুটি কাইরাল কার্বন আছে-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "বিউটান- 2,3 -ডাইঅল",
+            "b": "বিউটান- 2 - অল",
+            "c": "2- মিথাইলপ্রোপান- 2 -অল",
+            "d": "2 -হাইড্রোক্সিপ্রোপানয়িক এসিড"
+        },
+        "correctAnswer": "a",
+        "explanation": "বিউটান- 2 , 3 - ডাইঅলে দুইটি কাইরাল কার্বন আছে। যৌগটি- ∴ যৌগটি 2 ও 3 নং কার্বন কাইরাল কার্বন।"
+    },
+    {
+        "id": 40,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "একই তাপমাত্রা ও চাপে কত গ্রাম H 2 S এর আয়তন 56.0 g N 2 এর আয়তনের সমান হবে ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "34.0 L",
+            "b": "56.0 L",
+            "c": "28.0 L",
+            "d": "68.0 L"
+        },
+        "correctAnswer": "d",
+        "explanation": "একই তাপমাত্রা ও চাপে সমান আয়তনের সকল গ্যাসে সমান সংখ্যক অণু থাকে। N 2 ও H 2 S এর আয়তন সমান। তাই এদের মোল সংখ্যাও সমান হবে। 56 g N 2 = 56 28 = 2 m o l e N 2 ∴ 2 m o l e H 2 S = ( 2 × 34 ) g = 68 g Note: অপশনে ভুল রয়েছে লিটার (L) এর পরিবর্তে গ্রাম (g) হলে উত্তর (b) ।"
+    },
+    {
+        "id": 41,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "ক্যালোমেল এর সংকেত কোনটি ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "C u 2 C l 2",
+            "b": "C u C l 2",
+            "c": "H g C l 2",
+            "d": "H g 2 C l 2"
+        },
+        "correctAnswer": "d",
+        "explanation": ""
+    },
+    {
+        "id": 42,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "কোন মৌলটিতে সর্বোচ্চ সংখ্যক অযুগ্ম ইলেকট্রন আছে ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "ক্রোমিয়াম",
+            "b": "নাইট্রেজেন",
+            "c": "কপার",
+            "d": "অক্সিজেন"
+        },
+        "correctAnswer": "a",
+        "explanation": ""
+    },
+    {
+        "id": 43,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "অ্যালডিহাইড + ফেহলিং দ্রবণ → লাল অধঃক্ষেপ; বিক্রিয়াটি হলো-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "রেডক্স বিক্রিয়া",
+            "b": "বিমুক্তকরণ বিক্রিয়া",
+            "c": "প্রতিস্থাপন বিক্রিয়া",
+            "d": "যুত বিক্রিয়া"
+        },
+        "correctAnswer": "a",
+        "explanation": ""
+    },
+    {
+        "id": 44,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "ন্যানো কণার আকারের পরিসর হচ্ছে-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "100 − 500 n m",
+            "b": "500 − 1000 n m",
+            "c": "0.1 − 1.0 n m",
+            "d": "1.0 − 100 n m"
+        },
+        "correctAnswer": "d",
+        "explanation": ""
+    },
+    {
+        "id": 45,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "কোনটি শিখা পরীক্ষায় বর্ণ দেখায় না ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "C a 2 +",
+            "b": "K +",
+            "c": "C u 2 +",
+            "d": "M g 2 +"
+        },
+        "correctAnswer": "d",
+        "explanation": ""
+    },
+    {
+        "id": 46,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "পানিতে অস্থায়ী খরতার জন্য কোন যৌগটি দায়ী ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "N a C l",
+            "b": "F e S O 4",
+            "c": "C a C l 2",
+            "d": "M g ( H C O 3 ) 2"
+        },
+        "correctAnswer": "d",
+        "explanation": ""
+    },
+    {
+        "id": 47,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "কোন গ্যাসদ্বয়ের ব্যাপন হার সমান ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "C O , O 2",
+            "b": "N 2 , C O",
+            "c": "C 2 H 4 , O 2",
+            "d": "N 2 , O 2"
+        },
+        "correctAnswer": "b",
+        "explanation": "N 2 এর আণবিক ভর = 2 × 14 = 28 C O এর আণবিক ভর = 12 + 16 = 28 সুতরাং, N 2 ও C O এর ব্যাপন হার সমান হবে।"
+    },
+    {
+        "id": 48,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "ব্রাইনকে তড়িৎ বিশ্লেষণ করলে কী উৎপন্ন হয় ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "N a C l",
+            "b": "N a H C O 3",
+            "c": "N a O H",
+            "d": "N a O"
+        },
+        "correctAnswer": "c",
+        "explanation": ""
+    },
+    {
+        "id": 49,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "C H 3 B r + C 6 H 5 B r + N a → d r y e t h e r , h e a t R । ‘R’ কি ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "C 6 H 5 − C H 2 N a",
+            "b": "C 6 H 5 − C H 3",
+            "c": "C 6 H 5 − C H = C H 2",
+            "d": "C 6 H 12"
+        },
+        "correctAnswer": "b",
+        "explanation": ""
+    },
+    {
+        "id": 50,
+        "subject": "Chemistry",
+        "topic": "Exam",
+        "question": "নিচের কোন যৌগটি অ্যামোনিয়াক্যাল সিলভার নাইট্রেট দ্রবণের সঙ্গে সাদা অধঃক্ষেপ দেয় ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "C H 3 − C H 2 − C ≡ C H",
+            "b": "C H 3 − C ≡ C − C H 3",
+            "c": "C H 3 − C H 2 − C H 2 − C H 3",
+            "d": "C H 3 − C H 2 − C H = C H 2"
+        },
+        "correctAnswer": "a",
+        "explanation": ""
+    },
+    {
+        "id": 51,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "যদি x 2 + y 2 − 4 x − 6 y + c = 0 বৃত্তটি x -অক্ষকে স্পর্শ করে, তবে c এর মান-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "3",
+            "b": "4",
+            "c": "5",
+            "d": "কোনোটিই নয়"
+        },
+        "correctAnswer": "b",
+        "explanation": "x অক্ষকে স্পর্শ করলে, g 2 = c ⇒ ( − 2 ) 2 = c ⇒ c = 4."
+    },
+    {
+        "id": 52,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "একটি বস্তু স্থির অবস্থা হতে যাত্রা শুরু করে 5 ft/sec 2 সমত্বরণে চলতে থাকলে 5 সেকেন্ড পরে বস্তুর বেগ হবে-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "25 ft/sec",
+            "b": "5 ft/sec",
+            "c": "10 ft/sec",
+            "d": "15 ft/sec"
+        },
+        "correctAnswer": "a",
+        "explanation": "v = u + a t = 0 + 5 × 5 = 25 ft/sec."
+    },
+    {
+        "id": 53,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "f ( x ) = ( 1 − x x ) ফাংশনটির ডোমেইন-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "( 0 , 1 )",
+            "b": "( 0 , 1 ]",
+            "c": "[ 0 , 1 ]",
+            "d": "[ 0 , 1 )"
+        },
+        "correctAnswer": "b",
+        "explanation": "f ( x ) = 1 − x x এখানে, হরের ক্ষেত্রে, x > 0 এবং লবের ক্ষেত্রে, 1 − x ≥ 0 ⇒ − x ≥ − 1 ⇒ x ≤ 1 ∴ ডোমেন: ( 0 , 1 ] . অথবা, হরের ক্ষেত্রে, x < 0 এবং লবের ক্ষেত্রে, 1 − x < 0 ⇒ − x < − 1 ⇒ x > 1 ∴ ডোমেন: ∅ অর্থাৎ, f ( x ) এর ডোমেন: ( 0 , 1 ] ∪ ∅ = ( 0 , 1 ]"
+    },
+    {
+        "id": 54,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "A ( h , k ) বিন্দুটি 6 x − y = 1 রেখার উপর অবস্থিত এবং B ( h , k ) বিন্দুটি 2 x − 5 y = 5 রেখার উপর অবস্থিত হলে, A B রেখাটির সমীকরণ-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "2 x − 5 y + 5 = 0",
+            "b": "2 x − 5 y − 5 = 0",
+            "c": "3 x − 5 y − 5 = 0",
+            "d": "x + y = 6"
+        },
+        "correctAnswer": "c",
+        "explanation": "6 h − k = 1 … … … ( i ) [ A বিন্দুটি বসিয়ে ] 2 h − 5 k = 5 … … … ( i i ) [ B বিন্দুটি বসিয়ে] ( i ) − ( i i ) × 3 হতে পাই. k = − 1 ( i ) হতে, 2 h + 5 = 5 ∴ h = 0 ∴ A ও B বিন্দু দুইটি ( 0 , − 1 ) . প্রশ্নের সমীকরণগুলোর মাঝে option B ও D কে বিন্দুটি সিদ্ধ করে।"
+    },
+    {
+        "id": 55,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "3 y − x + 5 = 0 সরলরেখাটি y -অক্ষের সাথে যে কোণ উৎপন্ন করে তার মান-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "90 ∘",
+            "b": "45 ∘",
+            "c": "60 ∘",
+            "d": "30 ∘"
+        },
+        "correctAnswer": "c",
+        "explanation": "3 y − x + 5 = 0 ঢাল m = − ( − 1 ) 3 = 1 3 ∴ x অক্ষের সাথে উৎপন্ন কোণ t a n θ = 1 3 ⇒ θ = 30 ∘ ∴ y অক্ষের সাথে উৎপন্ন কোণ: 90 ∘ − 30 ∘ = 60 ∘"
+    },
+    {
+        "id": 56,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "c o s ( π 2 + c o s − 1 x ) এর মান-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "− ( 1 − x 2 )",
+            "b": "x",
+            "c": "a − x",
+            "d": "( 1 − x 2 )"
+        },
+        "correctAnswer": "a",
+        "explanation": "c o s ( π 2 + c o s − 1 x ) = − s i n ⁡ ( c o s − 1 x ) = − s i n s i n − 1 1 − x 2 = − 1 − x 2"
+    },
+    {
+        "id": 57,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "x 2 + y 2 + 10 y = 0 বৃত্তের ব্যাসার্ধ-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "7",
+            "b": "5",
+            "c": "6",
+            "d": "4"
+        },
+        "correctAnswer": "b",
+        "explanation": "x 2 + y 2 + 10 y = 0 বৃত্তের ব্যাসার্ধ ⇒ 0 2 + 5 2 + 0 = 5"
+    },
+    {
+        "id": 58,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "x 2 − x + 1 = 0 সমীকরণের মূলদ্বয় α , β হলে α 3 + β 3 এর মান-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "− 2",
+            "b": "− 3",
+            "c": "3",
+            "d": "2"
+        },
+        "correctAnswer": "a",
+        "explanation": "x 2 − x + 1 = 0 ; α , β মূল হলে, α + β = 1 এবং α β = 1 ∴ α 3 + β 3 = ( α + β ) 3 − 3 α β ( a + β ) = 1 − 3.1 .1 = − 2"
+    },
+    {
+        "id": 59,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "A − B = π 4 হলে, ( 1 + t a n A ) ( 1 − t a n B ) এর মান-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "− 2",
+            "b": "2",
+            "c": "− 2",
+            "d": "2"
+        },
+        "correctAnswer": "b",
+        "explanation": "A − B = π 4 ∴ t a n ( A − B ) = t a n π 4 ⇒ t a n A − t a n B 1 + t a n A t a n B = 1 ⇒ t a n A − t a n B − t a n A t a n B = 1 ∴ ( 1 + t a n A ) ( 1 − t a n B ) = 1 + t a n A − t a n B − t a n A t a n B = 1 + 1 = 2."
+    },
+    {
+        "id": 60,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "t a n ( s i n − 1 1 − x 2 ) = s i n ( c o s − 1 1 5 ) হলে x এর মান-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "− 5 3",
+            "b": "5 3",
+            "c": "5 3",
+            "d": "± 5 3"
+        },
+        "correctAnswer": "d",
+        "explanation": "t a n s i n − 1 ( 1 − x 2 ) = s i n c o s − 1 ( 1 5 ) ⇒ t a n t a n − 1 ( 1 − x 2 x ) = s i n s i n − 1 ( 2 5 ) ⇒ 1 − x 2 x = 2 5 ⇒ 1 − x 2 x 2 = 4 5 ⇒ 5 − 5 x 2 = 4 x 2 ⇒ 5 = 9 x 2 ⇒ x 2 = 5 9 ⇒ x = ± 5 3"
+    },
+    {
+        "id": 61,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "( 1 , − 3 ) বিন্দুটির পোলার স্থানাঙ্ক -",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "( 5 , − π 4 )",
+            "b": "( − 2 , π 4 )",
+            "c": "( 2 , 5 π 3 )",
+            "d": "( 2 , π 3 )"
+        },
+        "correctAnswer": "c",
+        "explanation": "( 1 , − 3 ) , r = 1 + 3 = 2 ; θ = − t a n − 1 ( 3 1 ) ⇒ θ = − π 3 অথবা 5 π 3"
+    },
+    {
+        "id": 62,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "x 2 + 12 y = 0 পরাবৃত্তের নিয়ামকের সমীকরণ-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "x = 3",
+            "b": "y = − 3",
+            "c": "x = − 3",
+            "d": "y = 3"
+        },
+        "correctAnswer": "d",
+        "explanation": "x 2 + 12 y = 0 ⇒ x 2 − 4.3 . y = 0 , পরাবৃত্তের নিয়ামক রেখার সমীকরণ: y = + 3."
+    },
+    {
+        "id": 63,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "4 x + 3 y = 12 সরলরেখা দ্বারা অক্ষদ্বয়ের মধ্যবর্তী খণ্ডিতাংশের দৈর্ঘ্য-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "3",
+            "b": "4",
+            "c": "5",
+            "d": "2"
+        },
+        "correctAnswer": "c",
+        "explanation": "4 x + 3 y = 12 ⇒ x 3 + y 4 = 1 ∴ অক্ষদ্বয়ের মধ্যবর্তী খন্ডিত অংশ = 3 2 + 4 2 = 5"
+    },
+    {
+        "id": 64,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "x 2 + p x + q = 0 সমীকরণের মূল পার্থক্য 1 হলে p 2 + 4 q 2 এর মান-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "2 p + q",
+            "b": "4 q 2",
+            "c": "( 1 + 2 q ) 2",
+            "d": "1 + 4 q 2"
+        },
+        "correctAnswer": "c",
+        "explanation": "x 2 + p x + q = 0 ধরি, মূলদ্বয় α , α − 1 ∴ α + α − 1 = − p ⇒ 2 α = 1 − p ⇒ α = 1 − p 2 আবার, α ( α − 1 ) ⇒ α 2 − α = q ⇒ ( 1 − p 2 ) 2 − 1 − p 2 = q ⇒ 1 − 2 p + p 2 4 − 1 − p 2 = q ⇒ 1 − 2 p + p 2 − 2 + 2 p 4 = q ⇒ p 2 − 1 = 4 q 1 + 4 q = p 2 ⇒ 1 + 4 q + 4 q 2 = p 2 + 4 q 2 ⇒ ( 2 q + 1 ) 2 = p 2 + 4 q 2 ∴ p 2 + 4 q 2 = ( 1 + 2 q ) 2"
+    },
+    {
+        "id": 65,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "∫ − 3 − 2 ( x + | x | ) d x এর মান-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "1",
+            "b": "0",
+            "c": "3",
+            "d": "− 3"
+        },
+        "correctAnswer": "b",
+        "explanation": "[ − 2 , − 3 ] ব্যবধিতে, | x | = − x ∴ ∫ − 3 − 2 ( x + | x | ) d x = ∫ − 3 − 2 ( x − x ) d x = ∫ − 3 − 2 0 ⋅ d x = 0"
+    },
+    {
+        "id": 66,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "x 2 25 + y 2 9 = 1 সমীকরণের উৎকেন্দ্রিকতা-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "4 5",
+            "b": "7 9",
+            "c": "5 4",
+            "d": "কোনোটিই নয়"
+        },
+        "correctAnswer": "a",
+        "explanation": "উৎকেন্দ্রিকতা e = 1 − b 2 a 2 ∵ ( b > a ) ∴ e = 1 − 9 25 = 4 5 ."
+    },
+    {
+        "id": 67,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "f ( x ) = x − 3 হলে f − 1 ( − 2 ) এর মান-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "− 7",
+            "b": "5",
+            "c": "3",
+            "d": "7"
+        },
+        "correctAnswer": "d",
+        "explanation": "f ( x ) = x − 3 ; f − 1 ( x ) = x 2 + 3 ; f − 1 ( − 2 ) = 4 + 3 = 7 [ বি.দ্র: f − 1 ( x ) ফাংশন হলে ( − 2 ) বিন্দুতে f ( x ) e x i s t করে না ]"
+    },
+    {
+        "id": 68,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "1 x + a − b x = 0 সমীকরণের মূলদ্বয় সমান হলে, সঠিক সমীকরণ-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "b 2 − 4 a = 0",
+            "b": "a 2 + 4 b = 0",
+            "c": "b 2 + 4 a = 0",
+            "d": "a 2 − 4 b = 0"
+        },
+        "correctAnswer": "b",
+        "explanation": "1 x + a − b x = 0 ⇒ b x 2 − a x − 1 = 0 সমীকরণের মূলদ্বয় সমান হলে, D = 0 ⇒ ( − a ) 2 − 4. b . ( − 1 ) = 0 ⇒ a 2 + 4 b = 0"
+    },
+    {
+        "id": 69,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "y = x + 1 x বক্ররেখাটির ঢাল শূন্য হলে x এর মান-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "− 1 2",
+            "b": "± 1",
+            "c": "1 2",
+            "d": "± 3"
+        },
+        "correctAnswer": "b",
+        "explanation": "y = x + 1 x ; d y d x = 1 − 1 x 2 ঢাল শূন্য হলে, d y d x = 0 ⇒ 1 − 1 x 2 = 0 ⇒ x 2 = 1 ⇒ x = ± 1"
+    },
+    {
+        "id": 70,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "x 2 + y 2 − 4 x + 6 y − 36 = 0 এবং x 2 + y 2 − 5 x + 8 y − 43 = 0 এর সাধারণ জ্যা-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "x + 2 y + 7 = 0",
+            "b": "x − 2 y + 14 = 0",
+            "c": "x − 2 y + 7 = 0",
+            "d": "x − 2 y − 7 = 0"
+        },
+        "correctAnswer": "c",
+        "explanation": "সাধারণ জ্যা: S 1 − S 2 = 0 ⇒ x 2 + y 2 − 4 x + 6 y − 36 − x 2 − y 2 + 5 x − 8 y + 43 = 0 ⇒ x − 2 y + 7 = 0"
+    },
+    {
+        "id": 71,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "y = 1 x সমীকরণটি নির্দেশ করে-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "অধিবৃত্ত",
+            "b": "সরলরেখা",
+            "c": "পরাবৃত্ত",
+            "d": "উপবৃত্ত"
+        },
+        "correctAnswer": "a",
+        "explanation": "y = 1 x ; x y = 1 এখানে, a = 0 , h = 1 2 , b = 0 = h 2 > a b ∴ সমীকরণটি অধিবৃত্ত নির্দেশ করে।"
+    },
+    {
+        "id": 72,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "r 2 − 2 r s i n θ = 3 বৃত্তের ব্যাসার্ধ-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "2",
+            "b": "3",
+            "c": "4",
+            "d": "6"
+        },
+        "correctAnswer": "a",
+        "explanation": "r 2 − 2 r s i n θ = 3 ⇒ x 2 + y 2 − 2 y − 3 = 0 ∴ ব্যাসার্ধ = 0 2 + 1 2 + 3 = 2"
+    },
+    {
+        "id": 73,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "y 2 = 4 p x পরাবৃত্তটি ( 3 , − 2 ) বিন্দু দিয়ে অতিক্রম করলে উপকেন্দ্রের স্থানাঙ্ক-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "( 3 , 0 )",
+            "b": "( 4 , 0 )",
+            "c": "( 1 4 , 0 )",
+            "d": "( 1 3 , 0 )"
+        },
+        "correctAnswer": "d",
+        "explanation": "y 2 = 4 p x ; ( 3 , − 2 ) বসিয়ে, ( − 2 ) 2 = 4 ⋅ p ⋅ 3 ⇒ 4 = 4 ⋅ p ⋅ 3 ⇒ p = 1 3 ∴ y 2 = 4 ⋅ 1 3 ⋅ x ∴ উপকেন্দ্র ( 1 3 , 0 )"
+    },
+    {
+        "id": 74,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "যদি, z 2 = 5 + 12 i হয়, তবে z এর মান-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "7 i",
+            "b": "± ( 3 + 2 i )",
+            "c": "± ( 1 − 2 i )",
+            "d": "± 4 i"
+        },
+        "correctAnswer": "b",
+        "explanation": "z 2 = 5 + 12 i = 9 + 12 i − 4 = ( 3 ) 2 + 2.3 .2 i + ( 2 i ) 2 = ( 3 + 2 i ) 2 ∴ z = ± ( 3 + 2 i )"
+    },
+    {
+        "id": 75,
+        "subject": "Higher Mathematics",
+        "topic": "Exam",
+        "question": "∫ 1 e 2 d x x ( 1 + l n x ) 2 এর মান-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "2 3",
+            "b": "1 3",
+            "c": "1 2",
+            "d": "3 2"
+        },
+        "correctAnswer": "a",
+        "explanation": "∫ 1 e 2 d x x ( 1 + l n x ) 2 ধরি, 1 + l n x = z = 1 x d x = d z . = ∫ 1 3 d x z 2 = ∫ 1 3 z − 2 d z = [ z − 2 + 1 − 2 + 1 ] = − [ 1 z ] 1 3 = − ( 1 3 − 1 1 ) = 1 − 1 3 = 2 3"
+    },
+    {
+        "id": 76,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "পাটের আঁশ কোন জাতীয় টিস্যু?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "পার্শ্বীয় ভাজক টিস্যু",
+            "b": "শীর্ষস্থ ভাজক টিস্যু",
+            "c": "সেকেন্ডারি জাইলেম টিস্যু",
+            "d": "সেকেন্ডারি ফ্লোয়েম টিস্যু"
+        },
+        "correctAnswer": "d",
+        "explanation": "পাটের আঁশ হলো বাস্ট ফাইবার। আর সেকেন্ডারি ফ্লোয়েমে অবস্থিত ফাইবারকে বাস্ট ফাইবার বলে।"
+    },
+    {
+        "id": 77,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "কোনটি রেস্ট্রিকশন এনজাইম?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "প্রাইমেজ",
+            "b": "আইসোমারেজ",
+            "c": "HindIII",
+            "d": "ডিএনএ লাইগেজ"
+        },
+        "correctAnswer": "c",
+        "explanation": "Eco RI, HindIII, BamHI ইত্যাদি হলো রেস্ট্রিকশন এনজাইম। এরা DNA অণুর একটি সুনির্দিষ্ট সিকোয়েন্স কেটে দিতে সক্ষম।"
+    },
+    {
+        "id": 78,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "রক্তের কোন কোষে এন্টিবডি তৈরি হয়?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "লিম্ফোসাইট",
+            "b": "গ্রানিউলোসাইট",
+            "c": "মনোসাইট",
+            "d": "থ্রম্বোসাইট"
+        },
+        "correctAnswer": "a",
+        "explanation": ""
+    },
+    {
+        "id": 79,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "উদ্ভিদকোষের প্রাথমিক প্রাচীরের উপাদান কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "সুবেরিন",
+            "b": "পেকটিক এসিড",
+            "c": "হেমিসেলুলোজ",
+            "d": "লিগনিন"
+        },
+        "correctAnswer": "c",
+        "explanation": "উদ্ভিদ কোষে মধ্যপর্দার দুই পাশে সেলুলোজ, হেমিসেলুলোজ এবং গ্লাইকোপ্রোটিন জমা হয়ে প্রাথমিক প্রাচীর তৈরি হয়।"
+    },
+    {
+        "id": 80,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "নিচের কোনটি গ্লাইকোলাইসিস ও ক্রেবস্ চক্রকে সংযোগ করে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "অ্যাসিটাইল কো-এ",
+            "b": "ম্যালিক এসিড",
+            "c": "সাইট্রিক এসিড",
+            "d": "সাক্সিনিক এসিড"
+        },
+        "correctAnswer": "a",
+        "explanation": ""
+    },
+    {
+        "id": 81,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "প্লাজমা মেমব্রেন গঠনের উপাদান কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "কাইটিন",
+            "b": "সেলুলোজ",
+            "c": "কার্বোহাইড্রেট ও পানি",
+            "d": "প্রোটিন ও লিপিড"
+        },
+        "correctAnswer": "d",
+        "explanation": ""
+    },
+    {
+        "id": 82,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "Nematoda পর্বের বৈশিষ্ট্য নয় কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "বদ্ধ সংবহনতন্ত্র",
+            "b": "স্যুডোসিলোমেট",
+            "c": "কিউটিকল উপস্থিত",
+            "d": "দেহ নলাকার"
+        },
+        "correctAnswer": "a",
+        "explanation": ""
+    },
+    {
+        "id": 83,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "কোন অঙ্গাণুটি অটোফ্যাগির সাথে জড়িত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "মাইটোকন্ড্রিয়া",
+            "b": "গলজি বডি",
+            "c": "লাইসোজোম",
+            "d": "এন্ডোপ্লাজমিক রেটিকুলাম"
+        },
+        "correctAnswer": "c",
+        "explanation": "তীব্র খাদ্যাভাবের সময় লাইসোসোমের প্রাচীর ফেটে যায় এবং আবদ্ধকৃত এনজাইম বের হয়ে কোষের অন্যান্য অঙ্গাণু বিনষ্ট করে দেয় এবং একসময় পুরো কোষটিই পরিপাক হয়ে যেতে পারে। এ প্রক্রিয়াকে বলা হয় স্ব-গ্রাস বা অটোফ্যাগী।"
+    },
+    {
+        "id": 84,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "হিমোফিলিয়া কোন ধরনের বংশগত রোগ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "ভাইরাস সংক্রমণ",
+            "b": "এক্স-লিংকড্ রিসেসিভ",
+            "c": "অটোজোমাল ডমিনেন্ট",
+            "d": "অটোজোমাল রিসেসিভ"
+        },
+        "correctAnswer": "b",
+        "explanation": "হিমোফিলিয়া মানুষের X ক্রোমোসোমে অবস্থিত জিন দ্বারা নিয়ন্ত্রিত একটি রোগ।"
+    },
+    {
+        "id": 85,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "ক্রসিং ওভার ঘটে মিয়োসিসের কোন পর্যায়ে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "এনাফেজ-২",
+            "b": "মেটাফেজ-১",
+            "c": "টেলোফেজ-১",
+            "d": "প্রোফেজ-১"
+        },
+        "correctAnswer": "d",
+        "explanation": "মিয়োসিস কোষ বিভাজনের প্রোফেজ-১ এর প্যাকাইটিন উপদশায় ক্রসিং ওভার ঘটে।"
+    },
+    {
+        "id": 86,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "মানবদেহে সবচেয়ে বড় লালাগ্রন্থি কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "ম্যান্ডিবোলার গ্রন্থি",
+            "b": "প্যারোটিড গ্রন্থি",
+            "c": "সাবলিঙ্গুয়াল গ্রন্থি",
+            "d": "সাবমেন্ডিবোলার গ্রন্থি"
+        },
+        "correctAnswer": "b",
+        "explanation": ""
+    },
+    {
+        "id": 87,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "Penicillium -এর জনন কোষের নাম-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "ব্যাসিডিওস্পোর",
+            "b": "অ্যাসকোস্পোর",
+            "c": "উস্পোর",
+            "d": "কনিডিয়া"
+        },
+        "correctAnswer": "d",
+        "explanation": "Nematoda পর্বের প্রাণিদেহে সংবহনতন্ত্র অনুপস্থিত। বদ্ধ রক্ত সংবহনতন্ত্র Annelida এবং Chordata পর্বভুক্ত প্রাণীতে দেখা যায়।"
+    },
+    {
+        "id": 88,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "সুপার রাইস ধানে কোন ভিটামিন থাকে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "ভিটামিন ডি",
+            "b": "ভিটামিন সি",
+            "c": "ভিটামিন এ",
+            "d": "ভিটামিন বি"
+        },
+        "correctAnswer": "c",
+        "explanation": ""
+    },
+    {
+        "id": 89,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "মানবদেহের সবচেয়ে ছোট হাড় কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "ফিমার",
+            "b": "আলনা",
+            "c": "হিউমেরাস",
+            "d": "স্ট্যাপিস"
+        },
+        "correctAnswer": "d",
+        "explanation": ""
+    },
+    {
+        "id": 90,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "কোনটি গোলাকার ভাইরাসের উদাহরণ নয়?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "ডেঙ্গু",
+            "b": "HIV",
+            "c": "হার্পিস",
+            "d": "পোলিও"
+        },
+        "correctAnswer": "c",
+        "explanation": "হার্পিস ঘনক্ষেত্রাকার বা বহুভুজাকার ভাইরাস।"
+    },
+    {
+        "id": 91,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "বাংলাদেশে কোন GMO ফসলটি সরকার অনুমোদন দিয়েছে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "Bt Brinjal",
+            "b": "Bt Maize",
+            "c": "Bt Corn",
+            "d": "Bt Cotton"
+        },
+        "correctAnswer": "a",
+        "explanation": ""
+    },
+    {
+        "id": 92,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "মানবদেহে লাম্বার কশেরুকার সংখ্যা কয়টি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "৮ টি",
+            "b": "৫ টি",
+            "c": "৬ টি",
+            "d": "৭টি"
+        },
+        "correctAnswer": "b",
+        "explanation": ""
+    },
+    {
+        "id": 93,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "কোন অণুতে হেয়ারপিন লুপ আছে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "সাইটোসিন",
+            "b": "ডিএনএ",
+            "c": "টাইরোসিন",
+            "d": "আরএনএ"
+        },
+        "correctAnswer": "d",
+        "explanation": "RNA অণু একসূত্রক চেইন-এর মতো। কোনো কোনো RNA অণুর গঠনে একাধিক U- আকৃতির ফাঁস বা Hairpin Loop থাকে।"
+    },
+    {
+        "id": 94,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "ক্যালভিন চক্রে কিসের সংশ্লেষণ ঘটে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "পানি",
+            "b": "গ্লুকোজ",
+            "c": "ATP",
+            "d": "NADPH"
+        },
+        "correctAnswer": "b",
+        "explanation": ""
+    },
+    {
+        "id": 95,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "কোন হরমোন ক্ষুধার উদ্রেক ঘটায়?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "পিপি",
+            "b": "সিক্রেটিন",
+            "c": "ইনসুলিন",
+            "d": "গ্রিলিন"
+        },
+        "correctAnswer": "d",
+        "explanation": ""
+    },
+    {
+        "id": 96,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "প্রতিটি সজীব উদ্ভিদ কোষের পূর্ণাঙ্গ উদ্ভিদে পরিণত হওয়ার ক্ষমতাকে বলে-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "এমব্রায়োজিনেসিস",
+            "b": "টটিপোটেন্সি",
+            "c": "প্লুরিপোটেন্সী",
+            "d": "পার্থেনোকার্পী"
+        },
+        "correctAnswer": "b",
+        "explanation": ""
+    },
+    {
+        "id": 97,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "প্রোটিন সংশ্লেষণে কোনটিকে সমাপনী কোডন বলা হয়?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "GUU",
+            "b": "AUG",
+            "c": "UGU",
+            "d": "UAG"
+        },
+        "correctAnswer": "d",
+        "explanation": "প্রোটিন সংশ্লেষণে সমাপনী কোড ৩টি। যথা: UAA, UAG, UGA"
+    },
+    {
+        "id": 98,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "কোন এনজাইম দুধের ক্যাসিনোজেনকে ক্যাসিনে পরিণত করে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "রেনিন",
+            "b": "পেপটন",
+            "c": "পিপসিন",
+            "d": "প্রোরেনিন"
+        },
+        "correctAnswer": "a",
+        "explanation": "দুধের প্রধান প্রোটিন হলো কেসিন। রেনিন (Rennin) এনজাইম নিষ্ক্রিয় কেসিনোজেনকে কেসিনে পরিণত করে। পরবর্তীতে কেসিন, প্যারাকেসিনে পরিণত হয়। অর্থাৎ, কেসিনোজেন → কেসিন → প্যারাকেসিন"
+    },
+    {
+        "id": 99,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "কোন হরমোন উদ্ভিদ মূলের বৃদ্ধি নিয়ন্ত্রণ করে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "সাইটোকাইনিন",
+            "b": "জিবেরেলিন",
+            "c": "অক্সিন",
+            "d": "এন্টেরোকাইনিন"
+        },
+        "correctAnswer": "c",
+        "explanation": "অক্সিন (Auxin) মূলের বৃদ্ধি নিয়ন্ত্রণে ভূমিকা রাখে। এটি মূলের কোষ বিভাজন ও প্রসারণকে প্রভাবিত করে। তাই টিস্যু কালচারে মূল উৎপাদনকারী মিডিয়ামে ফাইটোহরমোন হিসেবে অক্সিন ব্যবহার করা হয়। অপরদিকে জিবেরেলিন মূলত কাণ্ডের বৃদ্ধি ও বীজ অঙ্কুরোদগমে সহায়তা করে।"
+    },
+    {
+        "id": 100,
+        "subject": "Biology",
+        "topic": "Exam",
+        "question": "প্রোটন প্রবাহ মতবাদ অনুযায়ী কোন আয়ন পত্ররন্ধ্র খোলা ও বন্ধ করা নিয়ন্ত্রণ করে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "Na +",
+            "b": "Ca 2+",
+            "c": "K +",
+            "d": "Mg 2+"
+        },
+        "correctAnswer": "c",
+        "explanation": ""
+    },
+    {
+        "id": 101,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "‘ স্মরণ ’ শব্দের প্রমিত উচ্চারণ কোনটি ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "সরন্",
+            "b": "শঁরোন্‌",
+            "c": "শরোন্",
+            "d": "সঁরোন্‌"
+        },
+        "correctAnswer": "b",
+        "explanation": ""
+    },
+    {
+        "id": 102,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "“ আত্মাকে চিনলেই আত্মনির্ভরতা আসে। ” কথাটি কোন রচনার ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "অপরিচিতা",
+            "b": "আমার পথ",
+            "c": "মানব - কল্যাণ",
+            "d": "রেইনকোট"
+        },
+        "correctAnswer": "b",
+        "explanation": ""
+    },
+    {
+        "id": 103,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "“ হায় রে ভাগ্য , হায় রে লজ্জা , কোথায় সভা , কোথায় সজ্জা। ”  এই বাক্যে কোন অব্যয়ের প্রয়োগ ঘটেছে ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "সংযোজক অব্যয়",
+            "b": "অনন্বয়ী অব্যয়",
+            "c": "সংকোচক অব্যয়",
+            "d": "বাক্যালংকার অব্যয়"
+        },
+        "correctAnswer": "d",
+        "explanation": ""
+    },
+    {
+        "id": 104,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "“ মেয়েটা ঘাড় হেঁট করিয়া দাঁড়াইয়া রহিল। ” এখানে কার কথা বলা হয়েছে।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "বিলাসী",
+            "b": "হাসুনির মা",
+            "c": "আহ্লা দি",
+            "d": "জমিলা"
+        },
+        "correctAnswer": "a",
+        "explanation": ""
+    },
+    {
+        "id": 105,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "‘ কুহেলি ’ শব্দের সমার্থক শব্দ কোনটি ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "কুহকিনী",
+            "b": "নীহার",
+            "c": "সমীর",
+            "d": "কুমুদ"
+        },
+        "correctAnswer": "b",
+        "explanation": ""
+    },
+    {
+        "id": 106,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "কোনটি ব্যতীত মানবকল্যাণ স্রেফ দান - খয়রাতের মতো অমর্যাদাকর ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "উপলব্ধি",
+            "b": "মর্যাদা",
+            "c": "সংযোগ",
+            "d": "উত্তরণ"
+        },
+        "correctAnswer": "a",
+        "explanation": ""
+    },
+    {
+        "id": 107,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "যে বাক্যে একাধিক সমাপিকা ক্রিয়া থাকে , সেটি কোন ধরনের বাক্য ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "জটিল",
+            "b": "যৌগিক",
+            "c": "সরল",
+            "d": "অধীন"
+        },
+        "correctAnswer": "b",
+        "explanation": ""
+    },
+    {
+        "id": 108,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "‘ চারি দিকে বাঁকা জল করিছে খেলা ’- এখানে ‘ বাঁকা জল ’ কীসের প্রতীক ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "কালস্রোতের",
+            "b": "নির্জনতার",
+            "c": "আত্মত্যাগের",
+            "d": "প্রবহমানতার"
+        },
+        "correctAnswer": "a",
+        "explanation": ""
+    },
+    {
+        "id": 109,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "বিভক্তিযুক্ত শব্দদ্বিত্ব নয় কোনটি ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "চোখে চোখে",
+            "b": "ভালো ভালো",
+            "c": "মজার মজার",
+            "d": "পথে পথে"
+        },
+        "correctAnswer": "b",
+        "explanation": ""
+    },
+    {
+        "id": 110,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "কোনটি সংবৃত স্বরধ্বনি ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "অ্যা",
+            "b": "ই",
+            "c": "অ",
+            "d": "আ"
+        },
+        "correctAnswer": "b",
+        "explanation": ""
+    },
+    {
+        "id": 111,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "যথাযথ প ঙ্‌ক্তি কোনটি ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "বিশ্ব ছাড়িয়া উঠিয়াছি একা চির - উন্নত শির।",
+            "b": "বিশ্ব ছা ড়িয়া উঠিয়াছি আমি চির - উন্নত শির !",
+            "c": "বিশ্ব ছাড়ায়ে উঠিয়াছি একা চির - উন্নত শির !",
+            "d": "বিশ্ব ছাড়ায়ে উঠিয়াছি আমি চির - উন্নত শির !"
+        },
+        "correctAnswer": "c",
+        "explanation": ""
+    },
+    {
+        "id": 112,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "‘ সত্য বই মিথ্যা বলিব না। ’ এখানে ‘ বই ’ হচ্ছে ",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "উপসর্গ",
+            "b": "বিশেষ্য",
+            "c": "প্রত্যয়",
+            "d": "অনুসর্গ"
+        },
+        "correctAnswer": "d",
+        "explanation": "যেসব শব্দ কোনো শব্দের পরে বসে শব্দটিকে বাক্যের সাথে সম্পর্কিত করে সেসব শব্দকে অনুসর্গ বলে। এখানে ‘ বই ’ শব্দটি বিনা বা ছাড়া অর্থে ব্যবহৃত হয়েছে। ‘ বিনা ’ বা ‘ ছাড়া ’ অনুসর্গের মধ্যে পড়ে।"
+    },
+    {
+        "id": 113,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "বিদেশি উপসর্গযোগে গঠিত শব্দ কোনটি ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "আমজনতা",
+            "b": "অনাচার",
+            "c": "প্রভাত",
+            "d": "আবডাল"
+        },
+        "correctAnswer": "a",
+        "explanation": "আরবি উপসর্গগুলো হলো- আম, খাস, লা, গর। তাই এখানে ‘ আমজনতা ’ বিদেশি উপসর্গ সাধিত শব্দ।"
+    },
+    {
+        "id": 114,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "‘ অজগরবৃ ত্তি ’ বা গ্‌ ধারাটির অর্থ কী ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "বিপদে পড়া",
+            "b": "তৎপর হওয়া",
+            "c": "তাড়াহুড়া করা",
+            "d": "আলসেমি করা"
+        },
+        "correctAnswer": "d",
+        "explanation": ""
+    },
+    {
+        "id": 115,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "‘ যতিচিহ্ন ’ ব্যাকরণের কোন অংশের আলোচ্য বিষয় ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "রূপতত্ত্ব",
+            "b": "ধ্বনিতত্ত্ব",
+            "c": "বাক্যতত্ত্ব",
+            "d": "অর্থতত্ত্ব"
+        },
+        "correctAnswer": "c",
+        "explanation": "বাক্যতত্ত্বে বাক্য নিয়ে আলোচনা করা হয়। বাক্যের নির্মাণ এবং এর গঠন বাক্যতত্ত্বের মূল আলোচ্য। বাক্যের মধ্যে পদ ও বর্গ কীভাবে বিন্যস্ত থাকে , বাক্যতত্ত্বে তা বর্ণনা করা হয়। এছাড়া এক ধরনের বাক্যকে অন্য ধরনের বাক্যে রূপান্তর , বাক্যের বাচ্য , উক্তি ইত্যাদি বাক্যতত্ত্বের আলোচ্য বিষয়। কারক বিশ্লেষণ , বাক্যের যোগ্যতা , বাক্যের উপাদান লোপ , যতিচিহ্ন প্রভৃতিও বাক্যতত্ত্বে আলোচিত হয়ে থাকে।"
+    },
+    {
+        "id": 116,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "‘ প্রতিদান ’ কবিতায় কবির কোন মনোভাব প্রকাশ পেয়েছে ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "প্রাণচাঞ্চল্য",
+            "b": "নির্লিপ্ততা",
+            "c": "উদারতা",
+            "d": "উদাসীনতা"
+        },
+        "correctAnswer": "c",
+        "explanation": ""
+    },
+    {
+        "id": 117,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "কোনটি ভাববাচক বিশেষ্য ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "সৌন্দর্য",
+            "b": "সৌরভ",
+            "c": "শয়ন",
+            "d": "নয়ন"
+        },
+        "correctAnswer": "c",
+        "explanation": "ভাব-বিশেষ্য: যে বিশেষ্য দিযে কোনো ক্রিয়া বা কাজের নাম বোঝায়, তাকে ভাব-বিশেষ্যে বা ক্রিয়া বিশেষ্য বলে। যেমন-পঠন, ভোজন, শয়ন, করানো, পাঠানো, নেওয়া ইত্যাদি।"
+    },
+    {
+        "id": 118,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "‘ দেখে যেন মনে হয় চিনি উহারে ’- এখানে কোন ভাবের প্রকাশ ঘটেছে ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "সংকল্প",
+            "b": "সংকোচ",
+            "c": "সংশয়",
+            "d": "আত্মবিশ্বাস"
+        },
+        "correctAnswer": "c",
+        "explanation": ""
+    },
+    {
+        "id": 119,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "‘ সাহিত্যপাঠ ’ শব্দটি কোন সমাসযোগে গঠিত ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "বহুব্রীহি",
+            "b": "তৎপুরুষ",
+            "c": "কর্মধারয়",
+            "d": "দ্বন্দ্ব"
+        },
+        "correctAnswer": "c",
+        "explanation": "সাহিত্যপাঠ = সাহিত্য বিষয়ক পাঠ। এটি মধ্যপদলোপী কর্মধারয়।"
+    },
+    {
+        "id": 120,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "“ এই বস্তুটাই এ দেশের লোকের পক্ষে বুঝিয়া উঠা কঠিন। ” ‘ বিলাসী ' গল্পে ‘ এই বস্তুটা ’ বলতে কী বোঝানো হয়েছে ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "দেশপ্রেম",
+            "b": "ভালোবাসা",
+            "c": "প্রায়শ্চিত্ত",
+            "d": "পাপের দণ্ড"
+        },
+        "correctAnswer": "b",
+        "explanation": ""
+    },
+    {
+        "id": 121,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "কোন বানানগুচ্ছ শুদ্ধ ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "বিপনী , ক্ষণিকা , লাবণ্য",
+            "b": "ঋণ , তৃণ , ভীষন",
+            "c": "ত্রিনয়ন , সর্বনাম , দুর্নীতি",
+            "d": "বেনু , বীণা , কঙ্কণ"
+        },
+        "correctAnswer": "c",
+        "explanation": ""
+    },
+    {
+        "id": 122,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "‘ আমি কিংবদন্তির কথা বলছি ’ কবিতায় কোন ফুলের নাম আছে ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "রক্তজবা",
+            "b": "শিউলি",
+            "c": "হাসনাহেনা",
+            "d": "গোলাপ"
+        },
+        "correctAnswer": "a",
+        "explanation": ""
+    },
+    {
+        "id": 123,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "“ দ্বিতীয়বার আল্লাহর মহত্ত্ব ঘোষণা করার সুযোগ তার আর মেলেনি। ” ‘ রেইনকোট ’ গল্পে কার সম্পর্কে উক্তিটি করা হয়েছে ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "প্রিনসিপ্যাল",
+            "b": "প্রিনসিপ্যালের পিয়ন",
+            "c": "ইমাম",
+            "d": "মুয়াজ্জিন"
+        },
+        "correctAnswer": "d",
+        "explanation": ""
+    },
+    {
+        "id": 124,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "“ সিরাজের পতন কে না চায় ?”  এটি কার উক্তি ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "ঘসেটি বেগম",
+            "b": "উমিচাঁদ",
+            "c": "মিরজাফর",
+            "d": "রাজবল্লভ"
+        },
+        "correctAnswer": "a",
+        "explanation": ""
+    },
+    {
+        "id": 125,
+        "subject": "Bangla",
+        "topic": "Exam",
+        "question": "‘ বেমক্কা ’ শব্দের অর্থ কী ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "অসহিষ্ণু",
+            "b": "অসংগত",
+            "c": "অসংলগ্ন",
+            "d": "অসংযত"
+        },
+        "correctAnswer": "b",
+        "explanation": ""
+    },
+    {
+        "id": 126,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "Of the two new teachers, one is experienced and _________.",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "the other is not",
+            "b": "the others are not",
+            "c": "other lacks experience",
+            "d": "another is inexperienced"
+        },
+        "correctAnswer": "a",
+        "explanation": ""
+    },
+    {
+        "id": 127,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "The synonym of the word 'perplexed' is _________.",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "angry",
+            "b": "sad",
+            "c": "confused",
+            "d": "excited"
+        },
+        "correctAnswer": "c",
+        "explanation": "Perplexed – কিংকর্তব্যবিমূঢ়/বিহ্বল, Excited – উত্তেজিত/অধীর, Cofused – দ্বিধান্বিত, Sad – দুঃখী, Angry – রাগান্বিত, সুতরাং Perplexed এর synonym হবে confused."
+    },
+    {
+        "id": 128,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "I asked him ______.",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "what name he has",
+            "b": "what is his name",
+            "c": "what his name was",
+            "d": "what was his name"
+        },
+        "correctAnswer": "c",
+        "explanation": "কোনো বাক্যে principal clause এর পরে আরেকটি প্রশ্ন যুক্ত থাকলে সেটি সাধারণত embedded question হয় যার গঠন সাধারণ প্রশ্নবোধক বাক্য থেকে আলাদা। Embedded question: Principal clause +WH word + Subject +Verb+ Extension"
+    },
+    {
+        "id": 129,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "The match was called off due to heavy rainfall. The meaning of the underlined phrase is _________.",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "abandoned",
+            "b": "rescheduled",
+            "c": "missed",
+            "d": "defeated"
+        },
+        "correctAnswer": "a",
+        "explanation": "Called off অর্থ বাতিল করা, স্থগিত করা। অর্থাৎ called off এর ইংরেজি অর্থ হবে abandoned, cancelled সুতরাং সঠিক উত্তর হবে অপশন (a)."
+    },
+    {
+        "id": 130,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "\"Water, water, everywhere,/Nor any drop to drink\". This is an example of ______.",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "irony",
+            "b": "symbol",
+            "c": "metaphor",
+            "d": "simile"
+        },
+        "correctAnswer": "a",
+        "explanation": ""
+    },
+    {
+        "id": 131,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "Her parents never approved of ______ abroad.",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "her going",
+            "b": "her not going to",
+            "c": "her to go",
+            "d": "her going to"
+        },
+        "correctAnswer": "a",
+        "explanation": ""
+    },
+    {
+        "id": 132,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "The poor ______ much in winter.",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "is suffering",
+            "b": "to suffer",
+            "c": "suffers",
+            "d": "suffer"
+        },
+        "correctAnswer": "d",
+        "explanation": ""
+    },
+    {
+        "id": 133,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "I recommend that ______.",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "he was terminated",
+            "b": "he be terminated",
+            "c": "he is being terminated",
+            "d": "he is terminated"
+        },
+        "correctAnswer": "b",
+        "explanation": "recommend, suggest, command ইত্যাদি verb এর পরে that clause আসলে সেটি subjunctive mood করে। এক্ষেত্রে subject + verb (suggest + recommend ইত্যাদি ) + that + subject + verb (base form) + extension."
+    },
+    {
+        "id": 134,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "Abdullah is sanguine _________ success.",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "with",
+            "b": "of",
+            "c": "for",
+            "d": "into"
+        },
+        "correctAnswer": "b",
+        "explanation": ""
+    },
+    {
+        "id": 135,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "When I arrived, they _____ dinner.",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "were having",
+            "b": "having",
+            "c": "had had",
+            "d": "have had"
+        },
+        "correctAnswer": "a",
+        "explanation": "অতীতকালে একটি কাজ চলাকালে আরেকটি কাজ সংঘটিত হওয়া বোঝাতে একটি past indefinite এবং অপরটি past continuous tense হয়। clause দুটি as/when/while দ্বারা যুক্ত থাকে।"
+    },
+    {
+        "id": 136,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "If they _________ the tickets earlier, they could have got better seats.",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "had booked",
+            "b": "booked",
+            "c": "book",
+            "d": "have booked"
+        },
+        "correctAnswer": "a",
+        "explanation": "প্রদত্ত বাক্যের principal clause এ could + have + V 3 থাকার প্রথম clause এর শূন্যস্থানে third conditional অনুযায়ী verb বসাতে হবে। সুতরাং সঠিক উত্তর হবে had booked."
+    },
+    {
+        "id": 137,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "The Interpretation of Dreams is authored by _________.",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "Freud",
+            "b": "Nietzsche",
+            "c": "Camus",
+            "d": "Jung"
+        },
+        "correctAnswer": "a",
+        "explanation": ""
+    },
+    {
+        "id": 138,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "_________ an industrious businessman, he failed to make a profit.",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "Despite being",
+            "b": "Despite the fact of",
+            "c": "In spite of",
+            "d": "Despite of being"
+        },
+        "correctAnswer": "a",
+        "explanation": "Despite এর পরে of বসে না। আবার In spite of ও Despite এর পরে verb+ing বসে। সুতরাং সঠিক উত্তর হবে অপশন (a)."
+    },
+    {
+        "id": 139,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "She has inflicted so much suffering _________ the innocent people of the country.",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "upon",
+            "b": "with",
+            "c": "among",
+            "d": "over"
+        },
+        "correctAnswer": "a",
+        "explanation": ""
+    },
+    {
+        "id": 140,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "Choose the correct sentence.",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "The man stole my bag who was tall.",
+            "b": "The man was tall who was stealing my bag.",
+            "c": "The man was tall who steal my bag.",
+            "d": "The man who stole my bag was tall."
+        },
+        "correctAnswer": "d",
+        "explanation": "Relative pronoun এর ঠিক পূর্বে যে noun বা pronoun থাকে relative pronoun সেটিকেই নির্দেশ করে এবং তাকে সেই relative pronoun এর antecedent বলে। শুধু অপশন C তেই relative pronoun “who” এর পূর্বে এর antecedent “The man” রয়েছে।"
+    },
+    {
+        "id": 141,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "Which is ________ of the two?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "the cheapest",
+            "b": "the cheaper",
+            "c": "cheaper",
+            "d": "the cheap"
+        },
+        "correctAnswer": "b",
+        "explanation": ""
+    },
+    {
+        "id": 142,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "What is the meaning of the idiom \"break a leg\"?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "Wishing good luck",
+            "b": "Punishing somebody",
+            "c": "Breaking one's leg",
+            "d": "Wishing bad luck"
+        },
+        "correctAnswer": "a",
+        "explanation": "Break a leg অর্থ কাউকে শুভকামনা জানানো। অর্থাৎ সঠিক উত্তর হবে অপশন (a)."
+    },
+    {
+        "id": 143,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "By the time you get to the station, I _________ my homework.",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "finish",
+            "b": "finished",
+            "c": "will have finished",
+            "d": "have finished"
+        },
+        "correctAnswer": "c",
+        "explanation": "By the time + present indefinite + future perfect By the time + past simple + past perfect"
+    },
+    {
+        "id": 144,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "I enjoy swimming in the river. The underlined word is an example of a/an _________.",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "gerund",
+            "b": "infinite verb",
+            "c": "participle",
+            "d": "non-finite verb"
+        },
+        "correctAnswer": "a",
+        "explanation": "Verb+ing শব্দটি যদি কোনো বাক্যে noun হিসেবে কাজ করে তবে তাকে gerund বলে। প্রদত্ত বাক্যে swimming (verb+ing) শব্দটি বাক্যটির verb (enjoy) এর object হিসেবে ব্যবহৃত হয়েছে বিধায় এটি একটি Gerund যেহেতু উক্ত বাক্যে Swimming শব্দটি Noun হিসেবে ব্যবহৃত হয়েছে, সেহুতু এটি একটি Gerund. সুতরাং সঠিক উত্তর হবে অপশন (c)."
+    },
+    {
+        "id": 145,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "The train _____ arrive at 11:30 but it was an hour late.",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "supposed to",
+            "b": "was supposed to",
+            "c": "has supposed to",
+            "d": "is supposed to"
+        },
+        "correctAnswer": "b",
+        "explanation": ""
+    },
+    {
+        "id": 146,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "Hasan said that no other car could go _________ his car.",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "as faster as",
+            "b": "so faster like",
+            "c": "so fast like",
+            "d": "as fast as"
+        },
+        "correctAnswer": "d",
+        "explanation": ""
+    },
+    {
+        "id": 147,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "What is the antonym of 'discord'?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "Division",
+            "b": "Harmony",
+            "c": "Hostility",
+            "d": "Conflict"
+        },
+        "correctAnswer": "b",
+        "explanation": "Conflict – সংঘর্ষ, Discord – মতভেদ, Division – বিভাজন, ভাগ, Hostility – শত্রুতা, Harmony – ঐক্যতান, সাদৃশ্য। সুতরাং discord এর antonym হলো Harmony."
+    },
+    {
+        "id": 148,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "Choose the correct spelling.",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "Conscienctious",
+            "b": "Conscientious",
+            "c": "Consientious",
+            "d": "Concientious"
+        },
+        "correctAnswer": "b",
+        "explanation": ""
+    },
+    {
+        "id": 149,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "Wait until I come . Here the underlined clause is _________.",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "a noun clause",
+            "b": "an adjective clause",
+            "c": "an adverb clause",
+            "d": "a coordinate clause"
+        },
+        "correctAnswer": "c",
+        "explanation": "প্রশ্নোক্ত বাক্যটির Clause -টি বাক্যের verb ‘wait’ কে modify করছে। আমরা জানি, যে clause -টি বাক্যে verb কে modify করে তাকে adverb clause বলে। সুতরাং সঠিক উত্তর হবে অপশন (b)."
+    },
+    {
+        "id": 150,
+        "subject": "English",
+        "topic": "Exam",
+        "question": "The childcare needs to ensure a homely atmosphere. Here 'homely' iş used as _________.",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "a noun",
+            "b": "a verb",
+            "c": "an adjective",
+            "d": "an adverb"
+        },
+        "correctAnswer": "c",
+        "explanation": ""
+    }
+]
